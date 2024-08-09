@@ -1,0 +1,80 @@
+{
+	"BundleName" : null,
+	"Hats" : [
+		{
+			"Main" : {
+				"Hash" : "",
+				"Address" : "5C0F5DFE/57645764/KunKun.png",
+				"ExIsFront" : False
+			},
+			"Bounce" : False,
+			"Adaptive" : True,
+			"HideHands" : False,
+			"IsSkinny" : False,
+			"FPS" : 1,
+			"Name" : "中分\+打篮球",
+			"Author" : "小巾",
+			"Package" : "xiaojin"
+		},
+		{
+			"Main" : {
+				"Hash" : "61cdb2f67e9b814968c06e857b15371c",
+				"Address" : "VXsN_Main.png",
+				"ExIsFront" : False
+			},
+			"Bounce" : False,
+			"Adaptive" : False,
+			"HideHands" : False,
+			"IsSkinny" : False,
+			"FPS" : 1,
+			"Name" : "中分",
+			"Author" : "小巾",
+			"Package" : "xiaojin"
+		},
+		{
+			"Main" : {
+				"Hash" : "112ca57b73e56266f08c7adfc0d195e2",
+				"Address" : "m2IT8p_Main.png",
+				"ExIsFront" : False
+			},
+			"Bounce" : False,
+			"Adaptive" : False,
+			"HideHands" : False,
+			"IsSkinny" : False,
+			"FPS" : 1,
+			"Name" : "Q版中分",
+			"Author" : "九岁\(Steve\)",
+			"Package" : "JiuSui(steve)"
+		}
+	],
+	"Visors" : [
+		{
+			"Main" : {
+				"Hash" : "89047e489db920415e1e7221ebb0740d",
+				"Address" : "Jds7CmO_Main.png",
+				"ExIsFront" : False
+			},
+			"Adaptive" : False,
+			"BehindHat" : False,
+			"BackmostBack" : False,
+			"FPS" : 1,
+			"Name" : "坤坤面具",
+			"Author" : "小巾",
+			"Package" : "xiaojin"
+		}
+	],
+	"Nameplates" : [
+	],
+	"Packages" : [
+		{
+			"Package" : "xiaojin",
+			"Format" : "小巾的自定义装扮",
+			"Priority" : 100
+		},
+		{
+			"Package" : "JiuSui(steve)",
+			"Format" : "九岁的自定义帽子",
+			"Priority" : 1
+		}
+	]
+}
