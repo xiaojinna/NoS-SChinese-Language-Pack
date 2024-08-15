@@ -452,10 +452,10 @@
 "options.role.niceTrapper.costOfCommTrap" : "信号陷阱放置成本"
 "options.role.niceTrapper.commTrapSize" : "信号陷阱大小"
 
-"role.noisemaker.name" : "广播员"
+"role.noisemaker.name" : "大嗓门"
 "role.noisemaker.short" : "广"
 "role.noisemaker.blurb" : "杀人啦"
-"options.role.noisemaker.detail" : "广播员被击杀会发出警报声"
+"options.role.noisemaker.detail" : "大嗓门被击杀会发出警报声"
 "options.role.noisemaker.noiseDuration" : "警报声持续时间"
 
 "role.phosphorus.name" : "提灯人"
@@ -782,8 +782,8 @@
 
 "role.sidekick.name" : "跟班"
 "role.sidekick.short" : "跟"
-"role.sidekick.generalBlurb" : "协助豺狼歼灭其他玩家"
 "role.sidekick.blurb" : "协助豺狼歼灭其他玩家"
+"role.sidekick.generalBlurb" : "协助豺狼歼灭其他玩家"
 "options.role.sidekick.detail" : "豺狼死亡后，你会成为新的豺狼。"
 "options.role.sidekick.canKill" : "可以击杀"
 "options.role.sidekick.killCoolDown" : "击杀冷却时间"
@@ -889,7 +889,7 @@
 "options.role.damned.detail" : "拥有受诅咒者的玩家受到的第一次伤害是无效的。<br>根据设置不同，效果也不同。"
 "role.damned.prefix" : "受诅咒者"
 "role.damned.generalBlurb" : "身负诅咒的人"
-"role.damned.Blurb" : "身负诅咒的人"
+"role.damned.blurb" : "身负诅咒的人"
 "options.role.damned.takeOverRoleOfKiller" : "成为杀手职业"
 "options.role.damned.damnedMurderMyKiller" : "反杀凶手并代替其职业"
 "options.role.damned.killDelay" : "延迟凶手死亡"
@@ -1299,7 +1299,7 @@
 "config.client.buttonArrangement.raiseBoth" : "总体加高"
 "config.client.showNebulaLogoInLobby" : "显示NoS标题"
 "config.client.externalModColor" : "外部MOD颜色显示"
-"config.client.webhook" : "Discord 网页直链"
+"config.client.webhook" : "Discord网络钩子"
 
 # Preset
 
@@ -1448,7 +1448,7 @@
 
 "help.color.icon.april0" : "这个颜色是四月限定成就的颜色（黄绿色）"
 "help.color.icon.april1" : "这个颜色是四月限定成就的颜色（樱花色）"
-"help.color.icon.august" : "这个颜色是八月限定成就的颜色"
+"help.color.icon.august" : "这个颜色是八月限定成就的颜色（绿色或黑色）"
 "help.rolePreview.header" : "职业类型"
 "help.rolePreview.modImpostor" : "伪装者(Mod)"
 "help.rolePreview.vanillaImpostor" : "伪装者"
