@@ -94,7 +94,8 @@
 "ui.action.paparazzo.toggle" : "更改镜头位置。"
 "ui.action.mouseClick" : "可以通过鼠标点击附近的玩家触发效果。"
 "ui.action.danceAction" : "可以通过快速左右移动触发效果。"
-"ui.action.cannon.mark" : "标记空气炮位置。<br>通过在地图点击进行发射。"
+"ui.action.cannon.mark" : "标记空气炮位置。"
+"ui.action.cannon.cannon" : "打开特殊地图，启动空气炮。"
 
 # Versions
 
@@ -348,15 +349,6 @@
 "options.role.busker.pseudocideDuration" : "假死持续时间"
 "options.role.busker.hidePseudocideFromVitals" : "在生命监测装置中隐藏出窍状态"
 
-"role.cannon.name" : "马戏团演员"
-"role.cannon.short" : "马"
-"role.cannon.blurb" : "炮弹飞人！"
-"options.role.cannon.detail" : "使用空气炮把附近的玩家吹飞"
-"options.role.cannon.markCoolDown" : "标记冷却时间"
-"options.role.cannon.numOfMarks" : "可同时放置标记数量"
-"options.role.cannon.cannonPower" : "空气炮威力"
-"options.role.cannon.cannonPowerAttenuation" : "空气炮威力衰减"
-
 "role.collator.name" : "基因学家"
 "role.collator.short" : "基"
 "role.collator.blurb" : "这就是基因的魅力"
@@ -556,6 +548,16 @@
 "options.role.camouflager.camoCoolDown" : "隐蔽冷却时间"
 "options.role.camouflager.camoDuration" : "隐蔽持续时间"
 "options.role.camouflager.canInvokeCamoAfterDeath" : "死亡后也可以使用隐蔽技能"
+
+"role.cannon.name" : "气动者"
+"role.cannon.short" : "气"
+"role.cannon.blurb" : "空气动力学"
+"options.role.cannon.detail" : "使用空气炮把附近的玩家击飞"
+"options.role.cannon.markCoolDown" : "标记冷却时间"
+"options.role.cannon.numOfMarks" : "可同时放置标记数量"
+"options.role.cannon.cannonCooldown" : "空气炮冷却时间"
+"options.role.cannon.cannonPower" : "空气炮威力"
+"options.role.cannon.cannonPowerAttenuation" : "空气炮威力衰减"
 
 "role.cleaner.name" : "清理者"
 "role.cleaner.short" : "清"
@@ -1056,6 +1058,7 @@
 "button.label.blaze" : "冲刺"
 "button.label.callBack" : "收回"
 "button.label.camo" : "隐蔽"
+"button.label.cannon" : "空气炮"
 "button.label.clean" : "清理"
 "button.label.destroy" : "摧毁木偶"
 "button.label.disturb" : "干扰"
@@ -1120,7 +1123,7 @@
 
 "game.meeting.cannotUseEmergencyButton" : "紧急会议已锁定"
 "game.meeting.someoneDisappeared" : "有玩家失踪了"
-"game.meeting.roleText" : "%PLAYER% 是 %ROLE%."
+"game.meeting.roleText" : "%PLAYER% 是 %ROLE%。"
 "game.meeting.roleJesterText" : "虽然我是<color=#FD54A7>Jester</color>，但你们是真正的<color=#009900>Clown</color>！"
 "game.meeting.multiple" : "有两个人被驱逐了。"
 "game.meeting.obvious" : "没有其他选择。"
