@@ -553,7 +553,7 @@
 "role.cannon.short" : "气"
 "role.cannon.blurb" : "空气动力学"
 "options.role.cannon.detail" : "使用空气炮把附近的玩家击飞"
-"options.role.cannon.markCoolDown" : "标记冷却时间"
+"options.role.cannon.markCooldown" : "标记冷却时间"
 "options.role.cannon.numOfMarks" : "可同时放置标记数量"
 "options.role.cannon.cannonCooldown" : "空气炮冷却时间"
 "options.role.cannon.cannonPower" : "空气炮威力"
