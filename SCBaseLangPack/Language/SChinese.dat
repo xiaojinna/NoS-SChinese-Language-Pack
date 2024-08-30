@@ -1114,6 +1114,7 @@
 "button.label.dive" : "遁地"
 "button.label.gush" : "跳出"
 "button.label.task" : "任务"
+"button.label.marketplace" : "创意工坊"
 
 # Game
 
@@ -1441,6 +1442,7 @@
 "achievement.type.challenge" : "挑战"
 "achievement.type.secret" : "隐藏"
 "achievement.type.seasonal" : "季节性"
+"achievement.type.costume" : "装饰品"
 
 "achievement.filter.all" : "全部"
 "achievement.filter.achieved" : "已解锁"
@@ -1801,6 +1803,11 @@
 "role.camouflager.ability.main" : "干扰玩家的视觉，使所有玩家<b>一模一样</b>。"
 "role.camouflager.ability.camo" : "激活<b>隐蔽</b>。"
 
+"role.cannon.ability.title" : "固有能力 <b>空气炮</b>"
+"role.cannon.ability.main" : "发射空气炮，击飞周围的玩家。"
+"role.cannon.ability.mark" : "在你当前的位置放置一个标记点。<br>其他人看不到你的标记点。"
+"role.cannon.ability.cannon" : "打开特殊地图，向标记点位置发射空气炮。"
+
 "role.cleaner.ability.title" : "固有能力<b>毁尸</b>"
 "role.cleaner.ability.main" : "杀死玩家并将尸体清理掉防止尸体被发现。#COOLDOWN"
 "role.cleaner.ability.main.cooldown" : "<br>击杀与清理<var>共享</var>一个冷却时间。<br>激活一个另一个也会重置。"
@@ -1900,7 +1907,7 @@
 "role.obsessional.tips.suicide" : "<br>・暗恋对象死亡时，将会<var>殉情</var>。"
 
 "document.canAssignTo" : "可分配" 
-"document.caption.configuration" : "*部分<var>浅蓝色</var>内容为可更改选项的设置。"
+"document.caption.configuration" : "*部分<var>浅蓝色</var>内容为设置不同选项效果的描述。"
 "document.configurations.title" : "局内设置" 
 "document.tips.title" : "提示"
 "document.winCond.title" : "胜利条件"
