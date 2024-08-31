@@ -390,7 +390,7 @@
 "role.doctor.gadgetLeft" : "%SECOND%秒"
 
 "role.justice.name" : "大神官"
-"role.justice.short" : "大"
+"role.justice.short" : "官"
 "role.justice.blurb" : "实行正义审判"
 "options.role.justice.detail" : "大神官可以选择两名玩家置于“天平”上<br>并实行一场特殊的会议。"
 "options.role.justice.putJusticeOnTheBalance" : "对峙模式"
@@ -445,7 +445,7 @@
 "options.role.niceTrapper.commTrapSize" : "信号陷阱大小"
 
 "role.noisemaker.name" : "大嗓门"
-"role.noisemaker.short" : "广"
+"role.noisemaker.short" : "嗓"
 "role.noisemaker.blurb" : "杀人啦"
 "options.role.noisemaker.detail" : "大嗓门被击杀会发出警报声"
 "options.role.noisemaker.noiseDuration" : "警报声持续时间"
@@ -549,8 +549,8 @@
 "options.role.camouflager.camoDuration" : "隐蔽持续时间"
 "options.role.camouflager.canInvokeCamoAfterDeath" : "死亡后也可以使用隐蔽技能"
 
-"role.cannon.name" : "气动者"
-"role.cannon.short" : "气"
+"role.cannon.name" : "空气炮手"
+"role.cannon.short" : "空"
 "role.cannon.blurb" : "空气动力学"
 "options.role.cannon.detail" : "使用空气炮把附近的玩家击飞"
 "options.role.cannon.markCooldown" : "标记冷却时间"
