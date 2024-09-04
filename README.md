@@ -10,8 +10,12 @@
 我将汉化内容拆成**3**份，这是其中之一。
 ### 关于成就翻译
 成就内容含大量梗，对我来说可能有点勉勉强强，我不能完全翻译的接地气。我目前只翻译了一点点，但没有发布在这里，后续我会创建一个库方便大家一起翻译。
+
+[相关链接](https://github.com/xiaojinna/NoS-SChinese-Achievement-Language-Pack)
 ### 关于颜色翻译
 颜色内容我感觉没多大必要，毕竟它是一个色盘，产生的颜色太多了，不过后续我还是会创建一个库方便大家提供建议和翻译。
+
+[相关链接](https://github.com/xiaojinna/NoS-SChinese-Color-Language-Pack)
 ### 关于装饰品
 部分内容为车队**鹿离**和**九岁\Steve**制作，想法由我提出。
 

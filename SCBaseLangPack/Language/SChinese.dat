@@ -13,6 +13,9 @@
 
 # Certification
 
+"certification.waiting" : "正在验证"
+"certification.waiting.detail" : "正在验证Among Us和NoS的版本"
+"certification.waiting.client" : "正在验证Among Us和NoS的版本"
 "certification.uncertified" : "未安装"
 "certification.uncertified.detail" : "该玩家未安装星云舰"
 "certification.uncertified.client" : "你已安装星云舰<br>请不要进入原版房间"
@@ -1287,7 +1290,7 @@
 "config.client.keyBindings" : "按键绑定"
 "config.client.vcSettings" : "语音音量设置"
 "config.client.vcRejoin" : "重新加入VC"
-"config.client.outputHash" : "输出本地装扮哈希值"
+"config.client.outputHash" : "输出装饰品哈希值"
 "config.client.noiseReduction" : "降噪"
 "config.client.processorAffinity" : "CPU限制"
 "config.client.processorAffinity.dontCare" : "无限制"
@@ -1514,6 +1517,7 @@
 "marketplace.ui.marketplace.activate" : "启用"
 "marketplace.ui.marketplace.activated.addons" : "插件将在下次启动时下载。"
 "marketplace.ui.marketplace.activated.cosmetics" : "下载自定义装饰品"
+"marketplace.ui.marketplace.inactivated" : "该扩展包将在下次更新中移除。"
 "marketplace.ui.marketplace.autoUpdate" : "自动更新"
 "marketplace.ui.edit.fetch" : "请稍候..."
 "marketplace.ui.edit.fetch.error" : "获取内容失败。"
