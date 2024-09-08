@@ -66,6 +66,7 @@
 "ui.attribute.screenSize" : "屏幕：渲染范围发生了变化。"
 "ui.attribute.eyesight" : "视野：视野范围发生了变化"
 "ui.attribute.rough" : "失焦：清晰度发生了变化。"
+"ui.attribute.thurifer" : "烟熏：你受到烟气的影响。"
 
 "ui.button.mainAction" : "主：行动"
 "ui.button.aidAction" : "副：行动"
@@ -99,6 +100,7 @@
 "ui.action.danceAction" : "可以通过快速左右移动触发效果。"
 "ui.action.cannon.mark" : "标记空气炮位置。"
 "ui.action.cannon.cannon" : "打开特殊地图，启动空气炮。"
+"ui.action.thurifer.curse" : "激活香炉。"
 
 # Versions
 
@@ -731,6 +733,16 @@
 "options.role.stirrer.sabotageCoolDown" : "制幻冷却时间"
 "options.role.stirrer.sabotageInterval" : "制幻额外时间"
 
+"role.thurifer.name" : "调香师"
+"role.thurifer.short" : "调"
+"role.thurifer.blurb" : "迷人的香味让人沉沦"
+"options.role.thurifer.detail" : "调香师可以通过香炉飘出的烟气来缓慢击杀其他人。"
+"options.role.thurifer.maxIntoxication" : "烟气最大吸入量"
+"options.role.thurifer.curseDuration" : "被激活香炉持续时间"
+"options.role.thurifer.numOfThuribulums" : "香炉最多存在数"
+"options.role.thurifer.thuribulumRange" : "香炉影响范围"
+"options.role.thurifer.maxKillDelay" : "最大击杀延迟"
+
 # Neutral Roles
 
 "role.arsonist.name" : "纵火犯"
@@ -1118,6 +1130,8 @@
 "button.label.gush" : "跳出"
 "button.label.task" : "任务"
 "button.label.marketplace" : "创意工坊"
+"button.label.thurifer.curse" : "激活"
+"button.label.thurifer.impute" : "转移"
 
 # Game
 
@@ -1164,6 +1178,7 @@
 "statistics.events.destroy" : "破坏"
 "statistics.events.accident" : "复活失败"
 "statistics.events.dance" : "死亡之舞"
+"statistics.events.gassed" : "烟气中毒"
 
 # States
 
@@ -1184,6 +1199,7 @@
 "state.cursed" : "诅咒"
 "state.crushed" : "压死"
 "state.frenzied" : "疯癫"
+"state.gassed" : "烟气中毒"
 
 # Endings
 
@@ -1879,6 +1895,11 @@
 "role.sniper.ability.snipe" : "不要乱掏出狙击枪。<br>你的斧子对所有人可见。"
 "role.sniper.tips" : "・玩家的碰撞箱位于最中心的位置。<br>・当枪声响起时，<var>#SOUND米</var>以内的玩家都会有通知。#AIMASSIST"
 "role.sniper.tips.aimAssist" : "<br>・掏出狙击枪<var>#DELAY</var>秒后会出现<var>辅助瞄准</var>。<br>　沿着辅助线开枪更容易杀死敌人。"
+
+"role.thurifer.ability.title" : "固有能力<b>致命熏香</b>"
+"role.thurifer.ability.main" : "在地图上会出现香炉，香炉产生的<b>致命熏香</b>可以侵蚀其他玩家。<br>调香师的击杀行为会根据<b>致命熏香</b>的进度进行延迟击杀。"
+"role.thurifer.ability.curse" : "激活香炉，使其产生烟气。<br>香炉会立即激活，因此其他玩家更容易发现调香师。<br>被激活的香炉会在燃烧一段时间后熄灭。"
+"role.thurifer.ability.impute" : "当自身<b>致命熏香</b>达到50%以上可以<b>转移</b>到另一个未激活的香炉上，使进度重置。<br>注意，若船员使用<b>转移</b>到一个未激活的香炉，那么这个香炉永远不会熄灭。<br>调香师不能<b>转移</b>自身进度。"
 
 "role.dancer.winCond" : "在存活期间使用<b>跳舞</b>完成<var>#NUM</var>个死亡预言。#ADD"
 "role.dancer.winCond.main.lastDance" : "<br>此外当上述条件达成时，<var>最后之舞</var>也要向所有活人展示。"
