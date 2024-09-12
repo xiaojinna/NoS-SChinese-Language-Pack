@@ -741,7 +741,8 @@
 "options.role.thurifer.curseDuration" : "被激活香炉持续时间"
 "options.role.thurifer.numOfThuribulums" : "香炉最多存在数"
 "options.role.thurifer.thuribulumRange" : "香炉影响范围"
-"options.role.thurifer.maxKillDelay" : "最大击杀延迟"
+"options.role.thurifer.maxKillDelay" : "最大击杀延迟时间"
+"options.role.thurifer.showBlink" : "击杀超过3秒时显示闪烁"
 
 # Neutral Roles
 
