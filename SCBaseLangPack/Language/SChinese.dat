@@ -743,6 +743,7 @@
 "options.role.thurifer.thuribulumRange" : "香炉影响范围"
 "options.role.thurifer.maxKillDelay" : "最大击杀延迟时间"
 "options.role.thurifer.showBlink" : "击杀超过3秒时显示闪烁"
+"options.role.thurifer.activationDelay" : "香炉延迟激活时间"
 
 # Neutral Roles
 
