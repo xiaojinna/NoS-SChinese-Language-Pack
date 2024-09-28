@@ -66,7 +66,7 @@
 "ui.attribute.screenSize" : "屏幕：渲染范围发生了变化。"
 "ui.attribute.eyesight" : "视野：视野范围发生了变化"
 "ui.attribute.rough" : "失焦：清晰度发生了变化。"
-"ui.attribute.thurifer" : "烟熏：你受到烟气的影响。"
+"ui.attribute.thurifer" : "香薰：你受到香薰的影响。"
 
 "ui.button.mainAction" : "主：行动"
 "ui.button.aidAction" : "副：行动"
@@ -737,7 +737,8 @@
 "role.thurifer.short" : "调"
 "role.thurifer.blurb" : "迷人的香味让人沉沦"
 "options.role.thurifer.detail" : "调香师可以通过香炉飘出的烟气来缓慢击杀其他人。"
-"options.role.thurifer.maxIntoxication" : "烟气最大吸入量"
+"options.role.thurifer.inhalationSpeed" : "香熏效果增长速度"
+"options.role.thurifer.maxIntoxication" : "香熏最大吸入量"
 "options.role.thurifer.curseDuration" : "被激活香炉持续时间"
 "options.role.thurifer.numOfThuribulums" : "香炉最多存在数"
 "options.role.thurifer.thuribulumRange" : "香炉影响范围"
@@ -904,6 +905,7 @@
 "options.role.confused.numOfMaxShuffledPairs" : "每次会议最大随机更改数量"
 
 "role.damned.name" : "受诅咒者"
+"role.damnedImpostor.name" : "受诅咒者"
 "role.damned.short" : "受"
 "options.role.damned.detail" : "拥有受诅咒者的玩家受到的第一次伤害是无效的。<br>根据设置不同，效果也不同。"
 "role.damned.prefix" : "受诅咒者"
@@ -1898,10 +1900,10 @@
 "role.sniper.tips" : "・玩家的碰撞箱位于最中心的位置。<br>・当枪声响起时，<var>#SOUND米</var>以内的玩家都会有通知。#AIMASSIST"
 "role.sniper.tips.aimAssist" : "<br>・掏出狙击枪<var>#DELAY</var>秒后会出现<var>辅助瞄准</var>。<br>　沿着辅助线开枪更容易杀死敌人。"
 
-"role.thurifer.ability.title" : "固有能力<b>致命熏香</b>"
-"role.thurifer.ability.main" : "在地图上会出现香炉，香炉产生的<b>致命熏香</b>可以侵蚀其他玩家。<br>调香师的击杀行为会根据<b>致命熏香</b>的进度进行延迟击杀。"
+"role.thurifer.ability.title" : "固有能力<b>香熏</b>"
+"role.thurifer.ability.main" : "在地图上会出现香炉，香炉产生的烟气可以侵蚀其他玩家使其获得<b>香熏</b>效果。<br>调香师的击杀行为会根据<b>香熏</b>的进度进行延迟击杀。"
 "role.thurifer.ability.curse" : "激活香炉，使其产生烟气。<br>香炉会立即激活，因此其他玩家更容易发现调香师。<br>被激活的香炉会在燃烧一段时间后熄灭。"
-"role.thurifer.ability.impute" : "当自身<b>致命熏香</b>达到50%以上可以<b>转移</b>到另一个未激活的香炉上，使进度重置。<br>注意，若船员使用<b>转移</b>到一个未激活的香炉，那么这个香炉永远不会熄灭。<br>调香师不能<b>转移</b>自身进度。"
+"role.thurifer.ability.impute" : "当自身<b>香熏</b>达到50%以上可以<b>转移</b>到另一个未激活的香炉上，使进度重置。<br>注意，若船员使用<b>转移</b>到一个未激活的香炉，那么这个香炉永远不会熄灭。<br>调香师不能<b>转移</b>自身进度。"
 
 "role.dancer.winCond" : "在存活期间使用<b>跳舞</b>完成<var>#NUM</var>个死亡预言。#ADD"
 "role.dancer.winCond.main.lastDance" : "<br>此外当上述条件达成时，<var>最后之舞</var>也要向所有活人展示。"
