@@ -536,6 +536,18 @@
 "options.role.alien.invalidateCoolDown" : "无效终端冷却时间"
 "options.role.alien.numOfInvalidations" : "无效终端次数"
 
+"role.berserker.name" : "易怒者"
+"role.berserker.short" : "怒"
+"role.berserker.blurb" : "你已经惹怒我了！"
+"options.role.berserker.detail" : "易怒者是一个很简单很直白的伪装者。<br>进入暴怒状态后，攻击冷却和移动速度会更快，但所有人都会知晓你的身份。"
+"options.role.berserker.killCooldown" : "暴怒状态下击杀冷却时间"
+"options.role.berserker.accelRate" : "暴怒状态下移动速度倍率"
+"options.role.berserker.canCalmDown" : "可以进入冷静状态"
+"options.role.berserker.berserkCooldown" : "暴怒冷却时间"
+"options.role.berserker.maxBerserkDuration" : "暴怒最大持续时间"
+"options.role.berserker.killingForTrance" : "强制进入暴怒状态需要击杀数"
+"options.role.berserker.bersekSEStrength" : "暴怒音效范围"
+
 "role.bountyHunter.name" : "赏金猎人"
 "role.bountyHunter.short" : "赏"
 "role.bountyHunter.blurb" : "猎杀你的目标！"
@@ -1136,6 +1148,8 @@
 "button.label.marketplace" : "创意工坊"
 "button.label.thurifer.curse" : "激活"
 "button.label.thurifer.impute" : "转移"
+"button.label.berserk" : "暴怒"
+"button.label.calmDown" : "镇定"
 
 # Game
 
@@ -1822,6 +1836,11 @@
 "role.alien.ability.emi" : "暂停管理控制台的信息更新。"
 "role.alien.ability.invalidate" : "删除管理控制台的玩家信息。"
 "role.alien.tips" : "・这个职业与<color=#ff7f00>超</color><color=#ff0000>新</color><color=#00ff00>职业</color>进行联动(原职业: コウモリ, クラッカー)。"
+
+"role.berserker.ability.title" : "固有能力<b>暴怒</b>"
+"role.berserker.ability.main" : "变成特殊形态，进入暴怒模式。<br>在暴怒期间，击杀冷却时间缩短，移动速度提高。<br>在暴怒状态下击杀一定次数的玩家后会进入忘我状态，无法识别他人身份。"
+"role.berserker.ability.berserk" : "进入暴怒模式会改变形态。"
+"role.berserker.ability.calmDown" : "如果开启了“可以进入冷静状态”，按下“镇定”技能或“暴怒”技能持续时间结束时，会恢复正常形态。<br>恢复正常形态时，会在一段时间内不能行动。<br>此外，自身死亡、发起会议、职业变更都会导致暴怒状态解除。"
 
 "role.camouflager.ability.title" : "固有能力<b>隐蔽</b>"
 "role.camouflager.ability.main" : "干扰玩家的视觉，使所有玩家<b>一模一样</b>。"
