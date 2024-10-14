@@ -101,6 +101,7 @@
 "ui.action.cannon.mark" : "标记空气炮位置。"
 "ui.action.cannon.cannon" : "打开特殊地图，启动空气炮。"
 "ui.action.thurifer.curse" : "激活香炉。"
+"ui.action.scarlet.suicide" : "如果长时间不指定本命将会死亡！<br>会议期间倒计时不会读秒。"
 
 # Versions
 
@@ -291,7 +292,7 @@
 "role.general.ventDuration.short" : "持续"
 "role.general.ventUses" : "最大使用次数"
 "role.general.ventUses.short" : "使用次数"
-"role.general.common" : "#"
+"role.general.common" : "最大使用次数"
 
 "role.category.crewmate" : "船员职业"
 "role.category.impostor" : "伪装者职业"
@@ -394,12 +395,12 @@
 "options.role.doctor.chargesPerTasks" : "每完成一个任务追加充能数" 
 "role.doctor.gadgetLeft" : "%SECOND%秒"
 
-"role.echo.name" : "雷达兵"
+"role.echo.name" : "感知者"
 "role.echo.short" : "雷"
-"role.echo.blurb" : "范围搜寻"
-"options.role.echo.detail" : "雷达兵是一个船员职业，他可以获取附近玩家的位置。"
-"options.role.echo.echoCooldown" : "探测冷却时间"
-"options.role.echo.echoRange" : "探测范围"
+"role.echo.blurb" : "生命的回响"
+"options.role.echo.detail" : "感知者是一个船员职业，他可以获取附近玩家的位置，并且可以感知其他玩家的行为。"
+"options.role.echo.echoCooldown" : "感知冷却时间"
+"options.role.echo.echoRange" : "感知最大范围"
 
 "role.justice.name" : "大神官"
 "role.justice.short" : "官"
@@ -848,6 +849,14 @@
 "options.role.paparazzo.requiredSubjects" : "需要拍到不同玩家数量"
 "options.role.paparazzo.requiredDisclosed" : "需要展示会议中玩家数量"
 
+"role.scarlet.name" : "魅魔"
+"role.scarlet.short" : "魅"
+"role.scarlet.blurb" : "让我控制你的心"
+"options.role.scarlet.detail" : "魅魔是一个第三方职业，可以选择一名玩家成为自己的本命并带其共享胜利。<br>其次可以魅惑一名玩家成为备胎来控制局势。"
+"options.role.scarlet.graceUntilDecidingFavorite" : "指定本命倒计时"
+"options.role.scarlet.numOfKept" : "备胎最大人数"
+"options.role.scarlet.numOfCommand" : "号召最大使用次数"
+
 "role.vulture.name" : "秃鹫"
 "role.vulture.short" : "鹫"
 "role.vulture.blurb" : "真是美味啊"
@@ -965,10 +974,14 @@
 "options.role.obsessional.impostorObsessionalObsessesOver.nonCrewmate" : "非船员阵营"
 "role.obsessional.taskText" : "[暗恋者]暗恋目标是%PLAYER%。"
 
+"role.scarletLover.name" : "魅魔的恋人"
+"options.role.scarletLover.detail" : "你被魅魔给魅惑了。<br>你不知道你是其本命还是备胎。"
+"role.scarletLover.generalBlurb" : "哥布林的美好幻想"
+
 "role.secret.name" : "觉醒者"
 "role.secret.short" : "?"
-"role.secret.generalBlurb" : "觉醒后才能获得真正的职业"
 "role.secret.blurb" : "觉醒后才能获得真正的职业"
+"role.secret.generalBlurb" : "觉醒后才能获得真正的职业"
 "role.secretInGame.name" : "觉醒者"
 "role.secretInGame.short" : "?"
 "role.secretInGame.blurb" : "觉醒后才能获得真正的职业"
@@ -989,6 +1002,7 @@
 "teams.jackal" : "豺狼"
 "teams.jester" : "小丑"
 "teams.paparazzo" : "摄影师"
+"teams.scarlet" : "魅魔"
 "teams.vulture" : "秃鹫"
 
 # Location
@@ -1158,6 +1172,10 @@
 "button.label.berserk" : "暴怒"
 "button.label.calmDown" : "镇定"
 "button.label.echo" : "搜寻"
+"button.label.scarlet.grance" : "倒计时"
+"button.label.favorite" : "本命"
+"button.label.seduce" : "备胎"
+"button.label.scarlet.command" : "号召"
 
 # Game
 
@@ -1239,6 +1257,7 @@
 "end.lover" : "恋人%EXTRA%胜利"
 "end.paparazzo" : "摄影师%EXTRA%胜利"
 "end.avenger" : "复仇者%EXTRA%胜利"
+"end.scarlet" : "魅魔%EXTRA%胜利"
 "end.nogame" : "无效游戏"
 
 "end.extra.lover" : " <color=#FFFFFF>+</color>恋人"
@@ -1488,6 +1507,7 @@
 "achievement.type.secret" : "隐藏成就"
 "achievement.type.seasonal" : "季节性成就"
 "achievement.type.costume" : "特殊装饰成就"
+"achievement.type.innersloth" : "Among Us"
 
 "achievement.filter.all" : "全部"
 "achievement.filter.achieved" : "已解锁"
@@ -1945,6 +1965,14 @@
 "role.paparazzo.ability.main" : "在任务阶段，屏幕会出现取景器协助拍摄。<br>拍摄的图片会储存在做下角，没有玩家的照片会被丢弃。<br><br>在会议中单击照片就会把照片公开出来。<br>当沙漏计时器结束后，你将无法公开照片。"
 "role.paparazzo.ability.camera" : "使用快捷键或鼠标左键触发拍摄事件。"
 "role.paparazzo.tips" : "・你可以更改取景方向。<br>・按住鼠标右键时，固定取景方向。"
+
+"role.scarlet.winCond" : "本命存活并达到胜利条件后，会被魅魔接管。"
+"role.scarlet.ability.title" : "固有能力【魅力】"
+"role.scarlet.ability.main" : "巧妙利用备胎协助本命达到胜利条件。"
+"role.scarlet.ability.favorite" : "将该玩家指定为自己的本命。<br>如果魅魔与本命之间有一方死亡，另一方会殉情。"
+"role.scarlet.ability.kept" : "将该玩家指定为备胎，魅魔会知晓备胎的职业。<br>如果魅魔与备胎之间有一方死亡，另一方不会殉情。"
+"role.scarlet.ability.hourglass" : "如果长时间不指定本命，那么会因为寂寞导致死亡。<br>会议期间，倒计时不会读秒。"
+"role.scarlet.ability.meeting" : "使用<b>号召</b>可以强制让本命和备胎同时投票一名玩家。"
 
 "role.extraMission.winCond" : "自身胜利条件达成时，目标必须在游戏结束前死亡。<br>否则你将无法胜利。"
 
