@@ -53,6 +53,8 @@
 "ui.discordWebhook.determine" : "确定"
 "ui.discordWebhook.Send" : "发送"
 "ui.dragAndDrop" : "将文件拖放到此处"
+"ui.costume.missedCostume" : "想要显示其他玩家全球服装<br>必须下载对应装饰品资源<br><br>点击打开界面可以下载到全球服装"
+"ui.costume.unownedCostume" : "缺少的全球服装列表"
 
 "ui.attribute.accel" : "加速：移动速度加快。"
 "ui.attribute.decel" : "减速：移动速度减慢。"
@@ -202,11 +204,11 @@
 "options.map.customization.airship.hallwayWiring" : "额外接线任务面板"
 "options.map.customization.airship.medicalWiring" : "额外接线任务面板"
 "options.map.customization.airship.heliDuration" : "移动平台持续时间"
-"options.map.customization.airship.harderDownload" : "下载任务仅在地图下方"
+"options.map.customization.airship.harderDownload" : "下载任务在下方"
 "options.map.customization.airship.betterImpostorVision" : "仅伪装者可以看到上层"
 "options.map.customization.airship.shadedLowerFloor" : "处于上层时下层不可见"
 "options.map.customization.fungle.simpleLaboratory" : "拆除实验室墙壁"
-"options.map.customization.fungle.thinFog" : "削弱烟雾蘑菇"
+"options.map.customization.fungle.thinFog" : "削弱阴影"
 "options.map.customization.fungle.glowingCampfire" : "篝火发光"
 "options.map.customization.fungle.glowingMushroom" : "蘑菇发光"
 "options.map.customization.fungle.quickPaceDoorMinigame" : "简化开门游戏按键"
@@ -512,7 +514,7 @@
 "options.role.sheriff.canKillLovers" : "可以击杀恋人"
 "options.role.sheriff.killCoolDown" : "击杀冷却时间"
 "options.role.sheriff.numOfShots" : "击杀次数"
-"options.role.sheriff.canKillHidingPlayer" : "可以击杀觉醒者"
+"options.role.sheriff.canKillHidingPlayer" : "可以击杀通风口内玩家"
 "options.role.sheriff.sealAbilityUntilReportingDeadBodies" : "在没有发现尸体前不能使用技能"
 
 "role.ubiquitous.name" : "飞手"
@@ -733,7 +735,7 @@
 "options.role.sniper.shotEffectiveRange" : "狙击枪有效射程"
 "options.role.sniper.shotNoticeRange" : "枪声可听范围"
 "options.role.sniper.storeRifleOnFire" : "射击后继续持枪"
-"options.role.sniper.storeRifleOnUsingUtility" : "射击后自动收起"
+"options.role.sniper.storeRifleOnUsingUtility" : "进行交互时自动收枪"
 "options.role.sniper.canSeeRifleInShadow" : "可以在阴影中看到狙击枪"
 "options.role.sniper.canKillHidingPlayer" : "可以击杀觉醒者"
 "options.role.sniper.aimAssist" : "瞄准辅助"
@@ -1616,6 +1618,10 @@
 "marketplace.type.cosmetics" : "装饰品"
 "marketplace.searchMore.addons" : "搜索更多插件从 "%QUERY%""
 "marketplace.searchMore.cosmetics" : "搜索更多装饰品从"%QUERY%""
+"marketplace.ui.marketplace.state" : "状态"
+"marketplace.ui.marketplace.state.owning" : "有效"
+"marketplace.ui.marketplace.state.unowning" : "无效"
+
 
 # Role Filter
 
@@ -1638,24 +1644,49 @@
 
 # Documents
 
+"options.assignment.assignOpToHost.detail" : "开启后，主持人可以在游戏中使用指令。<br>一般情况开启没有任何意义。"
 "options.assignment.ghostAssignmentMethod.detail" : "你可以更改鬼魂职业的分配方式。<br> -<b>标准</b>:死亡的玩家始终可以分配到可用职业之一。<br> -<b>刺激</b>: 分配概率会影响你能否获得鬼魂职业。"
+
 "options.map.spawnMethod.detail" : "设置玩家在地图中的出生地。<br> -<b>标准</b>:游戏默认的出生点<br> -<b>自由选择</b>:像Airship地图一样，自由选择出生地点。<br> -<b>随机</b>:让每个玩家随机出生在其他地方。"
 "options.map.silentVents.detail" : "默认设置为开，开启后看不到通风口在阴影中打开和关闭。"
+"options.map.canOpenMapWhileUsingUtility.detail" : "开启后，即使在使用梯子或移动平台时<br>仍然可以打开地图。" 
+"options.map.customization.airship.oneWayMeetingRoom.detail" : "开启后，会议室的左侧的梯子仅供向上爬<br>在右侧会额外增加一个梯子向下爬。"
+"options.map.customization.airship.betterImpostorVision.detail" : "开启后，伪装者使用移动平台时，可以看到上下层情况。"
+"options.map.customization.airship.shadedLowerFloor.detail" : "开启后，非伪装者使用移动平台时，不能看到上下层情况。"
+"options.map.customization.fungle.growingMushroom.detail" : "开启后，发光蘑菇周围的环境会变得可见。"
+"options.map.customization.fungle.thinFog.detail" : "开启后，丛林区域的阴影会变淡。"
+"options.map.customization.fungle.simpleLaboratory.detail" : "开启后，去除实验室右下角的墙壁，使其可以直接穿过。"
+
+"options.meeting.deathPenalty.detail" : "配置后，会议时间将减少设定值乘以死亡人数秒数。"
+"options.meeting.noticeExtraVictims.detail" : "开启后，每当会议结束有额外信息时，会进行额外通知。"
+"options.meeting.options.meeting.extraEmergencyCooldownInTheEarly.detail" : "配置后，当场上未死一定数量时，紧急会议的冷却会格外的长。"
+"options.meeting.extraEmergencyCooldownInTheEarlyCondition.detail" : "配置后，当场上死于该数量的值后，紧急会议冷却时间会恢复为正常值。"
 
 "options.role.agent.numOfExemptedTasks.detail" : "指定代理人的任务总数将减少的数量。<br>总任务越少，获取额外任务的速度更快。"
 "options.role.agent.numOfExtraTasks.detail" : "设置每次完成任务后可以额外获取的任务数量。<br>死亡后你将无法<b>获取</b>新的任务。"
+"options.role.agent.suicideIfSomeoneElseCompletesTasksBeforeAgent.detail" : "开启后，如果有其他船员在代理人完成任务前完成任务，代理人会当场死亡。<br>如果特工已经完成了自带的任务，并且已经接取了额外任务时，不会死亡。"
 
 "options.role.bait.showKillFlash.detail" : "开启后，杀死诱饵的凶手会有淡蓝色闪光提示。"
 "options.role.bait.reportDelay.detail" : "设置击杀延迟报告可以会更难判断是否击杀诱饵。"
 "options.role.bait.reportDelayDispersion.detail" : "通过击杀延迟报告设置的时间差让船员更难判断是否为诱饵事件。"
+"options.role.bait.canSeeVentFlash.detail" : "开启后，如果有人使用通风口，诱饵会获得闪光提示。"
+
+"options.role.busker.hidePseudocideFromVitals.detail" : "开启后，在假死期间，生命监测装置显示灵化使为存活状态。"
+
+"options.role.collator.selectiveCollating.detail" : "开启后，你可以从采集的多个样本中自由选择一组进行比对。"
+"options.role.collator.canTakeDuplicateSample.detail" : "启用后，你可以重复采样同一个玩家获取样本。" 
+"options.role.collator.strictClassificationForNeutralRoles.detail" : "开启后，会根据真实阵营区分第三方阵营<br>如果关闭，第三方阵营无论什么情况都始终匹配。"
+"options.role.collator.madmateIsClassifiedAs.detail" : "配置叛徒归属与哪一个阵营。"
 
 "options.role.necromancer.reviveDuration.detail" : "这是设置按下复活键复活尸体所需的等待时间。"
 "options.role.necromancer.detectedRange.detail" : "当死灵法师与尸体足够进时，屏幕会变的有点紫。<br>这可以让其感知到尸体的存在。"
 "options.role.necromancer.reviveMinRange.detail" : "复活尸体的房间是根据尸体的位置来确定的。<br>此设置是指定复活房间与尸体之间的最小距离。"
 "options.role.necromancer.reviveMaxRange.detail" : "复活尸体的房间是根据尸体的位置来确定的。<br>此设置是指定复活房间与尸体之间的最大距离。"
 
-"options.role.madmate.limitEmbroiledPlayersToVoters.detail" : "被放逐时你可以连带一名玩家。<br>被连带目标只有非伪装者玩家。"
+"options.role.embroilPlayersOnExile.detail" : "被放逐时你可以连带一名玩家。<br>被连带目标只有非伪装者玩家。"
+
 "options.role.madmate.limitEmbroiledPlayersToVoters.detail" : "如果开启这个选项被连带的玩家只会从投票的玩家中选择。"
+"options.role.madmate.canIdentifyImpostors.detail" : "配置后可以通过完成指定任务知晓一定量的伪装者玩家。"
 
 "options.role.mayor.fixedVotes.detail" : "开启后只能投出固定票数。"
 "options.role.mayor.minVote.detail" : "设置每次会议可以投出的最小票数。"
@@ -1665,9 +1696,45 @@
 
 "options.role.provocateur.embroilAdditionalCoolDown.detail" : "在技能期间内可以连带凶手。<br>如果没有触发技能，就会增加额外的冷却时间。<br>此设置可以增加额外冷却的加值。"
 
-"options.role.seer.canSeeGhostsInShadow.detail" : "开启后你可以看到视野外（阴影区域内）的鬼魂。"
+"options.role.seer.canSeeGhostsInShadow.detail" : "开启后你可以看到视野外（阴影区域）的鬼魂。
+"
+"options.role.sheriff.canKillHidingPlayer.detail" : "开启后，可以击杀躲藏在通风口内的玩家。"
+"options.role.sheriff.sealAbilityUntilReportingDeadBodies.detail" : "开启后，在出现玩家死亡的会议之前，击杀能力会被封印。"
+
+"options.role.berserker.canCalmDown.detail" : "开启后，暴怒状态可以通过时间耗尽或按钮结束状态。"
+"options.role.berserker.killingForTrance.detail" : "在暴怒状态下不断击杀会逐渐迷失自我。<br>当进入忘我状态后，无法区分其他人，甚至可以击杀伪装者。"
+
+"options.role.camouflager.canInvokeCamoAfterDeath.detail" : "开启后，即使死亡也能使用隐蔽技能。"
+
+"options.role.cannon.cannonPower.detail" : "该值越大，空气炮吹飞玩家的威力越强。"
+"options.role.cannon.cannonPowerAttenuation.detail" : "该值越大，离空气炮落点越远的玩家更不容易被吹飞。"
+
+"options.role.destroyer.phasesOfDestroying.detail" : "设置毁灭者击杀所需时间。<br>实际击杀所需时间为括号内的秒数。"
+"options.role.destroyer.leaveKillEvidence.detail" : "开启后，受害者对应的颜色会留着击杀现场。<br>该痕迹在会议结束后仍然不会消失。"
+"options.role.destroyer.canReportKillScene.detail" : "开启后，在击杀现场附近报告键会亮起。<br>当毁灭者成功击杀后，将不能报告。"
 
 "options.role.cleaner.syncKillAndCleanCoolDown.detail" : "开启后，使用击杀或技能时，都会重置另一个的冷却。"
+
+"options.role.hadar.gushFromVents.detail" : "开启后，矿工只能从最近的通风口中出现。<br>反之可以在任何有效区域出现。"
+"options.role.hadar.leftDivingEvidence.detail" : "开启后，潜入地下时，地面会留下一个洞。<br>这个洞会随着会议的进行逐渐消失。"
+
+"options.role.sniper.shotNoticeRange.detail" : "配置后，范围内的玩家可以听到狙击手开枪的声音以及位置。"
+"options.role.sniper.storeRifleOnUsingUtility.detail" : "开启后，在进行交互时，自动收起步枪。"
+"options.role.sniper.aimAssist.detail" : "开启后，可以获得指向玩家的辅助线（这个辅助线可能会影响平衡）。"
+
+"options.role.stirrer.sabotageInterval.detail" : "配置后，造成假破坏后，根据该时间增加额外冷却。"
+
+"options.role.thurifer.numOfThuribulums.detail" : "配置地图中香炉存在最大数量。<br>不同地图可能会影响出现数量，可能会低于设定值。"
+"options.role.thurifer.inhalationSpeed.detail" : "配置玩家吸入香气的速度。<br>数值越大，吸入速度越快。"
+"options.role.thurifer.maxKillDelay.detail" : "配置后，根据吸入的香气程度来控制最大击杀延迟。<br>击杀延迟会根据设置值和香气吸入程度而变化。"
+"options.role.thurifer.showBlink.detail" : "开启后，击杀延迟时间超过3秒会进行闪烁提示。"
+"options.role.thurifer.activationDelay.detail" : "配置后，激活香炉需要等配置的时间才会真正生效。<br>这个功能主要是为了迷糊其他玩家。"
+
+"options.role.paparazzo.requiredSubjects.detail" : "配置后，必须拍摄指定的人数的照片才能胜利。<br>连续拍摄相同的玩家只有第一次会记录。"
+"options.role.paparazzo.requiredDisclosed.detail" : "配置后，必须展示指定的人数的照片才能胜利。<br>连续展示相同的玩家只有第一次会记录。"
+
+"options.role.scarlet.graceUntilDecidingFavorite.detail" : "如果魅魔没有在配置的时间内确定本命，将会直接死亡。<br>会议期间（含会议结束的总结）内，计时器不会计数。<br>※ 如果这个时间太短，那么魅魔将很难生存。"
+"options.role.scarlet.numOfCommand.detail" : "魅魔可以在会议中发动<b>号召</b>来让本命和备胎的投票与自己的投票选择一致。"
 
 "options.role.jailer.inheritAbilityOnDying.detail" : "开启后，你死亡时可以让另一个队友继承你的能力。"
 
