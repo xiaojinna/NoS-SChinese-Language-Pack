@@ -104,6 +104,8 @@
 "ui.action.cannon.cannon" : "打开特殊地图，启动空气炮。"
 "ui.action.thurifer.curse" : "激活香炉。"
 "ui.action.scarlet.suicide" : "如果长时间不指定本命将会死亡！<br>会议期间倒计时不会读秒。"
+"ui.action.bubblegun.equip" : "掏出或藏匿泡泡枪。<br>掏出泡泡枪期间，击杀按钮会变成泡泡枪发射按钮。"
+"ui.action.bubblegun.kill" : "发射泡泡。<br>发射后会自动藏匿。"
 
 # Versions
 
@@ -132,6 +134,11 @@
 
 "notification.lobby.noTitleForFreeplay" : "自由游戏中无法获得成就。"
 "notification.lobby.noTitleForOP" : "在主持人拥有管理员权限的游戏中无法获得成就。"
+
+# Logs
+
+"log.loadCostume" : "装饰品加载完成！"
+"log.awaiting" : "正在验证装饰品资源(标签: %TAG%)"
 
 # Options
 
@@ -178,7 +185,7 @@
 "options.map.spawnCandidatesFilter" : "可选出生点位置"
 "options.map.silentVents" : "隐藏阴影中的通风口动画"
 "options.map.canOpenMapWhileUsingUtility" : "进行任务时可以打开地图"
-"options.map.numOfTeleportationPortal" : "传送门对数"
+"options.map.numOfTeleporter" : "传送门对数"
 "options.map.nonCrewmateCanUseTeleporterImmediately" : "(非船员阵营)瞬间传送"
 "options.map.randomizedWiring" : "随机接线任务点位"
 "options.map.stepsOfWiringGame" : "完成任务所需接线次数"
@@ -238,6 +245,11 @@
 "options.consoleRestriction.cameraRestriction" : "安保监控与门禁系统"
 "options.consoleRestriction.resetRestrictions" : "会议结束后重置使用限制"
 "options.consoleRestriction.showDeadBodiesOnAdmin" : "管理控制台中显示尸体"
+
+"options.quality" : "优化设置"
+"options.quality.detail" : "关于游戏优化的设置，请根据其他玩家的情况进行调整。"
+"options.quality.lowLatencyPlayerSync" : "玩家位置刷新延迟同步"
+
 
 "options.voiceChat" : "语音聊天设置"
 "options.voiceChat.detail" : "可以在游戏中与其他玩家继续语音聊天！"
@@ -569,6 +581,19 @@
 "options.role.bountyHunter.changeBountyInterval" : "改变追猎目标的时间间隔"
 "options.role.bountyHunter.showBountyArrow" : "对追猎目标用箭头标记"
 "options.role.bountyHunter.arrowUpdateInterval" : "追猎目标箭头更新间隔"
+
+"role.bubblegun.name" : "泡泡抢手"
+"role.bubblegun.short" : "泡"
+"role.bubblegun.blurb" : "和我一起欣赏泡泡秀吧！"
+"options.role.bubblegun.detail" : "泡泡枪手可以发射一束泡泡。<br>碰到泡泡的玩家会死亡，同时泡泡中的尸体无法报告。"
+"options.role.bubblegun.bubbleCooldown" : "发射泡泡冷却时间"
+"options.role.bubblegun.bubbleSize" : "泡泡大小"
+"options.role.bubblegun.bubbleSpeed" : "泡泡飞行速度"
+"options.role.bubblegun.bubbleDuration" : "泡泡持续时间"
+"options.role.bubblegun.maxBubbles" : "泡泡可发射次数"
+"options.role.bubblegun.eraseBubblesOnMeeting" : "会议时不展示泡泡中尸体"
+"options.role.bubblegun.canKillImpostor" : "泡泡可以击杀伪装者"
+"options.role.bubblegun.bubblePopWhenHitWall" : "泡泡碰到墙壁后破裂"
 
 "role.camouflager.name" : "隐蔽者"
 "role.camouflager.short" : "隐"
@@ -1181,6 +1206,7 @@
 "button.label.seduce" : "备胎"
 "button.label.scarlet.command" : "号召"
 "button.label.costume" : "装饰品"
+"button.label.bubble" : "发射泡泡"
 
 # Game
 
@@ -1228,6 +1254,7 @@
 "statistics.events.accident" : "复活失败"
 "statistics.events.dance" : "死亡之舞"
 "statistics.events.gassed" : "烟气中毒"
+"statistics.events.bubbled" : "泡中窒息"
 
 # States
 
@@ -1249,6 +1276,7 @@
 "state.crushed" : "压死"
 "state.frenzied" : "疯癫"
 "state.gassed" : "烟气中毒"
+"state.bubbled" : "泡中窒息"
 
 # Endings
 
@@ -1667,6 +1695,8 @@
 "options.meeting.options.meeting.extraEmergencyCooldownInTheEarly.detail" : "配置后，当场上未死一定数量时，紧急会议的冷却会格外的长。"
 "options.meeting.extraEmergencyCooldownInTheEarlyCondition.detail" : "配置后，当场上死于该数量的值后，紧急会议冷却时间会恢复为正常值。"
 
+"options.quality.lowLatencyPlayerSync.detail" : "开启后，减少因为延迟导致的位置误差。<br>该选项对网络不友好的玩家有一定影响。"
+
 "options.role.agent.numOfExemptedTasks.detail" : "指定代理人的任务总数将减少的数量。<br>总任务越少，获取额外任务的速度更快。"
 "options.role.agent.numOfExtraTasks.detail" : "设置每次完成任务后可以额外获取的任务数量。<br>死亡后你将无法<b>获取</b>新的任务。"
 "options.role.agent.suicideIfSomeoneElseCompletesTasksBeforeAgent.detail" : "开启后，如果有其他船员在代理人完成任务前完成任务，代理人会当场死亡。<br>如果特工已经完成了自带的任务，并且已经接取了额外任务时，不会死亡。"
@@ -1941,6 +1971,11 @@
 "role.berserker.ability.main" : "变成特殊形态，进入暴怒模式。<br>在暴怒期间，击杀冷却时间缩短，移动速度提高。<br>在暴怒状态下击杀一定次数的玩家后会进入忘我状态，无法识别他人身份。"
 "role.berserker.ability.berserk" : "进入暴怒模式会改变形态。"
 "role.berserker.ability.calmDown" : "如果开启了“可以进入冷静状态”，按下“镇定”技能或“暴怒”技能持续时间结束时，会恢复正常形态。<br>恢复正常形态时，会在一段时间内不能行动。<br>此外，自身死亡、发起会议、职业变更都会导致暴怒状态解除。"
+
+"role.bubblegun.ability.title" : "固有能力【穿透泡泡】"
+"role.bubblegun.ability.main" : "泡泡枪手拥有一个可以吹出巨大泡泡的泡泡枪。<br>被泡泡枪打中的玩家会被困在泡泡中然后窒息而亡。<br>在泡泡中的尸体无法报告。"
+"role.bubblegun.ability.equip" : "掏出泡泡枪。<br>掏出后，其他玩家可以看到的泡泡枪。"
+"role.bubblegun.ability.kill" : "发射泡泡。<br>发射方向可以通过鼠标光标来调整。"
 
 "role.camouflager.ability.title" : "固有能力【隐蔽】"
 "role.camouflager.ability.main" : "干扰玩家的视觉，使所有玩家<b>一模一样</b>。"
