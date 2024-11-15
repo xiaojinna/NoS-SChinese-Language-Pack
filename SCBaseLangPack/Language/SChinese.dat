@@ -178,6 +178,8 @@
 "options.map.spawnCandidatesFilter" : "可选出生点位置"
 "options.map.silentVents" : "隐藏阴影中的通风口动画"
 "options.map.canOpenMapWhileUsingUtility" : "进行任务时可以打开地图"
+"options.map.numOfTeleportationPortal" : "传送门对数"
+"options.map.nonCrewmateCanUseTeleporterImmediately" : "(非船员阵营)瞬间传送"
 "options.map.randomizedWiring" : "随机接线任务点位"
 "options.map.stepsOfWiringGame" : "完成任务所需接线次数"
 "options.map.ladderCoolDown" : "使用梯子冷却"
@@ -1178,6 +1180,7 @@
 "button.label.favorite" : "本命"
 "button.label.seduce" : "备胎"
 "button.label.scarlet.command" : "号召"
+"button.label.costume" : "装饰品"
 
 # Game
 
@@ -1187,10 +1190,10 @@
 
 "game.meeting.cannotUseEmergencyButton" : "紧急会议已锁定"
 "game.meeting.someoneDisappeared" : "有玩家失踪了"
-"game.meeting.roleText" : "%PLAYER% 是 %ROLE%。"
+"game.meeting.roleText" : "%PLAYER% 是 %ROLE%"
 "game.meeting.roleJesterText" : "虽然我是<color=#FD54A7>Jester</color>，但你们是真正的<color=#009900>Clown</color>！"
-"game.meeting.multiple" : "有两个人被驱逐了。"
-"game.meeting.obvious" : "没有其他选择。"
+"game.meeting.multiple" : "有两个人被驱逐了"
+"game.meeting.obvious" : "没有其他选择"
 "game.meeting.justiceMeeting" : "请选择你心中的目标！"
 
 "game.metaAbility.tabs.roles" : "职业"
@@ -1650,6 +1653,8 @@
 "options.map.spawnMethod.detail" : "设置玩家在地图中的出生地。<br> -<b>标准</b>:游戏默认的出生点<br> -<b>自由选择</b>:像Airship地图一样，自由选择出生地点。<br> -<b>随机</b>:让每个玩家随机出生在其他地方。"
 "options.map.silentVents.detail" : "默认设置为开，开启后看不到通风口在阴影中打开和关闭。"
 "options.map.canOpenMapWhileUsingUtility.detail" : "开启后，即使在使用梯子或移动平台时<br>仍然可以打开地图。" 
+"options.map.numOfTeleporter.detail" : "地图上会出现几对能够传送的宝石。<br>玩家可以通过擦亮宝石传送到相对宝石的位置。"
+"options.map.nonCrewmateCanUseTeleporterImmediately.detail" : 开启后，除船员阵营以外的玩家不需要进行擦亮宝石小游戏进行传送。"
 "options.map.customization.airship.oneWayMeetingRoom.detail" : "开启后，会议室的左侧的梯子仅供向上爬<br>在右侧会额外增加一个梯子向下爬。"
 "options.map.customization.airship.betterImpostorVision.detail" : "开启后，伪装者使用移动平台时，可以看到上下层情况。"
 "options.map.customization.airship.shadedLowerFloor.detail" : "开启后，非伪装者使用移动平台时，不能看到上下层情况。"
