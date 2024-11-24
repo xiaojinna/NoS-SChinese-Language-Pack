@@ -28,6 +28,9 @@
 "certification.unmatchedAddon" : "不匹配插件"
 "certification.unmatchedAddon.detail" : "该玩家安装的附加插件与你不同或缺失<br>请让所有人使用相同的插件"
 "certification.unmatchedAddon.client" : "该插件与主持人不同或未安装<br>请让所有人使用相同的插件"
+"certification.unmatchedVanilla" : "不匹配Among Us版本"
+"certification.unmatchedVanilla.detail" : "该玩家的Among Us版本与主持人不同。<br>请确保相同的版本。"
+"certification.unmatchedVanilla.client" : "该Among Us版本与主持人不同。<br>请确保相同的版本。"
 
 # UI
 
@@ -35,6 +38,8 @@
 "ui.dialog.no" : "否"
 "ui.dialog.ok" : "确定"
 "ui.dialog.exit" : "退出"
+"ui.dialog.search" : "搜索"
+"ui.dialog.keyword" : "关键字"
 "ui.common.loading" : "正在加载..."
 "ui.update.waitFinishing" : "等待更新..."
 "ui.update.finishUpdate" : "更新完成！<br>请重启游戏！"
@@ -268,6 +273,8 @@
 "options.role.count" : "最大数量"
 "options.role.chance" : "生成概率"
 "options.role.secondaryChance" : "多次生成概率"
+"options.role.count.jackalized" : "豺狼分配数量"
+"options.role.chance.jackalized" : "豺狼分配概率"
 "options.role.count.short" : "分配数量"
 "options.modifier.chance" : "附加能力概率"
 "options.role.crewmateCount" : "船员最大分配数量"
@@ -500,7 +507,7 @@
 "options.role.psychic.message.killersRole" : "凶手的职业是%ROLE%"
 "options.role.psychic.message.killerIsDead" : "凶手已经死了"
 "options.role.psychic.message.myRole" : "我的职业是%ROLE%"
-"options.role.psychic.message.myState" : "我做了%STATE%..."
+"options.role.psychic.message.myState" : "我的死因是%STATE%..."
 "options.role.psychic.message.inner.darkColor" : "深色"
 "options.role.psychic.message.inner.lightColor" : "浅色"
 "options.role.psychic.message.header" : "冥界通讯"
@@ -848,6 +855,7 @@
 "options.role.jackal.canCreateSidekick" : "豺狼可招募跟班"
 "options.role.jackal.numOfKillingToCreateSidekick" : "豺狼可以招募跟班前需要击杀的人数"
 "options.role.jackal.numOfKillingToWin" : "胜利所需击杀数"
+"options.role.jackal.jacklizedImpostor" : "伪装者豺狼化"
 
 "role.sidekick.name" : "跟班"
 "role.sidekick.short" : "跟"
@@ -1368,6 +1376,8 @@
 "input.kill" : "击杀(模组)"
 "input.ability" : "能力"
 "input.secondaryAbility" : "次要能力"
+"input.sidekickAction" : "跟班行动"
+"input.freeplayAction" : "自由行动"
 "input.aidAction" : "援助行动"
 "input.command" : "命令"
 "input.screenshot" : "截图"
@@ -1528,6 +1538,7 @@
 "achievement.ui.cond" : "[条件]"
 "achievement.ui.allAchievements" : "全部"
 "achievement.ui.shown" : "显示"
+"achievement.ui.shown.search" : ""%KEYWORD%"的搜索结果"
 "achievement.ui.cleared" : "[已解锁]"
 "achievement.ui.equipped" : "[已装备]"
 "achievement.ui.setTitle" : "单击此处设置成就内容。"
@@ -1545,6 +1556,7 @@
 "achievement.filter.all" : "全部"
 "achievement.filter.achieved" : "已解锁"
 "achievement.filter.notAchieved" : "未解锁"
+"achievement.filter.search" : "搜索"
 "achievement.filter.myRole" : "我的职业"
 
 # Help
@@ -1565,6 +1577,8 @@
 "help.rolePreview.inner.random" : "概率出现"
 "help.rolePreview.inner.modifiers" : "附加能力"
 "help.rolePreview.inner.ghostRoles" : "鬼魂职业"
+"help.rolePreview.inner.jackalized.100" : "豺狼化100%出现"
+"help.rolePreview.inner.jackalized.random" : "豺狼化概率出现"
 
 # Tag
 
@@ -1695,7 +1709,7 @@
 "options.meeting.options.meeting.extraEmergencyCooldownInTheEarly.detail" : "配置后，当场上未死一定数量时，紧急会议的冷却会格外的长。"
 "options.meeting.extraEmergencyCooldownInTheEarlyCondition.detail" : "配置后，当场上死于该数量的值后，紧急会议冷却时间会恢复为正常值。"
 
-"options.quality.lowLatencyPlayerSync.detail" : "开启后，减少因为延迟导致的位置误差。<br>该选项对网络不友好的玩家有一定影响。"
+"options.quality.lowLatencyPlayerSync.detail" : "<b>仅限自定义服务器</b><br>开启后，减少因为延迟导致的位置误差。"
 
 "options.role.agent.numOfExemptedTasks.detail" : "指定代理人的任务总数将减少的数量。<br>总任务越少，获取额外任务的速度更快。"
 "options.role.agent.numOfExtraTasks.detail" : "设置每次完成任务后可以额外获取的任务数量。<br>死亡后你将无法<b>获取</b>新的任务。"
