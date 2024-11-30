@@ -847,6 +847,11 @@
 "role.dancer.taskDanceText" : "完成死亡之舞"
 "role.dancer.taskFinalText" : "向所有活着的玩家展示最后一支舞蹈后获胜"
 
+"role.ember.name" : "余烬"
+"role.ember.short" : "余"
+"role.ember.blurb" : "万念俱灰"
+"options.role.ember.detail" : "复仇者击杀受诅咒者后被反噬的产物。<br>已经没有任何希望了。"
+
 "role.jackal.name" : "豺狼"
 "role.jackal.short" : "豺"
 "role.jackal.blurb" : "歼灭其他玩家"
@@ -1268,6 +1273,7 @@
 
 "state.alive" : "存活"
 "state.dead" : "死亡"
+"state.disconnected" : "掉线"
 "state.exiled" : "放逐"
 "state.misfired" : "走火"
 "state.sniped" : "中弹"
