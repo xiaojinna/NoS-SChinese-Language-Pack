@@ -112,6 +112,14 @@
 "ui.action.bubblegun.equip" : "掏出或藏匿泡泡枪。<br>掏出泡泡枪期间，击杀按钮会变成泡泡枪发射按钮。"
 "ui.action.bubblegun.kill" : "发射泡泡。<br>发射后会自动藏匿。"
 
+# Tutorial
+
+"tutorial.guide.canClose" : "点击此处关闭教程。"
+"tutorial.guide.cannotClose" : "当鼠标悬停时，教程将会继续进行。"
+"tutorial.variations.subAction" : "有些技能需要通过键盘触发对应的<b>子行为</b>。<br>鼠标悬停此处可以查看该行为的详细信息。"
+"tutorial.variations.helpInGame.title" : "游戏内帮助"
+"tutorial.variations.helpInGame.caption" : "按下%KEY%键时可以打开帮助页面。<br>在帮助页面可以查看自身的职业的能力、胜利条件以及称号"
+
 # Versions
 
 "version.category.all" : "全部"
@@ -142,8 +150,8 @@
 
 # Logs
 
-"log.loadCostume" : "装饰品加载完成！"
-"log.awaiting" : "正在验证装饰品资源(标签: %TAG%)"
+"log.loadCostume" : "加载完成！"
+"log.awaiting" : "正在加载信息(标签: %TAG%)"
 
 # Options
 
@@ -154,6 +162,10 @@
 "options.sec" : "s"
 "options.followPrimaryChance" : "-"
 "options.inactivated" : "未启用"
+
+"options.values.short" : "短"
+"options.values.middle" : "中"
+"options.values.long" : "长"
 
 "options.gamemode" : "游戏模式"
 
@@ -241,6 +253,7 @@
 "options.meeting.extraEmergencyCooldownInTheEarly" : "前期紧急会议额外冷却时间"
 "options.meeting.extraEmergencyCooldownInTheEarlyCondition" : "结束前期所需死亡数"
 "options.meeting.waitingForHost" : "请等待主持人..."
+"options.meeting.showVoteState" : "显示投票状态"
 
 "options.consoleRestriction" : "信息终端使用限制"
 "options.consoleRestriction.detail" : "对生命检测仪、管理控制台以及安保监控进行时间使用限制"
@@ -261,7 +274,7 @@
 "options.voiceChat.useVoiceChat" : "使用语音聊天"
 "options.voiceChat.canTalkInWandaringPhase" : "近距离语音"
 "options.voiceChat.wallsBlockAudio" : "隔墙阻隔聊天"
-"options.voiceChat.killersHearDead" : "鬼魂可以收听存活玩家语音"
+"options.voiceChat.killersHearDead" : "接收鬼魂聊天语音"
 "options.voiceChat.killersHearDead.onlyMyKiller" : "仅击杀者"
 "options.voiceChat.killersHearDead.onlyImpostors" : "仅伪装者阵营"
 "options.voiceChat.impostorsRadio" : "伪装者阵营语音频道"
@@ -332,6 +345,7 @@
 "options.role.guesser.guessableFilter" : "可猜测职业过滤"
 "role.guesser.guessableFilter" : "可猜测职业过滤"
 "options.role.guesser.detail" : "赌怪可以猜测其他玩家的身份。<br>如果你的猜测正确，被猜测的玩家死亡。"
+"role.guesser.leftGuess" : "剩余次数"
 
 "options.role.trapper.placeCoolDown" : "放置冷却时间"
 "options.role.trapper.placeDuration" : "放置所需时间"
@@ -1220,6 +1234,8 @@
 "button.label.scarlet.command" : "号召"
 "button.label.costume" : "装饰品"
 "button.label.bubble" : "发射泡泡"
+"button.label.appeal" : "特写"
+"button.label.playAchievement" : "高亮成就"
 
 # Game
 
@@ -1327,6 +1343,7 @@
 "help.command.cancelStarting" : "取消开始"
 "help.command.console" : "指令终端"
 "help.command.saveResult" : "保存结果图像"
+"help.command.toggleSocial" : "游戏内显示特写"
 
 # Voice Chat
 
@@ -1393,7 +1410,7 @@
 "input.spectator" : "退出旁观"
 "input.spectatorRight" : "切换目标(→)"
 "input.spectatorLeft" : "切换目标(←)"
-"input.recording" : "正在录制..."
+"input.recording" : "等待按键信息..."
 
 # Client Configurations
 
@@ -1417,6 +1434,10 @@
 "config.client.showNebulaLogoInLobby" : "显示NoS标题"
 "config.client.externalModColor" : "外部MOD颜色显示"
 "config.client.webhook" : "Discord网络钩子"
+"config.client.social" : "社交设置"
+"config.client.social.showAppealSettings" : "显示特写设置"
+"config.client.social.appealDuration" : "特写持续时间"
+"config.client.social.note" : "更改仅在下次创建房间时生效。"
 
 # Preset
 
@@ -1561,9 +1582,22 @@
 
 "achievement.filter.all" : "全部"
 "achievement.filter.achieved" : "已解锁"
-"achievement.filter.notAchieved" : "未解锁"
+"achievement.filter.nonAchieved" : "未解锁"
 "achievement.filter.search" : "搜索"
 "achievement.filter.myRole" : "我的职业"
+
+"achievement.social.firstClear" : "%PLAYER%首次获得"
+"achievement.social.clear" : "%PLAYER%获得"
+"achievement.social.clearMultiple" : "%PLAYER%和%OTHERS%玩家获得"
+"achievement.social.noAchievement" : "未高亮显示"
+
+# Social
+
+"social.appeal.detail" : "通过<b>特写</b>可以将其他玩家的注意力集中在自己身上。<br>尽情地展示自己的魅力。"
+"social.appeal.lobby" : "允许准备大厅使用<b>特写</b>"
+"social.appeal.lobby.detail" : "开启后，准备大厅会显示一个<b>特写</b>按钮。<br>使用后会把镜头聚焦在自己身上。"
+"social.appeal.game" : "允许游戏中使用<b>特写</b>"
+"social.appeal.game.detail" : "开启后，游戏中会显示一个<b>特写</b>按钮。<br>不推荐开启，如果启用请在游戏开始时进行自我介绍展示，不要在游戏进行中使用。"
 
 # Help
 
