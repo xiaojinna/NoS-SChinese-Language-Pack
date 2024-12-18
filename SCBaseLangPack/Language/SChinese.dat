@@ -264,6 +264,20 @@
 "options.consoleRestriction.resetRestrictions" : "会议结束后重置使用限制"
 "options.consoleRestriction.showDeadBodiesOnAdmin" : "管理控制台中显示尸体"
 
+"options.perk" : "特技选项"
+"options.perk.detail" : "地图中会出现神秘的花<br>开放的花可以让玩家获得特技。"
+"options.perk.numOfPlants" : "花最大出现数量"
+"options.perk.numOfPlants.detail" : "花会在会议结束后长大。<br>存活玩家可以在开放的花中获得特技。"
+"options.perk.numOfWarpedPlants" : "怪异花最大出现数量"
+"options.perk.numOfWarpedPlants.detail" : "怪异花仅对非船员阵营玩家有用。<br>获取这些花的特技，可以在对局中进行捣乱。"
+"options.perk.maxBloomsPerPlant" : "最大成熟次数"
+"options.perk.shortcut.standard" : "通用特技快捷设定"
+"options.perk.shortcut.standard.0" : "出现概率为0%"
+"options.perk.shortcut.standard.100" : "出现概率为100%"
+"options.perk.shortcut.warped" : "非船员用特技快捷设定"
+"options.perk.shortcut.warped.0" : "出现概率为0%"
+"options.perk.shortcut.warped.100" : "出现概率为100%"
+
 "options.quality" : "优化设置"
 "options.quality.detail" : "关于游戏优化的设置，请根据其他玩家的情况进行调整。"
 "options.quality.lowLatencyPlayerSync" : "玩家位置刷新延迟同步"
@@ -1061,6 +1075,63 @@
 "teams.scarlet" : "魅魔"
 "teams.vulture" : "秃鹫"
 
+# Perks
+
+"perkui.message.noncrew" : "船员无法从怪异花获得特技"
+"perkui.message.swap" : "通过当前所持特技交换获得"
+"perkui.message.obtain" : "通过交互操作获得特技"
+
+"perk.empty.name" : "通用特技"
+"perk.empty.detail" : "可以从开放的<b>花</b>中获得特技。"
+
+"perk.empty.noncrewmate.name" : "非船员用特技"
+"perk.empty.noncrewmate.detail" : "可以从开放的<b>怪异花</b>中获得特技。"
+
+"perk.acceleration.name" : "敏捷"
+"perk.acceleration.detail" : "使用后持续%D%秒，移动速度提高%R%倍。 <br>此特技有%CD%秒冷却。"
+
+"perk.flipX.name" : "镜像"
+"perk.flipX.detail" : "使所有玩家的画面左右翻转。"
+
+"perk.flipY.name" : "颠倒"
+"perk.flipY.detail" : "使所有玩家的画面上下翻转。"
+
+"perk.flipXY.name" : "逆转"
+"perk.flipXY.detail" : "使所有玩家的画面上下左右翻转。"
+
+"perk.sniperIcon.name" : "空弹"
+"perk.sniperIcon.detail" : "在原地开空枪。<br>此特技有%CD%秒冷却。"
+
+"perk.raiderEvidence.name" : "愤怒"
+"perk.raiderEvidence.detail" : "把斧子插入墙壁中。<br>此特技有%CD%秒冷却。<br>强盗不能使用该特技。"
+
+"perk.accelTrap.name" : "激进"
+"perk.accelTrap.detail" : "使用后在原地放置一个加速陷阱。<br>安放后，在会议结束时生效。"
+
+"perk.decelTrap.name" : "保守"
+"perk.decelTrap.detail" : "使用后在原地放置一个减速陷阱。<br>安放后，在会议结束时生效。"
+
+"perk.taskReduction.name" : "算计"
+"perk.taskReduction.detail" : "减少一个任务。<br>如果完成了所有任务，那么则无效。"
+
+"perk.emergencyButton.name" : "紧急会议"
+"perk.emergencyButton.detail" : "随时随地发起会议。<br>使用后不会算在总发起紧急会议议数"
+
+"perk.teamLook.name" : "魔法水晶"
+"perk.teamLook.detail" : "在紧急会议中，你可以知晓一名存活玩家的阵营。"
+"perk.teamLook.ui.title" : "魔法水晶的结果"
+"perk.teamLook.ui.team" : "%TEAM%阵营"
+
+"perk.ghostLook.name" : "尸检"
+"perk.ghostLook.detail" : "在紧急会议中，可以选择一名玩家获得其死因。"
+"perk.ghostLook.ui.title" : "尸检报告详情"
+
+"perk.invisible.name" : "融入"
+"perk.invisible.detail" : "隐身%D%秒。<br>仅限1次。"
+
+"perk.doubleVote.name" : "独裁"
+"perk.doubleVote.detail" : "除跳过、不投票、投0票以外。<br>投票数翻一倍。"
+
 # Location
 
 "location.skeld.admin" : "管理室"
@@ -1254,6 +1325,9 @@
 "game.metaAbility.tabs.roles" : "职业"
 "game.metaAbility.tabs.modifiers" : "附加属性"
 "game.metaAbility.tabs.ghostRoles" : "鬼魂职业"
+"game.metaAbility.tabs.perks" : "特技"
+"game.metaAbility.perks.standard" : "通用特技"
+"game.metaAbility.perks.noncrewmateOnly" : "非船员用特技"
 "game.metaAbility.equipped" : "分配中"
 "game.metaAbility.unequipped" : "未分配"
 
@@ -1402,6 +1476,8 @@
 "input.sidekickAction" : "跟班行动"
 "input.freeplayAction" : "自由行动"
 "input.aidAction" : "援助行动"
+"input.perkAction1" : "特技行动1"
+"input.perkAction2" : "特技行动2"
 "input.command" : "命令"
 "input.screenshot" : "截图"
 "input.mute" : "静音"
@@ -1736,7 +1812,7 @@
 "options.map.silentVents.detail" : "默认设置为开，开启后看不到通风口在阴影中打开和关闭。"
 "options.map.canOpenMapWhileUsingUtility.detail" : "开启后，即使在使用梯子或移动平台时<br>仍然可以打开地图。" 
 "options.map.numOfTeleporter.detail" : "地图上会出现几对能够传送的宝石。<br>玩家可以通过擦亮宝石传送到相对宝石的位置。"
-"options.map.nonCrewmateCanUseTeleporterImmediately.detail" : 开启后，除船员阵营以外的玩家不需要进行擦亮宝石小游戏进行传送。"
+"options.map.nonCrewmateCanUseTeleporterImmediately.detail" : "开启后，除船员阵营以外的玩家不需要进行擦亮宝石小游戏进行传送。"
 "options.map.customization.airship.oneWayMeetingRoom.detail" : "开启后，会议室的左侧的梯子仅供向上爬<br>在右侧会额外增加一个梯子向下爬。"
 "options.map.customization.airship.betterImpostorVision.detail" : "开启后，伪装者使用移动平台时，可以看到上下层情况。"
 "options.map.customization.airship.shadedLowerFloor.detail" : "开启后，非伪装者使用移动平台时，不能看到上下层情况。"
@@ -1785,7 +1861,7 @@
 
 "options.role.provocateur.embroilAdditionalCoolDown.detail" : "在技能期间内可以连带凶手。<br>如果没有触发技能，就会增加额外的冷却时间。<br>此设置可以增加额外冷却的加值。"
 
-"options.role.seer.canSeeGhostsInShadow.detail" : "开启后你可以看到视野外（阴影区域）的鬼魂。
+"options.role.seer.canSeeGhostsInShadow.detail" : "开启后你可以看到视野外（阴影区域）的鬼魂。"
 "
 "options.role.sheriff.canKillHidingPlayer.detail" : "开启后，可以击杀躲藏在通风口内的玩家。"
 "options.role.sheriff.sealAbilityUntilReportingDeadBodies.detail" : "开启后，在出现玩家死亡的会议之前，击杀能力会被封印。"
