@@ -1115,7 +1115,7 @@
 "perk.taskReduction.detail" : "减少一个任务。<br>如果完成了所有任务，那么则无效。"
 
 "perk.emergencyButton.name" : "紧急会议"
-"perk.emergencyButton.detail" : "随时随地发起会议。<br>使用后不会算在总发起紧急会议议数"
+"perk.emergencyButton.detail" : "随时随地发起会议。<br>使用后仍然算作在总发起紧急会议数"
 
 "perk.teamLook.name" : "魔法水晶"
 "perk.teamLook.detail" : "在紧急会议中，你可以知晓一名存活玩家的阵营。"
