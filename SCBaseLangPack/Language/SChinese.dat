@@ -10,6 +10,7 @@
 "title.buttons.addons" : "附加插件"
 "title.buttons.developersStudio" : "制作插件"
 "title.buttons.marketplace" : "创意工坊"
+"title.buttons.stats" : "统计"
 
 # Certification
 
@@ -271,12 +272,15 @@
 "options.perk.numOfWarpedPlants" : "怪异花最大出现数量"
 "options.perk.numOfWarpedPlants.detail" : "怪异花仅对非船员阵营玩家有用。<br>获取这些花的特技，可以在对局中进行捣乱。"
 "options.perk.maxBloomsPerPlant" : "最大成熟次数"
+"options.perk.growSpeed" : "花成长速度"
 "options.perk.shortcut.standard" : "通用特技快捷设定"
 "options.perk.shortcut.standard.0" : "出现概率为0%"
 "options.perk.shortcut.standard.100" : "出现概率为100%"
 "options.perk.shortcut.warped" : "非船员用特技快捷设定"
 "options.perk.shortcut.warped.0" : "出现概率为0%"
 "options.perk.shortcut.warped.100" : "出现概率为100%"
+"options.perk.movementRestrictionPerksAlsoAffectCasters" : "对特技持有者的移动限制也有效果"
+"options.perk.movementRotationPerksAlsoAffectCasters" : "对特技持有者的移动颠倒也有效果"
 
 "options.quality" : "优化设置"
 "options.quality.detail" : "关于游戏优化的设置，请根据其他玩家的情况进行调整。"
@@ -388,6 +392,7 @@
 "options.role.agent.numOfExemptedTasks" : "可减少的任务数"
 "options.role.agent.numOfExtraTasks" : "额外可接取任务数"
 "options.role.agent.suicideIfSomeoneElseCompletesTasksBeforeAgent" : "若其他船员玩家先完成任务将自杀"
+"stats.agent.agent" : "代理任务次数"
 
 "role.bait.name" : "诱饵"
 "role.bait.short" : "诱"
@@ -397,6 +402,8 @@
 "options.role.bait.reportDelay" : "报告延迟"
 "options.role.bait.reportDelayDispersion" : "最大通知延迟"
 "options.role.bait.canSeeVentFlash" : "可以看到通风口闪光"
+"stats.bait.bait" : "诱饵触发报告次数"
+"stats.bait.killer" : "触发诱饵报告次数"
 
 "role.busker.name" : "灵化使"
 "role.busker.short" : "灵"
@@ -405,6 +412,8 @@
 "options.role.busker.pseudocideCoolDown" : "假死冷却时间"
 "options.role.busker.pseudocideDuration" : "假死持续时间"
 "options.role.busker.hidePseudocideFromVitals" : "在生命监测装置中隐藏出窍状态"
+"stats.busker.pseudocide" : "使用假死次数"
+"stats.busker.missed" : "复活失败次数"
 
 "role.collator.name" : "基因学家"
 "role.collator.short" : "基"
@@ -426,6 +435,9 @@
 "role.collator.ui.result" : "结果"
 "role.collator.ui.matched" : "匹配"
 "role.collator.ui.unmatched" : "不匹配"
+"stats.collator.collating" : "样本对照次数"
+"stats.collator.matched" : "样本匹配次数"
+"stats.collator.unmatched" : "样本不匹配次数"
 
 "role.comet.name" : "彗星之子"
 "role.comet.short" : "彗"
@@ -436,6 +448,7 @@
 "options.role.comet.blazeDuration" : "技能持续时间"
 "options.role.comet.blazeVisionRate" : "技能期间视野倍率"
 "options.role.comet.blazeScreenRate" : "技能期间屏幕缩小倍率"
+"stats.comet.blazing" : "使用冲刺次数"
 
 "role.doctor.name" : "医学家"
 "role.doctor.short" : "医"
@@ -452,6 +465,8 @@
 "options.role.echo.detail" : "感知者是一个船员职业，他可以获取附近玩家的位置，并且可以感知其他玩家的行为。"
 "options.role.echo.echoCooldown" : "感知冷却时间"
 "options.role.echo.echoRange" : "感知最大范围"
+"stats.echo.players" : "感知到玩家数量"
+"stats.echo.actions" : "感知到行为数量"
 
 "role.justice.name" : "大神官"
 "role.justice.short" : "官"
@@ -459,6 +474,8 @@
 "options.role.justice.detail" : "大神官可以选择两名玩家置于“天平”上<br>并实行一场特殊的会议。"
 "options.role.justice.putJusticeOnTheBalance" : "对峙模式"
 "options.role.justice.justiceMeetingTime" : "法庭结束时间"
+"stats.justice.exiled" : "在天平上被驱逐玩家数量"
+"stats.justice.nonCrewmates" : "在天平上被驱逐非船员玩家数量"
 
 "role.madmate.name" : "叛徒"
 "role.madmate.short" : "叛"
@@ -473,6 +490,8 @@
 "options.role.madmate.hasImpostorVision" : "拥有伪装者视野"
 "options.role.madmate.canUseVents" : "可以使用通风口"
 "options.role.madmate.canMoveInVents" : "可以在通风口中移动"
+"stats.madmate.foundImpostors" : "知晓伪装者数量"
+"stats.madmate.embroil" : "连带幸存玩家数量"
 
 "role.mayor.name" : "市长"
 "role.mayor.short" : "市"
@@ -483,6 +502,7 @@
 "options.role.mayor.maxVote" : "最大投票数"
 "options.role.mayor.maxVotesStock" : "市长可以存下的最大票数"
 "options.role.mayor.voteAssignment" : "会议中的投票分配"
+"stats.mayor.votes" : "投出票数量"
 
 "role.necromancer.name" : "死灵法师"
 "role.necromancer.short" : "死"
@@ -495,6 +515,7 @@
 "options.role.necromancer.reviveMaxRange" : "到复活室的最大距离"
 "role.necromancer.phantomMessage" : "把我带到%ROOM%那里..."
 "role.necromancer.reviveRange" : "死灵法师<color=white>: 尸体通知范围</color>"
+"stats.necromancer.revive" : "复活成功数量"
 
 "role.niceGuesser.name" : "正义的赌怪"
 "role.niceGuesser.short" : "正赌"
@@ -523,6 +544,8 @@
 "options.role.phosphorus.lampCoolDown" : "发光冷却时间"
 "options.role.phosphorus.lampDuration" : "发光持续时间"
 "options.role.phosphorus.lampStrength" : "光照亮度范围"
+"stats.phosphorus.lantern" : "安装提灯数量"
+"stats.phosphorus.lighting" : "开启提灯次数"
 
 "role.psychic.name" : "灵媒"
 "role.psychic.short" : "灵"
@@ -539,6 +562,8 @@
 "options.role.psychic.message.inner.darkColor" : "深色"
 "options.role.psychic.message.inner.lightColor" : "浅色"
 "options.role.psychic.message.header" : "冥界通讯"
+"stats.psychic.searching" : "使用搜索尸体次数"
+"stats.psychic.messages" : "获得冥界通讯信息次数"
 
 "role.provocateur.name" : "挑衅者"
 "role.provocateur.short" : "挑"
@@ -547,6 +572,8 @@
 "options.role.provocateur.embroilCoolDown" : "挑衅冷却时间"
 "options.role.provocateur.embroilAdditionalCoolDown" : "挑衅未触发惩罚冷却时间"
 "options.role.provocateur.embroilDuration" : "挑衅持续时间"
+"stats.provocateur.taskPhase" : "行动期间连带次数"
+"stats.provocateur.exile" : "会议期间连带次数"
 
 "role.seer.name" : "先知"
 "role.seer.short" : "先"
@@ -565,6 +592,8 @@
 "options.role.sheriff.numOfShots" : "击杀次数"
 "options.role.sheriff.canKillHidingPlayer" : "可以击杀通风口内玩家"
 "options.role.sheriff.sealAbilityUntilReportingDeadBodies" : "在没有发现尸体前不能使用技能"
+"stats.sheriff.shot" : "执法成功次数"
+"stats.sheriff.misshot" : "执法失败次数"
 
 "role.ubiquitous.name" : "飞手"
 "role.ubiquitous.short" : "飞"
@@ -577,6 +606,7 @@
 "options.role.ubiquitous.doorHackCoolDown" : "黑入门禁冷却时间"
 "options.role.ubiquitous.doorHackRadious" : "黑入门禁影响范围"
 "role.ubiquitous.droneRange" : "飞手<color=white>: 无人机检测范围</color>"
+"stats.ubiquitous.drones" : 无人机召唤次数"
 
 # Impostor Roles
 
@@ -606,6 +636,7 @@
 "options.role.berserker.maxBerserkDuration" : "暴怒最大持续时间"
 "options.role.berserker.killingForTrance" : "进入忘我状态所需击杀数"
 "options.role.berserker.bersekSEStrength" : "暴怒音效范围"
+"stats.berserker.berserk" : "暴怒使用次数"
 
 "role.bountyHunter.name" : "赏金猎人"
 "role.bountyHunter.short" : "赏"
@@ -616,6 +647,8 @@
 "options.role.bountyHunter.changeBountyInterval" : "改变追猎目标的时间间隔"
 "options.role.bountyHunter.showBountyArrow" : "对追猎目标用箭头标记"
 "options.role.bountyHunter.arrowUpdateInterval" : "追猎目标箭头更新间隔"
+"stats.bountyHunter.bountyKill" : "击杀赏金目标数量"
+"stats.bountyHunter.othersKill" : "击杀非赏金目标数量"
 
 "role.bubblegun.name" : "泡泡抢手"
 "role.bubblegun.short" : "泡"
@@ -629,6 +662,7 @@
 "options.role.bubblegun.eraseBubblesOnMeeting" : "会议时不展示泡泡中尸体"
 "options.role.bubblegun.canKillImpostor" : "泡泡可以击杀伪装者"
 "options.role.bubblegun.bubblePopWhenHitWall" : "泡泡碰到墙壁后破裂"
+"stats.bubblegun.bubble" : "泡泡枪使用次数"
 
 "role.camouflager.name" : "隐蔽者"
 "role.camouflager.short" : "隐"
@@ -637,6 +671,7 @@
 "options.role.camouflager.camoCoolDown" : "隐蔽冷却时间"
 "options.role.camouflager.camoDuration" : "隐蔽持续时间"
 "options.role.camouflager.canInvokeCamoAfterDeath" : "死亡后也可以使用隐蔽技能"
+"stats.camouflager.camo" : "隐蔽使用次数"
 
 "role.cannon.name" : "空气炮手"
 "role.cannon.short" : "空"
@@ -647,6 +682,8 @@
 "options.role.cannon.cannonCooldown" : "空气炮冷却时间"
 "options.role.cannon.cannonPower" : "空气炮威力"
 "options.role.cannon.cannonPowerAttenuation" : "空气炮威力衰减"
+"stats.cannon.fire" : "空气炮使用次数"
+"stats.cannon.players" : "击飞玩家数量"
 
 "role.cleaner.name" : "清理者"
 "role.cleaner.short" : "清"
@@ -654,6 +691,7 @@
 "options.role.cleaner.detail" : "清理者可以让场上的尸体消失。"
 "options.role.cleaner.cleanCoolDown" : "清理尸体冷却时间"
 "options.role.cleaner.syncKillAndCleanCoolDown" : "清理与击杀共用冷却时间"
+"stats.cleaner.clean" : "尸体清理次数"
 
 "role.destroyer.name" : "毁灭者"
 "role.destroyer.short" : "毁"
@@ -664,6 +702,7 @@
 "options.role.destroyer.killSEStrength" : "碾压音效范围"
 "options.role.destroyer.leaveKillEvidence" : "成功碾压留下血迹"
 "options.role.destroyer.canReportKillScene" : "可以报告碾压现场"
+"stats.destroyer.reported" : "碾压期间被报告次数"
 
 "role.disturber.name" : "干扰者"
 "role.disturber.short" : "干"
@@ -675,6 +714,8 @@
 "options.role.disturber.maxNumOfPoles" : "杆子数量"
 "options.role.disturber.maxDistanceBetweenPoles" : "杆子最大间距"
 "role.disturber.ui.removePoles" : "<b>单击左键</b>:摧毁杆子"
+"stats.disturber.pole" : "杆子放置次数"
+"stats.disturber.disturb" : "干扰使用次数"
 
 "role.effacer.name" : "擦除者"
 "role.effacer.short" : "擦"
@@ -682,6 +723,7 @@
 "options.role.effacer.detail" : "擦除者可以让其他玩家隐身。"
 "options.role.effacer.effaceCoolDown" : "擦除冷却时间"
 "options.role.effacer.effaceDuration" : "擦除持续时间"
+"stats.effacer.efface" : "擦除玩家次数"
 
 "role.evilGuesser.name" : "邪恶的赌怪"
 "role.evilGuesser.short" : "邪赌"
@@ -723,6 +765,7 @@
 "options.role.hadar.gushFromVents" : "显现时从最近通风口跳出"
 "options.role.hadar.ventDetectionRange" : "通风口检测范围"
 "options.role.hadar.leftDivingEvidence" : "遁地时会留下证据"
+"stats.hadar.dive" : "遁地使用次数"
 
 "role.illusioner.name" : "模仿大师"
 "role.illusioner.short" : "模"
@@ -735,6 +778,9 @@
 "options.role.illusioner.loseSampleOnMeeting" : "会议结束后需要重新取样"
 "options.role.illusioner.transformAfterMeeting" : "会议结束后生效"
 "options.role.illusioner.sampleOriginalLook" : "显示被取样玩家样子"
+"stats.illusioner.sample" : "取样使用次数"
+"stats.illusioner.morph" : "化形使用次数"
+"stats.illusioner.paint" : "改变外形使用次数"
 
 "role.jailer.name" : "狱卒"
 "role.jailer.short" : "狱"
@@ -754,6 +800,8 @@
 "options.role.marionette.swapCoolDown" : "交换位置冷却时间"
 "options.role.marionette.decoyDuration" : "木偶存在时间"
 "options.role.marionette.canSeeDecoyInShadow" : "可以查看木偶状况"
+"stats.marionette.decoy" : "放置木偶次数"
+"stats.marionette.swap" : "与木偶交换次数"
 
 "role.morphing.name" : "化形者"
 "role.morphing.short" : "化"
@@ -763,6 +811,8 @@
 "options.role.morphing.morphCoolDown" : "化形冷却时间"
 "options.role.morphing.morphDuration" : "化形持续时间"
 "options.role.morphing.loseSampleOnMeeting" : "会议结束后需要重新取样"
+"stats.morphing.sample" : "取样使用次数"
+"stats.morphing.morph" : "化形使用次数"
 
 "role.painter.name" : "画皮师"
 "role.painter.short" : "画"
@@ -772,6 +822,8 @@
 "options.role.painter.paintCoolDown" : "改变外观冷却时间"
 "options.role.painter.loseSampleOnMeeting" : "会议结束后需要重新取样"
 "options.role.painter.transformAfterMeeting" : "会议结束后生效"
+"stats.morphing.sample" : "取样使用次数"
+"stats.painter.paint" : "改变外形使用次数"
 
 "role.raider.name" : "强盗"
 "role.raider.short" : "盗"
@@ -782,11 +834,13 @@
 "options.role.raider.axeSpeed" : "斧头飞行速度"
 "options.role.raider.canKillImpostor" : "可以击杀伪装者"
 "role.raider.axeSize" : "强盗<color=white>: 斧头判定范围</color>"
+"stats.raider.thrown" : "斧子投掷次数"
 
 "role.reaper.name" : "送葬者"
 "role.reaper.short" : "送"
 "role.reaper.blurb" : "拖走尸体来欺骗船员"
 "options.role.reaper.detail" : "送葬者可以拖拽尸体。"
+"stats.reaper.ventWithDeadBody" : "携带尸体时使用通风口次数"
 
 "role.sniper.name" : "狙击手"
 "role.sniper.short" : "狙"
@@ -806,6 +860,8 @@
 "role.sniper.shotRange" : "狙击手: <color=white>狙击枪有效射程</color>"
 "role.sniper.soundRange" : "狙击手: <color=white>枪声可听范围</color>"
 "role.sniper.shotSize" : "狙击手<color=white>:子弹判定范围</color>"
+"stats.sniper.misshot" : "开枪打空次数"
+"stats.sniper.shot" : "开枪狙杀次数"
 
 "role.stirrer.name" : "幻术师"
 "role.stirrer.short" : "幻"
@@ -816,6 +872,8 @@
 "options.role.stirrer.sabotageMaxCharge" : "同一个玩家最多对其使用次数"
 "options.role.stirrer.sabotageCoolDown" : "制幻冷却时间"
 "options.role.stirrer.sabotageInterval" : "制幻额外时间"
+"stats.stirrer.stir" : "施幻使用次数"
+"stats.stirrer.sabo" : "制幻使用次数"
 
 "role.thurifer.name" : "调香师"
 "role.thurifer.short" : "调"
@@ -829,6 +887,8 @@
 "options.role.thurifer.maxKillDelay" : "最大击杀延迟时间"
 "options.role.thurifer.showBlink" : "击杀超过3秒时显示闪烁"
 "options.role.thurifer.activationDelay" : "香炉延迟激活时间"
+"stats.thurifer.activate" : "香炉点燃次数"
+"stats.thurifer.impute" : "转移香薰次数"
 
 # Neutral Roles
 
@@ -838,6 +898,7 @@
 "options.role.arsonist.detail" : "纵火犯需要给所有存活玩家涂油来获得胜利。"
 "options.role.arsonist.douseCoolDown" : "涂油冷却时间"
 "options.role.arsonist.douseDuration" : "涂油所需时间"
+"stats.arsonist.doused" : "被涂油玩家数量"
 
 "role.avenger.name" : "复仇者"
 "role.avenger.short" : "复"
@@ -852,6 +913,9 @@
 "options.role.avenger.showAvengerFlashForTarget" : "闪光告知目标触发复仇者事件"
 "options.role.avenger.notificationForAvengerInterval" : "复仇目标位置通知间隔"
 "options.role.avenger.notificationForTargetInterval" : "复仇者位置通知间隔"
+"stats.avenger.killTarget" : "击杀复仇对象次数"
+"stats.avenger.failed" : "被复仇对象击杀次数"
+"stats.avenger.defend" : "击杀复仇者数量"
 
 "role.chainShifter.name" : "交换师"
 "role.chainShifter.short" : "交"
@@ -859,6 +923,7 @@
 "options.role.chainShifter.detail" : "交换师是无法胜利的，赶紧与其他玩家换掉。"
 "options.role.chainShifter.shiftCoolDown" : "交换冷却时间"
 "options.role.chainShifter.canCallEmergencyMeeting" : "可以召开紧急会议"
+"stats.chainShifter.shift" : "交换职业次数"
 
 "role.dancer.name" : "舞蹈家"
 "role.dancer.short" : "舞"
@@ -874,6 +939,7 @@
 "options.role.dancer.forecastedFollowingSuicide" : "舞蹈家死亡后追随者自杀"
 "role.dancer.taskDanceText" : "完成死亡之舞"
 "role.dancer.taskFinalText" : "向所有活着的玩家展示最后一支舞蹈后获胜"
+"stats.dancer.dance" : "跳舞次数"
 
 "role.ember.name" : "余烬"
 "role.ember.short" : "余"
@@ -889,6 +955,7 @@
 "options.role.jackal.numOfKillingToCreateSidekick" : "豺狼可以招募跟班前需要击杀的人数"
 "options.role.jackal.numOfKillingToWin" : "胜利所需击杀数"
 "options.role.jackal.jacklizedImpostor" : "伪装者豺狼化"
+"stats.jackal.sidekick" : "招募使用次数"
 
 "role.sidekick.name" : "跟班"
 "role.sidekick.short" : "跟"
@@ -918,6 +985,8 @@
 "options.role.paparazzo.shotCoolDown" : "拍摄冷却时间"
 "options.role.paparazzo.requiredSubjects" : "需要拍到不同玩家数量"
 "options.role.paparazzo.requiredDisclosed" : "需要展示会议中玩家数量"
+"stats.paparazzo.photo" : "拍摄使用次数"
+"stats.paparazzo.players" : "展示拍摄玩家数量"
 
 "role.scarlet.name" : "魅魔"
 "role.scarlet.short" : "魅"
@@ -926,6 +995,7 @@
 "options.role.scarlet.graceUntilDecidingFavorite" : "指定本命倒计时"
 "options.role.scarlet.numOfKept" : "备胎最大人数"
 "options.role.scarlet.numOfCommand" : "号召最大使用次数"
+"stats.scarlet.kept" : "指定备胎次数"
 
 "role.vulture.name" : "秃鹫"
 "role.vulture.short" : "鹫"
@@ -933,6 +1003,7 @@
 "options.role.vulture.detail" : "秃鹫吃掉指定数量的尸体则秃鹫获得胜利。<br>秃鹫可以看到指向场上所有尸体的若干青色箭头。"
 "options.role.vulture.eatCoolDown" : "吞噬冷却时间"
 "options.role.vulture.numOfTheEatenToWin" : "获胜所需吞噬尸体数量"
+"stats.vulture.eaten" : "吞噬尸体数量"
 
 # Ghost Roles
 
@@ -951,6 +1022,7 @@
 "options.role.clog.numOfGhost" : "灵魂可生成数"
 "options.role.clog.ghostSize" : "灵魂判定大小"
 "role.clog.ghostSize" : "阻碍者<color=white>: 灵魂判定大小</color>"
+"stats.clog.ghosts" : "灵魂召唤次数"
 
 "role.hallucination.name" : "幻形"
 "role.hallucination.blurb" : "让我再活一次"
@@ -958,6 +1030,7 @@
 "options.role.hallucination.detail" : "幻形可以幻化出一个玩家假人并操控。"
 "options.role.hallucination.hallucinationCooldown" : "幻形冷却时间"
 "options.role.hallucination.hallucinationDuration" : "幻形持续时间"
+"stats.hallucination.hallucinations" : "幻形召唤次数"
 
 "role.lumine.name" : "引路魂"
 "role.lumine.blurb" : "正义之光"
@@ -973,28 +1046,33 @@
 "options.role.noiseghost.noiseDuration" : "警报声持续时间"
 "options.role.noiseghost.numOfNoise" : "警报声使用次数"
 "options.role.noiseghost.noiseCooldown" : "警报声冷却时间"
+"stats.noiseghost.alert" : "警报使用次数"
 
 "role.poltergeist.name" : "捣蛋鬼"
 "role.poltergeist.blurb" : "尸体会在哪里呢"
 "role.poltergeist.short" : "捣"
 "options.role.poltergeist.detail" : "捣蛋鬼可以移动尸体。"
 "options.role.poltergeist.poltergeistCoolDown" : "移动尸体冷却时间"
+"stats.poltergeist.poltergeist" : "移动尸体次数"
 
 # Modifiers
 
+"role.metaRole.name" : "自由模式附加能力"
 "role.metaRole.ui.roles" : "职业"
 
 "role.guesser.name" : "赌怪"
 "role.guesser.generalBlurb" : "让我猜猜看"
 "role.guesser.blurb" : "你可以赌杀任何人。"
 "role.guesser.leftGuess" : "剩余次数"
-
-"role.metaRole.name" : "自由模式"
+"stats.guesser.allGuess" : "赌杀次数"
+"stats.guesser.misguessed" : "误赌次数"
 
 "role.bloody.name" : "血语者"
 "role.bloody.generalBlurb" : "杀了我，你会后悔的"
 "options.role.bloody.detail" : "血语者被击杀后，凶手会留下鲜红的血迹"
 "options.role.bloody.curseDuration" : "血迹持续时长"
+"stats.bloody.bloody" : "血语触发次数"
+"stats.bloody.killer" : "触发血语次数"
 
 "role.confused.name" : "迷茫者"
 "role.confused.generalBlurb" : "他们究竟是谁"
@@ -1013,6 +1091,12 @@
 "options.role.damned.damnedMurderMyKiller" : "反杀凶手并代替其职业"
 "options.role.damned.killDelay" : "延迟凶手死亡"
 
+"role.disclosure.name" : "显眼包"
+"role.disclosure.generalBlurb" : "嗨，看我看我！"
+"options.role.disclosure.detail" : "拥有显眼包的玩家，在会议期间会公开自己鼠标光标的位置。"
+"options.role.disclosure.anonymousCursor" : "匿名鼠标光标"
+"options.role.disclosure.showCursorAtLateVoting" : "投票结算时显示鼠标光标"
+
 "role.extraMission.name" : "额外任务"
 "role.extraMission.generalBlurb" : "你获得额外的胜利"
 "options.role.extraMission.detail" : "你需要让你的目标死亡。<br>如果对方没有死亡你将不能胜利。"
@@ -1021,6 +1105,7 @@
 "role.tieBreaker.name" : "破平者"
 "role.tieBreaker.generalBlurb" : "我将是破局之人"
 "options.role.tieBreaker.detail" : "拥有破平者的玩家相当于有1.5票。"
+"stats.tieBreaker.tieBreaking" : "触发破平次数"
 
 "role.lover.name" : "恋人"
 "options.role.lover.detail" : "恋人两人一组。如果一方死亡，另一个也会死亡。"
@@ -1131,6 +1216,20 @@
 
 "perk.doubleVote.name" : "独裁"
 "perk.doubleVote.detail" : "除跳过、不投票、投0票以外。<br>投票数翻一倍。"
+
+"perk.monowayX.name" : "风向标-赤"
+"perk.monowayX.detail" : "激活后，在%D%秒内只能上下移动。<br>该技能有%CD%秒冷却。<br>冷却时间仅在行动阶段进行，会议期间会停止计时。"
+
+"perk.monowayY.name" : "风向标-青"
+"perk.monowayY.detail" : "激活后，在%D%秒内只能左右移动。<br>该技能有%CD%秒冷却。<br>冷却时间仅在行动阶段进行，会议期间会停止计时。"
+
+"perk.monowayRotate.name" : "眩晕"
+"perk.monowayRotate.detail" : "激活后，在%D%秒内颠倒移动方向。<br>该技能有%CD%秒冷却。<br>冷却时间仅在行动阶段进行，会议期间会停止计时。"
+
+"perk.meteor.name" : "天动万象"
+"perk.meteor.detail" : "使用10秒后，会以使用地点为中心并在周围落下大量陨石。<br>此特技只能发动一次。<br>从使用开始到陨石坠落期间，紧急会议按钮将会封锁。<br>靠近陨石落点的玩家会收到红色闪光警告。<br>秃鹫无法使用该特技。"
+"perk.meteor.sabotageText" : "陨石坠落警报：尽快远离陨石坠落地点！"
+"perk.meteor.meetingButtonText" : "由于陨石坠落警报拉响<br>因此无法召开紧急会议"
 
 # Location
 
@@ -1358,6 +1457,7 @@
 "statistics.events.dance" : "死亡之舞"
 "statistics.events.gassed" : "烟气中毒"
 "statistics.events.bubbled" : "泡中窒息"
+"statistics.events.meteor" : "陨石砸落"
 
 # States
 
@@ -1381,6 +1481,7 @@
 "state.frenzied" : "疯癫"
 "state.gassed" : "烟气中毒"
 "state.bubbled" : "泡中窒息"
+"state.meteor" : "陨石砸落"
 
 # Endings
 
@@ -1655,6 +1756,15 @@
 "achievement.type.seasonal" : "季节性成就"
 "achievement.type.costume" : "特殊装饰成就"
 "achievement.type.innersloth" : "Among Us"
+"achievement.type.perk" : "特技"
+
+"achievement.group.recently" : "最近达成"
+"achievement.group.roles" : "职业"
+"achievement.group.seasonal" : "季节性"
+"achievement.group.perk" : "特技"
+"achievement.group.costume" : "特殊装饰"
+"achievement.group.others" : "特殊"
+"achievement.group.innersloth" : "Innersloth"
 
 "achievement.filter.all" : "全部"
 "achievement.filter.achieved" : "已解锁"
@@ -1666,6 +1776,30 @@
 "achievement.social.clear" : "%PLAYER%获得"
 "achievement.social.clearMultiple" : "%PLAYER%和%OTHERS%玩家获得"
 "achievement.social.noAchievement" : "未高亮显示"
+
+# Stats
+
+"stats.ui.title" : "统计"
+"stats.ui.caption" : "*从 v2.13 (2024/12/25发布)的游戏数据进行统计。"
+"stats.group.kill" : "击杀数"
+"stats.group.death" : "死亡数"
+"stats.group.game" : "对局"
+"stats.group.roles" : "职业"
+"stats.group.perks" : "特技"
+"stats.role.common.assigned" : "%ROLE% 获得次数"
+"stats.role.common.won" : "通过 %ROLE% 获胜次数"
+"stats.modifier.common.assigned" : "%MODIFIER% 获得次数"
+"stats.modifier.common.won" : "通过 %MODIFIER% 获胜次数"
+"stats.ghostRole.common.assigned" : "%GHOSTROLE% 获得次数"
+"stats.ghostRole.common.won" : "通过 %GHOSTROLE% 获胜次数"
+"stats.common.kill" : "%STATE%"
+"stats.common.death" : "%STATE%"
+"stats.common.win" : "通过 %END% 获胜次数"
+"stats.common.defeat" : "通过 %END% 失败次数"
+"stats.gamePlay" : "总对局数"
+"stats.plants.gain.normal" : "从普通花获得特技次数"
+"stats.plants.gain.warped" : "从怪异花获得特技次数"
+"stats.perk.common.gain" : "%PERK% 获得次数"
 
 # Social
 
@@ -1805,6 +1939,42 @@
 
 # Documents
 
+"document.tip.winCond.teams.impostor" : "伪装者"
+"document.tip.winCond.teams.jackal" : "豺狼"
+"document.tip.winCond.teams.lover" : "恋人"
+"document.tip.winCond.crewmate.task.title" : "任务胜利"
+"document.tip.winCond.crewmate.task" : "船员阵营通过完成所有任务获胜。"
+"document.tip.winCond.crewmate.exile.title" : "驱逐获胜"
+"document.tip.winCond.crewmate.exile" : "所有%IMPOSTOR%阵营和%JACKAL%阵营都被驱逐。"
+"document.tip.winCond.impostor.kill.title" : "击杀获胜"
+"document.tip.winCond.impostor.kill" : "当伪装者阵营幸存玩家数占所有幸存玩家说一半时获胜。<br>需要%JACKAL%阵营全灭，同时队友不属于%LOVER%阵营。"
+"document.tip.winCond.impostor.extinction.title" : "完全歼灭胜利"
+"document.tip.winCond.impostor.extinction" : "当所有幸存玩家都是相同阵营时，那么就获胜了。<br>需要队友中不存在%LOVER%阵营。"
+"document.tip.winCond.impostor.sabotage.title" : "破坏胜利"
+"document.tip.winCond.impostor.sabotage" : "紧急破坏未能在规定时间内修复则获胜。"
+"document.tip.winCond.jackal.kill.title" : "击杀获胜"
+"document.tip.winCond.jackal.kill" : "当伪装者阵营幸存玩家数占所有幸存玩家说一半时获胜。<br>需要%IMPOSTOR%阵营全灭，同时队友不属于%LOVER%阵营。"
+"document.tip.winCond.jackal.extinction.title" : "完全歼灭胜利"
+"document.tip.winCond.jackal.extinction" : "当所有幸存玩家都是相同阵营时，那么就获胜了。<br>需要队友中不存在%LOVER%阵营。"
+"document.tip.winCond.jester.title" : "特殊胜利"
+"document.tip.winCond.jester" : "在会议中被驱逐时获胜。<br>如果为%LOVER%阵营，那么另一方无法跟随胜利，反之可以。"
+"document.tip.winCond.vulture.title" : "特殊胜利"
+"document.tip.winCond.vulture" : "在行动期间吞噬一定量的尸体后获胜。"
+"document.tip.winCond.arsonist.title" : "特殊胜利"
+"document.tip.winCond.arsonist" : "所有幸存的玩家被涂上油并点燃获胜。"
+"document.tip.winCond.paparazzo.title" : "特殊胜利"
+"document.tip.winCond.paparazzo" : "完成指定的拍摄次数和展示玩家数量任务后胜利。"
+"document.tip.winCond.lovers.normal.title" : "恋人单独胜利"
+"document.tip.winCond.lovers.normal" : "当存活数为3时，且双方都存活，那么将单独胜利。"
+"document.tip.winCond.lovers.extra.title" : "恋人跟随胜利"
+"document.tip.winCond.lovers.extra" : "如果一方达到胜利条件且存活，则跟随胜利。"
+"document.tip.winCond.avenger.title" : "窃取胜利"
+"document.tip.winCond.avenger" : "击杀复仇对象后并活到最后，当游戏结束时，会覆盖并夺取胜利。"
+"document.tip.winCond.dancer.title" : "特殊胜利"
+"document.tip.winCond.dancer" : "完成指定次数的死亡预言便会携带因死亡预言而死的人获胜。"
+"document.tip.winCond.scarlet.title" : "窃取胜利"
+"document.tip.winCond.scarlet" : "和本命存活且本命达到胜利条件，那么将和本命覆盖并夺取胜利。"
+
 "options.assignment.assignOpToHost.detail" : "开启后，主持人可以在游戏中使用指令。<br>一般情况开启没有任何意义。"
 "options.assignment.ghostAssignmentMethod.detail" : "你可以更改鬼魂职业的分配方式。<br> -<b>标准</b>:死亡的玩家始终可以分配到可用职业之一。<br> -<b>刺激</b>: 分配概率会影响你能否获得鬼魂职业。"
 
@@ -1826,6 +1996,8 @@
 "options.meeting.extraEmergencyCooldownInTheEarlyCondition.detail" : "配置后，当场上死于该数量的值后，紧急会议冷却时间会恢复为正常值。"
 
 "options.quality.lowLatencyPlayerSync.detail" : "<b>仅限自定义服务器</b><br>开启后，减少因为延迟导致的位置误差。"
+
+"options.perk.growSpeed.detail" : "可以调整花的成长速度。<br>数值越大，生长速度越快。"
 
 "options.role.agent.numOfExemptedTasks.detail" : "指定代理人的任务总数将减少的数量。<br>总任务越少，获取额外任务的速度更快。"
 "options.role.agent.numOfExtraTasks.detail" : "设置每次完成任务后可以额外获取的任务数量。<br>死亡后你将无法<b>获取</b>新的任务。"
