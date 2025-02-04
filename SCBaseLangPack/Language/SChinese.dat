@@ -112,6 +112,7 @@
 "ui.action.scarlet.suicide" : "如果长时间不指定本命将会死亡！<br>会议期间倒计时不会读秒。"
 "ui.action.bubblegun.equip" : "掏出或藏匿泡泡枪。<br>掏出泡泡枪期间，击杀按钮会变成泡泡枪发射按钮。"
 "ui.action.bubblegun.kill" : "发射泡泡。<br>发射后会自动藏匿。"
+"ui.action.plumber.move" : "在有通风口的位置使用。<br>使用后会吸附通风口并可以拖动。<br>持续时间结束或再次点击即可放置到当前位置。"
 
 # Tutorial
 
@@ -161,6 +162,7 @@
 "options.percentage" : "%"
 "options.cross" : "x"
 "options.sec" : "s"
+"options.taskPhase" : "轮"
 "options.followPrimaryChance" : "-"
 "options.inactivated" : "未启用"
 
@@ -203,12 +205,14 @@
 "options.map.spawnCandidatesFilter" : "可选出生点位置"
 "options.map.silentVents" : "隐藏阴影中的通风口动画"
 "options.map.canOpenMapWhileUsingUtility" : "进行任务时可以打开地图"
-"options.map.numOfTeleporter" : "传送门对数"
+"options.map.numOfTeleporter" : "传送宝石对数"
 "options.map.nonCrewmateCanUseTeleporterImmediately" : "(非船员阵营)瞬间传送"
 "options.map.randomizedWiring" : "随机接线任务点位"
 "options.map.stepsOfWiringGame" : "完成任务所需接线次数"
 "options.map.ladderCoolDown" : "使用梯子冷却"
 "options.map.ziplineCoolDown" : "使用滑索冷却"
+"options.map.flipX" : "地图水平翻转"
+"options.map.flipY" : "地图垂直翻转"
 "options.map.customization" : "自定义地图"
 "options.map.customization.skeld.useAdmin" : "允许使用管理控制台"
 "options.map.customization.skeld.cafeVent" : "额外通风口"
@@ -243,6 +247,11 @@
 "options.map.customization.fungle.blackOutDropship" : "配电箱(运输船)"
 "options.map.customization.fungle.blackOutJungle" : "配电箱(丛林)"
 "options.map.customization.fungle.blackOutMiningPit" : "配电箱(矿坑)"
+"options.map.group.spawning" : "出生点设置"
+"options.map.group.utilities" : "交互相关设置"
+"options.map.group.teleporter" : "传送宝石设置"
+"options.map.group.wiring" : "连线任务设置"
+"options.map.group.flip" : "翻转地图设置"
 
 "options.meeting" : "紧急会议设置"
 "options.meeting.detail" : "一些跟紧急会议相关的内容"
@@ -460,7 +469,7 @@
 "role.doctor.gadgetLeft" : "%SECOND%秒"
 
 "role.echo.name" : "感知者"
-"role.echo.short" : "雷"
+"role.echo.short" : "感"
 "role.echo.blurb" : "生命的回响"
 "options.role.echo.detail" : "感知者是一个船员职业，他可以获取附近玩家的位置，并且可以感知其他玩家的行为。"
 "options.role.echo.echoCooldown" : "感知冷却时间"
@@ -481,10 +490,15 @@
 "role.madmate.short" : "叛"
 "role.madmate.blurb" : "帮助伪装者获得胜利"
 "options.role.madmate.detail" : "叛徒属于伪装者阵营。<br>去背刺船员帮助伪装者！"
-"options.role.madmate.canIdentifyImpostors" : "可以知晓伪装者阵营玩家"
-"options.role.madmate.requiredTasksForIdentifying" : "知晓伪装者所需任务数"
+"options.role.madmate.canIdentifyImpostors" : "可知晓伪装者阵营玩家数量"
+"options.role.madmate.requiredTasksForIdentifying0" : "知晓1个伪装者所需任务数"
+"options.role.madmate.requiredTasksForIdentifying1" : "知晓2个伪装者所需任务数"
+"options.role.madmate.requiredTasksForIdentifying2" : "知晓3个伪装者所需任务数"
+"options.role.madmate.group.embroil" : "连带设定"
+"options.role.madmate.group.identification" : "狂信徒设定"
 "options.role.madmate.embroilPlayersOnExile" : "被放逐时连带非伪装者阵营玩家"
 "options.role.madmate.limitEmbroiledPlayersToVoters" : "被连带玩家为投票者"
+"options.role.madmate.embroilDelay" : "连带延迟轮数"
 "options.role.madmate.canFixLight" : "可以修复电力破坏"
 "options.role.madmate.canFixComms" : "可以修复通讯破坏"
 "options.role.madmate.hasImpostorVision" : "拥有伪装者视野"
@@ -500,9 +514,29 @@
 "options.role.mayor.fixedVotes" : "固定票数"
 "options.role.mayor.minVote" : "最小投票数"
 "options.role.mayor.maxVote" : "最大投票数"
-"options.role.mayor.maxVotesStock" : "市长可以存下的最大票数"
-"options.role.mayor.voteAssignment" : "会议中的投票分配"
+"options.role.mayor.maxVotesStock" : "可存下最大票数"
+"options.role.mayor.voteAssignment" : "会议投票分配"
+"options.role.mayor.voteAssignmentOnReporting" : "自身报告尸体额外获得票数"
+"options.role.mayor.voteAssignmentPerTasks" : "每完成一个任务获得票数"
 "stats.mayor.votes" : "投出票数量"
+"role.mayor.hud.votes" : "所持票数"
+
+"role.navvy.name" : "封控员"
+"role.navvy.short" : "封"
+"role.navvy.blurb" : "封锁潜在威胁"
+"options.role.navvy.detail" : "封控员可以封锁通风口。<br>可以使用通风口的玩家可以去除通风口上的胶带。"
+"options.role.navvy.sealCooldown" : "封锁冷却时间"
+"options.role.navvy.maxCost" : "初始胶带数量"
+"options.role.navvy.costForVentSealing" : "通风口封锁所需胶带数"
+"options.role.navvy.costForDoorSealing" : "门封锁所需胶带数"
+"options.role.navvy.removeDuration" : "移除胶带所需时间"
+"options.role.navvy.numOfVentRemovalSteps" : "通风口彻底去除胶带所需次数"
+"options.role.navvy.numOfDoorRemovalSteps" : "门彻底去除胶带所需次数"
+"options.role.navvy.redundantSealing" : "可以重新封锁"
+"stats.navvy.sealVent" : "通风口封锁次数"
+"stats.navvy.sealDoor" : "门封锁次数"
+"stats.navvy.removeVent" : "通风口去除胶带次数"
+"stats.navvy.removeDoor" : "门去除胶带次数"
 
 "role.necromancer.name" : "死灵法师"
 "role.necromancer.short" : "死"
@@ -650,7 +684,7 @@
 "stats.bountyHunter.bountyKill" : "击杀赏金目标数量"
 "stats.bountyHunter.othersKill" : "击杀非赏金目标数量"
 
-"role.bubblegun.name" : "泡泡抢手"
+"role.bubblegun.name" : "泡泡枪手"
 "role.bubblegun.short" : "泡"
 "role.bubblegun.blurb" : "和我一起欣赏泡泡秀吧！"
 "options.role.bubblegun.detail" : "泡泡枪手可以发射一束泡泡。<br>碰到泡泡的玩家会死亡，同时泡泡中的尸体无法报告。"
@@ -840,6 +874,7 @@
 "role.reaper.short" : "送"
 "role.reaper.blurb" : "拖走尸体来欺骗船员"
 "options.role.reaper.detail" : "送葬者可以拖拽尸体。"
+"options.role.reaper.useVentWhileHoldingDeadbody" : "拖拽尸体时可以使用通风口"
 "stats.reaper.ventWithDeadBody" : "携带尸体时使用通风口次数"
 
 "role.sniper.name" : "狙击手"
@@ -997,6 +1032,52 @@
 "options.role.scarlet.numOfCommand" : "号召最大使用次数"
 "stats.scarlet.kept" : "指定备胎次数"
 
+"role.spectre.name" : "狐妖"
+"role.spectre.short" : "狐"
+"role.spectre.blurb" : "藏匿于混沌之间"
+"options.role.spectre.detail" : "狐妖如果活到最后即可抢夺其他人胜利。<br>但是，如果在一段时间没有吃到油豆腐会饿死。"
+"options.role.spectre.vanishCost" : "隐身消耗饱食度量"
+"options.role.spectre.vanishCooldown" : "隐身冷却时间"
+"options.role.spectre.vanishDuration" : "隐身持续时间"
+"options.role.spectre.numOfDishes" : "地图中油豆腐最大出现数量"
+"options.role.spectre.satiety" : "一块油豆腐代表秒数"
+"options.role.spectre.maxSatiety" : "最大饱食度"
+"options.role.spectre.initialSatiety" : "初始饱食度"
+"options.role.spectre.requiredSatietyForWinning" : "胜利所需最少饱食度"
+"options.role.spectre.friesReplenishmentCooldown" : "地图中油豆腐自动恢复所需时间"
+"options.role.spectre.showWhereKillersAre" : "显示带刀玩家位置"
+"options.role.spectre.showDishesOnMap" : "地图中显示油豆腐位置"
+"options.role.spectre.clairvoyance" : "拥有透视能力"
+"options.role.spectre.immoralistVariation" : "追随者分配设定"
+"options.role.spectre.immoralistVariation.none" : "无"
+"options.role.spectre.immoralistVariation.spectreFollower" : "狐狸"
+"options.role.spectre.immoralistVariation.immoralist" : "背德者"
+"options.role.spectre.group.dish" : "油豆腐设定"
+"options.role.spectre.group.vanish" : "拥有隐身能力"
+"stats.spectre.vanish" : "隐身使用次数"
+"stats.spectre.eatFries" : "食用油豆腐次数"
+
+"role.spectreFollower.name" : "狐狸"
+"role.spectreFollower.short" : "狸"
+"role.spectreFollower.blurb" : "有理想的狐狸"
+"options.role.spectreFollower.detail" : "狐狸是狐妖的分身跟班。<br>狐狸可以通过吃油豆腐为狐妖恢复饱食度。"
+"options.role.spectreFollower.satietyRate" : "油豆腐恢复饱食度数"
+"options.role.spectreFollower.showDishesOnMap" : "地图中显示油豆腐位置"
+"stats.spectreFollower.eatFries" : "食用油豆腐次数"
+
+"role.spectreImmoralist.name" : "背德者"
+"role.spectreImmoralist.short" : "背"
+"role.spectreImmoralist.blurb" : "被蛊惑而走上不正之道"
+"options.role.spectreImmoralist.detail" : "背德者是被狐妖蛊惑的玩家。<br>背德者活着时可以供奉油豆腐，死亡时可以拿走油豆腐。"
+"options.role.spectreImmoralist.respawnCooldown" : "供奉冷却时间"
+"options.role.spectreImmoralist.respawnDuration" : "供奉所需时间"
+"options.role.spectreImmoralist.showDishesOnMap" : "地图中显示油豆腐位置"
+"options.role.spectreImmoralist.canSuicide" : "可以自杀"
+"options.role.spectreImmoralist.showKillFlash" : "显示击杀闪光"
+"stats.spectreImmoralist.respawnFries" : "供奉食物次数"
+"stats.spectreImmoralist.removeFries" : "拿走食物次数"
+"stats.spectreImmoralist.suicide" : "自杀次数"
+
 "role.vulture.name" : "秃鹫"
 "role.vulture.short" : "鹫"
 "role.vulture.blurb" : "真是美味啊"
@@ -1123,10 +1204,10 @@
 "options.role.obsessional.canWinEvenIfObsessionalTargetDie" : "即使暗恋目标死亡也能胜利"
 "options.role.obsessional.canWinEvenIfObsessionalDie" : "即使自身死亡也能胜利"
 "options.role.obsessional.obsessionalSuicideWhenObsessionalTargetDie" : "暗恋目标死亡会殉情"
-"options.role.obsessional.impostorObsessionalObsessesOver" : "伪装者玩家也能成为目标"
+"options.role.obsessional.impostorObsessionalObsessesOver" : "伪装者玩家暗恋目标可以是"
 "options.role.obsessional.impostorObsessionalObsessesOver.default" : "全部"
 "options.role.obsessional.impostorObsessionalObsessesOver.neutralOnly" : "仅第三方阵营"
-"options.role.obsessional.impostorObsessionalObsessesOver.nonCrewmate" : "非船员阵营"
+"options.role.obsessional.impostorObsessionalObsessesOver.nonCrewmate" : "除伪装者阵营"
 "role.obsessional.taskText" : "[暗恋者]暗恋目标是%PLAYER%。"
 
 "role.scarletLover.name" : "魅魔的恋人"
@@ -1159,6 +1240,7 @@
 "teams.paparazzo" : "摄影师"
 "teams.scarlet" : "魅魔"
 "teams.vulture" : "秃鹫"
+"teams.spectre" : "狐妖"
 
 # Perks
 
@@ -1174,6 +1256,9 @@
 
 "perk.acceleration.name" : "敏捷"
 "perk.acceleration.detail" : "使用后持续%D%秒，移动速度提高%R%倍。 <br>此特技有%CD%秒冷却。"
+"perk.acceleration.cooldown" : "敏捷冷却时间"
+"perk.acceleration.duration" : "加速持续时间"
+"perk.acceleration.rate" : "加速倍率"
 
 "perk.flipX.name" : "镜像"
 "perk.flipX.detail" : "使所有玩家的画面左右翻转。"
@@ -1198,6 +1283,10 @@
 
 "perk.taskReduction.name" : "算计"
 "perk.taskReduction.detail" : "减少一个任务。<br>如果完成了所有任务，那么则无效。"
+
+"perk.ventRelocate.name" : "搬迁"
+"perk.ventRelocate.detail" : "可以移动一次通风口。<br>使用后抓住通风口并可以在%D%秒期间拖动通风口。<br>持续时间结束或再次使用，将释放通风口在当前位置。"
+"perk.ventRelocate.duration" : "拖动持续时间"
 
 "perk.emergencyButton.name" : "紧急会议"
 "perk.emergencyButton.detail" : "随时随地发起会议。<br>使用后仍然算作在总发起紧急会议数"
@@ -1406,6 +1495,12 @@
 "button.label.bubble" : "发射泡泡"
 "button.label.appeal" : "特写"
 "button.label.playAchievement" : "高亮成就"
+"button.label.seal" : "封锁"
+"button.label.vent.seal.remove" : "去除"
+"button.label.vanish" : "隐身"
+"button.label.immoralist.place" : "供奉"
+"button.label.immoralist.remove" : "取走"
+"button.label.immoralist.suicide" : "自杀"
 
 # Game
 
@@ -1482,6 +1577,7 @@
 "state.gassed" : "烟气中毒"
 "state.bubbled" : "泡中窒息"
 "state.meteor" : "陨石砸落"
+"state.starved" : "饿死"
 
 # Endings
 
@@ -1496,6 +1592,7 @@
 "end.paparazzo" : "摄影师%EXTRA%胜利"
 "end.avenger" : "复仇者%EXTRA%胜利"
 "end.scarlet" : "魅魔%EXTRA%胜利"
+"end.spectre" : "狐妖%EXTRA%勝利"
 "end.nogame" : "无效游戏"
 
 "end.extra.lover" : " <color=#FFFFFF>+</color>恋人"
@@ -1866,6 +1963,7 @@
 "hint.freeplay.detail" : "您可以从游戏内的设置中更改游戏模式。<br>通过自由游戏，即使是一个人也可以开始游戏，并检查每个职业能力的可用性。"
 "hint.overlay.title" : "叠加显示"
 "hint.overlay.detail" : "当你的光标悬停在游戏中的文本或其他显示上时，额外信息可能会显示在叠加层。<br>请试着把光标放到你感兴趣的项目上。"
+"hint.ui.exit" : "按下[Esc]可以返回标题画面。"
 
 # Marketplace
 
@@ -1974,6 +2072,8 @@
 "document.tip.winCond.dancer" : "完成指定次数的死亡预言便会携带因死亡预言而死的人获胜。"
 "document.tip.winCond.scarlet.title" : "窃取胜利"
 "document.tip.winCond.scarlet" : "和本命存活且本命达到胜利条件，那么将和本命覆盖并夺取胜利。"
+"document.tip.winCond.spectre.title" : "窃取胜利"
+"document.tip.winCond.spectre" : "狐妖存活并且饱食度在大于指定饱食度将窃取其他阵营胜利。<br>但是不能窃取破坏胜利。"
 
 "options.assignment.assignOpToHost.detail" : "开启后，主持人可以在游戏中使用指令。<br>一般情况开启没有任何意义。"
 "options.assignment.ghostAssignmentMethod.detail" : "你可以更改鬼魂职业的分配方式。<br> -<b>标准</b>:死亡的玩家始终可以分配到可用职业之一。<br> -<b>刺激</b>: 分配概率会影响你能否获得鬼魂职业。"
@@ -2023,6 +2123,7 @@
 "options.role.embroilPlayersOnExile.detail" : "被放逐时你可以连带一名玩家。<br>被连带目标只有非伪装者玩家。"
 
 "options.role.madmate.limitEmbroiledPlayersToVoters.detail" : "如果开启这个选项被连带的玩家只会从投票的玩家中选择。"
+"options.role.madmate.embroilDelay.detail" : "叛徒被放逐时延迟连带幸存玩家。<br>当叛徒被放逐，会在指定会议次数后才会触发连带。<br><br>为0时，会在当前会议连带一个幸存玩家。"
 "options.role.madmate.canIdentifyImpostors.detail" : "配置后可以通过完成指定任务知晓一定量的伪装者玩家。"
 
 "options.role.mayor.fixedVotes.detail" : "开启后只能投出固定票数。"
@@ -2072,6 +2173,9 @@
 
 "options.role.scarlet.graceUntilDecidingFavorite.detail" : "如果魅魔没有在配置的时间内确定本命，将会直接死亡。<br>会议期间（含会议结束的总结）内，计时器不会计数。<br>※ 如果这个时间太短，那么魅魔将很难生存。"
 "options.role.scarlet.numOfCommand.detail" : "魅魔可以在会议中发动<b>号召</b>来让本命和备胎的投票与自己的投票选择一致。"
+
+"options.role.spectre.satiety.detail" : "该值是配置一块油豆腐相当于多少秒，吃掉会补充多少秒，也相当于一种持续时间。"
+"options.role.spectre.maxSatiety.detail" : "一格饱食度的持续时间等于一块油豆腐代表的时间，即按倍率计算。<br>下面含有倍率的选项均参考本解释。"
 
 "options.role.jailer.inheritAbilityOnDying.detail" : "开启后，你死亡时可以让另一个队友继承你的能力。"
 
@@ -2382,6 +2486,24 @@
 "role.scarlet.ability.kept" : "将该玩家指定为备胎，魅魔会知晓备胎的职业。<br>如果魅魔与备胎之间有一方死亡，另一方不会殉情。"
 "role.scarlet.ability.hourglass" : "如果长时间不指定本命，那么会因为寂寞导致死亡。<br>会议期间，倒计时不会读秒。"
 "role.scarlet.ability.meeting" : "使用<b>号召</b>可以强制让本命和备胎同时投票一名玩家。"
+
+"role.spectre.winCond" : "当饱食度达到<var>#NUM</var>以上时游戏结束（不含破坏导致的游戏结束）。"
+"role.spectre.ability.title" : "固有能力【妖生之道】"
+"role.spectre.ability.main" : "狐妖需要趁别人不注意时偷吃油豆腐。<br>合理使用隐身更快的获胜。"
+"role.spectre.rule.fries" : "油豆腐将会出现在地图上。<br>狐妖可以对装有油豆腐的盘子进行互动，互动时会进入一个吃油豆腐的小游戏。<br>饱食度耗尽就会饿死，所以要多多注意。<br>要想获胜，你需要在游戏结束前保持一定程度的饱食度。"
+"role.spectre.ability.vanish" : "使用后会消耗一定饱食度进入隐身状态。<br>饱食度不足一块油豆腐时无法激活。"
+"role.spectre.follower.winCond" : "跟随狐妖获胜（如果狐妖死亡，就会跟随死亡）。"
+
+"role.spectre.follower.ability.title" : "固有能力【贪吃】"
+"role.spectre.follower.ability.main" : "狐狸和狐妖共享一个饱食度。<br>偷吃油豆腐可以帮助狐妖保持满腹状态。"
+"role.spectre.follower.rule.fries" : "油豆腐将会出现在地图上。<br>狐狸可以对装有油豆腐的盘子进行互动，互动时会进入一个吃油豆腐的小游戏。"
+
+"role.spectre.immoralist.winCond" : "跟随狐妖获胜（如果狐妖死亡，就会跟随死亡）。"
+"role.spectre.immoralist.ability.title" : "固有能力【妖信徒】"
+"role.spectre.immoralist.ability.main" : "拥有两个不同的能力，分别在活着的时候和死着的时候。<br>利用这些能力帮助狐妖"
+"role.spectre.immoralist.ability.alive" : "活时的能力，背德者可以供奉油豆腐。<br>靠近空盘子并使用该能力，使用后会重新出现一个油豆腐。"
+"role.spectre.immoralist.ability.dead" : "死时的能力，背德者可以取走油豆腐。<br>靠近盛放着油豆腐的盘子并使用该能力，使用后油豆腐就会消失变成空盘子。"
+"role.spectre.immoralist.ability.suicide" : "背德者拥有自己掌握死亡的能力。"
 
 "role.extraMission.winCond" : "自身胜利条件达成时，目标必须在游戏结束前死亡。<br>否则你将无法胜利。"
 
