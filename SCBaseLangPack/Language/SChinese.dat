@@ -640,7 +640,7 @@
 "options.role.ubiquitous.doorHackCoolDown" : "黑入门禁冷却时间"
 "options.role.ubiquitous.doorHackRadious" : "黑入门禁影响范围"
 "role.ubiquitous.droneRange" : "飞手<color=white>: 无人机检测范围</color>"
-"stats.ubiquitous.drones" : 无人机召唤次数"
+"stats.ubiquitous.drones" : "无人机召唤次数"
 
 # Impostor Roles
 
@@ -1053,7 +1053,7 @@
 "options.role.spectre.immoralistVariation.spectreFollower" : "狐狸"
 "options.role.spectre.immoralistVariation.immoralist" : "背德者"
 "options.role.spectre.group.dish" : "油豆腐设定"
-"options.role.spectre.group.vanish" : "拥有隐身能力"
+"options.role.spectre.group.vanish" : "隐身能力设定"
 "stats.spectre.vanish" : "隐身使用次数"
 "stats.spectre.eatFries" : "食用油豆腐次数"
 
@@ -1245,6 +1245,7 @@
 # Perks
 
 "perkui.message.noncrew" : "船员无法从怪异花获得特技"
+"perkui.message.noncrewWarning" : "**注意！这是非船员才能使用的特技！**"
 "perkui.message.swap" : "通过当前所持特技交换获得"
 "perkui.message.obtain" : "通过交互操作获得特技"
 
@@ -1501,6 +1502,7 @@
 "button.label.immoralist.place" : "供奉"
 "button.label.immoralist.remove" : "取走"
 "button.label.immoralist.suicide" : "自杀"
+"button.label.fixPos" : "脱离卡点"
 
 # Game
 
