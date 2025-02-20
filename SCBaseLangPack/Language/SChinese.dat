@@ -604,6 +604,16 @@
 "options.role.noisemaker.detail" : "大嗓门被击杀会发出警报声"
 "options.role.noisemaker.noiseDuration" : "警报声持续时间"
 
+"role.oracle.name" : "占卜师"
+"role.oracle.short" : "占"
+"role.oracle.blurb" : "你可以查验对方的职业"
+"options.role.oracle.detail" : "占卜师可以占卜其他玩家的职业。"
+"options.role.oracle.oracleCooldown" : "占卜冷却时间"
+"options.role.oracle.oracleAdditionalCooldown" : "占卜冷却时间追加"
+"options.role.oracle.oracleDuration" : "占卜所需时间"
+"options.role.oracle.numOfCandidates" : "占卜后得知职业数"
+"stats.oracle.oracle" : "使用占卜次数"
+
 "role.phosphorus.name" : "提灯人"
 "role.phosphorus.short" : "提"
 "role.phosphorus.blurb" : "用灯光带走黑暗"
@@ -639,7 +649,7 @@
 "role.provocateur.blurb" : "我死了，你也别想活着!"
 "options.role.provocateur.detail" : "挑衅者可以通过挑衅技能反杀攻击者。<br>合理运用技能，以备不时之需。"
 "options.role.provocateur.embroilCoolDown" : "挑衅冷却时间"
-"options.role.provocateur.embroilAdditionalCoolDown" : "挑衅未触发惩罚冷却时间"
+"options.role.provocateur.embroilAdditionalCoolDown" : "挑衅冷却时间追加"
 "options.role.provocateur.embroilDuration" : "挑衅持续时间"
 "stats.provocateur.taskPhase" : "行动期间连带次数"
 "stats.provocateur.exile" : "会议期间连带次数"
@@ -1219,7 +1229,7 @@
 "options.role.disclosure.showCursorAtLateVoting" : "投票结算时显示鼠标光标"
 
 "role.extraMission.name" : "额外任务"
-"role.extraMission.generalBlurb" : "你获得额外的胜利"
+"role.extraMission.generalBlurb" : "铲除眼中钉！"
 "options.role.extraMission.detail" : "你需要让你的目标死亡。<br>如果对方没有死亡你将不能胜利。"
 "role.extraMission.taskText" : "[额外任务]想办法让%PLAYER%死亡。"
 
@@ -1227,6 +1237,20 @@
 "role.tieBreaker.generalBlurb" : "我将是破局之人"
 "options.role.tieBreaker.detail" : "拥有破平者的玩家相当于有1.5票。"
 "stats.tieBreaker.tieBreaking" : "触发破平次数"
+
+"role.trilemma.name" : "三角仇"
+"role.trilemma.generalBlurb" : "不共戴天之仇！"
+"options.role.trilemma.detail" : "三名玩家组成一组三角仇。<br>拥有三角仇的玩家需要让其他两个人死亡才能获胜。"
+"role.trilemma.blurb" : "你陷入了一场纷争！"
+"options.role.trilemma.numOfTrilemma" : "最大组数"
+"options.role.trilemma.impostorAssignment" : "伪装者分配数量"
+"options.role.trilemma.neutralAssignment" : "第三方分配数量"
+"options.role.trilemma.assignment.zero" : "0人"
+"options.role.trilemma.assignment.maxOne" : "最大1人"
+"options.role.trilemma.assignment.one" : "1人"
+"options.role.trilemma.assignment.oneOrMore" : "1人以上"
+"options.role.trilemma.assignment.zeroOrMore" : "0人以上"
+"role.trilemma.taskText" : "[三角仇] %PLAYERS%"
 
 "role.lover.name" : "恋人"
 "options.role.lover.detail" : "恋人两人一组。如果一方死亡，另一个也会死亡。"
@@ -1548,6 +1572,7 @@
 "button.label.madmate.suicide" : "自杀"
 "button.label.fixPos" : "脱离卡点"
 "button.label.medicine" : "人格分离药"
+"button.label.oracle" : "占卜"
 
 # Game
 
@@ -1901,6 +1926,8 @@
 "achievement.type.costume" : "特殊装饰成就"
 "achievement.type.innersloth" : "Among Us"
 "achievement.type.perk" : "特技"
+"achievement.type.uljun" : "Ul-jun"
+"achievement.type.meme" : "Meme-mura"
 
 "achievement.group.recently" : "最近达成"
 "achievement.group.roles" : "职业"
@@ -1959,16 +1986,23 @@
 "help.color.icon.april1" : "这个颜色是四月限定成就的颜色（樱花色）"
 "help.color.icon.august" : "这个颜色是八月限定成就的颜色（绿色或黑色）"
 "help.rolePreview.header" : "职业类型"
-"help.rolePreview.modImpostor" : "伪装者(Mod)"
+"help.rolePreview.modImpostor.100" : "伪装者 (Mod-100%出现)"
+"help.rolePreview.modImpostor.random" : "伪装者 (Mod-概率出现)"
+"help.rolePreview.modImpostor.additional" : "伪装者 (Mod-跟随出现)"
 "help.rolePreview.vanillaImpostor" : "伪装者"
-"help.rolePreview.modNeutral" : "第三方(Mod)"
-"help.rolePreview.modCrewmate" : "船员(Mod)"
+"help.rolePreview.modNeutral.100" : "第三方 (Mod-100%出现)"
+"help.rolePreview.modNeutral.random" : "第三方 (Mod-概率出现)"
+"help.rolePreview.modNeutral.additional" : "第三方 (Mod-跟随出现)"
+"help.rolePreview.modCrewmate.100" : "船员 (Mod-100%出现)"
+"help.rolePreview.modCrewmate.random" : "船员 (Mod-概率出现)"
+"help.rolePreview.modCrewmate.additional" : "船员 (Mod-跟随出现)"
 "help.rolePreview.vanillaCrewmate" : "船员"
 "help.rolePreview.category.impostor" : "伪装者职业"
 "help.rolePreview.category.neutral" : "第三方职业"
 "help.rolePreview.category.crewmate" : "船员职业"
 "help.rolePreview.inner.100" : "100%出现"
 "help.rolePreview.inner.random" : "概率出现"
+"help.rolePreview.inner.additional" : "跟随出现"
 "help.rolePreview.inner.modifiers" : "附加能力"
 "help.rolePreview.inner.ghostRoles" : "鬼魂职业"
 "help.rolePreview.inner.jackalized.100" : "豺狼化100%出现"
@@ -2407,12 +2441,22 @@
 "role.justice.ability.meeting" : "在会议中，玩家头像上会显示技能按钮。<br>你可以选择你想审判的玩家。"
 "role.justice.tips" : "・这个职业与<color=#ff7f00>超</color><color=#ff0000>新</color><color=#00ff00>职业</color>进行联动(原职业: 大神官)。"
 
+"role.oracle.ability.title" : "固有能力【魔法水晶】"
+"role.oracle.ability.main" : "可以通过占卜知晓其他玩家职业。<br>可以通过设置让占卜获得更多职业使其很难确定。"
+"role.oracle.ability.oracle" : "靠近其他玩家使用技能即可进行占卜。" 
+
 "role.ubiquitous.ability.title" : "固有能力【无处不在】"
 "role.ubiquitous.ability.main" : "每个任务阶段你都可以召唤一个<b>额外</b>无人机。<br>会议结束后，这些无人机将不能被<b>控制</b>并对其他玩家可见。<br>不能控制的无人机会上传附近玩家并在地图中显示。"
 "role.ubiquitous.ability.drone" : "切换到无人机视角并操纵它。<br>如果额外的无人机不存在，就会召唤一个新的。"
 "role.ubiquitous.ability.callBack" : "召回额外的无人机。"
 "role.ubiquitous.ability.doorHack" : "无人机可以破解附近的门。"
 "role.ubiquitous.tips" : "・即使你没有链接无人机也可以在左下角的小窗口查看无人机周围情况。"
+
+"role.jekyllAndHyde.winCond" : "杰基尔：完成任务与船员一起胜利。<br>海德：与伪装者一起获胜。"
+"role.jekyllAndHyde.ability.title" : "固有能力【多重人格】"
+"role.jekyllAndHyde.ability.main" : "每次会议结束，就会切换一次人格。<br>杰基尔是船员阵营的，海德是伪装者阵营的。<br>海德可以击杀其他玩家，但是有击杀次数限制。<br>如果你击杀了一名伪装者玩家，你就彻底成为一名伪装者，不会在改变人格。"
+"role.jekyllAndHyde.ability.drug" : "杰基尔可以通过完成任务获得<b>人格分离药</b>。<br>使用后立刻变成海德人格。"
+"role.jekyllAndHyde.tips" : "・人格会在被放逐的同时切换，如果导致游戏结束，胜负会根据切换的人格判定。<br>・游戏开始时，人格是随机的。<br>・死亡后不会切换人格。"
 
 "role.alien.ability.title" : "固有能力【电磁干扰】"
 "role.alien.ability.main" : "外星技术会影响些终端设备。<br>使一些终端设备停止更新信息或不显示玩家信息。"
@@ -2552,7 +2596,9 @@
 "role.spectre.immoralist.ability.dead" : "死时的能力，背德者可以取走油豆腐。<br>靠近盛放着油豆腐的盘子并使用该能力，使用后油豆腐就会消失变成空盘子。"
 "role.spectre.immoralist.ability.suicide" : "背德者拥有自己掌握死亡的能力。"
 
-"role.extraMission.winCond" : "自身胜利条件达成时，目标必须在游戏结束前死亡。<br>否则你将无法胜利。"
+"role.extraMission.winCond" : "自身胜利条件达成时，目标必须在游戏结束前死亡，否则你将无法胜利。"
+
+"role.trilemma.winCond" : "自身胜利条件达成时，除你以外的三角仇必须在游戏结束前死亡。<br>如果有除你以外任何人存活，你将无法胜利。"
 
 "role.lover.winCond" : "当存活玩家只有3个或3个以下，且你与你的爱人存活。#ADD"
 "role.lover.winCond.additional" : "<br>或者你的爱人获胜并且还存活，你也可以共享<var>胜利</var>。"
