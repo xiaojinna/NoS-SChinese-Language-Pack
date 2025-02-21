@@ -7,7 +7,9 @@
 
 注：~~作者不是小黑子，是真爱粉~~
 # 其他信息
-我将汉化内容拆成**3**份，这是其中之一。
+在Nos官方2.16.1之前的版本，我将汉化内容拆成**3**份，这是其中之一。
+[旧版本成就汉化包](https://github.com/xiaojinna/NoS-SChinese-Achievement-Language-Pack)
+[旧版本颜色汉化包](https://github.com/xiaojinna/NoS-SChinese-Color-Language-Pack)
 ### 关于成就翻译
 成就内容含大量梗，对我来说可能有点勉勉强强，我不能完全翻译的接地气。
 
