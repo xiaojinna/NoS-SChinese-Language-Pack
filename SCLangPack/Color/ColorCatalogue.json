@@ -1,0 +1,256 @@
+[
+	{
+		"MainColor" : {
+			"R" : 17,
+			"G" : 128,
+			"B" : 45
+		},
+		"ShadowColor" : {
+			"R" : 17,
+			"G" : 128,
+			"B" : 45
+		},
+		"TranslationKey" : "color.xiaojin.lulicolor",
+		"Category" : "xiaojin"
+	},
+	{
+		"MainColor" : {
+			"R" : 238,
+			"G" : 84,
+			"B" : 178
+		},
+		"ShadowColor" : {
+			"R" : 238,
+			"G" : 84,
+			"B" : 178
+		},
+		"TranslationKey" : "color.xiaojin.daocolor",
+		"Category" : "xiaojin"
+	},
+	{
+		"MainColor" : {
+			"R" : 63,
+			"G" : 71,
+			"B" : 78
+		},
+		"ShadowColor" : {
+			"R" : 63,
+			"G" : 71,
+			"B" : 78
+		},
+		"TranslationKey" : "color.xiaojin.jiusuicolor",
+		"Category" : "xiaojin"
+	},
+	{
+		"MainColor" : {
+			"R" : 215,
+			"G" : 225,
+			"B" : 241
+		},
+		"ShadowColor" : {
+			"R" : 215,
+			"G" : 225,
+			"B" : 241
+		},
+		"TranslationKey" : "color.xiaojin.myscolor",
+		"Category" : "xiaojin"
+	},
+	{
+		"MainColor" : {
+			"R" : 56,
+			"G" : 255,
+			"B" : 221
+		},
+		"ShadowColor" : {
+			"R" : 56,
+			"G" : 255,
+			"B" : 221
+		},
+		"TranslationKey" : "color.xiaojin.ydsrcolor",
+		"Category" : "xiaojin"
+	},
+	{
+		"MainColor" : {
+			"R" : 80,
+			"G" : 240,
+			"B" : 57
+		},
+		"ShadowColor" : {
+			"R" : 80,
+			"G" : 240,
+			"B" : 57
+		},
+		"TranslationKey" : "color.xiaojin.modcolor",
+		"Category" : "xiaojin"
+	},
+	{
+		"MainColor" : {
+			"R" : 215,
+			"G" : 100,
+			"B" : 100
+		},
+		"ShadowColor" : {
+			"R" : 215,
+			"G" : 100,
+			"B" : 100
+		},
+		"TranslationKey" : "color.xiaojin.xjcolor",
+		"Category" : "xiaojin"
+	},
+	{
+		"MainColor" : {
+			"R" : 255,
+			"G" : 0,
+			"B" : 0
+		},
+		"ShadowColor" : {
+			"R" : 255,
+			"G" : 0,
+			"B" : 0
+		},
+		"TranslationKey" : "color.xiaojin.red",
+		"Category" : "xiaojin"
+	},
+	{
+		"MainColor" : {
+			"R" : 0,
+			"G" : 255,
+			"B" : 0
+		},
+		"ShadowColor" : {
+			"R" : 0,
+			"G" : 255,
+			"B" : 0
+		},
+		"TranslationKey" : "color.xiaojin.green",
+		"Category" : "xiaojin"
+	},
+	{
+		"MainColor" : {
+			"R" : 0,
+			"G" : 0,
+			"B" : 255
+		},
+		"ShadowColor" : {
+			"R" : 0,
+			"G" : 0,
+			"B" : 255
+		},
+		"TranslationKey" : "color.xiaojin.blue",
+		"Category" : "xiaojin"
+	},
+	{
+		"MainColor" : {
+			"R" : 255,
+			"G" : 255,
+			"B" : 0
+		},
+		"ShadowColor" : {
+			"R" : 255,
+			"G" : 255,
+			"B" : 0
+		},
+		"TranslationKey" : "color.xiaojin.yellow",
+		"Category" : "xiaojin"
+	},
+	{
+		"MainColor" : {
+			"R" : 255,
+			"G" : 0,
+			"B" : 255
+		},
+		"ShadowColor" : {
+			"R" : 255,
+			"G" : 0,
+			"B" : 255
+		},
+		"TranslationKey" : "color.xiaojin.purple",
+		"Category" : "xiaojin"
+	},
+	{
+		"MainColor" : {
+			"R" : 0,
+			"G" : 255,
+			"B" : 255
+		},
+		"ShadowColor" : {
+			"R" : 0,
+			"G" : 255,
+			"B" : 255
+		},
+		"TranslationKey" : "color.xiaojin.cyan",
+		"Category" : "xiaojin"
+	},
+	{
+		"MainColor" : {
+			"R" : 255,
+			"G" : 255,
+			"B" : 255
+		},
+		"ShadowColor" : {
+			"R" : 255,
+			"G" : 255,
+			"B" : 255
+		},
+		"TranslationKey" : "color.xiaojin.white",
+		"Category" : "xiaojin"
+	},
+	{
+		"MainColor" : {
+			"R" : 0,
+			"G" : 0,
+			"B" : 0
+		},
+		"ShadowColor" : {
+			"R" : 0,
+			"G" : 0,
+			"B" : 0
+		},
+		"TranslationKey" : "color.xiaojin.black",
+		"Category" : "xiaojin"
+	},
+	{
+		"MainColor" : {
+			"R" : 255,
+			"G" : 255,
+			"B" : 255
+		},
+		"ShadowColor" : {
+			"R" : 0,
+			"G" : 0,
+			"B" : 0
+		},
+		"TranslationKey" : "color.xiaojin.whiteblack",
+		"Category" : "xiaojin"
+	},
+	{
+		"MainColor" : {
+			"R" : 0,
+			"G" : 0,
+			"B" : 0
+		},
+		"ShadowColor" : {
+			"R" : 255,
+			"G" : 255,
+			"B" : 255
+		},
+		"TranslationKey" : "color.xiaojin.blackwhite",
+		"Category" : "xiaojin"
+	},
+	{
+		"MainColor" : {
+			"R" : 255,
+			"G" : 241,
+			"B" : 255
+		},
+		"ShadowColor" : {
+			"R" : 255,
+			"G" : 43,
+			"B" : 128
+		},
+		"TranslationKey" : "color.xiaojin.redmys",
+		"Category" : "xiaojin"
+	}
+
+
+]
