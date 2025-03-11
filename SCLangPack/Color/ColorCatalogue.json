@@ -10,7 +10,7 @@
 			"G" : 128,
 			"B" : 45
 		},
-		"TranslationKey" : "color.xiaojin.lulicolor",
+		"TranslationKey" : "color.xiaojin.鹿离",
 		"Category" : "xiaojin"
 	},
 	{
@@ -24,7 +24,7 @@
 			"G" : 84,
 			"B" : 178
 		},
-		"TranslationKey" : "color.xiaojin.daocolor",
+		"TranslationKey" : "color.xiaojin.叨叨",
 		"Category" : "xiaojin"
 	},
 	{
@@ -38,7 +38,7 @@
 			"G" : 71,
 			"B" : 78
 		},
-		"TranslationKey" : "color.xiaojin.jiusuicolor",
+		"TranslationKey" : "color.xiaojin.九岁",
 		"Category" : "xiaojin"
 	},
 	{
@@ -52,7 +52,7 @@
 			"G" : 225,
 			"B" : 241
 		},
-		"TranslationKey" : "color.xiaojin.myscolor",
+		"TranslationKey" : "color.xiaojin.名游社",
 		"Category" : "xiaojin"
 	},
 	{
@@ -66,7 +66,7 @@
 			"G" : 255,
 			"B" : 221
 		},
-		"TranslationKey" : "color.xiaojin.ydsrcolor",
+		"TranslationKey" : "color.xiaojin.样带",
 		"Category" : "xiaojin"
 	},
 	{
@@ -80,7 +80,7 @@
 			"G" : 240,
 			"B" : 57
 		},
-		"TranslationKey" : "color.xiaojin.modcolor",
+		"TranslationKey" : "color.xiaojin.猫豆",
 		"Category" : "xiaojin"
 	},
 	{
@@ -94,7 +94,7 @@
 			"G" : 100,
 			"B" : 100
 		},
-		"TranslationKey" : "color.xiaojin.xjcolor",
+		"TranslationKey" : "color.xiaojin.小巾",
 		"Category" : "xiaojin"
 	},
 	{
@@ -108,7 +108,7 @@
 			"G" : 0,
 			"B" : 0
 		},
-		"TranslationKey" : "color.xiaojin.red",
+		"TranslationKey" : "color.xiaojin.redcolor",
 		"Category" : "xiaojin"
 	},
 	{
@@ -122,7 +122,7 @@
 			"G" : 255,
 			"B" : 0
 		},
-		"TranslationKey" : "color.xiaojin.green",
+		"TranslationKey" : "color.xiaojin.greencolor",
 		"Category" : "xiaojin"
 	},
 	{
@@ -136,7 +136,7 @@
 			"G" : 0,
 			"B" : 255
 		},
-		"TranslationKey" : "color.xiaojin.blue",
+		"TranslationKey" : "color.xiaojin.bluecolor",
 		"Category" : "xiaojin"
 	},
 	{
@@ -150,7 +150,7 @@
 			"G" : 255,
 			"B" : 0
 		},
-		"TranslationKey" : "color.xiaojin.yellow",
+		"TranslationKey" : "color.xiaojin.yellowcolor",
 		"Category" : "xiaojin"
 	},
 	{
@@ -164,7 +164,7 @@
 			"G" : 0,
 			"B" : 255
 		},
-		"TranslationKey" : "color.xiaojin.purple",
+		"TranslationKey" : "color.xiaojin.purplecolor",
 		"Category" : "xiaojin"
 	},
 	{
@@ -178,35 +178,7 @@
 			"G" : 255,
 			"B" : 255
 		},
-		"TranslationKey" : "color.xiaojin.cyan",
-		"Category" : "xiaojin"
-	},
-	{
-		"MainColor" : {
-			"R" : 255,
-			"G" : 255,
-			"B" : 255
-		},
-		"ShadowColor" : {
-			"R" : 255,
-			"G" : 255,
-			"B" : 255
-		},
-		"TranslationKey" : "color.xiaojin.white",
-		"Category" : "xiaojin"
-	},
-	{
-		"MainColor" : {
-			"R" : 0,
-			"G" : 0,
-			"B" : 0
-		},
-		"ShadowColor" : {
-			"R" : 0,
-			"G" : 0,
-			"B" : 0
-		},
-		"TranslationKey" : "color.xiaojin.black",
+		"TranslationKey" : "color.xiaojin.cyancolor",
 		"Category" : "xiaojin"
 	},
 	{
@@ -216,11 +188,11 @@
 			"B" : 255
 		},
 		"ShadowColor" : {
-			"R" : 0,
-			"G" : 0,
-			"B" : 0
+			"R" : 255,
+			"G" : 255,
+			"B" : 255
 		},
-		"TranslationKey" : "color.xiaojin.whiteblack",
+		"TranslationKey" : "color.xiaojin.whitecolor",
 		"Category" : "xiaojin"
 	},
 	{
@@ -230,11 +202,39 @@
 			"B" : 0
 		},
 		"ShadowColor" : {
+			"R" : 0,
+			"G" : 0,
+			"B" : 0
+		},
+		"TranslationKey" : "color.xiaojin.blackcolor",
+		"Category" : "xiaojin"
+	},
+	{
+		"MainColor" : {
 			"R" : 255,
 			"G" : 255,
 			"B" : 255
 		},
-		"TranslationKey" : "color.xiaojin.blackwhite",
+		"ShadowColor" : {
+			"R" : 0,
+			"G" : 0,
+			"B" : 0
+		},
+		"TranslationKey" : "color.xiaojin.whiteblackcolor",
+		"Category" : "xiaojin"
+	},
+	{
+		"MainColor" : {
+			"R" : 0,
+			"G" : 0,
+			"B" : 0
+		},
+		"ShadowColor" : {
+			"R" : 255,
+			"G" : 255,
+			"B" : 255
+		},
+		"TranslationKey" : "color.xiaojin.blackwhitecolor",
 		"Category" : "xiaojin"
 	},
 	{
@@ -248,9 +248,105 @@
 			"G" : 43,
 			"B" : 128
 		},
-		"TranslationKey" : "color.xiaojin.redmys",
+		"TranslationKey" : "color.xiaojin.红温社长",
+		"Category" : "xiaojin"
+	},
+	{
+		"MainColor" : {
+			"R" : 221,
+			"G" : 254,
+			"B" : 0
+		},
+		"ShadowColor" : {
+			"R" : 221,
+			"G" : 254,
+			"B" : 0
+		},
+		"TranslationKey" : "color.xiaojin.老刘",
+		"Category" : "xiaojin"
+	},
+	{
+		"MainColor" : {
+			"R" : 236,
+			"G" : 153,
+			"B" : 67
+		},
+		"ShadowColor" : {
+			"R" : 236,
+			"G" : 153,
+			"B" : 67
+		},
+		"TranslationKey" : "color.xiaojin.烟雨",
+		"Category" : "xiaojin"
+	},
+	{
+		"MainColor" : {
+			"R" : 121,
+			"G" : 225,
+			"B" : 218
+		},
+		"ShadowColor" : {
+			"R" : 121,
+			"G" : 225,
+			"B" : 218
+		},
+		"TranslationKey" : "color.xiaojin.沐灵",
+		"Category" : "xiaojin"
+	},
+	{
+		"MainColor" : {
+			"R" : 104,
+			"G" : 196,
+			"B" : 175
+		},
+		"ShadowColor" : {
+			"R" : 104,
+			"G" : 196,
+			"B" : 175
+		},
+		"TranslationKey" : "color.xiaojin.困狗",
+		"Category" : "xiaojin"
+	},
+	{
+		"MainColor" : {
+			"R" : 255,
+			"G" : 184,
+			"B" : 137
+		},
+		"ShadowColor" : {
+			"R" : 255,
+			"G" : 184,
+			"B" : 137
+		},
+		"TranslationKey" : "color.xiaojin.蛋白",
+		"Category" : "xiaojin"
+	},
+	{
+		"MainColor" : {
+			"R" : 154,
+			"G" : 154,
+			"B" : 135
+		},
+		"ShadowColor" : {
+			"R" : 154,
+			"G" : 154,
+			"B" : 135
+		},
+		"TranslationKey" : "color.xiaojin.炎明",
+		"Category" : "xiaojin"
+	},
+	{
+		"MainColor" : {
+			"R" : 30,
+			"G" : 60,
+			"B" : 233
+		},
+		"ShadowColor" : {
+			"R" : 30,
+			"G" : 60,
+			"B" : 233
+		},
+		"TranslationKey" : "color.xiaojin.橄榄",
 		"Category" : "xiaojin"
 	}
-
-
 ]

@@ -64,6 +64,16 @@ $Achievement
 "ui.dragAndDrop" : "将文件拖放到此处"
 "ui.costume.missedCostume" : "想要显示其他玩家全球服装<br>必须下载对应装饰品资源<br><br>点击打开界面可以下载到全球服装"
 "ui.costume.unownedCostume" : "缺少的全球服装列表"
+"ui.error.stamp.notLoaded" : "正在加载表情包。<br>请稍候……"
+"ui.stamp.onTable" : "已选表情"
+"ui.stamp.all" : "可用表情"
+"ui.stamp.full" : "表情栏已满。<br>请选择要替换的表情。"
+"ui.stamp.select" : "请选择要替换的表情。"
+"ui.stamp.click.top.1" : "鼠标左击要替换的表情，然后在下方选择你想换的表情。"
+"ui.stamp.click.top.2" : "鼠标左击以替换表情。"
+"ui.stamp.click.bottom.1" : "鼠标左击以添加表情。"
+"ui.stamp.click.bottom.2" : "鼠标左击以移除表情"
+"ui.stamp.loading" : " (加载中或未知表情)"
 
 "ui.attribute.accel" : "加速：移动速度加快。"
 "ui.attribute.decel" : "减速：移动速度减慢。"
@@ -124,6 +134,8 @@ $Achievement
 "tutorial.variations.subAction" : "有些技能需要通过键盘触发对应的<b>子行为</b>。<br>鼠标悬停此处可以查看该行为的详细信息。"
 "tutorial.variations.helpInGame.title" : "游戏内帮助"
 "tutorial.variations.helpInGame.caption" : "按下%KEY%键时可以打开帮助页面。<br>在帮助页面可以查看自身的职业的能力、胜利条件以及称号"
+"tutorial.variations.meetingTool.title" : "地图标记辅助"
+"tutorial.variations.meetingTool.caption" : "玩家可以在会议中的小地图进行标记绘制。<br>合理运用帮助你快速理清游戏情况！"
 
 # Versions
 
@@ -270,6 +282,8 @@ $Achievement
 "options.meeting.extraEmergencyCooldownInTheEarlyCondition" : "结束前期所需死亡数"
 "options.meeting.waitingForHost" : "请等待主持人..."
 "options.meeting.showVoteState" : "显示投票状态"
+"options.meeting.prohibitMeetingTool" : "禁用地图标记辅助"
+"options.meeting.shortenCooldownAtGameStart" : "游戏初始阶段冷却时间缩短"
 
 "options.consoleRestriction" : "信息终端使用限制"
 "options.consoleRestriction.detail" : "对生命检测仪、管理控制台以及安保监控进行时间使用限制"
@@ -498,6 +512,24 @@ $Achievement
 "stats.echo.players" : "感知到玩家数量"
 "stats.echo.actions" : "感知到行为数量"
 
+"role.investigator.name" : "调查员"
+"role.investigator.short" : "查"
+"role.investigator.blurb" : "绝不放过任何线索"
+"options.role.investigator.detail" : "调查员可以追踪其他玩家的足迹并收集信息。"
+"options.role.investigator.investigateCooldown" : "调查冷却时间"
+"options.role.investigator.investigateDuration" : "调查持续时间"
+"options.role.investigator.investigateSpeed" : "调查足迹所需时间"
+"options.role.investigator.investigateEyesight" : "调查技能期间视野范围"
+"options.role.investigator.footprintDuration" : "凶手足迹留存时间"
+"role.investigator.overlay.title.unchecked" : "没有调查到足迹"
+"role.investigator.overlay.title.checked" : "%ROOM%的足迹"
+"role.investigator.overlay.notFound" : "正在调查中……<br>发现犯罪现场的时间越短，获取足迹的时间更快。"
+"role.investigator.overlay.fastFind" : "从发现犯罪现场到使用调查能力期间没有发起紧急会议。"
+"role.investigator.overlay.reportedImmediately" : "犯罪现场似乎在发起紧急会议之前。"
+"role.investigator.overlay.elapsed" : "紧急会议似乎在出现犯罪现场%ELAPSED%秒前发起的。"
+"role.investigator.overlay.killer" : "另外，这似乎是%TEAM%的杰作。"
+"stats.investigator.found" : "调查足迹次数"
+
 "role.jekyllAndHyde.name.jekyll" : "杰基尔"
 "role.jekyllAndHyde.name.hyde" : "海德"
 "role.jekyllAndHyde.name.combination" : "%J% & %H%"
@@ -527,6 +559,7 @@ $Achievement
 
 "role.madmate.name" : "叛徒"
 "role.madmate.short" : "叛"
+"role.madmate.prefix" : "背叛的"
 "role.madmate.blurb" : "帮助伪装者获得胜利"
 "options.role.madmate.detail" : "叛徒属于伪装者阵营。<br>去背刺船员帮助伪装者！"
 "options.role.madmate.canIdentifyImpostors" : "可知晓伪装者阵营玩家数量"
@@ -962,7 +995,7 @@ $Achievement
 "stats.stirrer.sabo" : "制幻使用次数"
 
 "role.thurifer.name" : "调香师"
-"role.thurifer.short" : "调"
+"role.thurifer.short" : "香"
 "role.thurifer.blurb" : "迷人的香味让人沉沦"
 "options.role.thurifer.detail" : "调香师可以通过香炉飘出的烟气来缓慢击杀其他人。"
 "options.role.thurifer.inhalationSpeed" : "香熏效果增长速度"
@@ -1398,6 +1431,9 @@ $Achievement
 "perk.meteor.sabotageText" : "陨石坠落警报：尽快远离陨石坠落地点！"
 "perk.meteor.meetingButtonText" : "由于陨石坠落警报拉响<br>因此无法召开紧急会议"
 
+"perk.footprint.name" : "泥足"
+"perk.footprint.detail" : "会留下全员可见的足迹。"
+
 # Location
 
 "location.skeld.admin" : "管理室"
@@ -1416,6 +1452,13 @@ $Achievement
 "location.skeld.storage" : "库房"
 "location.skeld.upperEngine" : "上引擎"
 "location.skeld.weapons" : "舰载武器室"
+"location.skeld.reactorAccess" : "十字路"
+"location.skeld.medBayAccess" : "医务室上方通道"
+"location.skeld.electricalAccess" : "配电室下方通道"
+"location.skeld.adminAccess" : "管理室左方通道"
+"location.skeld.commsAccess" : "通讯室上方通道"
+"location.skeld.rightAccess" : "右方通道"
+"location.skeld.weaponsAccess" : "舰载武器室左方通道"
 "location.mira.admin" : "管理室"
 "location.mira.balcony" : "露台"
 "location.mira.cafeteria" : "食堂"
@@ -1450,6 +1493,20 @@ $Achievement
 "location.polus.specimens" : "样本室"
 "location.polus.storage" : "库房"
 "location.polus.weapons" : "舰载武器室"
+"location.polus.nearDropship" : "运输船附近"
+"location.polus.lifeSupportToElectrical" : "氧气室到配电室中间通道"
+"location.polus.lifesupportLower" : "氧气室下方屋"
+"location.polus.commLeft" : "通讯室左侧"
+"location.polus.commLeft.short" : "通讯室左侧"
+"location.polus.breaker" : "配电板"
+"location.polus.specimenLeft" : "样本室左方通道"
+"location.polus.specimenRight" : "样本室上方通道"
+"location.polus.reactorLeft" : "抗震稳定器(左)"
+"location.polus.reactorLeft.short" : "左侧抗震稳定器"
+"location.polus.reactorRight" : "抗震稳定器(右)"
+"location.polus.reactorRight.short" : "右侧抗震稳定器"
+"location.polus.officeBuilding" : "办公室屋内"
+"location.polus.outside" : "屋外"
 "location.airship.brig" : "牢房"
 "location.airship.engine" : "引擎室"
 "location.airship.hallway" : "大厅"
@@ -1475,6 +1532,17 @@ $Achievement
 "location.airship.vaultRoom" : "保险库"
 "location.airship.viewingDeck" : "瞭望台"
 "location.airship.hallOfPortraits" : "肖像厅"
+"location.airship.securityDeck" : "保安室观景甲板"
+"location.airship.securityDeck.short" : "保安室扩展平台"
+"location.airship.commHall" : "通讯室下方通道"
+"location.airship.engineUpper" : "引擎室上方通道"
+"location.airship.engineUpper.short" : "引擎室上方通道"
+"location.airship.showerInner" : "淋浴室内部"
+"location.airship.showerInner.short" : "淋浴室内部"
+"location.airship.cargoSafe" : "货舱保险库"
+"location.airship.meetingRight" : "会议室内部"
+"location.airship.meetingRight.short" : "会议室内部"
+"location.airship.ventilation" : "换气室"
 "location.fungle.beach" : "沙滩"
 "location.fungle.cafeteria" : "食堂"
 "location.fungle.campfire" : "篝火处"
@@ -1495,6 +1563,15 @@ $Achievement
 "location.fungle.storage" : "库房"
 "location.fungle.sleepingQuarters" : "食堂"
 "location.fungle.upperEngine" : "上引擎室"
+"location.fungle.jungleLabo" : "实验室附近"
+"location.fungle.jungleLabo.short" : "实验室周围的丛林区域"
+"location.fungle.jungleReactor" : "核反应堆附近"
+"location.fungle.jungleGreenhouse" : "温室附近"
+"location.fungle.beachToJungle" : "沙滩到丛林中间通道"
+"location.fungle.beachSplashzone" : "沙滩左侧"
+"location.fungle.beachCafeteria" : "食堂附近"
+"location.fungle.highlandsComm" : "通讯室附近"
+"location.fungle.highlandsComm.short" : "通讯室附近"
 "location.outside" : "室外"
 
 # Button
@@ -1583,6 +1660,7 @@ $Achievement
 "button.label.fixPos" : "脱离卡点"
 "button.label.medicine" : "人格分离药"
 "button.label.oracle" : "占卜"
+"button.label.investigate" : "调查"
 
 # Game
 
@@ -1606,6 +1684,15 @@ $Achievement
 "game.metaAbility.perks.noncrewmateOnly" : "非船员用特技"
 "game.metaAbility.equipped" : "分配中"
 "game.metaAbility.unequipped" : "未分配"
+
+# Meeting Tool
+
+"meeting.memo.page" : "页码: "
+"meeting.memo.player.line" : "%PLAYER%的移动路线"
+"meeting.memo.player.type" : "选择图标"
+"meeting.memo.player.color" : "选择玩家"
+"meeting.memo.control.icon" : "鼠标左键: 编辑<br>鼠标右键: 删除图标"
+"meeting.memo.control.line" : "鼠标左键: 更改颜色<br>鼠标右键: 删除路线"
 
 # Statistics
 
@@ -1692,6 +1779,7 @@ $Achievement
 "help.tabs.options" : "设置"
 "help.tabs.slides" : "幻灯片"
 "help.tabs.achievements" : "成就"
+"help.tabs.stamps" : "表情包"
 "help.slides.share" : "共享"
 "help.command" : "指令"
 "help.command.nogame" : "无效游戏"
@@ -1768,6 +1856,7 @@ $Achievement
 "input.spectator" : "退出旁观"
 "input.spectatorRight" : "切换目标(→)"
 "input.spectatorLeft" : "切换目标(←)"
+"input.stamp" : "表情栏"
 "input.recording" : "等待按键信息..."
 
 # Client Configurations
@@ -1796,6 +1885,10 @@ $Achievement
 "config.client.social.showAppealSettings" : "显示特写设置"
 "config.client.social.appealDuration" : "特写持续时间"
 "config.client.social.note" : "更改仅在下次创建房间时生效。"
+"config.client.avoidingColorDuplication" : "颜色重复提示"
+"config.client.avoidingColorDuplication.off" : "关闭"
+"config.client.avoidingColorDuplication.soft" : "宽松"
+"config.client.avoidingColorDuplication.strict" : "严格"
 
 # Preset
 
@@ -1923,7 +2016,7 @@ $Achievement
 "achievement.ui.cond" : "[条件]"
 "achievement.ui.allAchievements" : "全部"
 "achievement.ui.shown" : "显示"
-"achievement.ui.shown.search" : ""%KEYWORD%"的搜索结果"
+"achievement.ui.shown.search" : "“%KEYWORD%”的搜索结果"
 "achievement.ui.cleared" : "[已解锁]"
 "achievement.ui.equipped" : "[已装备]"
 "achievement.ui.setTitle" : "单击此处设置成就内容。"
@@ -2103,8 +2196,8 @@ $Achievement
 "marketplace.tab.publish" : "发布项目"
 "marketplace.type.addons" : "插件"
 "marketplace.type.cosmetics" : "装饰品"
-"marketplace.searchMore.addons" : "搜索更多插件从 "%QUERY%""
-"marketplace.searchMore.cosmetics" : "搜索更多装饰品从"%QUERY%""
+"marketplace.searchMore.addons" : "搜索更多插件从 “%QUERY%”"
+"marketplace.searchMore.cosmetics" : "搜索更多装饰品从“%QUERY%”"
 "marketplace.ui.marketplace.state" : "状态"
 "marketplace.ui.marketplace.state.owning" : "有效"
 "marketplace.ui.marketplace.state.unowning" : "无效"
@@ -2210,6 +2303,10 @@ $Achievement
 "options.role.collator.canTakeDuplicateSample.detail" : "启用后，你可以重复采样同一个玩家获取样本。" 
 "options.role.collator.strictClassificationForNeutralRoles.detail" : "开启后，会根据真实阵营区分第三方阵营<br>如果关闭，第三方阵营无论什么情况都始终匹配。"
 "options.role.collator.madmateIsClassifiedAs.detail" : "配置叛徒归属与哪一个阵营。"
+
+"options.role.investigator.investigateSpeed.detail" : "调查足迹信息需要一定时间。<br>数值越大，调查速度越快。"
+"options.role.investigator.investigateEyesight.detail" : "调查过程中如果视野变小，调查足迹将会变得很难。"
+"options.role.investigator.investigateFootprintDuration.detail" : "设置凶手在多久前会显示足迹。"
 
 "options.role.necromancer.reviveDuration.detail" : "这是设置按下复活键复活尸体所需的等待时间。"
 "options.role.necromancer.detectedRange.detail" : "当死灵法师与尸体足够进时，屏幕会变的有点紫。<br>这可以让其感知到尸体的存在。"
@@ -2451,6 +2548,10 @@ $Achievement
 "role.collator.ability.sample" : "从其他玩家中收集样品。<br>最多使用<var>#NUM</var>个试管。"
 "role.collator.ability.meeting" : "在会议期间，玩家图标上会显示一个按钮，选择其中两个玩家进行比较。"
 "role.collator.tips" : "・这个职业与<color=#ff7f00>超</color><color=#ff0000>新</color><color=#00ff00>职业</color>进行联动(原职业: 臨床検査技師)。"
+
+"role.investigator.ability.title" : "固有能力【侦查之眼】"
+"role.investigator.ability.main" : "调查员拥有“调查”能力。<br>“调查”过程中可以识别行凶者的犯罪现场。<br>仔细调查足迹，可以知晓更多信息。"
+"role.investigator.ability.investigate" : "开始调查。<br>调查期间，视野会发生变化，可以看到足迹。"
 
 "role.justice.ability.title" : "固有能力【会议审判】"
 "role.justice.ability.main" : "在会议中选择<var>#NUM</var>名玩家#PICKME进行<b>会议审判</b>。<br>在这种特殊会议中，你只能投票给两名玩家其中之一。<br>如果两人平票，那么就全部<b>放逐</b>。"

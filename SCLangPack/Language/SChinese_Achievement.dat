@@ -113,6 +113,24 @@
 "achievement.echo.challenge.cond" : ""
 "achievement.echo.challenge.flavor" : "“请注意你们的行为！”-空气中流动的声音"
 
+"achievement.investigator.common1.title" : "原来如此"
+"achievement.investigator.common1.goal" : "累计调查10次足迹。"
+"achievement.investigator.common1.cond" : ""
+"achievement.investigator.common1.flavor" : "“真相只有一个！”—《名侦探柯南》"
+
+"achievement.investigator.another1.title" : "知晓真相的后果"
+"achievement.investigator.another1.goal" : "调查过程中，在足迹附近死亡。"
+"achievement.investigator.another1.cond" : ""
+
+"achievement.investigator.another2.title" : "罪恶的帮凶"
+"achievement.investigator.another2.goal" : "在调查发现足迹后，结束后没有驱逐任何一个嫌疑人。"
+"achievement.investigator.another2.cond" : ""
+
+"achievement.investigator.challenge.title" : "真理追求者"
+"achievement.investigator.challenge.goal" : "在调查发现足迹后并驱逐嫌疑人。"
+"achievement.investigator.challenge.cond" : ""
+"achievement.investigator.challenge.flavor" : ""
+
 "achievement.jekyllAndHyde.common1.title" : "美妙时光"
 "achievement.jekyllAndHyde.common1.goal" : "喝下药物主动成为海德。"
 "achievement.jekyllAndHyde.common1.cond" : ""
