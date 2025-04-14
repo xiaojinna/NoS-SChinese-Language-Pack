@@ -664,6 +664,26 @@
 "achievement.morphing.challenge.goal" : "幻形状态下杀死一名玩家，并在会议期间驱逐被化形的玩家"
 "achievement.morphing.challenge.cond" : ""
 
+"achievement.nightmare.common1.title" : "梦境主宰"
+"achievement.nightmare.common1.goal" : "发动10次夜幕。"
+"achievement.nightmare.common1.cond" : ""
+
+"achievement.nightmare.common2.title" : "梦之猎手"
+"achievement.nightmare.common2.goal" : "在夜幕范围内杀死5名玩家。"
+"achievement.nightmare.common2.cond" : ""
+
+"achievement.nightmare.another1.title" : "当心脚下"
+"achievement.nightmare.another1.goal" : "在夜幕范围内死亡。"
+"achievement.nightmare.another1.cond" : ""
+
+"achievement.nightmare.another2.title" : "恶梦成真"
+"achievement.nightmare.another2.goal" : "本局首次使用夜幕后，被驱逐或赌杀。"
+"achievement.nightmare.another2.cond" : ""
+
+"achievement.nightmare.challenge.title" : "后半夜"
+"achievement.nightmare.challenge.goal" : "单次夜幕发动后，使3名玩家在夜幕中死亡。"
+"achievement.nightmare.challenge.cond" : "提示：梦魇也要参与击杀。"
+
 "achievement.painter.common1.title" : "多漂亮的妆容"
 "achievement.painter.common1.goal" : "取样并修改其他玩家的外观"
 "achievement.painter.common1.cond" : "模仿大师也可以获取该成就！"
