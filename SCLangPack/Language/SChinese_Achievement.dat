@@ -40,6 +40,39 @@
 "achievement.busker.challenge.cond" : "提示：报告自身尸体跟使用紧急按钮不算"
 "achievement.busker.challenge.flavor" : "“只有刺激才能保证心脏的跳动。”—没有署名的回忆录"
 
+"achievement.climber.common1.title" : "攀登"
+"achievement.climber.common1.goal" : "使用钩索移动5米。"
+"achievement.climber.common1.cond" : ""
+"achievement.climber.common1.flavor" : "攀上最高峰的一小步。"
+
+"achievement.climber.common2.title" : "踏上最高峰"
+"achievement.climber.common2.goal" : "累计使用钩索移动1千米以上。"
+"achievement.climber.common2.cond" : ""
+"achievement.climber.common2.flavor" : "“一步一步攀上世界之巅！”<br>“那么现在开始吧！”"
+
+"achievement.climber.common3.title" : "富士山上"
+"achievement.climber.common3.goal" : "累计使用钩索移动3776米以上。"
+"achievement.climber.common3.cond" : ""
+"achievement.climber.common3.flavor" : "注：已经有人达成了。"
+
+"achievement.climber.common4.title" : "世界之巅"
+"achievement.climber.common4.goal" : "累计使用钩索移动8848米以上。"
+"achievement.climber.common4.cond" : ""
+"achievement.climber.common4.flavor" : "注：已经有人达成了。"
+
+"achievement.climber.common5.title" : "宇宙之巅"
+"achievement.climber.common5.goal" : "累计使用钩索移动21230米以上。"
+"achievement.climber.common5.cond" : ""
+"achievement.climber.common5.flavor" : "奥林帕斯山，火星上的最高峰。<br>仰望星空吧."
+
+"achievement.climber.another1.title" : "飞蛾扑火"
+"achievement.climber.another1.goal" : "使用钩索移动过程中或结束时被击杀。"
+"achievement.climber.another1.cond" : ""
+
+"achievement.climber.challenge.title" : "绝望中仍有一线生机"
+"achievement.climber.challenge.goal" : "在伪装者、豺狼附近使用钩索移动。<br>周围存在2人以上，且结束后没有死亡。"
+"achievement.climber.challenge.cond" : ""
+
 "achievement.collator.common3.title" : "有趣的记录"
 "achievement.collator.common3.goal" : "核对的结果确认不一致。"
 "achievement.collator.common3.cond" : ""
@@ -957,6 +990,11 @@
 "achievement.spectreImmoralist.common2.title" : "新时代狐妖"
 "achievement.spectreImmoralist.common2.goal" : "累计取走10次油豆腐。"
 "achievement.spectreImmoralist.common2.cond" : ""
+
+"achievement.spectreImmoralist.common3.title" : "乖啦乖啦~♪"
+"achievement.spectreImmoralist.common3.goal" : "在狐妖面前供奉油豆腐。"
+"achievement.spectreImmoralist.common3.cond" : ""
+"achievement.spectreImmoralist.common3.flavor" : "※ 纯属信仰行为，绝非投喂现场。"
 
 "achievement.spectreImmoralist.hard1.title" : "不灭的意志"
 "achievement.spectreImmoralist.hard1.goal" : "从背德者变成了其他身份，并见证了狐妖死亡，然后通过非狐妖胜利的方式胜利。"

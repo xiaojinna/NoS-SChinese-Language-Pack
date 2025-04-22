@@ -76,6 +76,8 @@ $Achievement
 "ui.stamp.click.bottom.2" : "鼠标左击以移除表情"
 "ui.stamp.loading" : " (加载中或未知表情)"
 "ui.warning.unrecommendedResolution" : "为了您的体验，请使用高宽比为16:9的图像分辨率。"
+"ui.error.failedToSearchRoom" : "以下区域未找到对应房间:"
+"ui.error.quickStart.cannotStart" : "玩家数不足，无法开始！"
 
 "ui.attribute.accel" : "加速"
 "ui.attribute.accel.detail" : "移动速度加快。"
@@ -480,6 +482,13 @@ $Achievement
 "stats.busker.pseudocide" : "使用假死次数"
 "stats.busker.missed" : "复活失败次数"
 
+"role.climber.name" : "攀岩者"
+"role.climber.short" : "攀"
+"role.climber.blurb" : "登上胜利的顶端！"
+"options.role.climber.detail" : "攀岩者可以发射钩索进行长距离移动。"
+"options.role.climber.gustCooldown" : "钩索冷却时间"
+"stats.climber.gust" : "钩索使用次数"
+
 "role.collator.name" : "基因学家"
 "role.collator.short" : "基"
 "role.collator.blurb" : "这就是基因的魅力"
@@ -532,13 +541,6 @@ $Achievement
 "options.role.echo.echoRange" : "感知最大范围"
 "stats.echo.players" : "感知到玩家数量"
 "stats.echo.actions" : "感知到行为数量"
-
-"role.climber.name" : "攀岩者"
-"role.climber.short" : "攀"
-"role.climber.blurb" : "登上胜利的顶端！"
-"options.role.climber.detail" : "攀岩者可以发射钩索进行长距离移动。"
-"options.role.climber.gustCooldown" : "钩索冷却时间"
-"stats.climber.gust" : "钩索使用次数"
 
 "role.investigator.name" : "调查员"
 "role.investigator.short" : "查"
