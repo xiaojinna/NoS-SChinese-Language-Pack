@@ -315,7 +315,7 @@
 "achievement.oracle.another1.goal" : "驱逐或误赌一名占卜过的船员。"
 "achievement.oracle.another1.cond" : ""
 
-"achievement.oracle.challenge.title" : "我々の見解"
+"achievement.oracle.challenge.title" : "观星术"
 "achievement.oracle.challenge.goal" : "占卜过的伪装者中至少有1名船员结果中有伪装者，<br>且不驱逐一个船员（不含叛徒）的情况下获胜。"
 "achievement.oracle.challenge.cond" : ""
 
@@ -725,6 +725,19 @@
 "achievement.painter.challenge.goal" : "将3个及以上的玩家修改两次及以上的外观"
 "achievement.painter.challenge.cond" : "相同的样本给两个及以上的玩家不会记次数"
 
+"achievement.quack.common1.title" : "嘎嘎嘎♪"
+"achievement.quack.common1.goal" : "使用生命检测装置报告一次尸体。"
+"achievement.quack.common1.cond" : ""
+
+"achievement.quack.another1.title" : "不要鸭！"
+"achievement.quack.another1.goal" : "自己发起的紧急会议被驱逐。"
+"achievement.quack.another1.cond" : ""
+
+"achievement.quack.challenge.title" : "鸭鸭鸭~"
+"achievement.quack.challenge.goal" : "自己发起紧急会议然后累计驱逐3名玩家并获胜。"
+"achievement.quack.challenge.cond" : ""
+"achievement.quack.challenge.flavor" : "“真不怪我鸭~”"
+
 "achievement.raider.common1.title" : "斧头帮"
 "achievement.raider.common1.goal" : "用斧子成功击杀一名玩家。"
 "achievement.raider.common1.cond" : ""
@@ -746,6 +759,23 @@
 "achievement.reaper.challenge.title" : "死神降临"
 "achievement.reaper.challenge.goal" : "一回合内超过5具尸体且没有人报告"
 "achievement.reaper.challenge.cond" : ""
+
+"achievement.snatcher.common1.title" : "拿来吧你！"
+"achievement.snatcher.common1.goal" : "盗取其他人职业。"
+"achievement.snatcher.common1.cond" : ""
+
+"achievement.snatcher.another1.title" : "流口水"
+"achievement.snatcher.another1.goal" : "被盗技者盗走能力。"
+"achievement.snatcher.another1.cond" : ""
+
+"achievement.snatcher.common2.title" : "横行霸道"
+"achievement.snatcher.common2.goal" : "盗取能力后，目标输掉游戏并存活到最后胜利。"
+"achievement.snatcher.common2.cond" : ""
+
+"achievement.snatcher.challenge.title" : "生生不息"
+"achievement.snatcher.challenge.goal" : "继承死去队友的能力并存活胜利。"
+"achievement.snatcher.challenge.cond" : ""
+"achievement.snatcher.challenge.flavor" : "“我将代替你的意志活下去！”"
 
 "achievement.sniper.common1.title" : "请支付一颗大花生的钱"
 "achievement.sniper.common1.goal" : "狙杀一名玩家"
@@ -783,6 +813,22 @@
 "achievement.thurifer.challenge.title" : "香熏的魅力"
 "achievement.thurifer.challenge.goal" : "有8人以上受到“香熏”效果，且都以达到50%，然后击杀4个人。<br>至少有一个人死于最大延迟击杀和一个人因延迟死亡死于会议期间。"
 "achievement.thurifer.challenge.cond" : ""
+
+"achievement.whammy.common1.title" : "逃逸的氧气"
+"achievement.whammy.common1.goal" : "通过气球陷阱勒死一名玩家。"
+"achievement.whammy.common1.cond" : ""
+
+"achievement.whammy.common2.title" : "消失的氧气"
+"achievement.whammy.common2.goal" : "累计通过气球陷阱勒死10名玩家。"
+"achievement.whammy.common2.cond" : ""
+
+"achievement.whammy.another1.title" : "Clown"
+"achievement.whammy.another1.goal" : "没有击杀一名玩家，在按放气球陷阱后被驱逐或杀死。"
+"achievement.whammy.another1.cond" : ""
+
+"achievement.whammy.challenge.title" : "窒息感"
+"achievement.whammy.challenge.goal" : "让船员因为气球导致任务进度缓慢。"
+"achievement.whammy.challenge.cond" : "条件：同时存在3名玩家身上捆绑着气球。"
 
 "achievement.arsonist.common1.title" : "充满汽油味"
 "achievement.arsonist.common1.goal" : "3个以上被涂油的玩家活着参加会议"
@@ -854,6 +900,37 @@
 "achievement.dancer.challenge.goal" : "在豺狼或者伪装者面前跳舞，并胜利。"
 "achievement.dancer.challenge.cond" : ""
 "achievement.dancer.challenge.flavor" : "美丽的怪物。"
+
+"achievement.gambler.common1.title" : "稳健"
+"achievement.gambler.common1.goal" : "对3名以上的玩家使用了套话。"
+"achievement.gambler.common1.cond" : ""
+
+"achievement.gambler.common2.title" : "沉迷不悟"
+"achievement.gambler.common2.goal" : "累计下注20次。"
+"achievement.gambler.common2.cond" : ""
+"achievement.gambler.common2.flavor" : "“下一把肯定能赢。”—一位赌徒的碎碎念"
+
+"achievement.gambler.another1.title" : "一无所有"
+"achievement.gambler.another1.goal" : "全押后赌输导致破产死亡。"
+"achievement.gambler.another1.cond" : ""
+
+"achievement.gambler.common3.title" : "赢下所有！"
+"achievement.gambler.common3.goal" : "全押后赢得赌局。"
+"achievement.gambler.common3.cond" : ""
+
+"achievement.gambler.common4.title" : "火中取栗"
+"achievement.gambler.common4.goal" : "单次会议中进行3次以上下注且全部获胜。"
+"achievement.gambler.common4.cond" : ""
+
+"achievement.combination.2.gambler.lover.another.title" : "赌徒的一生"
+"achievement.combination.2.gambler.lover.another.goal" : "破产后连带恋人死亡。"
+"achievement.combination.2.gambler.lover.another.cond" : ""
+"achievement.combination.2.gambler.lover.another.flavor" : "※拒绝黄赌毒，从你我做起。"
+
+"achievement.gambler.challenge.title" : "幸运之子"
+"achievement.gambler.challenge.goal" : "不使用套话赢得一局游戏。"
+"achievement.gambler.challenge.cond" : ""
+"achievement.gambler.challenge.flavor" : "“靠运气？别逗了，哪有什么运气啊。”—赌场老板"
 
 "achievement.jackal.common1.title" : "收徒"
 "achievement.jackal.common1.goal" : "招募一个跟班。"
