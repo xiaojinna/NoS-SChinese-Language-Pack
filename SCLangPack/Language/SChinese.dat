@@ -155,7 +155,11 @@ $Achievement
 "ui.action.nightmare.nightmare" : "在恐惧之颅附近产生特殊的阴影。"
 "ui.action.plumber.move" : "在有通风口的位置使用。<br>使用后会吸附通风口并可以拖动。<br>持续时间结束或再次点击即可放置到当前位置。"
 "ui.action.snatcher.snatch" : "夺取别人能力。"
-"ui.action.snatcher.clock" : "短时间内加快冷却时间"
+"ui.action.snatcher.clock" : "短时间内加快冷却时间。"
+"ui.action.cupid.lover" : "选择作为恋人的玩家。"
+"ui.action.cupid.laser" : "在恋人玩家之间会出现一条红线。<br>出现红线会一段延迟。"
+"ui.action.cupid.lover.string" : "触发姻缘红线。<br>一局只能使用一次。"
+"ui.action.gimlet.drill" : "变身成钻头进行冲撞攻击。"
 
 "ui.contact.title" : "问题反馈"
 "ui.contact.guide" : "请在此提交您发现的BUG、功能/职业建议或游戏感想等问题。<br>* 本问题反馈表单采用匿名提交，开发团队不会直接回复(内容建议使用日文或英文)。<br><br>如果需要回复，请通过官方的Discord服务器联系我们。"
@@ -181,6 +185,8 @@ $Achievement
 "tutorial.variations.stamp.caption" : "%KEY%呼出表情栏！（行动期间不可用）<br>在帮助界面可以配置表情包。"
 "tutorial.variations.ambienceOnMeeting.title" : "关闭会议环境音效"
 "tutorial.variations.ambienceOnMeeting.caption" : "若你想在会议中关闭一些环境音效，可以开启「关闭会议环境音效」功能。<br>该选项可以通过设置Nos选项卡中开启。"
+"tutorial.variations.meetingTool.advance.title" : "快速创建玩家图标"
+"tutorial.variations.meetingTool.advance.caption" : "在地图中绘制一条线，<br>并在松开鼠标的一瞬间<b>右键点击</b>。"
 
 # Versions
 
@@ -198,6 +204,8 @@ $Achievement
 "version.fetching.current" : "当前"
 "version.fetching.mismatched" : "不可更改"
 "version.fetching.applied" : "已应用"
+"version.fetching.mismatched.detail" : "由于NoS与Among Us版本不匹配，无法进行更改。<br>请使用对应的版本。"
+"version.fetching.loadMore" : "加载更多"
 
 # Game Mode
 
@@ -217,8 +225,14 @@ $Achievement
 
 # Options
 
+"ui.options.nav.1.left" : "打开选项"
+"ui.options.nav.1.middle" : "切换简略/详细显示"
+"ui.options.nav.1.right" : "复制职业名称与详细信息"
+"ui.options.nav.2.middle" : "返回选项列表"
+
 "options.switch.off" : "关"
 "options.switch.on" : "开"
+"options.switch.nonCrewmateOnly" : "非船员"
 "options.percentage" : "%"
 "options.cross" : "x"
 "options.sec" : "s"
@@ -229,6 +243,12 @@ $Achievement
 "options.values.short" : "短"
 "options.values.middle" : "中"
 "options.values.long" : "长"
+
+"options.vanilla.header" : "Among Us"
+"options.vanilla.header.impostor" : "伪装者选项"
+"options.vanilla.header.crewmate" : "船员选项"
+"options.vanilla.header.meeting" : "紧急会议选项"
+"options.vanilla.header.task" : "任务选项"
 
 "options.gamemode" : "游戏模式"
 
@@ -250,6 +270,11 @@ $Achievement
 "options.assignment.ghostAssignmentMethod" : "鬼魂分配方法"
 "options.assignment.ghostAssignmentMethod.normal" : "标准"
 "options.assignment.ghostAssignmentMethod.thrilling" : "随机"
+"options.assignment.preview" : "职业分配预览"
+"options.assignment.preview.withoutCrewmate" : "伪装者 x%IMP% (至少有%RIMP%个属于mod职业), 第三方 x%NEU%，船员均属于mod职业。"
+"options.assignment.preview.withCrewmate" : "伪装者 x%IMP% (至少有%RIMP%个属于mod职业), 第三方 x%NEU%，至少有%CREW%个船员属于mod职业。"
+"options.assignment.preview.hint" : "※ 有黄色高亮的将会分配模组职业。<br>※ 伪装者总数需要在Among Us基础设置中配置。"
+"options.assignment.group.assignment" : "职业分配设定"
 
 "options.soloFreePlay" : "自由模式设置"
 "options.soloFreePlay.detail" : "该模式适合测试模组和地图内容"
@@ -267,8 +292,6 @@ $Achievement
 "options.map.canOpenMapWhileUsingUtility" : "进行任务时可以打开地图"
 "options.map.numOfTeleporter" : "传送宝石对数"
 "options.map.nonCrewmateCanUseTeleporterImmediately" : "(非船员阵营)瞬间传送"
-"options.map.randomizedWiring" : "随机接线任务点位"
-"options.map.stepsOfWiringGame" : "完成任务所需接线次数"
 "options.map.ladderCoolDown" : "使用梯子冷却"
 "options.map.ziplineCoolDown" : "使用滑索冷却"
 "options.map.flipX" : "地图水平翻转"
@@ -287,8 +310,8 @@ $Achievement
 "options.map.customization.polus.useAdmin" : "允许使用管理控制台"
 "options.map.customization.polus.specimenVent" : "额外通风口"
 "options.map.customization.polus.reactorDuration" : "核反应堆破坏持续时间"
-"options.map.customization.airship.useCockpitAdmin" : "允许使用管理控制台 "
-"options.map.customization.airship.useRecordsAdmin" : "允许使用管理控制台 "
+"options.map.customization.airship.useCockpitAdmin" : "允许使用座舱管理控制台 "
+"options.map.customization.airship.useRecordsAdmin" : "允许使用档案室管理控制台 "
 "options.map.customization.airship.meetingVent" : "额外通风口"
 "options.map.customization.airship.electricalVent" : "额外通风口"
 "options.map.customization.airship.oneWayMeetingRoom" : "会议室单向通道"
@@ -319,12 +342,35 @@ $Achievement
 "options.map.customization.fungle.blackOutDropship" : "配电箱(运输船)"
 "options.map.customization.fungle.blackOutJungle" : "配电箱(丛林)"
 "options.map.customization.fungle.blackOutMiningPit" : "配电箱(矿坑)"
+"options.map.customization.admin.editor" : "右键点击：打开房间显示设置"
+"options.map.customization.admin.viewer" : "左键点击：显示房间设置"
+"options.map.admin.skeld.0" : "管理控制台设置"
+"options.map.admin.mira.0" : "管理控制台设置"
+"options.map.admin.polus.0" : "管理控制台设置"
+"options.map.admin.airship.0" : "座舱管理控制台设置"
+"options.map.admin.airship.1" : "档案室管理控制台设置"
 "options.map.group.spawning" : "出生点相关设定"
 "options.map.group.utilities" : "交互相关设定"
 "options.map.group.footstep" : "其他玩家脚步声设定"
 "options.map.group.teleporter" : "传送宝石相关设定"
 "options.map.group.wiring" : "连线任务相关设定"
 "options.map.group.flip" : "翻转地图相关设定"
+
+"options.task" : "任务设置"
+"options.task.detail" : "这是关于任务的设置"
+"options.task.noGuide.wiring" : "无指引修复配线任务"
+"options.task.noGuide.upload" : "无指引上传数据任务"
+"options.task.noGuide.divertPower" : "无指引转移电路任务"
+"options.task.noGuide.garbage" : "无指引清理垃圾任务"
+"options.task.noGuide.sortRecords" : "无指引整理档案任务"
+"options.task.noGuide.marshmallow" : "无指引收集贝壳任务"
+"options.task.noGuide.helpCritter" : "无指引帮助生物任务"
+"options.task.noGuide.replaceParts" : "无指引更换零件任务"
+"options.task.noGuide.collectSamples" : "无指引收集样本任务"
+"options.map.randomizedWiring" : "随机配线任务点位"
+"options.map.stepsOfWiringGame" : "完成任务所需配线次数"
+"options.task.group.wiring" : "配线任务设定"
+"options.task.group.noGuide" : "无指引任务设定"
 
 "options.meeting" : "紧急会议设置"
 "options.meeting.detail" : "一些跟紧急会议相关的内容"
@@ -334,11 +380,28 @@ $Achievement
 "options.meeting.emergencyCooldownAtGameStart" : "游戏开始时的紧急冷却时间"
 "options.meeting.showRoleOfExiled" : "放逐显示职业"
 "options.meeting.extraEmergencyCooldownInTheEarly" : "前期紧急会议额外冷却时间"
+"options.meeting.earlyDiscussionReduction" : "游戏前期讨论时间缩短"
 "options.meeting.extraEmergencyCooldownInTheEarlyCondition" : "结束前期所需死亡数"
 "options.meeting.waitingForHost" : "请等待主持人..."
 "options.meeting.showVoteState" : "显示投票状态"
 "options.meeting.prohibitMeetingTool" : "禁用地图标记辅助"
 "options.meeting.shortenCooldownAtGameStart" : "游戏初始阶段冷却时间缩短"
+
+"options.exile" : "放逐设置"
+"options.exile.detail" : "放逐玩家相关设置。"
+"options.exile.group.confirmEject" : "确认放逐数量信息设定"
+"options.exile.confirmEjectCondition" : "可知晓剩余总结信息对象"
+"options.exile.confirmEjectTarget" : "统计剩余人数对象"
+"options.exile.confirmEject.all" : "全部"
+"options.exile.confirmEject.impostors" : "伪装者"
+"options.exile.confirmEject.killers" : "带刀者"
+"options.exile.confirmEject.nonCrewmates" : "非船员"
+"exile.confirmEject.impostor.s" : "剩下%NUM%个伪装者。"
+"exile.confirmEject.impostor.p" : "剩下%NUM%个伪装者。"
+"exile.confirmEject.killer.s" : "剩下%NUM%个带刀者。"
+"exile.confirmEject.killer.p" : "剩下%NUM%个带刀者。"
+"exile.confirmEject.nonCrewmate.s" : "剩下%NUM%个非船员。"
+"exile.confirmEject.nonCrewmate.p" : "剩下%NUM%个非船员。"
 
 "options.consoleRestriction" : "信息终端使用限制"
 "options.consoleRestriction.detail" : "对生命检测仪、管理控制台以及安保监控进行时间使用限制"
@@ -390,6 +453,8 @@ $Achievement
 "options.role.secondaryChance" : "多次生成概率"
 "options.role.count.jackalized" : "豺狼分配数量"
 "options.role.chance.jackalized" : "豺狼分配概率"
+"options.role.count.madden" : "叛徒分配数量"
+"options.role.chance.madden" : "叛徒分配概率"
 "options.role.count.short" : "分配数量"
 "options.modifier.chance" : "附加能力概率"
 "options.role.crewmateCount" : "船员最大分配数量"
@@ -514,10 +579,10 @@ $Achievement
 "stats.busker.pseudocide" : "使用假死次数"
 "stats.busker.missed" : "复活失败次数"
 
-"role.climber.name" : "攀岩者"
-"role.climber.short" : "攀"
+"role.climber.name" : "钩索师"
+"role.climber.short" : "钩"
 "role.climber.blurb" : "登上胜利的顶端！"
-"options.role.climber.detail" : "攀岩者可以发射钩索进行长距离移动。"
+"options.role.climber.detail" : "钩索师可以发射钩索进行长距离移动。"
 "options.role.climber.gustCooldown" : "钩索冷却时间"
 "stats.climber.gust" : "钩索使用次数"
 
@@ -565,6 +630,16 @@ $Achievement
 "options.role.doctor.chargesPerTasks" : "每完成一个任务追加充能数" 
 "role.doctor.gadgetLeft" : "%SECOND%秒"
 
+"role.doppelganger.name" : "二重身"
+"role.doppelganger.short" : "二"
+"role.doppelganger.blurb" : "多重身份"
+"options.role.doppelganger.detail" : "二重身可以创建一个分身，分身死亡本体也会死亡。<br>分身可以指定移动到目标区域迷惑其他玩家。"
+"options.role.doppelganger.swapCooldown" : "交换冷却时间" 
+"options.role.doppelganger.swapDuration" : "交换持续时间"
+"options.role.doppelganger.detectionRadius" : "分身探知范围"
+"ui.action.doppelganger.swap" : "与分身交换位置。"
+"ui.action.doppelganger.despawn" : "消除分身。"
+
 "role.echo.name" : "感知者"
 "role.echo.short" : "感"
 "role.echo.blurb" : "生命的回响"
@@ -573,6 +648,17 @@ $Achievement
 "options.role.echo.echoRange" : "感知最大范围"
 "stats.echo.players" : "感知到玩家数量"
 "stats.echo.actions" : "感知到行为数量"
+
+"role.fixer.name" : "控局者"
+"role.fixer.short" : "控"
+"role.fixer.blurb" : "幕后的操盘手"
+"options.role.fixer.detail" : "控局者可以让指定玩家不能成为投票目标，同时限制其投票权利。"
+"options.role.fixer.numOfJamming" : "屏蔽使用次数"
+"options.role.fixer.canJamPlayerContinuously" : "可以连续屏蔽相同玩家"
+"options.role.fixer.jammingSealsVoteRight" : "屏蔽时限制投票权利"
+"options.role.fixer.maxLeftVotingTimeForJamming" : "可进行屏蔽最大会议剩余时间"
+"roles.fixer.jamming" : "剩余屏蔽次数"
+"stats.fixer.jamming" : "屏蔽使用次数"
 
 "role.investigator.name" : "调查员"
 "role.investigator.short" : "查"
@@ -616,8 +702,8 @@ $Achievement
 "options.role.justice.detail" : "大神官可以选择两名玩家置于“天平”上<br>并实行一场特殊的会议。"
 "options.role.justice.putJusticeOnTheBalance" : "对峙模式"
 "options.role.justice.justiceMeetingTime" : "法庭结束时间"
-"stats.justice.exiled" : "在天平上被驱逐玩家数量"
-"stats.justice.nonCrewmates" : "在天平上被驱逐非船员玩家数量"
+"stats.justice.exiled" : "在天平上被放逐玩家数量"
+"stats.justice.nonCrewmates" : "在天平上被放逐非船员玩家数量"
 
 "role.madmate.name" : "叛徒"
 "role.madmate.short" : "叛"
@@ -640,6 +726,7 @@ $Achievement
 "options.role.madmate.hasImpostorVision" : "拥有伪装者视野"
 "options.role.madmate.canUseVents" : "可以使用通风口"
 "options.role.madmate.canMoveInVents" : "可以在通风口中移动"
+"options.role.madmate.maddenRole" : "职业叛徒化"
 "stats.madmate.foundImpostors" : "知晓伪装者数量"
 "stats.madmate.embroil" : "连带幸存玩家数量"
 
@@ -705,15 +792,15 @@ $Achievement
 "options.role.noisemaker.detail" : "大嗓门被击杀会发出警报声"
 "options.role.noisemaker.noiseDuration" : "警报声持续时间"
 
-"role.oracle.name" : "占卜师"
-"role.oracle.short" : "占"
+"role.oracle.name" : "预言家"
+"role.oracle.short" : "预"
 "role.oracle.blurb" : "你可以查验对方的职业"
-"options.role.oracle.detail" : "占卜师可以占卜其他玩家的职业。"
-"options.role.oracle.oracleCooldown" : "占卜冷却时间"
-"options.role.oracle.oracleAdditionalCooldown" : "占卜冷却时间追加"
-"options.role.oracle.oracleDuration" : "占卜所需时间"
-"options.role.oracle.numOfCandidates" : "占卜后得知职业数"
-"stats.oracle.oracle" : "使用占卜次数"
+"options.role.oracle.detail" : "预言家可以预言其他玩家的职业。"
+"options.role.oracle.oracleCooldown" : "预言冷却时间"
+"options.role.oracle.oracleAdditionalCooldown" : "预言冷却时间追加"
+"options.role.oracle.oracleDuration" : "预言所需时间"
+"options.role.oracle.numOfCandidates" : "预言后得知职业数"
+"stats.oracle.oracle" : "使用预言次数"
 
 "role.phosphorus.name" : "提灯人"
 "role.phosphorus.short" : "提"
@@ -794,7 +881,7 @@ $Achievement
 "role.impostor.short" : "伪"
 "role.impostor.blurb" : "杀死船员"
 "options.role.impostor.detail" : "伪装者没有任何特殊能力"
-"options.role.impostor.canKillHidingPlayer" : "可以击杀觉醒者"
+"options.role.impostor.canKillHidingPlayer" : "可以击杀通风口内玩家"
 
 "role.alien.name" : "外星人"
 "role.alien.short" : "外"
@@ -840,7 +927,7 @@ $Achievement
 "options.role.bubblegun.bubbleDuration" : "泡泡持续时间"
 "options.role.bubblegun.maxBubbles" : "泡泡可发射次数"
 "options.role.bubblegun.eraseBubblesOnMeeting" : "会议时不展示泡泡中尸体"
-"options.role.bubblegun.canKillImpostor" : "泡泡可以击杀伪装者"
+"options.role.bubblegun.canKillImpostor" : "可以击杀队友"
 "options.role.bubblegun.bubblePopWhenHitWall" : "泡泡碰到墙壁后破裂"
 "stats.bubblegun.bubble" : "泡泡枪使用次数"
 
@@ -872,6 +959,21 @@ $Achievement
 "options.role.cleaner.cleanCoolDown" : "清理尸体冷却时间"
 "options.role.cleaner.syncKillAndCleanCoolDown" : "清理与击杀共用冷却时间"
 "stats.cleaner.clean" : "尸体清理次数"
+
+"role.cupid.name" : "月老"
+"role.cupid.short" : "月"
+"role.cupid.blurb" : "团圆月下，相思树底"
+"options.role.cupid.detail" : "月老是一个可以通过牵线玩家创建恋人的伪装者。<br>被月老用红线牵线的恋人玩家可以通过红线击杀其他玩家。"
+"options.role.cupid.selectCooldown" : "指定恋人冷却时间"
+"options.role.cupid.laserDelayByCupid" : "月老发动红线创建延迟"
+"options.role.cupid.laserDelayByLover" : "恋人发动红线创建延迟"
+"options.role.cupid.laserCooldown" : "创建红线冷却时间"
+"options.role.cupid.laserDuration" : "红线持续时间"
+"options.role.cupid.laserRadius" : "红线判定范围"
+"options.role.cupid.laserSeStrength" : "红线音效传播范围"
+"stats.cupid.lovers" : "牵线成功次数"
+"stats.cupid.laserCupid" : "月老创建红线次数"
+"stats.cupid.laserLover" : "恋人创建红线次数"
 
 "role.destroyer.name" : "毁灭者"
 "role.destroyer.short" : "毁"
@@ -935,6 +1037,20 @@ $Achievement
 "options.role.evilTrapper.killTrapSoundDistance" : "安装杀人陷阱时声音距离"
 "options.role.evilTrapper.costOfKillTrap" : "杀人陷阱放置成本"
 "options.role.evilTrapper.killTrapSize" : "杀人陷阱大小"
+
+"role.gimlet.name" : "螺旋人"
+"role.gimlet.short" : "螺"
+"role.gimlet.blurb" : "贯穿一切"
+"options.role.gimlet.detail" : "螺旋人可以通过变成钻头进行大规模杀伤的伪装者。"
+"options.role.gimlet.drillCooldown" : "钻头冷却时间"
+"options.role.gimlet.drillSize" : "钻头判定范围"
+"options.role.gimlet.drillSpeed" : "钻头移动速度"
+"options.role.gimlet.canKillImpostor" : "可以击杀队友"
+"options.role.gimlet.drillSeStrength" : "钻头音效传播范围"
+"options.role.gimlet.frictionResistance" : "允许突进最大角度"
+"stats.gimlet.drill" : "钻头使用次数"
+"role.gimlet.soundRange" : "螺旋人: <color=white>音效传播范围</color>"
+"role.gimlet.drillSize" : "螺旋人: <color=white>钻头碰撞体积</color>"
 
 "role.hadar.name" : "矿工"
 "role.hadar.short" : "矿"
@@ -1033,7 +1149,7 @@ $Achievement
 "options.role.raider.throwCoolDown" : "投掷斧头冷却时间"
 "options.role.raider.axeSize" : "斧头大小"
 "options.role.raider.axeSpeed" : "斧头飞行速度"
-"options.role.raider.canKillImpostor" : "可以击杀伪装者"
+"options.role.raider.canKillImpostor" : "可以击杀队友"
 "role.raider.axeSize" : "强盗<color=white>: 斧头判定范围</color>"
 "stats.raider.thrown" : "斧子投掷次数"
 
@@ -1043,6 +1159,29 @@ $Achievement
 "options.role.reaper.detail" : "送葬者可以拖拽尸体。"
 "options.role.reaper.useVentWhileHoldingDeadbody" : "拖拽尸体时可以使用通风口"
 "stats.reaper.ventWithDeadBody" : "携带尸体时使用通风口次数"
+
+"role.rokurokubi.name" : "辘轳首"
+"role.rokurokubi.short" : "辘"
+"role.rokurokubi.blurb" : "让我仔细看看"
+"options.role.rokurokubi.detail" : "辘轳首可以伸长脖子，远距离击杀其他玩家。<br>脖子可以跨越墙壁延伸。"
+"options.role.rokurokubi.craneSpeed" : "脖颈伸长速度"
+"options.role.rokurokubi.maxNeckLength" : "脖颈最大长度"
+"options.role.rokurokubi.autoKillInCraning" :  "长径状态下自动击杀"
+"ui.action.rokurokubi.pause" : "按住时暂停脖颈伸长。"
+
+"role.sculptor.name" : "机械师"
+"role.sculptor.short" : "机"
+"role.sculptor.blurb" : "混乱的制造者"
+"options.role.sculptor.detail" : "机械师可以为其他玩家制作等身机械人。<br>机械人形象与对应的玩家外貌相同，很难分辨。"
+"options.role.sculptor.sampleCoolDown" : "取样冷却时间"
+"options.role.sculptor.createCoolDown" : "制作冷却时间"
+"options.role.sculptor.maxSamples" : "最大保存样本数量"
+"options.role.sculptor.stayDurationAfterMoving" : "机械人移动后停留时间"
+"options.role.sculptor.detectionRadius" : "机械人探知范围"
+"stats.sculptor.sample" : "取样使用次数"
+"stats.sculptor.create" : "制作机械人次数"
+"ui.action.sculptor.sample" : "采集玩家样本。"
+"ui.action.sculptor.create" : "打开地图选择机械人移动目标位置。<br>选择目标位置和外貌后，机械人将会出现并主动移动到目标地点。"
 
 "role.snatcher.name" : "盗技者"
 "role.snatcher.short" : "盗"
@@ -1073,10 +1212,10 @@ $Achievement
 "options.role.sniper.storeRifleOnFire" : "射击后继续持枪"
 "options.role.sniper.storeRifleOnUsingUtility" : "进行交互时自动收枪"
 "options.role.sniper.canSeeRifleInShadow" : "可以在阴影中看到狙击枪"
-"options.role.sniper.canKillHidingPlayer" : "可以击杀觉醒者"
+"options.role.sniper.canKillHidingPlayer" : "可以击杀通风口内玩家"
 "options.role.sniper.aimAssist" : "瞄准辅助"
 "options.role.sniper.delayInAimAssistActivation" : "辅助瞄准激活时间"
-"options.role.sniper.canKillImpostor" : "可以杀死伪装者"
+"options.role.sniper.canKillImpostor" : "可以击杀队友"
 "role.sniper.shotRange" : "狙击手: <color=white>狙击枪有效射程</color>"
 "role.sniper.soundRange" : "狙击手: <color=white>枪声可听范围</color>"
 "role.sniper.shotSize" : "狙击手<color=white>:子弹判定范围</color>"
@@ -1197,6 +1336,7 @@ $Achievement
 "options.role.gambler.maxBettingPatterns" : "每次会议中最大押注类型"
 "options.role.gambler.canVote" : "普通投票押注模式"
 "options.role.gambler.chipsLimitForNoVoteBetting" : "无票押注筹码数限制"
+"options.role.gambler.noticeFirstSuccess" : "首次押注成功时播报信息"
 "gambler.betting.control" : "鼠标左击: 增加筹码<br>Shift+鼠标左击: 减少筹码<br>鼠标右击: 撤销押注"
 "gambler.ui.selectingHint" : "选择你要押注的目标然后点击+按钮。<br><b>无票押注</b>: 选择%NV%名可能不会得票的玩家。<br><b>最多票押注</b>: 选择%MV%可能会得最多票的玩家。"
 "gambler.ui.multiSelecting" : "押注对象不能重复"
@@ -1206,6 +1346,7 @@ $Achievement
 "gambler.currentChips" : "所持筹码:"
 "gambler.ui.help.add" : "选择一名玩家后点击<b>添加筹码</b>。"
 "gambler.ui.help.check" : "<b>确定</b>当前指定押注筹码。<br>确定后其他人视角为<b>已投票</b>状态。"
+"gambler.ui.firstSuccess" : "已经赢下一小步…"
 "stats.gambler.bet" : "押注次数"
 "stats.gambler.bet.success" : "赌赢次数"
 "stats.gambler.bet.failed" : "赌输次数"
@@ -1231,6 +1372,11 @@ $Achievement
 "options.role.sidekick.killCoolDown" : "击杀冷却时间"
 "options.role.sidekick.isModifier" : "保留原有职业"
 "options.role.sidekick.canCreateSidekickChainly" : "跟班晋升为豺狼后可招募新的跟班"
+"options.role.sidekick.inheritanceRule" : "继承规则"
+"options.role.sidekick.inheritanceRule.inherit" : "晋级"
+"options.role.sidekick.inheritanceRule.suicide" : "自杀"
+"options.role.sidekick.inheritanceRule.none" : "无"
+"options.role.sidekick.assignedSidekick" : "游戏开始时分配"
 
 "role.jester.name" : "小丑"
 "role.jester.short" : "丑"
@@ -1247,10 +1393,14 @@ $Achievement
 "role.paparazzo.taskText" : "来看看你们靓照(%DETAIL%)"
 "role.paparazzo.taskTextSubject" : "拍摄玩家数: %CS%/%GS%"
 "role.paparazzo.taskTextDisclosed" : "在会议展示玩家数: %CD%/%GD%"
+"role.paparazzo.taskTextPhoto" : "在会议公开照片数: %CP%/%GP%"
 "options.role.paparazzo.detail" : "摄影师可以偷拍。<br>在会议中把照片公开出来。"
 "options.role.paparazzo.shotCoolDown" : "拍摄冷却时间"
-"options.role.paparazzo.requiredSubjects" : "需要拍到不同玩家数量"
-"options.role.paparazzo.requiredDisclosed" : "需要展示会议中玩家数量"
+"options.role.paparazzo.requiredSubjects" : "胜利所需拍不同玩家数量"
+"options.role.paparazzo.requiredDisclosed" : "胜利所需会议展示玩家数量"
+"options.role.paparazzo.requiredPhotos" : "胜利所需会议展示照片数量"
+"options.role.paparazzo.telephotoFinderSize" : "进距离镜头大小"
+"options.role.paparazzo.wideAngleFinderSize" : "远距离镜头大小"
 "stats.paparazzo.photo" : "拍摄使用次数"
 "stats.paparazzo.players" : "展示拍摄玩家数量"
 
@@ -1261,6 +1411,13 @@ $Achievement
 "options.role.scarlet.graceUntilDecidingFavorite" : "指定本命倒计时"
 "options.role.scarlet.numOfKept" : "备胎最大人数"
 "options.role.scarlet.numOfCommand" : "号召最大使用次数"
+"options.role.scarlet.canOverrideTaskWin" : "可以窃取任务胜利"
+"options.role.scarlet.favoriteGauge" : "情感值"
+"options.role.scarlet.requiredGaugeToWin" : "获胜所需情感值"
+"options.role.scarlet.surplusGauge" : "情感值溢出上限"
+"options.role.scarlet.gaugeReductionRatio" : "情感值衰减速度"
+"options.role.scarlet.canLocateLovers" : "显示真爱位置"
+"options.role.scarlet.group.gauge" : "情感值设定"
 "stats.scarlet.kept" : "指定备胎次数"
 
 "role.spectre.name" : "狐妖"
@@ -1403,9 +1560,13 @@ $Achievement
 "role.damned.prefix" : "受诅咒者"
 "role.damned.generalBlurb" : "身负诅咒的人"
 "role.damned.blurb" : "身负诅咒的人"
-"options.role.damned.takeOverRoleOfKiller" : "成为杀手职业"
-"options.role.damned.damnedMurderMyKiller" : "反杀凶手并代替其职业"
+"options.role.damned.takeOverRoleOfKiller" : "成为凶手职业"
+"options.role.damned.damnedMurderMyKiller" : "反杀凶手"
 "options.role.damned.killDelay" : "延迟凶手死亡"
+"options.role.damned.damnedAction" : "诅咒逻辑"
+"options.role.damned.damnedAction.impostor" : "晋级为伪装者"
+"options.role.damned.damnedAction.madmate" : "晋级为叛徒"
+"options.role.damned.damnedAction.takeOver" : "成为凶手职业"
 
 "role.disclosure.name" : "显眼包"
 "role.disclosure.generalBlurb" : "嗨，看我看我！"
@@ -1448,6 +1609,7 @@ $Achievement
 "options.role.lover.numOfPairs" : "可出现对数"
 "options.role.lover.chanceOfAssigningImpostors" : "一方为伪装者恋人的概率"
 "options.role.lover.allowExtraWin" : "允许跟随胜利" 
+"options.role.lover.blockRoleWin" : "禁止职业阵营胜利"
 "options.role.lover.avengerMode" : "复仇者模式"
 
 "role.obsessional.name" : "暗恋者"
@@ -1584,8 +1746,13 @@ $Achievement
 "perk.footprint.name" : "泥足"
 "perk.footprint.detail" : "会留下全员可见的足迹。"
 
+"perk.sacrifice.name" : "替身"
+"perk.sacrifice.detail" : "在原地召唤一个替身。<br>替身死亡，本体不会死亡。<br>替身会在%D%秒内消失。"
+"perk.sacrifice.duration" : "替身持续时间"
+
 # Location
 
+"map.skeld" : "The Skeld"
 "location.skeld.admin" : "管理室"
 "location.skeld.cafeteria" : "食堂"
 "location.skeld.comms" : "通讯室"
@@ -1609,6 +1776,8 @@ $Achievement
 "location.skeld.commsAccess" : "通讯室上方通道"
 "location.skeld.rightAccess" : "右方通道"
 "location.skeld.weaponsAccess" : "舰载武器室左方通道"
+
+"map.mira" : "MIRA HQ"
 "location.mira.admin" : "管理室"
 "location.mira.balcony" : "露台"
 "location.mira.cafeteria" : "食堂"
@@ -1623,6 +1792,8 @@ $Achievement
 "location.mira.rendezvous" : "集合点"
 "location.mira.storage" : "库房"
 "location.mira.launchpad" : "发射台"
+
+"map.polus" : "Polus"
 "location.polus.abditory" : "假山"
 "location.polus.admin" : "管理室"
 "location.polus.comms" : "通讯室"
@@ -1657,6 +1828,8 @@ $Achievement
 "location.polus.reactorRight.short" : "右侧抗震稳定器"
 "location.polus.officeBuilding" : "办公室屋内"
 "location.polus.outside" : "屋外"
+
+"map.airship" : "The Airship"
 "location.airship.brig" : "牢房"
 "location.airship.engine" : "引擎室"
 "location.airship.hallway" : "大厅"
@@ -1693,6 +1866,8 @@ $Achievement
 "location.airship.meetingRight" : "会议室内部"
 "location.airship.meetingRight.short" : "会议室内部"
 "location.airship.ventilation" : "换气室"
+
+"map.fungle" : "The Fungle"
 "location.fungle.beach" : "沙滩"
 "location.fungle.cafeteria" : "食堂"
 "location.fungle.campfire" : "篝火处"
@@ -1809,7 +1984,7 @@ $Achievement
 "button.label.madmate.suicide" : "自杀"
 "button.label.fixPos" : "脱离卡点"
 "button.label.medicine" : "人格分离药"
-"button.label.oracle" : "占卜"
+"button.label.oracle" : "预言"
 "button.label.investigate" : "调查"
 "button.label.nightmare" : "夜幕"
 "button.label.gust" : "钩索枪"
@@ -1817,6 +1992,14 @@ $Achievement
 "button.label.deceive" : "套话"
 "button.label.snatch" : "盗取"
 "button.label.clock" : "变速"
+"button.label.cupid.lover" : "指定"
+"button.label.cupid.string" : "红线"
+"button.label.drill" : "钻头"
+"button.label.despawn" : "消除"
+"button.label.doppelganger.command" : "部署"
+"button.label.sculptor.command" : "制作"
+"button.label.rokuro" : "伸长"
+"button.label.rokuro.reset" : "收缩"
 
 # Game
 
@@ -1828,7 +2011,7 @@ $Achievement
 "game.meeting.someoneDisappeared" : "有玩家失踪了"
 "game.meeting.roleText" : "%PLAYER% 是 %ROLE%"
 "game.meeting.roleJesterText" : "虽然我是<color=#FD54A7>Jester</color>，但你们是真正的<color=#009900>Clown</color>！"
-"game.meeting.multiple" : "有两个人被驱逐了"
+"game.meeting.multiple" : "有两个人被放逐了"
 "game.meeting.obvious" : "没有其他选择"
 "game.meeting.justiceMeeting" : "请选择你心中的目标！"
 
@@ -1905,6 +2088,8 @@ $Achievement
 "state.starved" : "饿死"
 "state.balloon" : "绞死"
 "state.lost" : "破产"
+"state.laser" : "情殇"
+"state.drill" : "钻碎"
 
 # Endings
 
@@ -1975,6 +2160,11 @@ $Achievement
 # Console
 
 "console.notAvailable" : "不可用"
+
+# Tasks
+
+"task.unknownPlace" : "？？？"
+"task.divertPower" : "转移电路"
 
 # Inventory
 
@@ -2054,6 +2244,8 @@ $Achievement
 "config.client.externalModColor.detail" : "开启后将显示来自其他模组的颜色参数。"
 "config.client.simpleNameplate" : "简约名牌"
 "config.client.simpleNameplate.detail" : "开启后，其他玩家的名牌固定为白色。"
+"config.client.outputPaparazzoPhoto" : "保存摄影师拍摄的照片"
+"config.client.outputPaparazzoPhoto.detail" : "开启后，摄影师拍摄的照片将会保存到本地中。"
 "config.client.webhook" : "Discord频道链接"
 "config.client.webhook.detail" : "游戏结束时自动将游戏结果发送到Discord频道中。"
 "config.client.social" : "社交设置"
@@ -2216,8 +2408,10 @@ $Achievement
 "achievement.ui.unsetTitle" : "单击可删除成就内容。"
 "achievement.ui.unselected" : "(未选择成就)"
 "achievement.ui.unselected.detail" : "你可以通过单击开选择成就。"
+"achievement.ui.globalProgress" : "全球玩家达成率 %RATE%%"
 "achievement.title.hidden" : "未解锁"
 "achievement.title.hiddenDetail" : "详细内容暂未解锁……"
+"achievement.title.unachieved" : "？？？？？"
 "achievement.type.challenge" : "挑战成就"
 "achievement.type.secret" : "隐藏成就"
 "achievement.type.seasonal" : "季节性成就"
@@ -2241,6 +2435,10 @@ $Achievement
 "achievement.filter.nonAchieved" : "未解锁"
 "achievement.filter.search" : "搜索"
 "achievement.filter.myRole" : "我的职业"
+
+"achievement.sort" : "排列方式"
+"achievement.sort.categorized" : "分类"
+"achievement.sort.progress" : "获得率"
 
 "achievement.social.firstClear" : "%PLAYER%首次获得"
 "achievement.social.clear" : "%PLAYER%获得"
@@ -2307,6 +2505,8 @@ $Achievement
 "help.rolePreview.inner.ghostRoles" : "鬼魂职业"
 "help.rolePreview.inner.jackalized.100" : "豺狼化100%出现"
 "help.rolePreview.inner.jackalized.random" : "豺狼化概率出现"
+"help.rolePreview.inner.madden.100" : "叛徒化100%出现"
+"help.rolePreview.inner.madden.random" : "叛徒化概率出现"
 
 # Tag
 
@@ -2423,8 +2623,8 @@ $Achievement
 "document.tip.winCond.teams.lover" : "恋人"
 "document.tip.winCond.crewmate.task.title" : "任务胜利"
 "document.tip.winCond.crewmate.task" : "船员阵营通过完成所有任务获胜。"
-"document.tip.winCond.crewmate.exile.title" : "驱逐获胜"
-"document.tip.winCond.crewmate.exile" : "所有%IMPOSTOR%阵营和%JACKAL%阵营都被驱逐。"
+"document.tip.winCond.crewmate.exile.title" : "放逐获胜"
+"document.tip.winCond.crewmate.exile" : "所有%IMPOSTOR%阵营和%JACKAL%阵营都被放逐。"
 "document.tip.winCond.impostor.kill.title" : "击杀获胜"
 "document.tip.winCond.impostor.kill" : "当伪装者阵营幸存玩家数占所有幸存玩家说一半时获胜。<br>需要%JACKAL%阵营全灭，同时队友不属于%LOVER%阵营。"
 "document.tip.winCond.impostor.extinction.title" : "完全歼灭胜利"
@@ -2436,7 +2636,7 @@ $Achievement
 "document.tip.winCond.jackal.extinction.title" : "完全歼灭胜利"
 "document.tip.winCond.jackal.extinction" : "当所有幸存玩家都是相同阵营时，那么就获胜了。<br>需要队友中不存在%LOVER%阵营。"
 "document.tip.winCond.jester.title" : "特殊胜利"
-"document.tip.winCond.jester" : "在会议中被驱逐时获胜。<br>如果为%LOVER%阵营，那么另一方无法跟随胜利，反之可以。"
+"document.tip.winCond.jester" : "在会议中被放逐时获胜。<br>如果为%LOVER%阵营，那么另一方无法跟随胜利，反之可以。"
 "document.tip.winCond.vulture.title" : "特殊胜利"
 "document.tip.winCond.vulture" : "在行动期间吞噬一定量的尸体后获胜。"
 "document.tip.winCond.arsonist.title" : "特殊胜利"
@@ -2484,6 +2684,16 @@ $Achievement
 
 "options.perk.growSpeed.detail" : "可以调整花的成长速度。<br>数值越大，生长速度越快。"
 
+"options.task.noGuide.wiring.detail" : "开启后，将无法得知后续配线任务位置(第二处及之后)。"
+"options.task.noGuide.upload.detail" : "开启后，将无法得知上传任务位置。"
+"options.task.noGuide.divertPower.detail" : "开启后，将无法得知后续转移电路任务位置。"
+"options.task.noGuide.garbage.detail" : "开启后，将无法得知(第一处)清理垃圾任务位置。"
+"options.task.noGuide.sortRecords.detail" : "开启后，将无法得知整理档案任务任务位置。"
+"options.task.noGuide.marshmallow.detail" : "开启后，将无法得知收集贝壳任务位置。"
+"options.task.noGuide.helpCritter.detail" : "开启后，将无法得知帮助生物任务位置。"
+"options.task.noGuide.replaceParts.detail" : "开启后，将无法得知更换零件任务位置。"
+"options.task.noGuide.collectSamples.detail" : "开启后，将无法得知收集样本任务位置。"
+
 "options.role.agent.numOfExemptedTasks.detail" : "指定代理人的任务总数将减少的数量。<br>总任务越少，获取额外任务的速度更快。"
 "options.role.agent.numOfExtraTasks.detail" : "设置每次完成任务后可以额外获取的任务数量。<br>死亡后你将无法<b>获取</b>新的任务。"
 "options.role.agent.suicideIfSomeoneElseCompletesTasksBeforeAgent.detail" : "开启后，如果有其他船员在代理人完成任务前完成任务，代理人会当场死亡。<br>如果特工已经完成了自带的任务，并且已经接取了额外任务时，不会死亡。"
@@ -2529,7 +2739,7 @@ $Achievement
 "options.role.sheriff.sealAbilityUntilReportingDeadBodies.detail" : "开启后，在出现玩家死亡的会议之前，击杀能力会被封印。"
 
 "options.role.berserker.canCalmDown.detail" : "开启后，暴怒状态可以通过时间耗尽或按钮结束状态。"
-"options.role.berserker.killingForTrance.detail" : "在暴怒状态下不断击杀会逐渐迷失自我。<br>当进入忘我状态后，无法区分其他人，甚至可以击杀伪装者。"
+"options.role.berserker.killingForTrance.detail" : "在暴怒状态下不断击杀会逐渐迷失自我。<br>当进入忘我状态后，无法区分其他人，甚至可以击杀队友。"
 
 "options.role.camouflager.canInvokeCamoAfterDeath.detail" : "开启后，即使死亡也能使用隐蔽技能。"
 
@@ -2579,6 +2789,15 @@ $Achievement
 "options.role.gambler.chipsLimitForNoVoteBetting.detail" : "设置无票押注允许使用的筹码上限。"
 
 "options.role.snatcher.killCooldownRewindAfterUsurp.detail" : "当盗取拥有特殊击杀能力的职业时，目标将解锁普通击杀能力。"
+
+"options.role.gimlet.drillSpeed.detail" : "设置钻头状态下的移动速度。<br>默认为普通情况下的两倍。"
+
+"options.role.gimlet.frictionResistance.detail" : "调整钻头触碰墙壁继续突进的最大角度。<br>数值越大，即使以直角形式撞击墙壁，仍然保持突进状态。"
+
+"options.role.scarlet.favoriteGauge.detail" : "开启后，魅魔必须使情感值达到一定值才能获胜。<br>情感值可以通过靠近本命时持续积累，相反会慢慢衰减。"
+"options.role.scarlet.requiredGaugeToWin.detail" : "魅魔窃取胜利前需要积攒最低值。"
+"options.role.scarlet.surplusGauge.detail" : "在原先获胜情感值上追加额外上限。<br>数值越高，魅魔独自行动的时间越长。"
+"options.role.scarlet.gaugeReductionRatio.detail" : "当魅魔远离本命时，情感值会以积累速度乘以该设定值进行衰减。<br>设置1倍时，衰减与积累速度相同，建议设置小于1倍。"
 
 "options.role.spectre.satiety.detail" : "该值是配置一块油豆腐相当于多少秒，吃掉会补充多少秒，也相当于一种持续时间。"
 "options.role.spectre.maxSatiety.detail" : "一格饱食度的持续时间等于一块油豆腐代表的时间，即按倍率计算。<br>下面含有倍率的选项均参考本解释。"
@@ -2760,19 +2979,26 @@ $Achievement
 "role.collator.ability.meeting" : "在会议期间，玩家图标上会显示一个按钮，选择其中两个玩家进行比较。"
 "role.collator.tips" : "・这个职业与<color=#ff7f00>超</color><color=#ff0000>新</color><color=#00ff00>职业</color>进行联动(原职业: 臨床検査技師)。"
 
+"role.doppelganger.ability.title" : "固有能力 【分离意识】"
+"role.doppelganger.ability.main" : "可以在地图中创建与自己外观相同的分身。"
+"role.doppelganger.ability.map" : "打开用于召唤分身的地图界面。使用常规地图也可以召唤。"
+"role.doppelganger.ability.swap" : "与分身交换位置。"
+"role.doppelganger.ability.despawn" : "使用分身消失。"
+"role.doppelganger.tips" : "・分身被击杀，本体也会一起<b>死亡</b>。<br>・可以通过地图观察靠近分身的玩家位置与深浅颜色。"
+
 "role.investigator.ability.title" : "固有能力【侦查之眼】"
 "role.investigator.ability.main" : "调查员拥有“调查”能力。<br>“调查”过程中可以识别行凶者的犯罪现场。<br>仔细调查足迹，可以知晓更多信息。"
 "role.investigator.ability.investigate" : "开始调查。<br>调查期间，视野会发生变化，可以看到足迹。"
 
 "role.justice.ability.title" : "固有能力【会议审判】"
 "role.justice.ability.main" : "在会议中选择<var>#NUM</var>名玩家#PICKME进行<b>会议审判</b>。<br>在这种特殊会议中，你只能投票给两名玩家其中之一。<br>如果两人平票，那么就全部<b>放逐</b>。"
-"role.justice.ability.pickJustice" : "、<var>和自己</var>"
+"role.justice.ability.pickJustice" : "<var>和自己</var>"
 "role.justice.ability.meeting" : "在会议中，玩家头像上会显示技能按钮。<br>你可以选择你想审判的玩家。"
 "role.justice.tips" : "・这个职业与<color=#ff7f00>超</color><color=#ff0000>新</color><color=#00ff00>职业</color>进行联动(原职业: 大神官)。"
 
-"role.oracle.ability.title" : "固有能力【魔法水晶】"
-"role.oracle.ability.main" : "可以通过占卜知晓其他玩家职业。<br>可以通过设置让占卜获得更多职业使其很难确定。"
-"role.oracle.ability.oracle" : "靠近其他玩家使用技能即可进行占卜。" 
+"role.oracle.ability.title" : "固有能力【预知未来】"
+"role.oracle.ability.main" : "可以通过预言知晓其他玩家职业。<br>通过设置让预言获得更多职业使其很难确定。"
+"role.oracle.ability.oracle" : "靠近其他玩家使用技能即可进行预言。" 
 
 "role.ubiquitous.ability.title" : "固有能力【无处不在】"
 "role.ubiquitous.ability.main" : "每个任务阶段你都可以召唤一个<b>额外</b>无人机。<br>会议结束后，这些无人机将不能被<b>控制</b>并对其他玩家可见。<br>不能控制的无人机会上传附近玩家并在地图中显示。"
@@ -2781,11 +3007,15 @@ $Achievement
 "role.ubiquitous.ability.doorHack" : "无人机可以破解附近的门。"
 "role.ubiquitous.tips" : "・即使你没有链接无人机也可以在左下角的小窗口查看无人机周围情况。"
 
+"role.fixer.ability.title" : "固有能力【辩证调停】"
+"role.fixer.ability.main" : "在会议中可以对一名玩家实事干扰，屏蔽其平板的通信。<br>被屏蔽的玩家无法投票，并且其会议能力也将失效。<br>其他玩家不能对被屏蔽玩家进行操作。<br>请勿盲目屏蔽他人，利用它保护最重要的船员。"
+"role.fixer.ability.meeting" : "屏蔽目标。<br>该能力有一定使用次数。"
+
 "role.jekyllAndHyde.winCond" : "杰基尔：完成任务与船员一起胜利。<br>海德：与伪装者一起获胜。"
 "role.jekyllAndHyde.ability.title" : "固有能力【多重人格】"
 "role.jekyllAndHyde.ability.main" : "每次会议结束，就会切换一次人格。<br>杰基尔是船员阵营的，海德是伪装者阵营的。<br>海德可以击杀其他玩家，但是有击杀次数限制。<br>如果你击杀了一名伪装者玩家，你就彻底成为一名伪装者，不会在改变人格。"
 "role.jekyllAndHyde.ability.drug" : "杰基尔可以通过完成任务获得<b>人格分离药</b>。<br>使用后立刻变成海德人格。"
-"role.jekyllAndHyde.tips" : "・人格会在被放逐的同时切换，如果导致游戏结束，胜负会根据切换的人格判定。<br>・游戏开始时，人格是随机的。<br>・死亡后不会切换人格。"
+"role.jekyllAndHyde.tips" : "・人格会在被放逐的同时切换，如果导致游戏结束，胜负会根据切换的人格判定。<br>・初始人格是随机的。<br>・死亡后不会切换人格。"
 
 "role.alien.ability.title" : "固有能力【电磁干扰】"
 "role.alien.ability.main" : "外星技术会影响些终端设备。<br>使一些终端设备停止更新信息或不显示玩家信息。"
@@ -2812,13 +3042,20 @@ $Achievement
 "role.cannon.ability.mark" : "在你当前的位置放置一个标记点。<br>其他人看不到你的标记点。"
 "role.cannon.ability.cannon" : "打开特殊地图，向标记点位置发射空气炮。"
 
-"role.cleaner.ability.title" : "固有能力【毁尸】"
+"role.cleaner.ability.title" : "固有能力【毁尸灭迹】"
 "role.cleaner.ability.main" : "杀死玩家并将尸体清理掉防止尸体被发现。#COOLDOWN"
-"role.cleaner.ability.main.cooldown" : "<br>击杀与清理<var>共享</var>一个冷却时间。<br>激活一个另一个也会重置。"
+"role.cleaner.ability.main.cooldown" : "<br><var>击杀与清理共享一个冷却时间，激活一个另一个也会重置。</var>"
+"role.cleaner.ability.main.notSyncCoolDown" : "<br><var>击杀一名玩家后，仅使清理能力增加5秒冷却</var>。"
+
+"role.cupid.ability.title" : "固有能力【命运红线】"
+"role.cupid.ability.main" : "可以指定一对恋人，并在这对恋人之间创建<b>红线</b>。<br>触碰红线的玩家会立即死亡。"
+"role.cupid.ability.lover" : "指定一对恋人玩家。<br>选择两个人后，再次使用就会创建<b>红线</b>。"
+"role.cupid.ability.laser" : "在恋人之间显示红线。<br>恋人关系将在首次显示红线时确立。"
+"role.cupid.tips" : "・当选择第二个玩家后，第一个玩家若已死亡，则可重新选择第三位玩家。<br>・组成的恋人会共生死，恋人死亡后不能重新建立<b>红线</b>。"
 
 "role.destroyer.ability.title" : "固有能力【碾压】"
 "role.destroyer.ability.main" : "毁灭者可以执行<b>碾压</b>效果来抹杀玩家。<br>被碾压的玩家不会留下尸体但击杀时间需要很久。#LEFTEVIDENCE"
-"role.destroyer.ability.main.leftEvidence" : "<br>相反，他会留下<var>血迹</var>。<br>尽管击杀现场不能报告，但也能进行推理。"
+"role.destroyer.ability.main.leftEvidence" : "<br><var>相反，他会留下血迹。尽管击杀现场不能报告，但也能进行推理。</var>"
 "role.destroyer.tips" : "・如果你想杀死左边（或右边）的玩家没有足够的空间，你将不能杀死他。<br>　小心注意隐藏<br>　使用碾压的过程中附近的玩家可以听到声音。<br>・被碾压的过程中你仍然可以报告尸体。"
 
 "role.disturber.ability.title" : "固有能力【电磁屏障】"
@@ -2830,6 +3067,11 @@ $Achievement
 "role.effacer.ability.main" : "你可以让自己活其他人<b>隐身</b>。<br>其他人看不到被隐身的玩家，但被隐身的玩家注意不到自己隐身了。<br>但是伪装者仍然可以看到其隐身了并且意识到他已经隐身了。<br><br>"
 "role.effacer.ability.efface" : "使附近的玩家短暂隐身。"
 "role.effacer.tips" : "・这个职业与<color=#ff7f00>超</color><color=#ff0000>新</color><color=#00ff00>职业</color>进行联动(原职业: ジャマー)。"
+
+"role.gimlet.ability.title" : "固有能力【无畏突进】"
+"role.gimlet.ability.main" : "变身成钻头向前突进。触碰钻头的玩家会立即死亡。"
+"role.gimlet.ability.drill" : "变身成钻头，向鼠标光标方向突进。"
+"role.gimlet.tips" : "・撞到墙壁会变回原型。<br>・较小的角度触碰墙壁时，会沿着墙壁继续突进并且出现摩擦声。"
 
 "role.hadar.ability.title" : "固有能力【挖洞】"
 "role.hadar.ability.main" : "矿工可以在地下挖掘自由移动。<br>在地下时视野会变得非常狭窄昏暗，但可以感知到附近的玩家。<br>根据设置，跳出时可以选择最近的通风口。"
@@ -2846,9 +3088,9 @@ $Achievement
 "role.jailer.ability.title" : "固有能力【管理地图】" 
 "role.jailer.ability.main.canWalk" : "狱卒可以随时随地<var>边走边看</var>管理控制台。#DEADBODY#IMPOSTOR#INHERIT"
 "role.jailer.ability.main.cannotWalk" : "狱卒可以随时随地观看管理控制台。<br>观看期间不能<var>行走</var>。#DEADBODY#IMPOSTOR#INHERIT"
-"role.jailer.ability.main.deadbody" : "<br><var>深色</var>表示尸体。"
-"role.jailer.ability.main.impostor" : "<br><var>红色</var>表示伪装者。"
-"role.jailer.ability.main.inherit" : "<br><br>当狱卒死亡时，<b>主控台</b>可以<var>继承</var>给队友。"
+"role.jailer.ability.main.deadbody" : "<br><var>深色表示尸体。</var>"
+"role.jailer.ability.main.impostor" : "<br><var>红色表示伪装者。</var>"
+"role.jailer.ability.main.inherit" : "<br><br><var>当狱卒死亡时，<b>主控台</b>可以继承给队友。</var>"
 "role.jailer.tips" : "・无论游戏设置如何，狱卒都能记录尸体。"
 
 "role.marionette.ability.title" : "固有能力【木偶人】"
@@ -2879,6 +3121,17 @@ $Achievement
 "role.raider.ability.axe" : "不要乱掏出斧子。<br>你的斧子对所有人可见。"
 "role.raider.tips" : "・玩家的碰撞箱位于最中心的位置。"
 
+"role.rokurokubi.ability.title" : "固有能力【妖怪·辘轳首】"
+"role.rokurokubi.ability.main" : "可以自由伸长脖子，碰到脖子的玩家会死亡。"
+"role.rokurokubi.ability.rokurokubi" : "伸长脖子。按下切换动作键可暂停伸长。"
+"role.rokurokubi.ability.reset" : "按下收缩按钮或完成一次击杀后，脖子恢复原状。"
+
+"role.sculptor.ability.title" : "固有能力 【机械专家】"
+"role.sculptor.ability.main" : "可以在地图中创建可以自由行动的机械人。"
+"role.sculptor.ability.sample" : "采集其他玩家的外观样本并用于制作机械人。"
+"role.sculptor.ability.map" : "打开用于制作机械人的地图界面。<br>在地图上选择好机械人的目的地与外观后，会在原地创建一个机械人，机械人会自动走到目的地。"
+"role.sculptor.tips" : "・机器人死亡会直接消失，不会产生其他效果。"
+
 "role.snatcher.ability.title" : "固有能力【能力掠夺】"
 "role.snatcher.ability.main" : "可以盗取其他玩家技能的伪装者。<br>被盗取能力的玩家视角中，技能为破碎状态，无法使用。"
 "role.snatcher.ability.snatch" : "盗取其他玩家的能力。<br>在<b>会议推测</b>模式下，需要在会议期间推测玩家职业继续盗取。"
@@ -2888,7 +3141,7 @@ $Achievement
 "role.sniper.ability.main" : "狙击无法正常攻击，但可以使用狙击枪射击。<br>通过狙击枪还能穿墙击杀玩家。<br>狙击方向为鼠标朝向。<br>使用快捷键或鼠标左键触发。"
 "role.sniper.ability.snipe" : "不要乱掏出狙击枪。<br>你的狙击枪对所有人可见。"
 "role.sniper.tips" : "・玩家的碰撞箱位于最中心的位置。<br>・当枪声响起时，<var>#SOUND米</var>以内的玩家都会有通知。#AIMASSIST"
-"role.sniper.tips.aimAssist" : "<br>・掏出狙击枪<var>#DELAY</var>秒后会出现<var>辅助瞄准</var>。<br>　沿着辅助线开枪更容易杀死敌人。"
+"role.sniper.tips.aimAssist" : "<br><var>・掏出狙击枪#DELAY</var>秒后会出现<var>辅助瞄准。<br>　沿着辅助线开枪更容易杀死敌人。</var>"
 
 "role.thurifer.ability.title" : "固有能力【香熏】"
 "role.thurifer.ability.main" : "在地图上会出现香炉，香炉产生的烟气可以侵蚀其他玩家使其获得<b>香熏</b>效果。<br>调香师的击杀行为会根据<b>香熏</b>的进度进行延迟击杀。"
@@ -2896,14 +3149,14 @@ $Achievement
 "role.thurifer.ability.impute" : "当自身<b>香熏</b>达到50%以上可以<b>转移</b>到另一个未激活的香炉上，使进度重置。<br>注意，若船员使用<b>转移</b>到一个未激活的香炉，那么这个香炉永远不会熄灭。<br>调香师不能<b>转移</b>自身进度。"
 
 "role.dancer.winCond" : "在存活期间使用<b>跳舞</b>完成<var>#NUM</var>个死亡预言。#ADD"
-"role.dancer.winCond.main.lastDance" : "<br>此外当上述条件达成时，<var>最后之舞</var>也要向所有活人展示。"
+"role.dancer.winCond.main.lastDance" : "<br><var>此外当上述条件达成时，最后之舞也要向所有活人展示。</var>"
 "role.dancer.ability.title" : "固有能力【死亡之舞】"
 "role.dancer.ability.main" : "舞蹈家可以通过快速左右移动触发<b>死亡之舞</b>。<br>目睹舞蹈的玩家将会收到<b>死亡预言</b>。<br>如果有玩家在死亡预言有效期间内死亡，<b>死亡预言</b>就会完成否则将无效。<br>如果有死亡预言的玩家在其他玩家面前跳舞，他们也会获得效果。<br>看到舞蹈的玩家有3个选择：分享舞蹈、等待效果结束或等待死亡。"
 "role.dancer.ability.dance" : "你只能通过快速左右移动触发技能。<br>你不能通过点击<b><color=#ff0000ff>按钮或按键</color></b>触发。<br>当跳舞技能时结束时，你就可以使用<b>死亡预言</b>。"
 "role.dancer.ability.danceKill" : "如果你在尸体旁边跳舞，你会直接获得可以击杀玩家的<b>死亡之舞</b>。<br><b>死亡之舞</b>的击杀也算作完成死亡预言。"
 "role.dancer.tips" : "・处于<b>死亡预言</b>期间，目标玩家不能获胜。<br>・如果<b>死亡预言</b>交给舞蹈家本人就直接消失。<br>・你看到的跳舞的人并不代表他是本人。<br>・当舞蹈家获胜时，完成死亡预言的玩家也可以跟随<b>获胜</b>。"
 
-"role.paparazzo.winCond" : "存活期间拍摄#SUBJECT个不同的玩家并在会议中展示#ENCLOSED个不同的图片。<br>两者第三方，不需要在同一个照片中。"
+"role.paparazzo.winCond" : "存活期间拍摄<var>#SUBJECT</var>个不同的玩家并在会议中展示<var>#ENCLOSED</var>个不同的图片。<br>两者第三方，不需要在同一个照片中。"
 "role.paparazzo.ability.title" : "固有能力【抓拍】"
 "role.paparazzo.ability.main" : "在任务阶段，屏幕会出现取景器协助拍摄。<br>拍摄的图片会储存在做下角，没有玩家的照片会被丢弃。<br><br>在会议中单击照片就会把照片公开出来。<br>当沙漏计时器结束后，你将无法公开照片。"
 "role.paparazzo.ability.camera" : "使用快捷键或鼠标左键触发拍摄事件。"
@@ -2947,18 +3200,18 @@ $Achievement
 "role.trilemma.winCond.overwrite" : "在存活并满足自身胜利条件的基础上，游戏结束时除你以外的其他拥有三角仇的玩家都死亡，你可以窃取胜利。<br>如果其中有任何一人没有死亡，你失去胜利。"
 
 "role.lover.winCond" : "当存活玩家只有3个或3个以下，且你与你的爱人存活。#ADD"
-"role.lover.winCond.additional" : "<br>或者你的爱人获胜并且还存活，你也可以共享<var>胜利</var>。"
-"role.lover.tips.standard" : "・当有一方死亡时，另一方会<var>殉情</var>。"
-"role.lover.tips.avenger" : "・当有一方死亡时，另一方会成为<var>复仇者</var>来报仇。<br>・如果有一方是因为被驱逐而死亡，另一方会直接殉情。"
-"role.lover.tips.assignment.noImpostor" : "・伪装者玩家不会成为<var>恋人</var>。"
-"role.lover.tips.assignment.impostor" : "・恋人一方有<var>#NUM%</var>的概率是伪装者玩家。<br>　双方都不会是伪装者。"
+"role.lover.winCond.additional" : "<br><var>或者你的爱人获胜并且还存活，你也可以共享胜利</var>。"
+"role.lover.tips.standard" : "・<var>当有一方死亡时，另一方会殉情</var>。"
+"role.lover.tips.avenger" : "・<var>当有一方死亡时，另一方会成为复仇者来报仇。<br>・如果有一方是因为被放逐而死亡，另一方会直接殉情。</var>"
+"role.lover.tips.assignment.noImpostor" : "<var>・伪装者玩家不会成为恋人。</var>"
+"role.lover.tips.assignment.impostor" : "<var>・恋人一方有#NUM%的概率是伪装者玩家。<br>　双方都不会是伪装者。</var>"
 
-"role.obsessional.winCond.canWinEvenIfTargetDie" : "如果暗恋对象胜利，你将会获得额外胜利。<br>暗恋对象<var>无论生死</var>。#SELF<br>自身职业的胜利条件将<b><color=#ff0000ff>无效</color></b>。"
-"role.obsessional.winCond.cannotWinIfTargetDie" : "如果暗恋对象在<var>存活</var>的情况下获胜，你将会获得额外胜利。#SELF<br>自身职业的胜利条件将<b><color=#ff0000ff>无效</color></b>。"
-"role.obsessional.winCond.canWinEvenIfSelfDie" : "<br>不过你的<var>生死</var>并不重要。"
-"role.obsessional.winCond.cannotWinIfSelfDie" : "<br>如果你死了将无法<b><color=#ff0000ff>获胜</color></b>。"
+"role.obsessional.winCond.canWinEvenIfTargetDie" : "如果暗恋对象胜利，你将会获得额外胜利。<br>暗恋对象<b>无论生死</b>。#SELF<br>自身职业的胜利条件将<b><color=#ff0000ff>无效</color></b>。"
+"role.obsessional.winCond.cannotWinIfTargetDie" : "如果暗恋对象在存活的情况下获胜，你将会获得额外胜利。#SELF<br>自身职业的胜利条件将<b><color=#ff0000ff>无效</color></b>。"
+"role.obsessional.winCond.canWinEvenIfSelfDie" : "<br><var>不过你的生死并不重要。</var>"
+"role.obsessional.winCond.cannotWinIfSelfDie" : "<br><var>如果你死了将无法<b><color=#ff0000ff>获胜</color></b>。</var>"
 "role.obsessional.tips" : "・当你满足了你的职业的获胜条件并且游戏结束，但你仍然不能获胜。#SUICIDE"
-"role.obsessional.tips.suicide" : "<br>・暗恋对象死亡时，将会<var>殉情</var>。"
+"role.obsessional.tips.suicide" : "<br><var>・暗恋对象死亡时，将会殉情</var>。"
 
 "document.canAssignTo" : "可分配" 
 "document.caption.configuration" : "*部分<var>浅蓝色</var>内容为设置不同选项效果的描述。"

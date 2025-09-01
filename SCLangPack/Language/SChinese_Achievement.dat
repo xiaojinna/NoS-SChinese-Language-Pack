@@ -133,6 +133,18 @@
 "achievement.doctor.challenge.cond" : "提示：初始时间在10秒以下+任务充能2秒以下"
 "achievement.doctor.challenge.flavor" : "“又多了一个。”-来自白衣者无奈独白"
 
+"achievement.doppelganger.common1.title" : "分身移行"
+"achievement.doppelganger.common1.goal" : "与分身交换位置并移动20米以上。"
+"achievement.doppelganger.common1.cond" : ""
+
+"achievement.doppelganger.another1.title" : "同生共死"
+"achievement.doppelganger.another1.goal" : "因为分身死亡导致本体死亡。"
+"achievement.doppelganger.another1.cond" : ""
+
+"achievement.doppelganger.challenge.title" : "最佳拍档"
+"achievement.doppelganger.challenge.goal" : "通过分身交换位置快速完成多个任务。"
+"achievement.doppelganger.challenge.cond" : "提示：完成任务时，所有船员剩余任务量超过4个。"
+
 "achievement.echo.common1.title" : "物体在呼吸"
 "achievement.echo.common1.goal" : "使用一次感知并感知到其他玩家。"
 "achievement.echo.common1.cond" : ""
@@ -145,6 +157,23 @@
 "achievement.echo.challenge.goal" : "通过感知2名以上玩家的异常行为并将异常行为的玩家投出去。"
 "achievement.echo.challenge.cond" : ""
 "achievement.echo.challenge.flavor" : "“请注意你们的行为！”-空气中流动的声音"
+
+"achievement.fixer.common1.title" : "幕后操盘"
+"achievement.fixer.common1.goal" : "累计屏蔽5次平板通信。"
+"achievement.fixer.common1.cond" : ""
+
+"achievement.fixer.common2.title" : "绝地逆转"
+"achievement.fixer.common2.goal" : "屏蔽已经获得5票的船员，并驱逐真正的敌人。"
+"achievement.fixer.common2.cond" : ""
+
+"achievement.fixer.secret1.title" : "无信号区"
+"achievement.fixer.secret1.goal" : "被屏蔽一次。"
+"achievement.fixer.secret1.cond" : ""
+
+"achievement.fixer.challenge.title" : "游戏特性"
+"achievement.fixer.challenge.goal" : "在投票阶段屏蔽敌方玩家并驱逐队友。"
+"achievement.fixer.challenge.cond" : ""
+"achievement.fixer.challenge.flavor" : "“你永远不知道你会在哪里摔跤。”"
 
 "achievement.investigator.common1.title" : "原来如此"
 "achievement.investigator.common1.goal" : "累计调查10次足迹。"
@@ -267,7 +296,7 @@
 
 "achievement.navvy.challenge.title" : "保持通畅"
 "achievement.navvy.challenge.goal" : "封锁房间所有的门。"
-"achievement.navvy.challenge.cond" : "这个房间必须拥有2个以上的门。"
+"achievement.navvy.challenge.cond" : "提示：这个房间必须拥有2个以上的门。"
 "achievement.navvy.challenge.flavor" : "“我不是关门了吗？？？”—一位愤怒的伪装者"
 
 "achievement.necromancer.common1.title" : "秽土转生"
@@ -307,16 +336,16 @@
 "achievement.noisemaker.challenge.goal" : "被击杀后，击杀者在会议中被驱逐。"
 "achievement.noisemaker.challenge.cond" : ""
 
-"achievement.oracle.common1.title" : "神说"
-"achievement.oracle.common1.goal" : "使用10次占卜。"
+"achievement.oracle.common1.title" : "星说"
+"achievement.oracle.common1.goal" : "使用10次观测。"
 "achievement.oracle.common1.cond" : ""
 
 "achievement.oracle.another1.title" : "私心"
-"achievement.oracle.another1.goal" : "驱逐或误赌一名占卜过的船员。"
+"achievement.oracle.another1.goal" : "驱逐或误赌一名观测过的船员。"
 "achievement.oracle.another1.cond" : ""
 
 "achievement.oracle.challenge.title" : "观星术"
-"achievement.oracle.challenge.goal" : "占卜过的伪装者中至少有1名船员结果中有伪装者，<br>且不驱逐一个船员（不含叛徒）的情况下获胜。"
+"achievement.oracle.challenge.goal" : "观测过的伪装者中至少有1名船员结果中有伪装者，<br>且不驱逐一个船员（不含叛徒）的情况下获胜。"
 "achievement.oracle.challenge.cond" : ""
 
 "achievement.phosphorus.common1.title" : "夜空中最亮的星"
@@ -539,6 +568,23 @@
 "achievement.cleaner.challenge.goal" : "在发动会议之前清理两个以上的尸体。"
 "achievement.cleaner.challenge.cond" : ""
 
+"achievement.cupid.common1.title" : "异地恋"
+"achievement.cupid.common1.goal" : "让相差30米的恋人显现红线。"
+"achievement.cupid.common1.cond" : ""
+
+"achievement.combination.2.cupid.lover.common1.title" : "血红色的羁绊"
+"achievement.combination.2.cupid.lover.common1.goal" : "作为月老撮合一对恋人，然后通过红线击杀2人以上并以恋人阵营胜利。"
+"achievement.combination.2.cupid.lover.common1.cond" : ""
+
+"achievement.cupid.another1.title" : "这不对吧"
+"achievement.cupid.another1.goal" : "触碰到自己撮合的恋人产生的红线导致死亡。"
+"achievement.cupid.another1.cond" : ""
+
+"achievement.cupid.challenge.title" : "至痴情者"
+"achievement.cupid.challenge.goal" : "作为月老撮合一对恋人，然后通过红线击杀5人以上，<br>之后通过某些手段除掉恋人并以伪装者阵营胜利。"
+"achievement.cupid.challenge.cond" : ""
+"achievement.cupid.challenge.flavor" : "“痴情的恋人啊，在等来世吧！”"
+
 "achievement.destroyer.common1.title" : "禁忌之力"
 "achievement.destroyer.common1.goal" : "使用一次特殊击杀。"
 "achievement.destroyer.common1.cond" : ""
@@ -614,6 +660,33 @@
 "achievement.evilTrapper.challenge.title" : "精致的陷阱"
 "achievement.evilTrapper.challenge.goal" : "使用杀戮陷阱杀死两名玩家，并活到胜利。"
 "achievement.evilTrapper.challenge.cond" : ""
+
+"achievement.gimlet.common1.title" : "意外工伤"
+"achievement.gimlet.common1.goal" : "通过钻头击杀玩家。"
+"achievement.gimlet.common1.cond" : ""
+
+"achievement.gimlet.common3.title" : "谨慎而行"
+"achievement.gimlet.common3.goal" : "贴着墙壁5秒以上并钻死2人以上。"
+"achievement.gimlet.common3.cond" : ""
+
+"achievement.gimlet.another1.title" : "鲁莽冲撞"
+"achievement.gimlet.another1.goal" : "使用钻头后没有击杀任何人。"
+"achievement.gimlet.another1.cond" : ""
+
+"achievement.gimlet.another2.title" : "安全第一"
+"achievement.gimlet.another2.goal" : "首次变身成为钻头进入会议中被赌杀或驱逐。"
+"achievement.gimlet.another2.cond" : ""
+"achievement.gimlet.another2.flavor" : "“你这什么工具？”"
+
+"achievement.gimlet.common2.title" : "视野盲区"
+"achievement.gimlet.common2.goal" : "单次技能期间钻死4人以上。"
+"achievement.gimlet.common2.cond" : ""
+"achievement.gimlet.common2.flavor" : "“我们都在努力的活着！”"
+
+"achievement.gimlet.challenge.title" : "无敌破坏王"
+"achievement.gimlet.challenge.goal" : "使用钻头钻死4人以上，并且最后钻死的是正在修复破坏的玩家，通过破坏获胜。"
+"achievement.gimlet.challenge.cond" : "提示：必须在玩家开始修复破坏的10秒后。"
+"achievement.gimlet.challenge.flavor" : ""
 
 "achievement.hadar.common1.title" : "来自地底的杀意"
 "achievement.hadar.common1.goal" : "取消遁地后，在8秒内进行击杀。"
@@ -719,11 +792,11 @@
 
 "achievement.painter.common1.title" : "多漂亮的妆容"
 "achievement.painter.common1.goal" : "取样并修改其他玩家的外观"
-"achievement.painter.common1.cond" : "模仿大师也可以获取该成就！"
+"achievement.painter.common1.cond" : "提示：模仿大师也可以获取该成就！"
 
 "achievement.painter.challenge.title" : "你？我？他？她？"
 "achievement.painter.challenge.goal" : "将3个及以上的玩家修改两次及以上的外观"
-"achievement.painter.challenge.cond" : "相同的样本给两个及以上的玩家不会记次数"
+"achievement.painter.challenge.cond" : "提示：相同的样本给两个及以上的玩家不会记次数"
 
 "achievement.quack.common1.title" : "嘎嘎嘎♪"
 "achievement.quack.common1.goal" : "使用生命检测装置报告一次尸体。"
@@ -759,6 +832,44 @@
 "achievement.reaper.challenge.title" : "死神降临"
 "achievement.reaper.challenge.goal" : "一回合内超过5具尸体且没有人报告"
 "achievement.reaper.challenge.cond" : ""
+
+"achievement.rokurokubi.common1.title" : "颈间寒意"
+"achievement.rokurokubi.common1.goal" : "使用脖子杀死两个玩家。"
+"achievement.rokurokubi.common1.cond" : ""
+
+"achievement.rokurokubi.common2.title" : "恭候多时"
+"achievement.rokurokubi.common2.goal" : "暂停3秒以上后完成击杀。"
+"achievement.rokurokubi.common2.cond" : ""
+"achievement.rokurokubi.common2.flavor" : "“你掉进陷阱啦！”"
+
+"achievement.rokurokubi.common3.title" : "灵异事件"
+"achievement.rokurokubi.common3.goal" : "在隐身情况下使用脖子完成击杀。"
+"achievement.rokurokubi.common3.cond" : "提示：需要击杀离本体10米以上的玩家。"
+
+"achievement.rokurokubi.another1.title" : "悬浮之首"
+"achievement.rokurokubi.another1.goal" : "伸长脖子过程中被击杀。"
+"achievement.rokurokubi.another1.cond" : ""
+"achievement.rokurokubi.another1.flavor" : "“趁人之危啊！”"
+
+"achievement.rokurokubi.challenge.title" : "意外组合技"
+"achievement.rokurokubi.challenge.goal" : "队友击杀后，使用脖子将现场另一名玩家击杀，完成双杀。"
+"achievement.rokurokubi.challenge.cond" : "提示：目标不能是队友。"
+
+"achievement.sculptor.common1.title" : "人如机"
+"achievement.sculptor.common1.goal" : "除队友以外的玩家击杀一个机械人。"
+"achievement.sculptor.common1.cond" : ""
+
+"achievement.sculptor.common2.title" : "机械时代"
+"achievement.sculptor.common2.goal" : "累计制作20个机械人。"
+"achievement.sculptor.common2.cond" : ""
+
+"achievement.sculptor.common3.title" : "末日机"
+"achievement.sculptor.common3.goal" : "机械人的数量大于幸存玩家数。"
+"achievement.sculptor.common3.cond" : ""
+
+"achievement.sculptor.challenge.title" : "替罪机械"
+"achievement.sculptor.challenge.goal" : "制作一个其他玩家外貌的机械人后，该玩家被驱逐。"
+"achievement.sculptor.challenge.cond" : "提示：除自身与队友以外。"
 
 "achievement.snatcher.common1.title" : "拿来吧你！"
 "achievement.snatcher.common1.goal" : "盗取其他人职业。"
@@ -828,7 +939,7 @@
 
 "achievement.whammy.challenge.title" : "窒息感"
 "achievement.whammy.challenge.goal" : "让船员因为气球导致任务进度缓慢。"
-"achievement.whammy.challenge.cond" : "条件：同时存在3名玩家身上捆绑着气球。"
+"achievement.whammy.challenge.cond" : "提示：同时存在3名玩家身上捆绑着气球。"
 
 "achievement.arsonist.common1.title" : "充满汽油味"
 "achievement.arsonist.common1.goal" : "3个以上被涂油的玩家活着参加会议"
@@ -1033,6 +1144,10 @@
 "achievement.spectre.another1.cond" : ""
 "achievement.spectre.another1.flavor" : "“好油腻啊！所以不要在妖言惑众！！！”"
 
+"achievement.spectre.another2.title" : "饥寒交迫"
+"achievement.spectre.another2.goal" : "饿死。"
+"achievement.spectre.another2.cond" : ""
+
 "achievement.spectre.costume1.title" : "真正的九尾狐"
 "achievement.spectre.costume1.goal" : "使用九尾狐装扮并通过狐妖职业获胜。"
 "achievement.spectre.costume1.cond" : ""
@@ -1112,16 +1227,16 @@
 "achievement.bloody.challenge.flavor" : "血债血还天经地义！"
 
 "achievement.confused.common1.title" : "他们都是谁？"
-"achievement.confused.common1.goal" : "迷幻者的能力生效。"
+"achievement.confused.common1.goal" : "迷茫者的能力生效。"
 "achievement.confused.common1.cond" : ""
 
 "achievement.confused.another1.title" : "水面下无尽的深渊"
-"achievement.confused.another1.goal" : "在迷幻者的能力发动前死亡。"
+"achievement.confused.another1.goal" : "在迷茫者的能力发动前死亡。"
 "achievement.confused.another1.cond" : ""
 
 "achievement.confused.challenge.title" : "我的未来如何？"
 "achievement.confused.challenge.goal" : "活着，且只剩船员阵营的情况下获胜。"
-"achievement.confused.challenge.cond" : "条件：第三方阵营数量2+，伪装者阵营数量2+"
+"achievement.confused.challenge.cond" : "提示：第三方阵营数量2+，伪装者阵营数量2+"
 
 "achievement.damned.common1.title" : "邪恶者"
 "achievement.damned.common1.goal" : "因为诅咒导致从船员阵营变成伪装者阵营。"
@@ -1182,7 +1297,7 @@
 
 "achievement.extraMission.common3.title" : "意料之内的背叛"
 "achievement.extraMission.common3.goal" : "把票投给额外任务目标并驱逐。"
-"achievement.extraMission.common3.cond" : "条件：自己和目标是相同阵营（叛徒除外）"
+"achievement.extraMission.common3.cond" : "提示：自己和目标是相同阵营（叛徒除外）"
 
 "achievement.extraMission.another2.title" : "沉默者"
 "achievement.extraMission.another2.goal" : "任务的目标没有死亡，游戏失败。"

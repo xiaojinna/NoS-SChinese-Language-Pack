@@ -2,16 +2,15 @@
 	"BundleName" : null,
 	"Hats" : [
 		{
+			"Adaptive" : True,
+			"Bounce" : False,
+			"HideHands" : True,
+			"IsSkinny" : False,
 			"Main" : {
 				"Hash" : "",
 				"Address" : "5C0F5DFE/57645764/KunKun.png",
-				"ExIsFront" : False,
-				"MaskAddress" : null
+				"ExIsFront" : False
 			},
-			"Bounce" : False,
-			"Adaptive" : True,
-			"HideHands" : True,
-			"IsSkinny" : False,
 			"SeekerCostume" : True,
 			"FPS" : 1,
 			"Name" : "中分\+打篮球",
@@ -21,16 +20,15 @@
 			"IsLocalizable" : True
 		},
 		{
-			"Main" : {
-				"Hash" : "61cdb2f67e9b814968c06e857b15371c",
-				"Address" : "VXsN_Main.png",
-				"ExIsFront" : False,
-				"MaskAddress" : null
-			},
-			"Bounce" : False,
 			"Adaptive" : False,
+			"Bounce" : False,
 			"HideHands" : False,
 			"IsSkinny" : False,
+			"Main" : {
+				"Hash" : "61cdb2f67e9b814968c06e857b15371c",
+				"Address" : "zhongfen_Main.png",
+				"ExIsFront" : False
+			},
 			"SeekerCostume" : True,
 			"FPS" : 1,
 			"Name" : "中分",
@@ -40,16 +38,15 @@
 			"IsLocalizable" : True
 		},
 		{
-			"Main" : {
-				"Hash" : "112ca57b73e56266f08c7adfc0d195e2",
-				"Address" : "m2IT8p_Main.png",
-				"ExIsFront" : False,
-				"MaskAddress" : null
-			},
-			"Bounce" : False,
 			"Adaptive" : False,
+			"Bounce" : False,
 			"HideHands" : False,
 			"IsSkinny" : False,
+			"Main" : {
+				"Hash" : "112ca57b73e56266f08c7adfc0d195e2",
+				"Address" : "Qzhongfen_Main.png",
+				"ExIsFront" : False
+			},
 			"SeekerCostume" : True,
 			"FPS" : 1,
 			"Name" : "Q版中分",
@@ -59,22 +56,20 @@
 			"IsLocalizable" : True
 		},
 		{
+			"Adaptive" : False,
+			"Bounce" : True,
+			"HideHands" : False,
+			"IsSkinny" : False,
 			"Main" : {
 				"Hash" : "f25cf8fe8eafbc74bceeeb255a2fb1d2",
-				"Address" : "izkm9g_Main.png",
-				"ExIsFront" : False,
-				"MaskAddress" : null
+				"Address" : "niujiaobao_Main.png",
+				"ExIsFront" : False
 			},
 			"Climb" : {
 				"Hash" : "af4531c076e0a164d61081c321f9789a",
-				"Address" : "izkm9g_Climb.png",
-				"ExIsFront" : False,
-				"MaskAddress" : null
+				"Address" : "niujiaobao_Climb.png",
+				"ExIsFront" : False
 			},
-			"Bounce" : True,
-			"Adaptive" : False,
-			"HideHands" : False,
-			"IsSkinny" : False,
 			"SeekerCostume" : True,
 			"FPS" : 1,
 			"Name" : "牛角包",
@@ -84,22 +79,20 @@
 			"IsLocalizable" : True
 		},
 		{
+			"Adaptive" : False,
+			"Bounce" : True,
+			"HideHands" : False,
+			"IsSkinny" : False,
 			"Main" : {
 				"Hash" : "b18b68e8c8b148bd140f141353b5d24e",
-				"Address" : "UgkuZh_Main.png",
-				"ExIsFront" : False,
-				"MaskAddress" : null
+				"Address" : "erhuanjiao_Main.png",
+				"ExIsFront" : False
 			},
 			"Climb" : {
 				"Hash" : "af4531c076e0a164d61081c321f9789a",
-				"Address" : "UgkuZh_Climb.png",
-				"ExIsFront" : False,
-				"MaskAddress" : null
+				"Address" : "niujiaobao_Climb.png",
+				"ExIsFront" : False
 			},
-			"Bounce" : True,
-			"Adaptive" : False,
-			"HideHands" : False,
-			"IsSkinny" : False,
 			"SeekerCostume" : True,
 			"FPS" : 1,
 			"Name" : "耳环角",
@@ -109,28 +102,25 @@
 			"IsLocalizable" : True
 		},
 		{
+			"Adaptive" : False,
+			"Bounce" : False,
+			"HideHands" : True,
+			"IsSkinny" : False,
 			"Main" : {
 				"Hash" : "4ad1a0145c1956ece4911bfbe3d87dab",
-				"Address" : "qLYGY0o_Main.png",
-				"ExIsFront" : False,
-				"MaskAddress" : null
+				"Address" : "niulang_Main.png",
+				"ExIsFront" : False
 			},
 			"Move" : {
 				"Hash" : "4ad1a0145c1956ece4911bfbe3d87dab",
-				"Address" : "qLYGY0o_Move.png",
-				"ExIsFront" : False,
-				"MaskAddress" : null
+				"Address" : "niulang_Move.png",
+				"ExIsFront" : False
 			},
 			"Climb" : {
 				"Hash" : "c3c91ee194f6998944ad9716fc651e51",
-				"Address" : "qLYGY0o_Climb.png",
-				"ExIsFront" : False,
-				"MaskAddress" : null
+				"Address" : "niulang_Climb.png",
+				"ExIsFront" : False
 			},
-			"Bounce" : False,
-			"Adaptive" : False,
-			"HideHands" : True,
-			"IsSkinny" : False,
 			"SeekerCostume" : True,
 			"FPS" : 1,
 			"Name" : "“牛郎”",
@@ -140,22 +130,20 @@
 			"IsLocalizable" : True
 		},
 		{
+			"Adaptive" : False,
+			"Bounce" : False,
+			"HideHands" : True,
+			"IsSkinny" : False,
 			"Main" : {
 				"Hash" : "f461706d563bdf088a5cee777e1bf920",
-				"Address" : "CxCCSgnP_Main.png",
-				"ExIsFront" : False,
-				"MaskAddress" : null
+				"Address" : "m250_Main.png",
+				"ExIsFront" : False
 			},
 			"Climb" : {
 				"Hash" : "6e9a266dda25ddd41dea9992d25462b8",
-				"Address" : "CxCCSgnP_Climb.png",
-				"ExIsFront" : False,
-				"MaskAddress" : null
+				"Address" : "liutao_Climb.png",
+				"ExIsFront" : False
 			},
-			"Bounce" : False,
-			"Adaptive" : False,
-			"HideHands" : True,
-			"IsSkinny" : False,
 			"SeekerCostume" : True,
 			"FPS" : 1,
 			"Name" : "刘涛m250",
@@ -165,22 +153,20 @@
 			"IsLocalizable" : True
 		},
 		{
+			"Adaptive" : False,
+			"Bounce" : False,
+			"HideHands" : False,
+			"IsSkinny" : False,
 			"Main" : {
 				"Hash" : "e2f54bca3451a488784ed27457f03a3c",
-				"Address" : "FEsP_Main.png",
-				"ExIsFront" : False,
-				"MaskAddress" : null
+				"Address" : "liutao_Main.png",
+				"ExIsFront" : False
 			},
 			"Climb" : {
 				"Hash" : "6e9a266dda25ddd41dea9992d25462b8",
-				"Address" : "FEsP_Climb.png",
-				"ExIsFront" : False,
-				"MaskAddress" : null
+				"Address" : "liutao_Climb.png",
+				"ExIsFront" : False
 			},
-			"Bounce" : False,
-			"Adaptive" : False,
-			"HideHands" : False,
-			"IsSkinny" : False,
 			"SeekerCostume" : True,
 			"FPS" : 1,
 			"Name" : "刘涛",
@@ -190,22 +176,20 @@
 			"IsLocalizable" : True
 		},
 		{
+			"Adaptive" : False,
+			"Bounce" : False,
+			"HideHands" : True,
+			"IsSkinny" : False,
 			"Main" : {
 				"Hash" : "d073715a20fbbbfb836e882a3f2e9b93",
-				"Address" : "wVK7y45s_Main.png",
-				"ExIsFront" : False,
-				"MaskAddress" : null
+				"Address" : "m14_Main.png",
+				"ExIsFront" : False
 			},
 			"Climb" : {
 				"Hash" : "6e9a266dda25ddd41dea9992d25462b8",
-				"Address" : "wVK7y45s_Climb.png",
-				"ExIsFront" : False,
-				"MaskAddress" : null
+				"Address" : "liutao_Climb.png",
+				"ExIsFront" : False
 			},
-			"Bounce" : False,
-			"Adaptive" : False,
-			"HideHands" : True,
-			"IsSkinny" : False,
 			"SeekerCostume" : True,
 			"FPS" : 1,
 			"Name" : "刘涛满改m14",
@@ -215,27 +199,80 @@
 			"IsLocalizable" : True
 		},
 		{
+			"Adaptive" : False,
+			"Bounce" : False,
+			"HideHands" : False,
+			"IsSkinny" : False,
 			"Main" : {
 				"Hash" : "90552986dbc5227aa03ba32b67d7f86d",
-				"Address" : "47NmlZQk_Main.png",
-				"ExIsFront" : False,
-				"MaskAddress" : null
+				"Address" : "WeiLong_Main.png",
+				"ExIsFront" : False
 			},
 			"Climb" : {
 				"Hash" : "ee09e8863cbab51b1c85464baecb1650",
-				"Address" : "47NmlZQk_Climb.png",
-				"ExIsFront" : False,
-				"MaskAddress" : null
+				"Address" : "WeiLong_Climb.png",
+				"ExIsFront" : False
 			},
-			"Bounce" : False,
-			"Adaptive" : False,
-			"HideHands" : False,
-			"IsSkinny" : False,
 			"SeekerCostume" : True,
 			"FPS" : 1,
 			"Name" : "威龙的头盔",
 			"Author" : "小巾",
 			"Package" : "xiaojin",
+			"IsUnlockable" : False,
+			"IsLocalizable" : True
+		},
+		{
+			"Adaptive" : True,
+			"Bounce" : False,
+			"HideHands" : True,
+			"IsSkinny" : False,
+			"Main" : {
+				"Hash" : "",
+				"Address" : "",
+				"ExHash" : "0e8766864d0a9791d53ab17699068b9c",
+				"ExAddress" : "Goodchild_Ex_Main.png",
+				"ExIsFront" : False
+			},
+			"Flip" : {
+				"Hash" : "",
+				"Address" : "",
+				"ExHash" : "5706fc741e8c59551eebdac92505ebda",
+				"ExAddress" : "Goodchild_Ex_Flip.png",
+				"ExIsFront" : False
+			},
+			"Move" : {
+				"Hash" : "297dea108de843c50aa2f92f40c42c91",
+				"Address" : "Goodchild_Move.png",
+				"ExHash" : "790c1d57c06d7bc763332141182e63d6",
+				"ExAddress" : "Goodchild_Ex_Move.png",
+				"ExIsFront" : False
+			},
+			"MoveFlip" : {
+				"Hash" : "297dea108de843c50aa2f92f40c42c91",
+				"Address" : "Goodchild_Move.png",
+				"ExHash" : "c8eed069b0a4586133d2474151db8cdd",
+				"ExAddress" : "Goodchild_Ex_MoveFlip.png",
+				"ExIsFront" : False
+			},
+			"Climb" : {
+				"Hash" : "",
+				"Address" : "",
+				"ExHash" : "70959bffd3c12c4904858e362731fd7c",
+				"ExAddress" : "Goodchild_Ex_Climb.png",
+				"ExIsFront" : False
+			},
+			"Preview" : {
+				"Hash" : "",
+				"Address" : "",
+				"ExHash" : "0e8766864d0a9791d53ab17699068b9c",
+				"ExAddress" : "Goodchild_Ex_Main.png",
+				"ExIsFront" : False
+			},
+			"SeekerCostume" : True,
+			"FPS" : 1,
+			"Name" : "好学生",
+			"Author" : "九岁",
+			"Package" : "JiuSui(steve)",
 			"IsUnlockable" : False,
 			"IsLocalizable" : True
 		}
@@ -244,9 +281,8 @@
 		{
 			"Main" : {
 				"Hash" : "89047e489db920415e1e7221ebb0740d",
-				"Address" : "Jds7CmO_Main.png",
-				"ExIsFront" : False,
-				"MaskAddress" : null
+				"Address" : "Wuyu_Main.png",
+				"ExIsFront" : False
 			},
 			"Adaptive" : False,
 			"BehindHat" : False,
@@ -262,9 +298,8 @@
 		{
 			"Main" : {
 				"Hash" : "b91f74d651cdd259ff29367ccb800fdf",
-				"Address" : "NHdwUMhb_Main.png",
-				"ExIsFront" : False,
-				"MaskAddress" : null
+				"Address" : "feizhouxin_Main.png",
+				"ExIsFront" : False
 			},
 			"Adaptive" : False,
 			"BehindHat" : True,
