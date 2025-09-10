@@ -1018,17 +1018,19 @@ $Achievement
 "options.role.evilTracker.detail" : "邪恶的追踪者可以追踪其他玩家并获得其位置。<br>同时可以查看任务进度。"
 "options.role.evilTracker.showKillFlash" : "显示击杀闪光"
 "options.role.evilTracker.trackCoolDown" : "追踪冷却时间"
-"options.role.evilTracker.taskTracking" : "显示任务进度"
+"options.role.evilTracker.taskTracking" : "任务追踪"
 "options.role.evilTracker.taskTracking.off" : "关"
 "options.role.evilTracker.taskTracking.onlyTarget" : "仅追踪目标"
 "options.role.evilTracker.taskTracking.on" : "开"
 "options.role.evilTracker.updateArrowInterval" : "箭头更新间隔"
-"options.role.evilTracker.canChangeTarget" : "可以更改目标"
-"options.role.evilTracker.canChangeTargetOnMeeting" : "可以在会议期间更改目标"
+"options.role.evilTracker.canChangeTarget" : "行动期间可以更改目标"
+"options.role.evilTracker.canChangeTargetOnMeeting" : "会议期间可以更改目标"
 "options.role.evilTracker.trackImpostors" : "追踪伪装者玩家"
 "options.role.evilTracker.showTrackingTargetOnMap" : "在地图上显示目标"
 "options.role.evilTracker.canCheckTrackingTasksInTaskPhase" : "显示任务具体位置"
-"options.role.evilTracker.showWhereTrackingIs" : "追踪对象的位置以房间名表示"
+"options.role.evilTracker.showWhereTrackingIs" : "追踪对象位置以房间名表示"
+"options.role.evilTracker.group.playerTracking" : "位置追踪设定"
+"options.role.evilTracker.group.taskTracking" : "任务追踪设定"
 
 "role.evilTrapper.name" : "邪恶的陷阱师"
 "role.evilTrapper.short" : "邪陷"
@@ -1248,6 +1250,15 @@ $Achievement
 "options.role.thurifer.activationDelay" : "香炉延迟激活时间"
 "stats.thurifer.activate" : "香炉点燃次数"
 "stats.thurifer.impute" : "转移香薰次数"
+
+"role.viper.name" : "毒蛇"
+"role.viper.short" : "蛇"
+"role.viper.blurb" : "使用酸液缓慢溶解受害者。"
+"options.role.viper.detail" : "毒蛇造成击杀后，尸体会被缓慢溶解。<br>被彻底溶解的尸体无法报告。"
+"options.role.viper.acidCooldown" : "酸液冷却时间"
+"options.role.viper.dissolveDuration" : "完全溶解尸体所需时间"
+"options.role.viper.acidLeavesBone" : "留下遗骸"
+"options.role.viper.canReportBone" : "可以报告遗骸"
 
 "role.whammy.name" : "气球商"
 "role.whammy.short" : "气"
@@ -2000,6 +2011,7 @@ $Achievement
 "button.label.sculptor.command" : "制作"
 "button.label.rokuro" : "伸长"
 "button.label.rokuro.reset" : "收缩"
+"button.label.acid" : "酸液"
 
 # Game
 
@@ -2090,6 +2102,7 @@ $Achievement
 "state.lost" : "破产"
 "state.laser" : "情殇"
 "state.drill" : "钻碎"
+"state.dissolved" : "溶解"
 
 # Endings
 
