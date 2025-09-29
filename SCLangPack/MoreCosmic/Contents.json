@@ -311,6 +311,50 @@
 			"Package" : "xiaojin",
 			"IsUnlockable" : False,
 			"IsLocalizable" : True
+		},
+		{
+			"Flip" : {
+				"Hash" : "e0e20a44dd2eaebde5e336f93140b5a6",
+				"Address" : "BeardedGlasses_Flip.png",
+				"ExIsFront" : False
+			},
+			"Main" : {
+				"Hash" : "f2cbceb03a0fc79eab740ba5e25b76bb",
+				"Address" : "BeardedGlasses_Main.png",
+				"ExIsFront" : False
+			},
+			"Adaptive" : False,
+			"BehindHat" : False,
+			"BackmostBack" : True,
+			"Fixed" : False,
+			"FPS" : 1,
+			"Name" : "胡子眼镜",
+			"Author" : "客串齐",
+			"Package" : "KC",
+			"IsUnlockable" : False,
+			"IsLocalizable" : True
+		},
+		{
+			"Flip" : {
+				"Hash" : "43951fe33d7b81d095fa0fa1375b85bd",
+				"Address" : "Ineffa_Flip.png",
+				"ExIsFront" : False
+			},
+			"Main" : {
+				"Hash" : "dbfea6e30df283732e4bdd5b7906dfbc",
+				"Address" : "Ineffa_Main.png",
+				"ExIsFront" : False
+			},
+			"Adaptive" : False,
+			"BehindHat" : True,
+			"BackmostBack" : True,
+			"Fixed" : False,
+			"FPS" : 1,
+			"Name" : "伊涅芙",
+			"Author" : "小巾",
+			"Package" : "xiaojin",
+			"IsUnlockable" : False,
+			"IsLocalizable" : True
 		}
 	],
 	"Nameplates" : [
