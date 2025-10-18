@@ -1393,6 +1393,18 @@
 "achievement.spectreImmoralist.challenge.cond" : ""
 "achievement.spectreImmoralist.challenge.flavor" : "也许是命运，也许是自我的意志"
 
+"achievement.tyrant.common1.title" : "暴君"
+"achievement.tyrant.common1.goal" : "累计击杀6次"
+"achievement.tyrant.common1.cond" : ""
+
+"achievement.tyrant.another1.title" : "遥不可及的距离"
+"achievement.tyrant.another1.goal" : "在距离胜利仅差一名玩家时死亡。"
+"achievement.tyrant.another1.cond" : ""
+
+"achievement.tyrant.challenge.title" : "极乐焦土"
+"achievement.tyrant.challenge.goal" : "在3个阵营都存活的情况下获胜。"
+"achievement.tyrant.challenge.cond" : ""
+
 "achievement.vulture.common1.title" : "真是美味啊！"
 "achievement.vulture.common1.goal" : "吃掉一个尸体"
 "achievement.vulture.common1.cond" : ""

@@ -81,6 +81,7 @@ $Achievement
 "ui.warning.unrecommendedResolution" : "为了您的体验，请使用高宽比为16:9的图像分辨率。"
 "ui.error.failedToSearchRoom" : "以下区域未找到对应房间:"
 "ui.error.quickStart.cannotStart" : "玩家数不足，无法开始！"
+"ui.utility.premultipliedConversion" : "预乘Alpha转换"
 "ui.utility.premultipliedConversion.folderGenerated" : "已创建预乘前图片的文件夹：Utility/Original<br>请将需要处理的图片存放其中。"
 "ui.utility.premultipliedConversion.noImages" : "没有可处理的文件。<br>仅支持png格式的图片。"
 "ui.utility.premultipliedConversion.start" : "开始处理第%NUM%张图片。"
@@ -242,6 +243,7 @@ $Achievement
 "options.percentage" : "%"
 "options.cross" : "x"
 "options.sec" : "s"
+"options.noLimit" : "无限制"
 "options.taskPhase" : "轮"
 "options.followPrimaryChance" : "-"
 "options.inactivated" : "未启用"
@@ -447,21 +449,26 @@ $Achievement
 "options.voiceChat.canTalkInWanderingPhase" : "近距离语音"
 "options.voiceChat.wallsBlockAudio" : "隔墙阻隔聊天"
 "options.voiceChat.killersHearDead" : "接收鬼魂聊天语音"
-"options.voiceChat.killersHearDead.onlyMyKiller" : "仅击杀者"
+"options.voiceChat.killersHearDead.onlyMyKiller" : "仅凶手"
 "options.voiceChat.killersHearDead.onlyImpostors" : "仅伪装者阵营"
+"options.voiceChat.killersHearDead.allKillers" : "全部杀手"
+"options.voiceChat.affectedByCommsSab" : "处于通讯破坏期间不能语音"
+"options.voiceChat.isolateGhostsStrictly" : "鬼魂不能听到幸存者聊天"
+"options.voiceChat.radio" : "语音频道设定"
 "options.voiceChat.impostorsRadio" : "伪装者阵营语音频道"
 "options.voiceChat.jackalRadio" : "豺狼阵营语音频道"
 "options.voiceChat.loversRadio" : "恋人语音频道"
-"options.voiceChat.affectedByCommsSab" : "处于通讯破坏期间不能语音"
-"options.voiceChat.isolateGhostsStrictly" : "鬼魂不能听到幸存者聊天"
+"options.voiceChat.scarletRadio" : "魅魔语音频道"
 
 "options.role.count" : "最大数量"
 "options.role.chance" : "生成概率"
 "options.role.secondaryChance" : "多次生成概率"
-"options.role.count.jackalized" : "豺狼分配数量"
-"options.role.chance.jackalized" : "豺狼分配概率"
-"options.role.count.madden" : "叛徒分配数量"
-"options.role.chance.madden" : "叛徒分配概率"
+"options.role.count.jackalized" : "豺狼化分配数量"
+"options.role.chance.jackalized" : "豺狼化分配概率"
+"options.role.count.madden" : "叛徒化分配数量"
+"options.role.chance.madden" : "叛徒化分配概率"
+"options.role.count.tyrant" : "暴君化分配数量"
+"options.role.chance.tyrant" : "暴君化分配概率"
 "options.role.count.short" : "分配数量"
 "options.modifier.chance" : "附加能力概率"
 "options.role.crewmateCount" : "船员最大分配数量"
@@ -678,7 +685,7 @@ $Achievement
 "options.role.investigator.footprintDuration" : "凶手足迹留存时间"
 "role.investigator.overlay.title.unchecked" : "没有调查到足迹"
 "role.investigator.overlay.title.checked" : "%ROOM%的足迹"
-"role.investigator.overlay.notFound" : "正在调查中……<br>发现犯罪现场的时间越短，获取足迹的时间更快。"
+"role.investigator.overlay.notFound" : "正在调查中……<br>发现犯罪现场的时间较短，可以更快地获取足迹。"
 "role.investigator.overlay.fastFind" : "从发现犯罪现场到使用调查能力期间没有发起紧急会议。"
 "role.investigator.overlay.reportedImmediately" : "犯罪现场似乎在发起紧急会议之前。"
 "role.investigator.overlay.elapsed" : "紧急会议似乎在出现犯罪现场%ELAPSED%秒前发起的。"
@@ -1167,6 +1174,7 @@ $Achievement
 "role.reaper.blurb" : "拖走尸体来欺骗船员"
 "options.role.reaper.detail" : "送葬者可以拖拽尸体。"
 "options.role.reaper.useVentWhileHoldingDeadbody" : "拖拽尸体时可以使用通风口"
+"options.role.reaper.connectAllVents" : "连接所有通风口"
 "stats.reaper.ventWithDeadBody" : "携带尸体时使用通风口次数"
 
 "role.rokurokubi.name" : "辘轳首"
@@ -1409,9 +1417,9 @@ $Achievement
 "role.paparazzo.short" : "摄"
 "role.paparazzo.blurb" : "来！茄子！"
 "role.paparazzo.taskText" : "来看看你们靓照(%DETAIL%)"
-"role.paparazzo.taskTextSubject" : "拍摄玩家数: %CS%/%GS%"
-"role.paparazzo.taskTextDisclosed" : "在会议展示玩家数: %CD%/%GD%"
-"role.paparazzo.taskTextPhoto" : "在会议公开照片数: %CP%/%GP%"
+"role.paparazzo.taskTextSubject" : "<br>拍摄玩家数: %CS%/%GS%"
+"role.paparazzo.taskTextDisclosed" : "<br>会议展示玩家数: %CD%/%GD%"
+"role.paparazzo.taskTextPhoto" : "<br>会议展示照片数: %CP%/%GP%"
 "options.role.paparazzo.detail" : "摄影师可以偷拍。<br>在会议中把照片公开出来。"
 "options.role.paparazzo.shotCoolDown" : "拍摄冷却时间"
 "options.role.paparazzo.requiredSubjects" : "胜利所需拍不同玩家数量"
@@ -1487,6 +1495,16 @@ $Achievement
 "stats.spectreImmoralist.respawnFries" : "供奉食物次数"
 "stats.spectreImmoralist.removeFries" : "拿走食物次数"
 "stats.spectreImmoralist.suicide" : "自杀次数"
+
+"role.tyrant.name" : "暴君"
+"role.tyrant.short" : "暴"
+"role.tyrant.blurb" : "不折不扣的暴徒"
+"options.role.tyrant.detail" : "暴君需要完成指定的击杀数获胜。<br>在暴君完成前放逐他以阻止。"
+"options.role.tyrant.killCooldown" : "击杀冷却时间"
+"options.role.tyrant.numOfKillingToWin" : "胜利所需击杀数"
+"options.role.tyrant.useImpostorAbility" : "拥有伪装者能力"
+"stats.tyrant.kill" : "击杀次数"
+
 
 "role.vulture.name" : "秃鹫"
 "role.vulture.short" : "鹫"
@@ -1675,6 +1693,8 @@ $Achievement
 "teams.vulture" : "秃鹫"
 "teams.spectre" : "狐妖"
 "teams.gambler" : "赌徒"
+"teams.tyrant" : "暴君"
+
 
 # Perks
 
@@ -1712,6 +1732,9 @@ $Achievement
 
 "perk.raiderEvidence.name" : "愤怒"
 "perk.raiderEvidence.detail" : "把斧子插入墙壁中。<br>此特技有%CD%秒冷却。<br>强盗不能使用该特技。"
+
+"perk.fakeBubble.name" : "泡泡"
+"perk.fakeBubble.detail" : "在原地发射一个没有击杀能力的泡泡。<br>此特技有%CD%秒冷却。"
 
 "perk.accelTrap.name" : "激进"
 "perk.accelTrap.detail" : "使用后在原地放置一个加速陷阱。<br>安放后，在会议结束时生效。"
@@ -2126,13 +2149,14 @@ $Achievement
 "end.scarlet" : "魅魔%EXTRA%胜利"
 "end.spectre" : "狐妖%EXTRA%胜利"
 "end.trilemma" : "三角仇%EXTRA%胜利"
-"end.gambler" : "赌徒%EXTRA%勝利"
+"end.gambler" : "赌徒%EXTRA%胜利"
+"end.tyrant" : "暴君%EXTRA%胜利"
 "end.nogame" : "无效游戏"
 
-"end.extra.lover" : " <color=#FFFFFF>+</color>恋人"
-"end.extra.obsessional" : " <color=#FFFFFF>+</color>暗恋者"
-"end.extra.grudge" : " <color=#FFFFFF>+</color>怨灵"
-"end.extra.trilemma" : " <color=#FFFFFF>+</color>三角仇"
+"end.extra.lover" : "<color=#FFFFFF>+</color>恋人"
+"end.extra.obsessional" : "<color=#FFFFFF>+</color>暗恋者"
+"end.extra.grudge" : "<color=#FFFFFF>+</color>怨灵"
+"end.extra.trilemma" : "<color=#FFFFFF>+</color>三角仇"
 
 # Help
 
@@ -2155,19 +2179,23 @@ $Achievement
 "help.command.console" : "指令终端"
 "help.command.saveResult" : "保存结果图像"
 "help.command.toggleSocial" : "游戏内显示特写"
+"help.command.hideHud" : "切换HUD显示效果"
 
 # Voice Chat
 
 "voiceChat.dialog.confirm" : "你确定要加入语音聊天吗？"
 "voiceChat.info.mute" : "静音"
 "voiceChat.info.unmute" : "取消静音"
+"voiceChat.info.nomic" : "无麦克风输入"
 "voiceChat.info.filtering1" : "过滤:仅存活的玩家"
 "voiceChat.info.filtering2" : "过滤:仅死亡的玩家"
-"voiceChat.info.radio" : "频道"
+"voiceChat.info.radio" : "语音频道"
 "voiceChat.info.impostorRadio" : "伪装者频道"
 "voiceChat.info.jackalRadio" : "豺狼频道"
 "voiceChat.info.loversRadio" : "恋人频道"
+"voiceChat.info.scarletRadio" : "魅魔频道"
 "voiceChat.info.roomHostRadio" : "公共频道"
+"voiceChat.info.returnToVC" : "结束语音"
 "voiceChat.settings.inputDevice" : "输入设备"
 "voiceChat.settings.inputVolume" : "输入音量"
 "voiceChat.settings.noiseGate" : "警报声设置"
@@ -2176,6 +2204,8 @@ $Achievement
 "voiceChat.settings.device.default" : "默认"
 "voiceChat.settings.micTest" : "麦克风测试"
 "voiceChat.settings.micTest.end" : "结束麦克风测试"
+"voiceChat.settings.server" : "连接语音服务器"
+"voiceChat.settings.server.apply" : "应用"
 
 # Console
 
@@ -2224,6 +2254,7 @@ $Achievement
 "input.screenshot" : "截图"
 "input.mute" : "静音"
 "input.vcFilter" : "VC过滤"
+"input.radio" : "切换语音频道"
 "input.help" : "帮助"
 "input.spectator" : "退出旁观"
 "input.spectatorRight" : "切换目标(→)"
@@ -2287,6 +2318,8 @@ $Achievement
 "config.client.stampMenu.cursor" : "自动归位"
 "config.client.muteAmbienceOnMeeting" : "会议期间静音环境音效"
 "config.client.muteAmbienceOnMeeting.detail" : "在会议期间自动静音环境音效。"
+"config.client.vcServerSettings" : "语音服务器设置"
+"config.client.vcServerSettings.detail" : "设置语音聊天功能使用的服务器地址。"
 
 # Preset
 
@@ -2539,6 +2572,10 @@ $Achievement
 "help.rolePreview.inner.jackalized.random" : "豺狼化概率出现"
 "help.rolePreview.inner.madden.100" : "叛徒化100%出现"
 "help.rolePreview.inner.madden.random" : "叛徒化概率出现"
+"help.rolePreview.inner.tyrant.100" : "暴君化100%出现"
+"help.rolePreview.inner.tyrant.random" : "暴君化概率出现"
+"help.rolePreview.winCond" : "胜利条件"
+
 
 # Tag
 
@@ -2655,16 +2692,16 @@ $Achievement
 "document.tip.winCond.teams.lover" : "恋人"
 "document.tip.winCond.crewmate.task.title" : "任务胜利"
 "document.tip.winCond.crewmate.task" : "船员阵营通过完成所有任务获胜。"
-"document.tip.winCond.crewmate.exile.title" : "放逐获胜"
+"document.tip.winCond.crewmate.exile.title" : "放逐胜利"
 "document.tip.winCond.crewmate.exile" : "所有%IMPOSTOR%阵营和%JACKAL%阵营都被放逐。"
-"document.tip.winCond.impostor.kill.title" : "击杀获胜"
+"document.tip.winCond.impostor.kill.title" : "击杀胜利"
 "document.tip.winCond.impostor.kill" : "当伪装者阵营幸存玩家数占所有幸存玩家说一半时获胜。<br>需要%JACKAL%阵营全灭，同时队友不属于%LOVER%阵营。"
 "document.tip.winCond.impostor.extinction.title" : "完全歼灭胜利"
 "document.tip.winCond.impostor.extinction" : "当所有幸存玩家都是相同阵营时，那么就获胜了。<br>需要队友中不存在%LOVER%阵营。"
 "document.tip.winCond.impostor.sabotage.title" : "破坏胜利"
 "document.tip.winCond.impostor.sabotage" : "紧急破坏未能在规定时间内修复则获胜。"
-"document.tip.winCond.jackal.kill.title" : "击杀获胜"
-"document.tip.winCond.jackal.kill" : "当伪装者阵营幸存玩家数占所有幸存玩家说一半时获胜。<br>需要%IMPOSTOR%阵营全灭，同时队友不属于%LOVER%阵营。"
+"document.tip.winCond.jackal.kill.title" : "击杀胜利"
+"document.tip.winCond.jackal.kill" : "当豺狼阵营幸存玩家数占所有幸存玩家说一半时获胜。<br>需要%IMPOSTOR%阵营全灭，同时队友不属于%LOVER%阵营。"
 "document.tip.winCond.jackal.extinction.title" : "完全歼灭胜利"
 "document.tip.winCond.jackal.extinction" : "当所有幸存玩家都是相同阵营时，那么就获胜了。<br>需要队友中不存在%LOVER%阵营。"
 "document.tip.winCond.jester.title" : "特殊胜利"
@@ -2691,6 +2728,8 @@ $Achievement
 "document.tip.winCond.trilemma" : "如果你处于三角仇中，当其他两个人死亡，你存活时并且满足胜利，将窃取胜利。<br>满足胜利条件同时成为三角仇最后一名存活的玩家获胜。"
 "document.tip.winCond.gambler.title" : "特殊胜利"
 "document.tip.winCond.gambler" : "存活期间需要进行押注获得筹码，达到%NUM%点筹码后即可胜利。"
+"document.tip.winCond.tyrant.title" : "击杀胜利"
+"document.tip.winCond.tyrant" : "击杀%NUM%名玩家获胜。"
 
 "options.assignment.assignOpToHost.detail" : "开启后，主持人可以在游戏中使用指令。<br>一般情况开启没有任何意义。"
 "options.assignment.ghostAssignmentMethod.detail" : "你可以更改鬼魂职业的分配方式。<br> -<b>标准</b>:死亡的玩家始终可以分配到可用职业之一。<br> -<b>刺激</b>: 分配概率会影响你能否获得鬼魂职业。"
@@ -2830,6 +2869,9 @@ $Achievement
 "options.role.scarlet.requiredGaugeToWin.detail" : "魅魔窃取胜利前需要积攒最低值。"
 "options.role.scarlet.surplusGauge.detail" : "在原先获胜情感值上追加额外上限。<br>数值越高，魅魔独自行动的时间越长。"
 "options.role.scarlet.gaugeReductionRatio.detail" : "当魅魔远离本命时，情感值会以积累速度乘以该设定值进行衰减。<br>设置1倍时，衰减与积累速度相同，建议设置小于1倍。"
+
+"options.role.lover.allowExtraWin.detail" : "开启后，如果另一半获胜，你也会跟随获胜。"
+"options.role.lover.blockRoleWin.detail" : "开启后，将无法通过自身胜利条件获胜。<br><br>・关闭: 无论如何都可以通过自身胜利条件获胜。<br>・开启: 无法通过恋人以外的胜利条件获胜。"
 
 "options.role.spectre.satiety.detail" : "该值是配置一块油豆腐相当于多少秒，吃掉会补充多少秒，也相当于一种持续时间。"
 "options.role.spectre.maxSatiety.detail" : "一格饱食度的持续时间等于一块油豆腐代表的时间，即按倍率计算。<br>下面含有倍率的选项均参考本解释。"
