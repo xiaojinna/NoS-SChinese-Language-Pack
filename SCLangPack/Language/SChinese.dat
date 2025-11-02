@@ -158,7 +158,7 @@ $Achievement
 "ui.action.snatcher.snatch" : "夺取别人能力。"
 "ui.action.snatcher.clock" : "短时间内加快冷却时间。"
 "ui.action.cupid.lover" : "选择作为恋人的玩家。"
-"ui.action.cupid.laser" : "在恋人玩家之间会出现一条红线。<br>出现红线会一段延迟。"
+"ui.action.cupid.string" : "在恋人玩家之间会出现一条红线。<br>出现红线会一段延迟。"
 "ui.action.cupid.lover.string" : "触发姻缘红线。<br>一局只能使用一次。"
 "ui.action.gimlet.drill" : "变身成钻头进行冲撞攻击。"
 
@@ -657,7 +657,7 @@ $Achievement
 "role.echo.name" : "感知者"
 "role.echo.short" : "感"
 "role.echo.blurb" : "生命的回响"
-"options.role.echo.detail" : "感知者是一个船员职业，他可以获取附近玩家的位置，并且可以感知其他玩家的行为。"
+"options.role.echo.detail" : "感知者是一个船员职业，他可以获取附近玩家的位置<br>并且可以感知其他玩家的行为。"
 "options.role.echo.echoCooldown" : "感知冷却时间"
 "options.role.echo.echoRange" : "感知最大范围"
 "stats.echo.players" : "感知到玩家数量"
@@ -1295,6 +1295,16 @@ $Achievement
 "stats.whammy.balloon" : "放置气球次数"
 "roles.whammy.taskText" : "戳破气球 (%TIME%s)"
 
+"role.zeal.name" : "狂欢者"
+"role.zeal.short" : "狂"
+"role.zeal.blurb" : "让我们热血澎湃！"
+"options.role.zeal.detail" : "狂欢者可以吸取其他幸存者的热情力升华为杀意。<br>吸收的热情力将转化为击杀按钮，可以获得两个以上的击杀按钮。"
+"options.role.zeal.killCooldown" : "击杀冷却时间"
+"options.role.zeal.absorbCooldown" : "吸收冷却时间"
+"options.role.zeal.absorbDuration" : "吸收所需时间"
+"options.role.zeal.absorbAdditionalDuration" : "吸收冷却时间追加"
+"options.role.zeal.enthusiasmCooldown" : "狂欢冷却时间"
+
 # Neutral Roles
 
 "role.arsonist.name" : "纵火犯"
@@ -1321,6 +1331,7 @@ $Achievement
 "stats.avenger.killTarget" : "击杀复仇对象次数"
 "stats.avenger.failed" : "被复仇对象击杀次数"
 "stats.avenger.defend" : "击杀复仇者数量"
+"role.avenger.hudText" : "为你的爱人复仇！！！"
 
 "role.chainShifter.name" : "交换师"
 "role.chainShifter.short" : "交"
@@ -2042,6 +2053,8 @@ $Achievement
 "button.label.rokuro" : "伸长"
 "button.label.rokuro.reset" : "收缩"
 "button.label.acid" : "酸液"
+"button.label.mobile.switch" : "切换"
+"button.label.absorb" : "吸收"
 
 # Game
 
@@ -2873,6 +2886,9 @@ $Achievement
 "options.role.lover.allowExtraWin.detail" : "开启后，如果另一半获胜，你也会跟随获胜。"
 "options.role.lover.blockRoleWin.detail" : "开启后，将无法通过自身胜利条件获胜。<br><br>・关闭: 无论如何都可以通过自身胜利条件获胜。<br>・开启: 无法通过恋人以外的胜利条件获胜。"
 
+"options.role.zeal.absorbAdditionalDuration.detail" : "吸收狂欢所需时间的计算公式：(吸收所需时间)＋(吸收冷却时间追加)×(击杀按钮数)<br>该选项数值越大，获取多个击杀按钮越难。"
+"options.role.zeal.enthusiasmCooldown.detail" : "这是从同一个玩家再次吸收狂欢所需的冷却时间。"
+
 "options.role.spectre.satiety.detail" : "该值是配置一块油豆腐相当于多少秒，吃掉会补充多少秒，也相当于一种持续时间。"
 "options.role.spectre.maxSatiety.detail" : "一格饱食度的持续时间等于一块油豆腐代表的时间，即按倍率计算。<br>下面含有倍率的选项均参考本解释。"
 
@@ -3082,7 +3098,7 @@ $Achievement
 "role.ubiquitous.tips" : "・即使你没有链接无人机也可以在左下角的小窗口查看无人机周围情况。"
 
 "role.fixer.ability.title" : "固有能力【辩证调停】"
-"role.fixer.ability.main" : "在会议中可以对一名玩家实事干扰，屏蔽其平板的通信。<br>被屏蔽的玩家无法投票，并且其会议能力也将失效。<br>其他玩家不能对被屏蔽玩家进行操作。<br>请勿盲目屏蔽他人，利用它保护最重要的船员。"
+"role.fixer.ability.main" : "在会议中可以对一名玩家实施干扰，屏蔽其平板的通信。<br>被屏蔽的玩家无法投票，并且其会议能力也将失效。<br>其他玩家不能对被屏蔽玩家进行操作。<br>请勿盲目屏蔽他人，利用它保护最重要的船员。"
 "role.fixer.ability.meeting" : "屏蔽目标。<br>该能力有一定使用次数。"
 
 "role.jekyllAndHyde.winCond" : "杰基尔：完成任务与船员一起胜利。<br>海德：与伪装者一起获胜。"
@@ -3232,7 +3248,7 @@ $Achievement
 
 "role.paparazzo.winCond" : "存活期间拍摄<var>#SUBJECT</var>个不同的玩家并在会议中展示<var>#ENCLOSED</var>个不同的图片。<br>两者第三方，不需要在同一个照片中。"
 "role.paparazzo.ability.title" : "固有能力【抓拍】"
-"role.paparazzo.ability.main" : "在任务阶段，屏幕会出现取景器协助拍摄。<br>拍摄的图片会储存在做下角，没有玩家的照片会被丢弃。<br><br>在会议中单击照片就会把照片公开出来。<br>当沙漏计时器结束后，你将无法公开照片。"
+"role.paparazzo.ability.main" : "在任务阶段，屏幕会出现取景器协助拍摄。<br>拍摄的图片会储存在左下角，没有玩家的照片会被丢弃。<br><br>在会议中单击照片就会把照片公开出来。<br>当沙漏计时器结束后，你将无法公开照片。"
 "role.paparazzo.ability.camera" : "使用快捷键或鼠标左键触发拍摄事件。"
 "role.paparazzo.tips" : "・你可以更改取景方向。<br>・按住鼠标右键时，固定取景方向。"
 
