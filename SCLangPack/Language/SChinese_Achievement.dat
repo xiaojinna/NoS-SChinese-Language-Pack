@@ -1101,6 +1101,22 @@
 "achievement.whammy.challenge.cond" : "提示：同时存在3名玩家身上捆绑着气球。"
 "achievement.whammy.challenge.splitted.1" : "窒息感"
 
+"achievement.zeal.common1.title" : "燥热气氛"
+"achievement.zeal.common1.goal" : "在一段时间内完成一次双杀。"
+"achievement.zeal.common1.cond" : ""
+
+"achievement.zeal.another1.title" : "瞬间冷却"
+"achievement.zeal.another1.goal" : "在持有2个以上击杀按钮的情况下死亡。"
+"achievement.zeal.another1.cond" : ""
+
+"achievement.zeal.common2.title" : "热血澎湃"
+"achievement.zeal.common2.goal" : "同时持有4个以上击杀按钮。"
+"achievement.zeal.common2.cond" : ""
+
+"achievement.zeal.challenge.title" : "终末狂欢"
+"achievement.zeal.challenge.goal" : "在一段时间内击杀3名以上的玩家结束游戏并获胜。"
+"achievement.zeal.challenge.cond" : ""
+
 "achievement.arsonist.common1.title" : "充满汽油味"
 "achievement.arsonist.common1.goal" : "3个以上被涂油的玩家活着参加会议"
 "achievement.arsonist.common1.cond" : ""
@@ -1404,6 +1420,24 @@
 "achievement.tyrant.challenge.title" : "极乐焦土"
 "achievement.tyrant.challenge.goal" : "在3个阵营都存活的情况下获胜。"
 "achievement.tyrant.challenge.cond" : ""
+
+"achievement.vanity.common1.title" : "自我觉醒"
+"achievement.vanity.common1.goal" : "得知自己是虚荣者"
+"achievement.vanity.common1.cond" : ""
+
+"achievement.vanity.another1.title" : "骄兵必败"
+"achievement.vanity.another1.goal" : "击杀一名船员后，除被驱逐或赌杀以外的原因死亡。"
+"achievement.vanity.another1.cond" : ""
+
+"achievement.combination.2.sheriff.vanity.common2.title" : "若我坚定不移"
+"achievement.combination.2.sheriff.vanity.common2.goal" : "以警长的身份击杀非船员玩家，但最终驱逐了船员玩家而输掉游戏。"
+"achievement.combination.2.sheriff.vanity.common2.cond" : "提示：仅虚荣者存在的对局中解锁。"
+"achievement.combination.2.sheriff.vanity.common2.flavor" : "“只是太过不坚定了……”"
+
+"achievement.vanity.challenge.title" : "再见了我的朋友！"
+"achievement.vanity.challenge.goal" : "击杀最后一名船员后获胜。"
+"achievement.vanity.challenge.cond" : ""
+"achievement.vanity.challenge.splitted.0" : "再见了"
 
 "achievement.vulture.common1.title" : "真是美味啊！"
 "achievement.vulture.common1.goal" : "吃掉一个尸体"

@@ -42,6 +42,7 @@ $Achievement
 "ui.dialog.yes" : "是"
 "ui.dialog.no" : "否"
 "ui.dialog.ok" : "确定"
+"ui.dialog.confirmation" : "确认"
 "ui.dialog.exit" : "退出"
 "ui.dialog.search" : "搜索"
 "ui.dialog.keyword" : "关键字"
@@ -483,8 +484,8 @@ $Achievement
 "options.killCoolDown.type.relative" : "与基础值相差"
 "options.killCoolDown.type.ratio" : "与基础值相比"
 
-"options.exclusiveAssignment" : "特定分配"
-"options.exclusiveAssignment.detail" : "配置后对应职业不会同时出现"
+"options.exclusiveAssignment" : "排斥分配设置"
+"options.exclusiveAssignment.detail" : "配置后对应组内的职业只会出现其中之一。"
 "options.exclusiveAssignment.category.0" : "类别1"
 "options.exclusiveAssignment.category.1" : "类别2"
 "options.exclusiveAssignment.category.2" : "类别3"
@@ -791,7 +792,7 @@ $Achievement
 "role.niceGuesser.name" : "正义的赌怪"
 "role.niceGuesser.short" : "正赌"
 "role.niceGuesser.blurb" : "猜测并狙杀玩家"
-"options.role.niceGuesser.detail" : "赌怪可以在会议中猜测其他玩家的身份。<br>如果赌怪猜测正确，那名玩家立即死亡，否则自己死亡。"
+"options.role.niceGuesser.detail" : "赌怪可以在会议中猜测其他玩家的能力。<br>如果赌怪猜测正确，目标玩家死亡，否则自己死亡。"
 
 "role.niceTrapper.name" : "正义的陷阱师"
 "role.niceTrapper.short" : "正陷"
@@ -906,6 +907,17 @@ $Achievement
 "options.role.alien.invalidateCoolDown" : "无效终端冷却时间"
 "options.role.alien.numOfInvalidations" : "无效终端次数"
 
+"role.amalgam.name" : "缝合怪"
+"role.amalgam.short" : "缝"
+"role.amalgam.blurb" : "不明状体"
+"options.role.amalgam.detail" : "缝合怪可以缝合其他职业的能力。"
+"options.role.amalgam.maxRoles" : "最大职业缝合数"
+"options.role.amalgam.abilityFilter" : "职业过滤"
+"options.role.amalgam.canBeGuessedAsLoadedRoles" : "可以猜测缝合职业进行赌杀"
+"role.amalgam.tabs.kill" : "击杀辅助型职业"
+"role.amalgam.tabs.map" : "地图管理型职业"
+"role.amalgam.tabs.others" : "其他扩展型职业"
+
 "role.berserker.name" : "易怒者"
 "role.berserker.short" : "怒"
 "role.berserker.blurb" : "你已经惹怒我了！"
@@ -974,6 +986,15 @@ $Achievement
 "options.role.cleaner.syncKillAndCleanCoolDown" : "清理与击杀共用冷却时间"
 "stats.cleaner.clean" : "尸体清理次数"
 
+"role.creeping.name" : "投毒者"
+"role.creeping.short" : "投"
+"role.creeping.blurb" : "你已病入膏肓！"
+"options.role.creeping.detail" : "投毒者可以对其他玩家进行投毒。<br>被投毒的玩家在一段时间内没有找到解药会毒发身亡。"
+"options.role.creeping.depoisonDuration" : "解毒所需时间"
+"options.role.creeping.poisonDelay" : "毒发延迟时间"
+"options.role.creeping.poisonCooldown" : "投毒冷却时间"
+"role.creeping.minigame.depoison" : "解毒"
+
 "role.cupid.name" : "月老"
 "role.cupid.short" : "月"
 "role.cupid.blurb" : "团圆月下，相思树底"
@@ -1024,7 +1045,7 @@ $Achievement
 "role.evilGuesser.name" : "邪恶的赌怪"
 "role.evilGuesser.short" : "邪赌"
 "role.evilGuesser.blurb" : "生命就是豪赌"
-"options.role.evilGuesser.detail" : "赌怪可以在会议中猜测其他玩家的身份。<br>如果赌怪猜测正确，那名玩家立即死亡，否则自己死亡。"
+"options.role.evilGuesser.detail" : "赌怪可以在会议中猜测其他玩家的能力。<br>如果赌怪猜测正确，目标玩家死亡，否则自己死亡。"
 
 "role.evilTracker.name" : "邪恶的追踪者"
 "role.evilTracker.short" : "邪追"
@@ -1516,6 +1537,17 @@ $Achievement
 "options.role.tyrant.useImpostorAbility" : "拥有伪装者能力"
 "stats.tyrant.kill" : "击杀次数"
 
+"role.vanity.name" : "虚荣者"
+"role.vanity.short" : "荣"
+"role.vanity.blurb" : "愿成为真正的正义"
+"options.role.vanity.detail" : "虚荣者自认为是警长。<br>胜利条件根据击杀行为而改变。"
+"options.role.vanity.canExtraWinEvenIfVanityDied" : "死亡时也跟随胜利"
+"options.role.vanity.independentTeam" : "独立阵营模式"
+"options.role.vanity.becomeAwareOfVanityWhenKillCrewmate" : "击杀船员后觉醒认知职业"
+"options.role.vanity.canBecomeAwareOfVanity" : "完成任务后觉醒认知职业"
+"options.role.vanity.taskProgressRequiredForSelfAdmission" : "觉醒所需完成任务进度"
+"options.role.vanity.group.task" : "自我认知设定"
+"stats.vanity.kill" : "击杀次数"
 
 "role.vulture.name" : "秃鹫"
 "role.vulture.short" : "鹫"
@@ -1614,6 +1646,9 @@ $Achievement
 "options.role.damned.damnedAction.impostor" : "晋级为伪装者"
 "options.role.damned.damnedAction.madmate" : "晋级为叛徒"
 "options.role.damned.damnedAction.takeOver" : "成为凶手职业"
+"options.role.damned.canBecomeAwareOfDamned" : "可觉醒认知职业"
+"options.role.damned.taskProgressRequiredForSelfAdmission" : "觉醒所需完成任务进度"
+"options.role.damned.group.task" : "自我认知设定"
 
 "role.disclosure.name" : "显眼包"
 "role.disclosure.generalBlurb" : "嗨，看我看我！"
@@ -1625,6 +1660,15 @@ $Achievement
 "role.extraMission.generalBlurb" : "铲除眼中钉！"
 "options.role.extraMission.detail" : "你需要让你的目标死亡。<br>如果对方没有死亡你将不能胜利。"
 "role.extraMission.taskText" : "[额外任务]想办法让%PLAYER%死亡。"
+
+"role.nighty.name" : "眠夜"
+"role.nighty.generalBlurb" : "乖乖睡觉去吧！"
+"options.role.nighty.detail" : "眠夜可以放置让玩家视野受限的陷阱。"
+"options.role.nighty.placeCooldown" : "安眠地雷放置冷却时间"
+"options.role.nighty.mineDuration" : "安眠地雷持续时间"
+"options.role.nighty.mineSize" : "安眠地雷判定范围"
+"options.role.nighty.blindDuration" : "视野缩小持续时间"
+
 
 "role.tieBreaker.name" : "破平者"
 "role.tieBreaker.generalBlurb" : "我将是破局之人"
@@ -2055,6 +2099,8 @@ $Achievement
 "button.label.acid" : "酸液"
 "button.label.mobile.switch" : "切换"
 "button.label.absorb" : "吸收"
+"button.label.poison" : "投毒"
+"button.label.select" : "缝合"
 
 # Game
 
@@ -2116,6 +2162,7 @@ $Achievement
 "statistics.events.gassed" : "烟气中毒"
 "statistics.events.bubbled" : "泡中窒息"
 "statistics.events.meteor" : "陨石砸落"
+"statistics.events.poisoned" : "中毒"
 
 # States
 
@@ -2146,6 +2193,7 @@ $Achievement
 "state.laser" : "情殇"
 "state.drill" : "钻碎"
 "state.dissolved" : "溶解"
+"state.poisoned" : "中毒"
 
 # Endings
 
@@ -2164,12 +2212,16 @@ $Achievement
 "end.trilemma" : "三角仇%EXTRA%胜利"
 "end.gambler" : "赌徒%EXTRA%胜利"
 "end.tyrant" : "暴君%EXTRA%胜利"
+"end.vanity" : "虚荣者%EXTRA%胜利"
 "end.nogame" : "无效游戏"
+
+"end.status.noWinners" : "无人胜利" 
 
 "end.extra.lover" : "<color=#FFFFFF>+</color>恋人"
 "end.extra.obsessional" : "<color=#FFFFFF>+</color>暗恋者"
 "end.extra.grudge" : "<color=#FFFFFF>+</color>怨灵"
 "end.extra.trilemma" : "<color=#FFFFFF>+</color>三角仇"
+"end.extra.vanity" : "<color=#FFFFFF>+</color>虚荣者"
 
 # Help
 
@@ -2193,6 +2245,7 @@ $Achievement
 "help.command.saveResult" : "保存结果图像"
 "help.command.toggleSocial" : "游戏内显示特写"
 "help.command.hideHud" : "切换HUD显示效果"
+"help.command.vcState" : "切换VC显示状态信息"
 
 # Voice Chat
 
@@ -2232,6 +2285,16 @@ $Achievement
 # Inventory
 
 "inventory.palette.catalogue" : "目录"
+"inventory.palette.colorCode" : "颜色代码"
+"inventory.palette.colorCode.mainColor" : "主体颜色"
+"inventory.palette.colorCode.shadowColor" : "阴影颜色"
+"inventory.palette.colorCode.visorColor" : "面罩颜色"
+"inventory.palette.colorCode.colorName" : "颜色名称"
+"inventory.palette.colorCode.copy" : "复制"
+"inventory.palette.colorCode.paste" : "粘贴"
+"inventory.palette.colorCode.copied" : "颜色代码已复制。"
+"inventory.palette.colorCode.pasted" : "颜色代码已粘贴。"
+"inventory.palette.colorCode.pasted.failed" : "颜色代码格式错误！"
 "inventory.catalogue.innersloth" : "原版系列"
 "inventory.color.vanilla0" : "红色"
 "inventory.color.vanilla1" : "蓝色"
@@ -2251,7 +2314,11 @@ $Achievement
 "inventory.color.vanilla15" : "灰色"
 "inventory.color.vanilla16" : "茶色"
 "inventory.color.vanilla17" : "珊瑚红"
-"inventory.color.visor" : "默认"
+"inventory.color.visor" : "默认颜色"
+"inventory.costume.variants" : "变体"
+"inventory.costume.tag.0" : "此装扮有动画效果。"
+"inventory.costume.tag.1" : "此装扮可以变换形态。"
+"inventory.costume.tag.2" : "此装扮有其他变体。"
 
 # Input
 
@@ -2333,6 +2400,8 @@ $Achievement
 "config.client.muteAmbienceOnMeeting.detail" : "在会议期间自动静音环境音效。"
 "config.client.vcServerSettings" : "语音服务器设置"
 "config.client.vcServerSettings.detail" : "设置语音聊天功能使用的服务器地址。"
+"config.client.smallHud" : "HUD紧凑化"
+"config.client.smallHud.detail" : "将屏幕中的按钮等界面元素以更小巧紧凑的方式显示。"
 
 # Preset
 
@@ -2742,7 +2811,14 @@ $Achievement
 "document.tip.winCond.gambler.title" : "特殊胜利"
 "document.tip.winCond.gambler" : "存活期间需要进行押注获得筹码，达到%NUM%点筹码后即可胜利。"
 "document.tip.winCond.tyrant.title" : "击杀胜利"
-"document.tip.winCond.tyrant" : "击杀%NUM%名玩家获胜。"
+"document.tip.winCond.tyrant" : "击杀%NUM%名玩家获胜。<br>该阵营不会计入需要被歼灭的杀手阵营。"
+"document.tip.winCond.vanity.kill.title" : "击杀胜利"
+"document.tip.winCond.vanity.kill" : "若已击杀船员，需要完全歼灭其他阵营或自身阵营占据全体幸存玩家的一半以上。"
+"document.tip.winCond.vanity.extra.crewOnly.title" : "跟随船员胜利"
+"document.tip.winCond.vanity.extra.crewOnly" : "若未击杀船员，当船员阵营获得胜利时跟随船员胜利。"
+"document.tip.winCond.vanity.extra.title" : "跟随胜利"
+"document.tip.winCond.vanity.extra" : "若未击杀船员，当船员阵营获得胜利时跟随船员胜利。<br>若已击杀船员，当船员阵营失败时跟随胜利方胜利。"
+"document.tip.winCond.vanity.extra.surviveCond" : "跟随胜利需要保证虚荣者一直处于<b>存活</b>状态。"
 
 "options.assignment.assignOpToHost.detail" : "开启后，主持人可以在游戏中使用指令。<br>一般情况开启没有任何意义。"
 "options.assignment.ghostAssignmentMethod.detail" : "你可以更改鬼魂职业的分配方式。<br> -<b>标准</b>:死亡的玩家始终可以分配到可用职业之一。<br> -<b>刺激</b>: 分配概率会影响你能否获得鬼魂职业。"
@@ -3101,6 +3177,10 @@ $Achievement
 "role.fixer.ability.main" : "在会议中可以对一名玩家实施干扰，屏蔽其平板的通信。<br>被屏蔽的玩家无法投票，并且其会议能力也将失效。<br>其他玩家不能对被屏蔽玩家进行操作。<br>请勿盲目屏蔽他人，利用它保护最重要的船员。"
 "role.fixer.ability.meeting" : "屏蔽目标。<br>该能力有一定使用次数。"
 
+"role.sheriff.ability.title" : "固有能力 "【正义使者】"
+"role.sheriff.ability.main" : "警长可以对可疑的玩家进行执法击杀，执法有一定次数需要谨慎使用。"
+"role.sheriff.ability.kill" : "尝试执法击杀指定玩家。根据设置，如果对方是船员阵营，你会因为走火而死亡。"
+
 "role.jekyllAndHyde.winCond" : "杰基尔：完成任务与船员一起胜利。<br>海德：与伪装者一起获胜。"
 "role.jekyllAndHyde.ability.title" : "固有能力【多重人格】"
 "role.jekyllAndHyde.ability.main" : "每次会议结束，就会切换一次人格。<br>杰基尔是船员阵营的，海德是伪装者阵营的。<br>海德可以击杀其他玩家，但是有击杀次数限制。<br>如果你击杀了一名伪装者玩家，你就彻底成为一名伪装者，不会在改变人格。"
@@ -3129,7 +3209,7 @@ $Achievement
 
 "role.cannon.ability.title" : "固有能力【空气炮】"
 "role.cannon.ability.main" : "发射空气炮，击飞周围的玩家。"
-"role.cannon.ability.mark" : "在你当前的位置放置一个标记点。<br>其他人看不到你的标记点。"
+"role.cannon.ability.mark" : "在你当前的位置上绘制一个标记点。<br>其他人看不到你的标记点。"
 "role.cannon.ability.cannon" : "打开特殊地图，向标记点位置发射空气炮。"
 
 "role.cleaner.ability.title" : "固有能力【毁尸灭迹】"
@@ -3238,6 +3318,11 @@ $Achievement
 "role.thurifer.ability.curse" : "激活香炉，使其产生烟气。<br>香炉会立即激活，因此其他玩家更容易发现调香师。<br>被激活的香炉会在燃烧一段时间后熄灭。"
 "role.thurifer.ability.impute" : "当自身<b>香熏</b>达到50%以上可以<b>转移</b>到另一个未激活的香炉上，使进度重置。<br>注意，若船员使用<b>转移</b>到一个未激活的香炉，那么这个香炉永远不会熄灭。<br>调香师不能<b>转移</b>自身进度。"
 
+"role.zeal.ability.title" : "固有能力 "炽热杀意"
+"role.zeal.ability.main" : "狂欢者可以通过靠近其他玩家吸取狂热获取更多击杀按钮。<br>每个击杀按钮都有独立的冷却时间，因此可以实现连续击杀。"
+"role.zeal.ability.absorb" : "靠近目标，在目标身边持续一段时间即可获得击杀按钮。<br>吸收狂欢对每个玩家都有独立的冷却时间。"
+"role.zeal.ability.kill" : "击杀按钮为消耗品，可以获得多个按钮。<br>使用任意一个击杀按钮后，其他击杀按钮不会重置冷却。"
+
 "role.dancer.winCond" : "在存活期间使用<b>跳舞</b>完成<var>#NUM</var>个死亡预言。#ADD"
 "role.dancer.winCond.main.lastDance" : "<br><var>此外当上述条件达成时，最后之舞也要向所有活人展示。</var>"
 "role.dancer.ability.title" : "固有能力【死亡之舞】"
@@ -3283,6 +3368,10 @@ $Achievement
 "role.gambler.ability.main" : "赌徒需要在会议中预测<b>投票结果</b>并下注<b>筹码</b>以此取代投票。<br>如果筹码归零就会破产死亡。<br>为了获得有利情报，可以对一名玩家使用<b>套话</b>。<br><br>在会议中可以进行两种下注，预测成功可以获得两倍的下注筹码。<br>・<b>无票押注</b>: 下注3名可能没有被票的玩家，若他们都没有得到票即预测成功。<br>・<b>最多票押注</b>: 选择一名玩家，若该玩家得票是全场最多即预测成功。<br>"
 "role.gambler.ability.deceive" : "对一名玩家使用套话<br>在接下来的会议中可以知晓其投票的玩家。"
 
+"role.vanity.ability.title" : "固有能力 【正义使者？】"
+"role.vanity.ability.main" : "虚荣者在开始时与警长相同，但不会因为走火而死。"
+"role.vanity.ability.kill" : "执法击杀目标。执法击杀次数限制是假的。"
+
 "role.extraMission.winCond" : "自身胜利条件达成时，目标必须在游戏结束前死亡，否则你将无法胜利。"
 
 "role.trilemma.winCond.block" : "在存活并满足自身胜利条件的基础上，游戏结束时除你以外的其他拥有三角仇的玩家都死亡。<br>如果其中有任何一人没有死亡，你失去胜利。"
@@ -3291,8 +3380,8 @@ $Achievement
 
 "role.lover.winCond" : "当存活玩家只有3个或3个以下，且你与你的爱人存活。#ADD"
 "role.lover.winCond.additional" : "<br><var>或者你的爱人获胜并且还存活，你也可以共享胜利</var>。"
-"role.lover.tips.standard" : "・<var>当有一方死亡时，另一方会殉情</var>。"
-"role.lover.tips.avenger" : "・<var>当有一方死亡时，另一方会成为复仇者来报仇。<br>・如果有一方是因为被放逐而死亡，另一方会直接殉情。</var>"
+"role.lover.tips.standard" : "<var>・当有一方死亡时，另一方会殉情</var>。"
+"role.lover.tips.avenger" : "<var>・当有一方死亡时，另一方会成为复仇者来报仇。<br>・如果有一方是因为被放逐而死亡，另一方会直接殉情。</var>"
 "role.lover.tips.assignment.noImpostor" : "<var>・伪装者玩家不会成为恋人。</var>"
 "role.lover.tips.assignment.impostor" : "<var>・恋人一方有#NUM%的概率是伪装者玩家。<br>　双方都不会是伪装者。</var>"
 
