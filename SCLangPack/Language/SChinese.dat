@@ -174,6 +174,9 @@ $Achievement
 "ui.contact.finished" : "提交成功 <br>感谢您的反馈！"
 "ui.contact.failed" : "提交失败。<br><br>%DETAIL%"
 
+"ui.afk.title" : "挂机中"
+"ui.afk.detail" : "按任意键解除挂机状态。"
+
 # Tutorial
 
 "tutorial.guide.canClose" : "点击此处关闭教程。"
@@ -187,7 +190,7 @@ $Achievement
 "tutorial.variations.stamp.caption" : "%KEY%呼出表情栏！（行动期间不可用）<br>在帮助界面可以配置表情包。"
 "tutorial.variations.ambienceOnMeeting.title" : "关闭会议环境音效"
 "tutorial.variations.ambienceOnMeeting.caption" : "若你想在会议中关闭一些环境音效，可以开启「关闭会议环境音效」功能。<br>该选项可以通过设置Nos选项卡中开启。"
-"tutorial.variations.meetingTool.advance.title" : "快速创建玩家图标"
+"tutorial.variations.meetingTool.line.title" : "快速创建玩家图标"
 "tutorial.variations.meetingTool.advance.caption" : "在地图中绘制一条线，<br>并在松开鼠标的一瞬间<b>右键点击</b>。"
 
 # Versions
@@ -396,6 +399,7 @@ $Achievement
 "options.meeting.showVoteState" : "显示投票状态"
 "options.meeting.prohibitMeetingTool" : "禁用地图标记辅助"
 "options.meeting.shortenCooldownAtGameStart" : "游戏初始阶段冷却时间缩短"
+"options.meeting.shortenCooldown" : "缩短冷却时间"
 
 "options.exile" : "放逐设置"
 "options.exile.detail" : "放逐玩家相关设置。"
@@ -599,6 +603,7 @@ $Achievement
 "role.climber.blurb" : "登上胜利的顶端！"
 "options.role.climber.detail" : "钩索师可以发射钩索进行长距离移动。"
 "options.role.climber.gustCooldown" : "钩索冷却时间"
+"options.role.climber.canSeeInShadow" : "可以在阴影中看到钩索"
 "stats.climber.gust" : "钩索使用次数"
 
 "role.collator.name" : "基因学家"
@@ -624,6 +629,8 @@ $Achievement
 "stats.collator.collating" : "样本对照次数"
 "stats.collator.matched" : "样本匹配次数"
 "stats.collator.unmatched" : "样本不匹配次数"
+"role.collator.gui.results" : "对照结果"
+"role.collator.gui.results.zero" : "无"
 
 "role.comet.name" : "彗星之子"
 "role.comet.short" : "彗"
@@ -811,11 +818,14 @@ $Achievement
 "role.oracle.short" : "预"
 "role.oracle.blurb" : "你可以查验对方的职业"
 "options.role.oracle.detail" : "预言家可以预言其他玩家的职业。"
+"options.role.oracle.maxOracle" : "最大预言次数"
 "options.role.oracle.oracleCooldown" : "预言冷却时间"
 "options.role.oracle.oracleAdditionalCooldown" : "预言冷却时间追加"
 "options.role.oracle.oracleDuration" : "预言所需时间"
 "options.role.oracle.numOfCandidates" : "预言后得知职业数"
 "stats.oracle.oracle" : "使用预言次数"
+"role.oracle.gui.results" : "预言结果"
+"role.oracle.gui.results.zero" : "无"
 
 "role.phosphorus.name" : "提灯人"
 "role.phosphorus.short" : "提"
@@ -862,7 +872,7 @@ $Achievement
 "role.seer.blurb" : "观测死亡的瞬间"
 "options.role.seer.detail" : "先知会看到一个白色死亡提示。<br>死亡地点会出现死者的鬼魂"
 "options.role.seer.ghostDuration" : "鬼魂显示持续时间"
-"options.role.seer.canSeeGhostsInShadow" : "可以看到阴影中的鬼魂"
+"options.role.seer.canSeeGhostsInShadow" : "可以在阴影中看到鬼魂"
 
 "role.sheriff.name" : "警长"
 "role.sheriff.short" : "警"
@@ -907,16 +917,17 @@ $Achievement
 "options.role.alien.invalidateCoolDown" : "无效终端冷却时间"
 "options.role.alien.numOfInvalidations" : "无效终端次数"
 
-"role.amalgam.name" : "缝合怪"
-"role.amalgam.short" : "缝"
+"role.amalgam.name" : "融合体"
+"role.amalgam.short" : "融"
 "role.amalgam.blurb" : "不明状体"
-"options.role.amalgam.detail" : "缝合怪可以缝合其他职业的能力。"
-"options.role.amalgam.maxRoles" : "最大职业缝合数"
-"options.role.amalgam.abilityFilter" : "职业过滤"
-"options.role.amalgam.canBeGuessedAsLoadedRoles" : "可以猜测缝合职业进行赌杀"
-"role.amalgam.tabs.kill" : "击杀辅助型职业"
-"role.amalgam.tabs.map" : "地图管理型职业"
-"role.amalgam.tabs.others" : "其他扩展型职业"
+"options.role.amalgam.detail" : "融合体可以融合其他职业的能力。"
+"options.role.amalgam.maxRoles" : "最大职业能力融合数"
+"options.role.amalgam.randomAssignment" : "随机融合能力"
+"options.role.amalgam.abilityFilter" : "职业能力过滤"
+"options.role.amalgam.canBeGuessedAsLoadedRoles" : "可以猜测融合职业进行赌杀"
+"role.amalgam.tabs.kill" : "特殊行动型"
+"role.amalgam.tabs.map" : "地图控制型"
+"role.amalgam.tabs.others" : "其他扩展型"
 
 "role.berserker.name" : "易怒者"
 "role.berserker.short" : "怒"
@@ -975,6 +986,7 @@ $Achievement
 "options.role.cannon.cannonCooldown" : "空气炮冷却时间"
 "options.role.cannon.cannonPower" : "空气炮威力"
 "options.role.cannon.cannonPowerAttenuation" : "空气炮威力衰减"
+"options.role.cannon.canBlowPlayerUsingConsole" : "可以吹飞做任务中玩家"
 "stats.cannon.fire" : "空气炮使用次数"
 "stats.cannon.players" : "击飞玩家数量"
 
@@ -1129,10 +1141,14 @@ $Achievement
 "role.marionette.short" : "偶"
 "role.marionette.blurb" : "利用木偶欺诈船员"
 "options.role.marionette.detail" : "木偶师可以放置一个任何人都可见的木偶。<br>在木偶有效时间内，木偶师可以随时查看木偶的周围情况，并可以交换自己与木偶的位置。"
+"options.role.marionette.mannequinMode" : "木偶外观"
+"options.role.marionette.mannequinMode.mannequin" : "木偶模型"
+"options.role.marionette.mannequinMode.player" : "玩家本身"
+"options.role.marionette.fixDecoyAppearance" : "锁定模型状态"
 "options.role.marionette.placeCoolDown" : "放置冷却时间"
 "options.role.marionette.swapCoolDown" : "交换位置冷却时间"
 "options.role.marionette.decoyDuration" : "木偶存在时间"
-"options.role.marionette.canSeeDecoyInShadow" : "可以查看木偶状况"
+"options.role.marionette.canSeeDecoyInShadow" : "可以在阴影中看到木偶"
 "stats.marionette.decoy" : "放置木偶次数"
 "stats.marionette.swap" : "与木偶交换次数"
 
@@ -1335,6 +1351,8 @@ $Achievement
 "options.role.arsonist.douseCoolDown" : "涂油冷却时间"
 "options.role.arsonist.douseDuration" : "涂油所需时间"
 "stats.arsonist.doused" : "被涂油玩家数量"
+"role.arsonist.gui.left" : "剩余玩家"
+"role.arsonist.gui.left.dead" : "死亡"
 
 "role.avenger.name" : "复仇者"
 "role.avenger.short" : "复"
@@ -1476,6 +1494,8 @@ $Achievement
 "options.role.scarlet.gaugeReductionRatio" : "情感值衰减速度"
 "options.role.scarlet.canLocateLovers" : "显示真爱位置"
 "options.role.scarlet.group.gauge" : "情感值设定"
+"role.scarlet.gui.gauge" : "情感度"
+"role.scarlet.gui.favorite" : "本命"
 "stats.scarlet.kept" : "指定备胎次数"
 
 "role.spectre.name" : "狐妖"
@@ -1506,6 +1526,7 @@ $Achievement
 "options.role.spectre.group.vanish" : "隐身能力设定"
 "stats.spectre.vanish" : "隐身使用次数"
 "stats.spectre.eatFries" : "食用油豆腐次数"
+"role.spectre.gui.gauge" : "饱食度"
 
 "role.spectreFollower.name" : "狐狸"
 "role.spectreFollower.short" : "狸"
@@ -1699,6 +1720,7 @@ $Achievement
 "role.lover.generalBlurb" : "与你的爱人活到最后"
 "options.role.lover.numOfPairs" : "可出现对数"
 "options.role.lover.chanceOfAssigningImpostors" : "一方为伪装者恋人的概率"
+"options.role.lover.allowExtraWinViaCrewmateWin" : "跟随船员阵营获胜"
 "options.role.lover.allowExtraWin" : "允许跟随胜利" 
 "options.role.lover.blockRoleWin" : "禁止职业阵营胜利"
 "options.role.lover.avengerMode" : "复仇者模式"
@@ -1749,7 +1771,7 @@ $Achievement
 "teams.spectre" : "狐妖"
 "teams.gambler" : "赌徒"
 "teams.tyrant" : "暴君"
-
+"teams.vanity" : "虚荣者"
 
 # Perks
 
@@ -2100,7 +2122,8 @@ $Achievement
 "button.label.mobile.switch" : "切换"
 "button.label.absorb" : "吸收"
 "button.label.poison" : "投毒"
-"button.label.select" : "缝合"
+"button.label.select" : "融合"
+"button.label.afk" : "挂机"
 
 # Game
 
@@ -2194,6 +2217,7 @@ $Achievement
 "state.drill" : "钻碎"
 "state.dissolved" : "溶解"
 "state.poisoned" : "中毒"
+"state.layoff" : "解雇"
 
 # Endings
 
@@ -2753,7 +2777,7 @@ $Achievement
 "roleFilter.none" : "无"
 "roleFilter.separator" : "、"
 "roleFilter.categorySeparator" : "; "
-"roleFilter.exceptPattern.all" : "除了%ROLES%之外"
+"roleFilter.exceptPattern.all" : "%ROLES%除外"
 "roleFilter.exceptPattern.crewmate" : "船员%ROLES%除外 "
 "roleFilter.exceptPattern.impostor" : "伪装者%ROLES%除外 "
 "roleFilter.exceptPattern.neutral" : "第三方%ROLES%除外 "
@@ -2765,6 +2789,8 @@ $Achievement
 "roleFilter.shortcut.allImpostor" : "伪装者阵营"
 "roleFilter.shortcut.allNeutral" : "第三方阵营"
 "roleFilter.shortcut.allCrewmate" : "船员阵营"
+"roleFilter.preview.excludes" : "%ROLES%除外"
+"roleFilter.preview.etc" : "%ROLES%等"
 "roleFilter.showOnlySpawnable" : "只显示可生成职业"
 
 # Documents
@@ -2803,9 +2829,9 @@ $Achievement
 "document.tip.winCond.dancer.title" : "特殊胜利"
 "document.tip.winCond.dancer" : "完成指定次数的死亡预言便会携带因死亡预言而死的人获胜。"
 "document.tip.winCond.scarlet.title" : "窃取胜利"
-"document.tip.winCond.scarlet" : "和本命存活且本命达到胜利条件，那么将和本命覆盖并窃取胜利。"
+"document.tip.winCond.scarlet" : "当本命存活且其阵营获胜时，将窃取其阵营胜利并与本命一起获胜。<br>但对于复仇者获胜时，仅本命是复仇者的情况下才能窃取胜利。"
 "document.tip.winCond.spectre.title" : "窃取胜利"
-"document.tip.winCond.spectre" : "狐妖存活并且饱食度在大于指定饱食度将窃取其他阵营胜利。<br>但是不能窃取破坏胜利。"
+"document.tip.winCond.spectre" : "狐妖存活并且饱食度在大于指定饱食度将窃取其他阵营胜利。<br>但不能窃取破坏胜利。"
 "document.tip.winCond.trilemma.title" : "窃取胜利"
 "document.tip.winCond.trilemma" : "如果你处于三角仇中，当其他两个人死亡，你存活时并且满足胜利，将窃取胜利。<br>满足胜利条件同时成为三角仇最后一名存活的玩家获胜。"
 "document.tip.winCond.gambler.title" : "特殊胜利"
