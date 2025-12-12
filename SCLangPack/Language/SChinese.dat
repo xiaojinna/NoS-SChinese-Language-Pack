@@ -217,6 +217,7 @@ $Achievement
 "gamemode.standard" : "标准模式"
 "gamemode.hostMode" : "主机模式"
 "gamemode.freeplay" : "自由模式"
+"gamemode.aeroguesser" : "猜图模式"
 
 # Notification
 
@@ -243,7 +244,9 @@ $Achievement
 
 "options.switch.off" : "关"
 "options.switch.on" : "开"
-"options.switch.nonCrewmateOnly" : "非船员"
+"options.switch.nonCrewmateOnly" : "仅非船员"
+"options.switch.nonCrewmate" : "非船员"
+"options.switch.impostor" : "伪装者"
 "options.percentage" : "%"
 "options.cross" : "x"
 "options.sec" : "s"
@@ -316,6 +319,7 @@ $Achievement
 "options.map.customization.skeld.storageVent" : "库房额外通风口"
 "options.map.customization.skeld.reactorDuration" : "核反应堆破坏持续时间"
 "options.map.customization.skeld.lifeSupportDuration" : "氧气耗尽持续时间"
+"options.map.customization.skeld.wholeShipInShadow" : "船体添加阴影效果"
 "options.map.customization.mira.useAdmin" : "允许使用管理控制台"
 "options.map.customization.mira.reactorDuration" : "核反应堆破坏持续时间"
 "options.map.customization.mira.lifeSupportDuration" : "氧气耗尽持续时间"
@@ -400,6 +404,11 @@ $Achievement
 "options.meeting.prohibitMeetingTool" : "禁用地图标记辅助"
 "options.meeting.shortenCooldownAtGameStart" : "游戏初始阶段冷却时间缩短"
 "options.meeting.shortenCooldown" : "缩短冷却时间"
+"options.meeting.nonCrewCanSeeTaskTracker" : "紧急会议中可以查看任务进度"
+"options.meeting.nonCrewCanSeeSabotageStatus" : "紧急会议中可以查看破坏状态"
+"options.meeting.group.gameStart" : "缩短冷却时间设定"
+"options.meeting.group.earlySettings" : "游戏前期紧急会议设定"
+"options.meeting.group.nonCrewmateInformation" : "非船员可见信息设定"
 
 "options.exile" : "放逐设置"
 "options.exile.detail" : "放逐玩家相关设置。"
@@ -425,6 +434,21 @@ $Achievement
 "options.consoleRestriction.cameraRestriction" : "安保监控与门禁系统"
 "options.consoleRestriction.resetRestrictions" : "会议结束后重置使用限制"
 "options.consoleRestriction.showDeadBodiesOnAdmin" : "管理控制台中显示尸体"
+
+"options.aeroGuesser" : "猜图模式设置"
+"options.aeroGuesser.detail" : "猜图模式相关设置。"
+"options.aeroGuesser.guessTime" : "猜测时间"
+"options.aeroGuesser.numOfQuiz" : "题目数量"
+"options.aeroGuesser.monochromeMode" : "黑白模式"
+"options.aeroGuesser.skeld" : "Skeld"
+"options.aeroGuesser.mira" : "MIRA HQ"
+"options.aeroGuesser.polus" : "Polus"
+"options.aeroGuesser.airship" : "Airship"
+"options.aeroGuesser.fungle" : "Fungle"
+"options.aeroGuesser.normal" : "普通"
+"options.aeroGuesser.hard" : "困难"
+"options.aeroGuesser.group.filter.difficulty" : "题目难度倍率设定"
+"options.aeroGuesser.group.filter.map" : "地图题目倍率设定"
 
 "options.perk" : "特技选项"
 "options.perk.detail" : "地图中会出现神秘的花<br>开放的花可以让玩家获得特技。"
@@ -1453,6 +1477,13 @@ $Achievement
 "options.role.sidekick.inheritanceRule.suicide" : "自杀"
 "options.role.sidekick.inheritanceRule.none" : "无"
 "options.role.sidekick.assignedSidekick" : "游戏开始时分配"
+"options.role.sidekick.canSuicide" : "可以自杀"
+"options.role.sidekick.suicideCooldown" : "自杀冷却时间"
+"options.role.sidekick.canFixLight" : "可以修复电力破坏"
+"options.role.sidekick.canFixComms" : "可以修复通讯破坏"
+"options.role.sidekick.hasImpostorVision" : "拥有伪装者视野"
+"options.role.sidekick.canUseVents" : "可以使用通风口"
+"options.role.sidekick.canMoveInVents" : "可以在通风口中移动"
 
 "role.jester.name" : "小丑"
 "role.jester.short" : "丑"
@@ -2237,6 +2268,7 @@ $Achievement
 "end.gambler" : "赌徒%EXTRA%胜利"
 "end.tyrant" : "暴君%EXTRA%胜利"
 "end.vanity" : "虚荣者%EXTRA%胜利"
+"end.gameEnd" : "游戏结束"
 "end.nogame" : "无效游戏"
 
 "end.status.noWinners" : "无人胜利" 
@@ -2305,6 +2337,13 @@ $Achievement
 
 "task.unknownPlace" : "？？？"
 "task.divertPower" : "转移电路"
+
+# Meta Information
+
+"metaInfo.meeting.sabotage" : "当前破坏状态"
+"metaInfo.meeting.sabotage.electrical" : "电力"
+"metaInfo.meeting.sabotage.communications" : "通讯"
+"metaInfo.meeting.task" : "平均完成任务数: "
 
 # Inventory
 
@@ -2793,6 +2832,40 @@ $Achievement
 "roleFilter.preview.etc" : "%ROLES%等"
 "roleFilter.showOnlySpawnable" : "只显示可生成职业"
 
+# AeroGuesser
+
+"aeroGuesser.rank.1" : "第1名"
+"aeroGuesser.rank.2" : "第2名"
+"aeroGuesser.rank.3" : "第3名"
+"aeroGuesser.rank.4" : "第4名"
+"aeroGuesser.rank.5" : "第5名"
+"aeroGuesser.rank.6" : "第6名"
+"aeroGuesser.rank.7" : "第7名"
+"aeroGuesser.rank.8" : "第8名"
+"aeroGuesser.rank.9" : "第9名"
+"aeroGuesser.rank.10" : "第10名"
+"aeroGuesser.rank.11" : "第11名"
+"aeroGuesser.rank.12" : "第12名"
+"aeroGuesser.rank.13" : "第13名"
+"aeroGuesser.rank.14" : "第14名"
+"aeroGuesser.rank.15" : "第15名"
+"aeroGuesser.rank.16" : "第16名"
+"aeroGuesser.rank.17" : "第17名"
+"aeroGuesser.rank.18" : "第18名"
+"aeroGuesser.rank.19" : "第19名"
+"aeroGuesser.rank.20" : "第20名"
+"aeroGuesser.rank.21" : "第21名"
+"aeroGuesser.rank.22" : "第22名"
+"aeroGuesser.rank.23" : "第23名"
+"aeroGuesser.rank.24" : "第24名"
+"aeroguesser.answerInfo.view" : "实际位置"
+"aeroguesser.answerInfo.minimap" : "迷你地图"
+"aeroguesser.answerInfo.singleScore" : "得分数"
+"aeroguesser.answerInfo.sumScore" : "总分数"
+"aeroGuesser.ui.proceed" : "下一步"
+"aeroGuesser.ui.determine" : "确定"
+"aeroGuesser.ui.back" : "返回"
+
 # Documents
 
 "document.tip.winCond.teams.impostor" : "伪装者"
@@ -2854,6 +2927,7 @@ $Achievement
 "options.map.canOpenMapWhileUsingUtility.detail" : "开启后，即使在使用梯子或移动平台时<br>仍然可以打开地图。" 
 "options.map.numOfTeleporter.detail" : "地图上会出现几对能够传送的宝石。<br>玩家可以通过擦亮宝石传送到相对宝石的位置。"
 "options.map.nonCrewmateCanUseTeleporterImmediately.detail" : "开启后，除船员阵营以外的玩家不需要进行擦亮宝石小游戏进行传送。"
+"options.map.customization.skeld.wholeShipInShadow.detail" : "为整个船体区域添加阴影效果。超出船体边界外的玩家名称将被隐藏。"
 "options.map.customization.airship.oneWayMeetingRoom.detail" : "开启后，会议室的左侧的梯子仅供向上爬<br>在右侧会额外增加一个梯子向下爬。"
 "options.map.customization.airship.betterImpostorVision.detail" : "开启后，伪装者使用移动平台时，可以看到上下层情况。"
 "options.map.customization.airship.shadedLowerFloor.detail" : "开启后，非伪装者使用移动平台时，不能看到上下层情况。"
