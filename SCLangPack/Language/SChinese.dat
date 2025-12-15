@@ -629,6 +629,7 @@ $Achievement
 "options.role.climber.gustCooldown" : "钩索冷却时间"
 "options.role.climber.canSeeInShadow" : "可以在阴影中看到钩索"
 "stats.climber.gust" : "钩索使用次数"
+"stats.climber.distance" : "钩索移动距离"
 
 "role.collator.name" : "基因学家"
 "role.collator.short" : "基"
@@ -1210,7 +1211,7 @@ $Achievement
 "options.role.painter.paintCoolDown" : "改变外观冷却时间"
 "options.role.painter.loseSampleOnMeeting" : "会议结束后需要重新取样"
 "options.role.painter.transformAfterMeeting" : "会议结束后生效"
-"stats.morphing.sample" : "取样使用次数"
+"stats.painter.sample" : "取样使用次数"
 "stats.painter.paint" : "改变外形使用次数"
 
 "role.quack.name" : "鸭医"
@@ -2627,6 +2628,7 @@ $Achievement
 "achievement.type.secret" : "隐藏成就"
 "achievement.type.seasonal" : "季节性成就"
 "achievement.type.costume" : "特殊装饰成就"
+"achievement.type.aeroGuesser" : "猜图成就"
 "achievement.type.innersloth" : "Among Us"
 "achievement.type.perk" : "特技"
 
@@ -2635,6 +2637,7 @@ $Achievement
 "achievement.group.seasonal" : "季节性"
 "achievement.group.perk" : "特技"
 "achievement.group.costume" : "特殊装饰"
+"achievement.group.aeroGuesser" : "猜图"
 "achievement.group.others" : "特殊"
 "achievement.group.innersloth" : "Innersloth"
 "achievement.group.custom" : "自定义"
@@ -2664,6 +2667,7 @@ $Achievement
 "stats.group.game" : "对局"
 "stats.group.roles" : "职业"
 "stats.group.perks" : "特技"
+"stats.group.aeroGuesser" : "猜图"
 "stats.role.common.assigned" : "%ROLE% 获得次数"
 "stats.role.common.won" : "通过 %ROLE% 获胜次数"
 "stats.modifier.common.assigned" : "%MODIFIER% 获得次数"
@@ -2678,6 +2682,9 @@ $Achievement
 "stats.plants.gain.normal" : "从普通花获得特技次数"
 "stats.plants.gain.warped" : "从怪异花获得特技次数"
 "stats.perk.common.gain" : "%PERK% 获得次数"
+"stats.aeroGuesser.gamePlay" : "总对局数"
+"stats.aeroGuesser.totalScore" : "累计获得分数"
+"stats.aeroGuesser.perfectScore" : "获得满分次数"
 
 # Social
 
