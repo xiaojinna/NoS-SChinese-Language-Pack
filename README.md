@@ -1,13 +1,13 @@
 # 关于此插件包（About This Plugin Package）
 
 <p align="center">
-本插件为非官方翻译扩展包，与《Among Us》、Innersloth LLC 以及原模组/插件作者无任何关联。  
-本插件未获得 Innersloth LLC 或原模组/插件作者的认可、授权或赞助。  
+本插件为模组《Nebula on the Ship》的非官方中文翻译扩展包，与《Among Us》、Innersloth LLC 以及《Nebula on the Ship》的原作者无任何关联。  
+本插件未获得 Innersloth LLC 或《Nebula on the Ship》原作者的认可、授权或赞助。  
 本插件中涉及的《Among Us》相关素材版权归 Innersloth LLC 所有。© Innersloth LLC.
 </p>
 <p align="center">
-This is an unofficial translation add-on and is not affiliated with Among Us, Innersloth LLC, or the original mod/add-on authors.  
-This add-on is not endorsed, authorized, or sponsored by Innersloth LLC or the original authors.  
+This is an unofficial Chinese translation add-on for the mod “Nebula on the Ship” and is not affiliated with Among Us, Innersloth LLC, or the original authors of “Nebula on the Ship”.  
+This add-on is not endorsed, authorized, or sponsored by Innersloth LLC or the original authors of “Nebula on the Ship”.  
 Portions of the materials referenced herein are property of Innersloth LLC. © Innersloth LLC.
 </p>
 
@@ -15,13 +15,13 @@ Portions of the materials referenced herein are property of Innersloth LLC. © I
 
 ## 项目说明（Description）
 
-本插件包为 **非官方中文翻译扩展**，主要内容由本人独立完成翻译与制作。  
-由于个人能力与精力有限，翻译中可能存在错误、遗漏或表述不够准确之处，欢迎反馈或提出修改建议。  
-我会尽力跟进原模组/插件的更新，并保持对最新版本内容的兼容。
+本插件包为《Nebula on the Ship》的**非官方中文翻译扩展**，翻译与制作工作主要由本人独立完成。  
+由于个人能力与精力有限，翻译中可能存在错误、遗漏或表达不够准确之处，欢迎反馈或提出修改建议。  
+我会尽力跟进《Nebula on the Ship》的更新，并保持对最新版本内容的兼容。
 
-This add-on is an **unofficial Chinese translation extension**, with the main content translated and produced independently by the author.  
+This add-on is an **unofficial Chinese translation extension** for “Nebula on the Ship”, with the translation and production mainly completed by the author independently.  
 Due to limited time and ability, there may be errors, omissions, or inaccurate expressions in the translation. Feedback and suggestions are welcome.  
-I will try my best to keep this translation compatible with the latest versions of the original mod/add-on.
+I will try my best to keep this translation compatible with the latest versions of “Nebula on the Ship”.
 
 ---
 
@@ -66,10 +66,10 @@ This translation add-on is an unofficial derivative work, and **the copyright of
 ## 免责声明（Disclaimer）
 
 本插件为非官方翻译扩展。  
-因使用本插件所产生的任何问题、损失或纠纷，均由使用者自行承担，与 Innersloth LLC、原模组/插件作者及本插件作者无关。
+因使用本插件所产生的任何问题、损失或纠纷，均由使用者自行承担，与 Innersloth LLC、《Nebula on the Ship》原作者及本插件作者无关。
 
 This add-on is an unofficial translation.  
-Any issues, damages, or disputes arising from the use of this add-on are the sole responsibility of the user and are not associated with Innersloth LLC, the original mod/add-on authors, or the author of this translation.
+Any issues, damages, or disputes arising from the use of this add-on are the sole responsibility of the user and are not associated with Innersloth LLC, the original authors of “Nebula on the Ship”, or the author of this translation.
 
 ---
 
