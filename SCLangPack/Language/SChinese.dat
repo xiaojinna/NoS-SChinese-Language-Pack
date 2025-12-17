@@ -1725,7 +1725,7 @@ $Achievement
 
 "role.tieBreaker.name" : "破平者"
 "role.tieBreaker.generalBlurb" : "我将是破局之人"
-"options.role.tieBreaker.detail" : "拥有破平者的玩家相当于有1.5票。"
+"options.role.tieBreaker.detail" : "拥有破平者的玩家在出现平票时，会为投票目标额外追加一票。"
 "stats.tieBreaker.tieBreaking" : "触发破平次数"
 
 "role.trilemma.name" : "三角仇"
@@ -2476,7 +2476,7 @@ $Achievement
 "preset.reload" : "重新加载"
 "preset.saveSuccess" : "保存已完成。"
 "preset.saveFailed" : "保存失败。<br>具体内容请查看NebulaLog.txt日志文件。"
-"preset.loadSuccess" : "已成功加载预设。"
+"preset.loadSuccess" : "已加载预设。"
 "preset.loadFailed" : "未能加载预设。"
 "preset.confirmLoadOld" : "此预设为老版本内容。<br>是否继续加载？"
 "preset.confirmLoadUnknown" : "未知预设内容（可能较新）。<br>是否继续加载？"
@@ -2639,7 +2639,7 @@ $Achievement
 "achievement.group.costume" : "特殊装饰"
 "achievement.group.aeroGuesser" : "猜图"
 "achievement.group.others" : "特殊"
-"achievement.group.innersloth" : "Innersloth"
+"achievement.group.innersloth" : "Among Us"
 "achievement.group.custom" : "自定义"
 
 "achievement.filter" : "筛选条件"
