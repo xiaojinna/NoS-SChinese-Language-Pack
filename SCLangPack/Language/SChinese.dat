@@ -2492,7 +2492,7 @@ $Achievement
 "devStudio.ui.common.preview" : "预览"
 "devStudio.ui.common.delete" : "删除"
 "devStudio.ui.common.clone" : "复制"
-"devStudio,ui.common.original" : "原件"
+"devStudio.ui.common.original" : "原件"
 "devStudio.ui.common.generate" : "生成"
 "devStudio.ui.common.confirmSaving" : "你确定要保存吗？"
 "devStudio.ui.common.confirmDeletingAddon" : "您确定要删除插件包吗？"
