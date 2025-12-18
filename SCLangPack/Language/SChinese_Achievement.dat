@@ -226,23 +226,23 @@
 "achievement.jekyllAndHyde.common1.title" : "美妙时光"
 "achievement.jekyllAndHyde.common1.goal" : "喝下药物主动成为海德。"
 "achievement.jekyllAndHyde.common1.cond" : ""
-"achievement.jekyllAndHyde.common1.flavor" : "「或许没有邪恶一说，毕竟我永远是“我”！」"
+"achievement.jekyllAndHyde.common1.flavor" : "【或许没有邪恶一说，毕竟我永远是“我”！】"
 "achievement.jekyllAndHyde.common1.splitted.2" : "时光"
 
 "achievement.jekyllAndHyde.another1.title" : "我心如火"
 "achievement.jekyllAndHyde.another1.goal" : "通过海德人格死亡并输掉游戏。"
 "achievement.jekyllAndHyde.another1.cond" : ""
-"achievement.jekyllAndHyde.another1.flavor" : "「这是我最后一次登上这舞台！」"
+"achievement.jekyllAndHyde.another1.flavor" : "【这是我最后一次登上这舞台！】"
 
 "achievement.jekyllAndHyde.common2.title" : "自我主宰"
 "achievement.jekyllAndHyde.common2.goal" : "通过海德人格击杀伪装者。"
 "achievement.jekyllAndHyde.common2.cond" : ""
-"achievement.jekyllAndHyde.common2.flavor" : "「让我破除这迷雾！」"
+"achievement.jekyllAndHyde.common2.flavor" : "【让我破除这迷雾！】"
 
 "achievement.jekyllAndHyde.common3.title" : "黑幕"
 "achievement.jekyllAndHyde.common3.goal" : "通过海德人格击杀船员。"
 "achievement.jekyllAndHyde.common3.cond" : ""
-"achievement.jekyllAndHyde.common3.flavor" : "「世界只是一个巨大的幕布，“我”只是在表演“我”的人生。」"
+"achievement.jekyllAndHyde.common3.flavor" : "【世界只是一个巨大的幕布，“我”只是在表演“我”的人生。】"
 
 "achievement.jekyllAndHyde.challenge.title" : "人性"
 "achievement.jekyllAndHyde.challenge.goal" : "通过海德人格击杀其他玩家并通过船员阵营获胜而获胜。"
@@ -350,7 +350,7 @@
 "achievement.necromancer.another2.title" : "没有奇迹"
 "achievement.necromancer.another2.goal" : "在拖动尸体的过程中被击杀。"
 "achievement.necromancer.another2.cond" : ""
-"achievement.necromancer.another2.flavor" : "“人固有一死，或重于泰山，或轻于鸿毛”-汉 · 司马迁"
+"achievement.necromancer.another2.flavor" : "“人固有一死，或重于泰山，或轻于鸿毛”-汉·司马迁"
 
 "achievement.necromancer.another.title" : "通灵事故"
 "achievement.necromancer.another.goal" : "复活一个非船员阵营玩家。"
@@ -476,7 +476,6 @@
 "achievement.sheriff.another1.title" : "美国警长"
 "achievement.sheriff.another1.goal" : "执法失败。"
 "achievement.sheriff.another1.cond" : ""
-"achievement.sheriff.another1.flavor" : "“嗨，我让你举起手！” ―来自一段执法记录仪"
 "achievement.sheriff.another1.splitted.0" : "清白的"
 
 "achievement.sheriff.another2.title" : "无能警官"
@@ -521,7 +520,7 @@
 "achievement.alien.common1.flavor" : "“@#>><:":@#$%?”-来自一个外星人的询问。"
 "achievement.alien.common1.splitted.0" : "外星的"
 
-"achievement.alien.common2.title" : "躲猫猫"
+"achievement.alien.common2.title" : "记忆混乱"
 "achievement.alien.common2.goal" : "总计10次将玩家从管理室地图上抹去。"
 "achievement.alien.common2.cond" : ""
 "achievement.alien.common2.flavor" : "“我真的在那里！”-来自会议记录。"
@@ -608,11 +607,11 @@
 "achievement.bubblegun.another1.cond" : ""
 "achievement.bubblegun.another1.flavor" : "“终有消散时。”"
 
-"achievement.bubblegun.challenge.title" : "泡泡危机"
+"achievement.bubblegun.challenge.title" : "泡泡龙"
 "achievement.bubblegun.challenge.goal" : "向右上方发生一个泡泡，并在破裂前使3名以上玩家困住。"
 "achievement.bubblegun.challenge.cond" : ""
 "achievement.bubblegun.challenge.flavor" : "“这是什么东西那么漂亮？”-来自好奇者。"
-"achievement.bubblegun.challenge.splitted.0" : "泡泡的"
+"achievement.bubblegun.challenge.splitted.0" : "80年代的"
 
 "achievement.camouflager.common1.title" : "谁在那？"
 "achievement.camouflager.common1.goal" : "使用一次技能。"
@@ -714,8 +713,8 @@
 
 "achievement.disturber.challenge.title" : "苦闷如怒涛"
 "achievement.disturber.challenge.goal" : "通过干扰杆导致电力/通讯破坏超过40秒未被修复<br>导致期间3人死亡。"
-"achievement.disturber.challenge.cond" : "提示：夸会议重置时间。"
-"achievement.disturber.challenge.flavor" : "在修复破坏之前，还需检修一下。"
+"achievement.disturber.challenge.cond" : "提示：跨会议重置时间。"
+"achievement.disturber.challenge.flavor" : "“漫长且煎熬……”"
 "achievement.disturber.challenge.splitted.1" : "怒涛的"
 
 "achievement.effacer.common1.title" : "橡皮擦"
@@ -731,7 +730,7 @@
 "achievement.effacer.common2.splitted.0" : "隐形"
 
 "achievement.effacer.common3.title" : "无处躲藏"
-"achievement.effacer.common3.goal" : "击杀被擦除的船员。"
+"achievement.effacer.common3.goal" : "击杀被队友擦除隐身的玩家。"
 "achievement.effacer.common3.cond" : ""
 "achievement.effacer.common3.flavor" : "“请解释一下怎么突然出现一个尸体？”-来自观看监控的船员的问题。"
 
@@ -798,7 +797,6 @@
 "achievement.gimlet.challenge.title" : "无敌破坏王"
 "achievement.gimlet.challenge.goal" : "使用钻头钻死4人以上，并且最后钻死的是正在修复破坏的玩家，通过破坏获胜。"
 "achievement.gimlet.challenge.cond" : "提示：必须在玩家开始修复破坏的10秒后。"
-"achievement.gimlet.challenge.flavor" : ""
 "achievement.gimlet.challenge.splitted.2" : "破坏王"
 
 "achievement.hadar.common1.title" : "来自地底的杀意"
@@ -834,8 +832,8 @@
 "achievement.hadar.challenge.cond" : ""
 "achievement.hadar.challenge.splitted.2" : "黄金矿工"
 
-"achievement.illusioner.common1.title" : "我是谁？你是谁？"
-"achievement.illusioner.common1.goal" : "化形跟改变样貌技能格使用一次。"
+"achievement.illusioner.common1.title" : "互换人生"
+"achievement.illusioner.common1.goal" : "化形和改变样貌技能各使用一次。"
 "achievement.illusioner.common1.cond" : ""
 
 "achievement.illusioner.challenge.title" : "无人知晓的真相"
@@ -881,7 +879,7 @@
 "achievement.morphing.common1.cond" : "提示：模仿大师也可以获取该成就！"
 "achievement.morphing.common1.splitted.0" : "猜猜"
 
-"achievement.morphing.another1.title" : "我将取代你"
+"achievement.morphing.another1.title" : "人皮面具"
 "achievement.morphing.another1.goal" : "杀死你取样的玩家"
 "achievement.morphing.another1.cond" : ""
 
@@ -920,7 +918,7 @@
 "achievement.painter.common1.goal" : "取样并修改其他玩家的外观"
 "achievement.painter.common1.cond" : "提示：模仿大师也可以获取该成就！"
 
-"achievement.painter.challenge.title" : "你？我？他？她？"
+"achievement.painter.challenge.title" : "消失的证人"
 "achievement.painter.challenge.goal" : "将3个及以上的玩家修改两次及以上的外观"
 "achievement.painter.challenge.cond" : "提示：相同的样本给两个及以上的玩家不会记次数"
 "achievement.painter.challenge.splitted.0" : "消失的"
@@ -960,7 +958,7 @@
 "achievement.reaper.common1.goal" : "拖动尸体的同时并进入通风口内。"
 "achievement.reaper.common1.cond" : ""
 
-"achievement.reaper.challenge.title" : "死神降临"
+"achievement.reaper.challenge.title" : "无人通报"
 "achievement.reaper.challenge.goal" : "一回合内超过5具尸体且没有人报告"
 "achievement.reaper.challenge.cond" : ""
 
@@ -1026,7 +1024,7 @@
 "achievement.snatcher.challenge.flavor" : "“我将代替你的意志活下去！”"
 "achievement.snatcher.challenge.splitted.2" : "生生不息"
 
-"achievement.sniper.common1.title" : "请支付一颗大花生的钱"
+"achievement.sniper.common1.title" : "精准打击"
 "achievement.sniper.common1.goal" : "狙杀一名玩家"
 "achievement.sniper.common1.cond" : ""
 
@@ -1062,7 +1060,7 @@
 "achievement.thurifer.common2.title" : "害人害己"
 "achievement.thurifer.common2.goal" : "将身上的“香熏”转移到香炉中。"
 "achievement.thurifer.common2.cond" : ""
-"achievement.thurifer.common2.flavor" : "“若心存恶意, 则必自食恶果, 因恶行终将报应。”—警示语"
+"achievement.thurifer.common2.flavor" : "“若心存恶意，则必自食恶果，因恶行终将报应。”—警示语"
 
 "achievement.thurifer.challenge.title" : "香熏的魅力"
 "achievement.thurifer.challenge.goal" : "有8人以上受到“香熏”效果，且都以达到50%，然后击杀4个人。<br>至少有一个人死于最大延迟击杀和一个人因延迟死亡死于会议期间。"
@@ -1323,7 +1321,7 @@
 "achievement.scarlet.common1.splitted.0" : "另一个"
 
 "achievement.scarlet.common2.title" : "臣服于我"
-"achievement.scarlet.common2.goal" : "深紅の号令によって通算で3人のプレイヤーを追放する。"
+"achievement.scarlet.common2.goal" : "通过号召累计放逐3名玩家。"
 "achievement.scarlet.common2.cond" : ""
 "achievement.scarlet.common2.splitted.1" : "名义"
 
@@ -1406,7 +1404,7 @@
 "achievement.spectreImmoralist.common3.title" : "乖啦乖啦~♪"
 "achievement.spectreImmoralist.common3.goal" : "在狐妖面前供奉油豆腐。"
 "achievement.spectreImmoralist.common3.cond" : ""
-"achievement.spectreImmoralist.common3.flavor" : "※ 纯属信仰行为，绝非投喂现场。"
+"achievement.spectreImmoralist.common3.flavor" : "※纯属信仰行为，绝非投喂现场。"
 
 "achievement.spectreImmoralist.hard1.title" : "不灭的意志"
 "achievement.spectreImmoralist.hard1.goal" : "从背德者变成了其他身份，并见证了狐妖死亡，然后通过非狐妖胜利的方式胜利。"
@@ -1465,7 +1463,7 @@
 "achievement.guesser.challenge.title" : "朋友，这是一场豪赌"
 "achievement.guesser.challenge.goal" : "赌杀3名及以上的玩家"
 "achievement.guesser.challenge.cond" : ""
-"achievement.guesser.challenge.flavor" : "我全压！"
+"achievement.guesser.challenge.flavor" : "“兄弟，我没开，真的……”—来自天才少年的自述。"
 
 "achievement.bloody.common1.title" : "复仇的欲望"
 "achievement.bloody.common1.goal" : "让凶手沾上你的血。"
@@ -1567,8 +1565,8 @@
 "achievement.extraMission.challenge.cond" : ""
 "achievement.extraMission.challenge.splitted.0" : "过多的"
 
-"achievement.lover.common1.title" : "我们将一生一世"
-"achievement.lover.common1.goal" : "与自己的爱人一起单独胜利。"
+"achievement.lover.common1.title" : "那时也曾盲目过"
+"achievement.lover.common1.goal" : "达成恋人胜利。"
 "achievement.lover.common1.cond" : ""
 "achievement.lover.common1.splitted.0" : "那时"
 
@@ -1714,10 +1712,6 @@
 "achievement.grudge.common3.goal" : "通过特殊任务独立胜利。"
 "achievement.grudge.common3.cond" : ""
 
-"achievement.hallucination.common1.title" : "不请自来"
-"achievement.hallucination.common1.goal" : "召唤一个幻形。"
-"achievement.hallucination.common1.cond" : ""
-
 "achievement.hallucination.common2.title" : "鬼打墙"
 "achievement.hallucination.common2.goal" : "在存活的玩家面前召唤幻形"
 "achievement.hallucination.common2.cond" : ""
@@ -1781,7 +1775,7 @@
 "achievement.rainyStep.goal" : "在受到减速的情况下继续走动。"
 "achievement.rainyStep.cond" : "提示：六月限定、持续时间在6秒以上，仅在Polus和The Fungle地图"
 "achievement.rainyStep.flavor" : "美妙的雨季"
-"achievement.rainyStep.splitted.1" : "一天的"
+"achievement.rainyStep.splitted.1" : "雨天的"
 
 "achievement.rainyStepAnother.title" : "追逐星落"
 "achievement.rainyStepAnother.goal" : "在受到加速速的情况下继续走动。"
@@ -1811,7 +1805,7 @@
 "achievement.freshWine.title" : "小丑的香槟"
 "achievement.freshWine.goal" : "吞噬或清理掉新鲜的尸体。"
 "achievement.freshWine.cond" : "提示：11月限定"
-"achievement.freshWine.flavor" : "“来自82年的佳酿!”"
+"achievement.freshWine.flavor" : "“来自82年的佳酿！”"
 
 "achievement.christmas.title" : "结束之日"
 "achievement.christmas.goal" : "在会议中驱逐恋人"
