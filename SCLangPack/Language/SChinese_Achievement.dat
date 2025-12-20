@@ -6,7 +6,7 @@
 "achievement.agent.another1.title" : "废物"
 "achievement.agent.another1.goal" : "其他船员先比代理人完成任务"
 "achievement.agent.another1.cond" : ""
-"achievement.agent.another1.flavor" : "“你总是拖拖拉拉的。” ―摘自一篇匿名文章。"
+"achievement.agent.another1.flavor" : "“你总是拖拖拉拉的。” —摘自一篇匿名文章。"
 
 "achievement.agent.common2.title" : "卷王"
 "achievement.agent.common2.goal" : "15秒内完成两个任务。"
@@ -74,7 +74,7 @@
 "achievement.climber.common5.title" : "宇宙之巅"
 "achievement.climber.common5.goal" : "累计使用钩索移动21230米以上。"
 "achievement.climber.common5.cond" : ""
-"achievement.climber.common5.flavor" : "奥林帕斯山，火星上的最高峰。<br>仰望星空吧."
+"achievement.climber.common5.flavor" : "奥林帕斯山，火星上的最高峰。<br>仰望星空吧。"
 
 "achievement.climber.another1.title" : "飞蛾扑火"
 "achievement.climber.another1.goal" : "使用钩索移动过程中或结束时被击杀。"
@@ -95,19 +95,19 @@
 "achievement.collator.common1.title" : "实验狂魔"
 "achievement.collator.common1.goal" : "一次游戏取得五次以上样本。"
 "achievement.collator.common1.cond" : ""
-"achievement.collator.common1.flavor" : "“你不能一直抽下去！” ―研究者的提醒。"
+"achievement.collator.common1.flavor" : "“你不能一直抽下去！” —研究者的提醒。"
 "achievement.collator.common1.splitted.2" : "日和"
 
 "achievement.collator.common2.title" : "癫狂的研究者"
 "achievement.collator.common2.goal" : "总计取得20次样品。"
 "achievement.collator.common2.cond" : ""
-"achievement.collator.common2.flavor" : "“我觉得你不是一个船员！” ―报告单上的潦草字迹。"
+"achievement.collator.common2.flavor" : "“我觉得你不是一个船员！” —报告单上的潦草字迹。"
 "achievement.collator.common2.splitted.0" : "癫狂的"
 
 "achievement.collator.common4.title" : "含剧毒物质"
 "achievement.collator.common4.goal" : "比较两名伪装者的样本。"
 "achievement.collator.common4.cond" : ""
-"achievement.collator.common4.flavor" : "“这...不对...快跑！” ―用血写在地板上的字"
+"achievement.collator.common4.flavor" : "“这……不对……快跑！” —用血写在地板上的字"
 "achievement.collator.common4.splitted.2" : "废弃物"
 
 "achievement.collator.another1.title" : "疯狂科学家"
@@ -135,7 +135,7 @@
 "achievement.comet.common3.title" : "光速彗星"
 "achievement.comet.common3.goal" : "使用技能移动45米以上。"
 "achievement.comet.common3.cond" : "提示：技能持续时间：15秒以下+速度倍率：2.5倍以下"
-"achievement.comet.common3.flavor" : "“请不要超速。” ―来自会议的警告"
+"achievement.comet.common3.flavor" : "“请不要超速。” —来自会议的警告"
 
 "achievement.comet.common4.title" : "换挡起飞！"
 "achievement.comet.common4.goal" : "使用加速陷阱并配合“敏捷”特技下的加速效果。"
@@ -153,7 +153,7 @@
 "achievement.doctor.challenge.title" : "无奈的医护人员"
 "achievement.doctor.challenge.goal" : "在使用便携式生命监测装置时看到死亡的瞬间。"
 "achievement.doctor.challenge.cond" : "提示：初始时间在10秒以下+任务充能2秒以下"
-"achievement.doctor.challenge.flavor" : "“又多了一个。”-来自白衣者无奈独白"
+"achievement.doctor.challenge.flavor" : "“又多了一个。”—来自白衣者无奈独白"
 "achievement.doctor.challenge.splitted.1" : "这样"
 
 "achievement.doppelganger.common1.title" : "分身移行"
@@ -182,7 +182,7 @@
 "achievement.echo.challenge.title" : "视监一切"
 "achievement.echo.challenge.goal" : "通过感知2名以上玩家的异常行为并将异常行为的玩家投出去。"
 "achievement.echo.challenge.cond" : ""
-"achievement.echo.challenge.flavor" : "“请注意你们的行为！”-空气中流动的声音"
+"achievement.echo.challenge.flavor" : "“请注意你们的行为！”—空气中流动的声音"
 "achievement.echo.challenge.splitted.2" : "视监"
 
 "achievement.fixer.common1.title" : "幕后操盘"
@@ -247,30 +247,30 @@
 "achievement.jekyllAndHyde.challenge.title" : "人性"
 "achievement.jekyllAndHyde.challenge.goal" : "通过海德人格击杀其他玩家并通过船员阵营获胜而获胜。"
 "achievement.jekyllAndHyde.challenge.cond" : "提示：击杀船员玩家"
-"achievement.jekyllAndHyde.challenge.flavor" : "“即便如此，也要活下去” ——亨利·杰基尔？"
+"achievement.jekyllAndHyde.challenge.flavor" : "“即便如此，也要活下去” ——亨利・杰基尔？"
 "achievement.jekyllAndHyde.challenge.splitted.2" : "人性"
 
 "achievement.justice.common1.title" : "审判时间"
 "achievement.justice.common1.goal" : "发起一次公平会议。"
 "achievement.justice.common1.cond" : ""
-"achievement.justice.common1.flavor" : "“请说出你们的证词！”-来自法庭最高的声音。"
+"achievement.justice.common1.flavor" : "“请说出你们的证词！”—来自法庭最高的声音。"
 "achievement.justice.common1.splitted.0" : "审判的"
 
 "achievement.justice.common2.title" : "裁定之刻"
 "achievement.justice.common2.goal" : "法庭中有一方是伪装者。"
 "achievement.justice.common2.cond" : ""
-"achievement.justice.common2.flavor" : "“充满紧张的气氛。” ―来自一个人的唏嘘。"
+"achievement.justice.common2.flavor" : "“充满紧张的气氛。” —来自一个人的唏嘘。"
 
 "achievement.justice.another1.title" : "生性多疑"
 "achievement.justice.another1.goal" : "自己在法庭中被驱逐。"
 "achievement.justice.another1.cond" : ""
-"achievement.justice.another1.flavor" : "“难道他是无辜的？” ―来自疑惑的人。"
+"achievement.justice.another1.flavor" : "“难道他是无辜的？” —来自疑惑的人。"
 "achievement.justice.another1.splitted.0" : "多疑的"
 
 "achievement.justice.common3.title" : "充满争议"
 "achievement.justice.common3.goal" : "两个玩家获得同样的票数。"
 "achievement.justice.common3.cond" : ""
-"achievement.justice.common3.flavor" : "“都有充分的理由，真让人难办。”-来自会议记录。"
+"achievement.justice.common3.flavor" : "“都有充分的理由，真让人难办。”—来自会议记录。"
 
 "achievement.justice.challenge.title" : "原告？被告？"
 "achievement.justice.challenge.goal" : "将两名伪装者挂在法庭上，并同时驱逐。"
@@ -309,7 +309,7 @@
 "achievement.mayor.common1.title" : "这就是独裁"
 "achievement.mayor.common1.goal" : "使用自己的能力将其他玩家票出。"
 "achievement.mayor.common1.cond" : "提示：必须是自己票的玩家"
-"achievement.mayor.common1.flavor" : "“我说的才算！”-来自独裁者的发言。"
+"achievement.mayor.common1.flavor" : "“我说的才算！”—来自独裁者的发言。"
 "achievement.mayor.common1.splitted.0" : "这就是"
 
 "achievement.mayor.another1.title" : "白忙活"
@@ -345,12 +345,12 @@
 "achievement.necromancer.common1.title" : "秽土转生"
 "achievement.necromancer.common1.goal" : "复活一名玩家。"
 "achievement.necromancer.common1.cond" : ""
-"achievement.necromancer.common1.flavor" : "“还没到你退场的时候。”-来自一位神秘的法师。"
+"achievement.necromancer.common1.flavor" : "“还没到你退场的时候。”—来自一位神秘的法师。"
 
 "achievement.necromancer.another2.title" : "没有奇迹"
 "achievement.necromancer.another2.goal" : "在拖动尸体的过程中被击杀。"
 "achievement.necromancer.another2.cond" : ""
-"achievement.necromancer.another2.flavor" : "“人固有一死，或重于泰山，或轻于鸿毛”-汉·司马迁"
+"achievement.necromancer.another2.flavor" : "“人固有一死，或重于泰山，或轻于鸿毛”—汉・司马迁"
 
 "achievement.necromancer.another.title" : "通灵事故"
 "achievement.necromancer.another.goal" : "复活一个非船员阵营玩家。"
@@ -360,7 +360,7 @@
 "achievement.necromancer.challenge.title" : "轮回"
 "achievement.necromancer.challenge.goal" : "在一局游戏中让同一名玩家复活两次。"
 "achievement.necromancer.challenge.cond" : ""
-"achievement.necromancer.challenge.flavor" : "“无法结束的噩梦。” ―来自重生者。"
+"achievement.necromancer.challenge.flavor" : "“无法结束的噩梦。” —来自重生者。"
 "achievement.necromancer.challenge.splitted.1" : "死灵"
 "achievement.necromancer.challenge.splitted.2" : "兵团"
 
@@ -371,13 +371,13 @@
 "achievement.niceTrapper.challenge.title" : "名侦探"
 "achievement.niceTrapper.challenge.goal" : "通过信号陷阱获得8个人的动向。"
 "achievement.niceTrapper.challenge.cond" : "提示：每次会议结束，都会重置人数"
-"achievement.niceTrapper.challenge.flavor" : "“你们都很可疑！”-来自会议记录。"
+"achievement.niceTrapper.challenge.flavor" : "“你们都很可疑！”—来自会议记录。"
 "achievement.niceTrapper.challenge.splitted.2" : "名侦探"
 
 "achievement.noisemaker.common1.title" : "神经过敏"
 "achievement.noisemaker.common1.goal" : "死亡后触发技能。"
 "achievement.noisemaker.common1.cond" : ""
-"achievement.noisemaker.common1.flavor" : "“在死亡之后的警示他人”-《飞船安全法则》节选"
+"achievement.noisemaker.common1.flavor" : "“在死亡之后的警示他人”—《飞船安全法则》节选"
 
 "achievement.noisemaker.challenge.title" : "苦肉计"
 "achievement.noisemaker.challenge.goal" : "被击杀后，击杀者在会议中被驱逐。"
@@ -507,7 +507,7 @@
 "achievement.ubiquitous.common2.title" : "拆锁专家"
 "achievement.ubiquitous.common2.goal" : "总计打开20次门。"
 "achievement.ubiquitous.common2.cond" : ""
-"achievement.ubiquitous.common2.flavor" : "-“你是怎么做到的？”<br>-“用一点点黑客的能力。”"
+"achievement.ubiquitous.common2.flavor" : "“你是怎么做到的？”<br>—“用一点点黑客的能力。”"
 
 "achievement.ubiquitous.challenge.title" : "超级监控网络"
 "achievement.ubiquitous.challenge.goal" : "在地图上确认所有存活玩家的位置。"
@@ -517,18 +517,18 @@
 "achievement.alien.common1.title" : "外星礼品"
 "achievement.alien.common1.goal" : "E.M.I.技能期间击杀一人。"
 "achievement.alien.common1.cond" : ""
-"achievement.alien.common1.flavor" : "“@#>><:":@#$%?”-来自一个外星人的询问。"
+"achievement.alien.common1.flavor" : "“@#@$$#&&?”—来自一个外星人的询问。"
 "achievement.alien.common1.splitted.0" : "外星的"
 
 "achievement.alien.common2.title" : "记忆混乱"
 "achievement.alien.common2.goal" : "总计10次将玩家从管理室地图上抹去。"
 "achievement.alien.common2.cond" : ""
-"achievement.alien.common2.flavor" : "“我真的在那里！”-来自会议记录。"
+"achievement.alien.common2.flavor" : "“我真的在那里！”—来自会议记录。"
 
 "achievement.alien.common3.title" : "好邻居"
 "achievement.alien.common3.goal" : "通过E.M.I.技能以掩盖队友的击杀。"
 "achievement.alien.common3.cond" : ""
-"achievement.alien.common3.flavor" : "“那里怎么会有尸体？”-来自会议记录。"
+"achievement.alien.common3.flavor" : "“那里怎么会有尸体？”—来自会议记录。"
 "achievement.alien.common3.splitted.0" : "善心"
 "achievement.alien.common3.splitted.2" : "邻居"
 
@@ -541,7 +541,7 @@
 "achievement.alien.challenge.title" : "异星的侵略者"
 "achievement.alien.challenge.goal" : "通过E.M.I.技能隐藏5次击杀。"
 "achievement.alien.challenge.cond" : "提示：自身击杀3名玩家以上"
-"achievement.alien.challenge.flavor" : "“所以他们都已经死了吗？”-来自被追入绝境的船员。"
+"achievement.alien.challenge.flavor" : "“所以他们都已经死了吗？”—来自被追入绝境的船员。"
 "achievement.alien.challenge.splitted.0" : "异星的"
 
 "achievement.amalgam.common1.title" : "新生"
@@ -610,7 +610,7 @@
 "achievement.bubblegun.challenge.title" : "泡泡龙"
 "achievement.bubblegun.challenge.goal" : "向右上方发生一个泡泡，并在破裂前使3名以上玩家困住。"
 "achievement.bubblegun.challenge.cond" : ""
-"achievement.bubblegun.challenge.flavor" : "“这是什么东西那么漂亮？”-来自好奇者。"
+"achievement.bubblegun.challenge.flavor" : "“这是什么东西那么漂亮？”—来自好奇者。"
 "achievement.bubblegun.challenge.splitted.0" : "80年代的"
 
 "achievement.camouflager.common1.title" : "谁在那？"
@@ -621,7 +621,7 @@
 "achievement.camouflager.challenge.title" : "恐惧就在你们身边"
 "achievement.camouflager.challenge.goal" : "在技能期间，出现4次以上的凶案。"
 "achievement.camouflager.challenge.cond" : ""
-"achievement.camouflager.challenge.flavor" : "“人群也充满危险！”-没有署名的纸条。"
+"achievement.camouflager.challenge.flavor" : "“人群也充满危险！”—没有署名的纸条。"
 "achievement.camouflager.challenge.splitted.0" : "恐惧的"
 
 "achievement.cannon.common3.title" : "让你飞起来！"
@@ -714,13 +714,13 @@
 "achievement.destroyer.common2.cond" : ""
 
 "achievement.destroyer.another1.title" : "趁虚而入"
-"achievement.destroyer.another1.goal" : "在进行击杀的过程中被报告."
+"achievement.destroyer.another1.goal" : "在进行击杀的过程中被报告。"
 "achievement.destroyer.another1.cond" : ""
 
 "achievement.destroyer.challenge.title" : "法外狂徒"
 "achievement.destroyer.challenge.goal" : "在同一场游戏中杀死3个玩家并胜利。"
 "achievement.destroyer.challenge.cond" : ""
-"achievement.destroyer.challenge.flavor" : "“这似乎是一个处刑场。” ―来自探险者的阐述。"
+"achievement.destroyer.challenge.flavor" : "“这似乎是一个处刑场。” —来自探险者的阐述。"
 "achievement.destroyer.challenge.splitted.2" : "狂徒"
 
 "achievement.disturber.common1.title" : "禁止通行"
@@ -733,7 +733,7 @@
 "achievement.disturber.common2.splitted.0" : "封锁的"
 
 "achievement.disturber.challenge.title" : "苦闷如怒涛"
-"achievement.disturber.challenge.goal" : "通过干扰杆导致电力/通讯破坏超过40秒未被修复<br>导致期间3人死亡。"
+"achievement.disturber.challenge.goal" : "通过干扰杆导致电力或通讯破坏超过40秒未被修复<br>导致期间3人死亡。"
 "achievement.disturber.challenge.cond" : "提示：跨会议重置时间。"
 "achievement.disturber.challenge.flavor" : "“漫长且煎熬……”"
 "achievement.disturber.challenge.splitted.1" : "怒涛的"
@@ -741,29 +741,29 @@
 "achievement.effacer.common1.title" : "橡皮擦"
 "achievement.effacer.common1.goal" : "让玩家隐身。"
 "achievement.effacer.common1.cond" : ""
-"achievement.effacer.common1.flavor" : "“你从哪里来的？”-来自会议记录。"
+"achievement.effacer.common1.flavor" : "“你从哪里来的？”—来自会议记录。"
 "achievement.effacer.common1.splitted.0" : "擦除"
 
 "achievement.effacer.common2.title" : "隐形刺客"
 "achievement.effacer.common2.goal" : "让伪装者队友隐身。"
 "achievement.effacer.common2.cond" : ""
-"achievement.effacer.common2.flavor" : "“我正在做任务，突然看到一把斧子飘在空中！”-来自报告者的自述。"
+"achievement.effacer.common2.flavor" : "“我正在做任务，突然看到一把斧子飘在空中！”—来自报告者的自述。"
 "achievement.effacer.common2.splitted.0" : "隐形"
 
 "achievement.effacer.common3.title" : "无处躲藏"
 "achievement.effacer.common3.goal" : "击杀被队友擦除隐身的玩家。"
 "achievement.effacer.common3.cond" : ""
-"achievement.effacer.common3.flavor" : "“请解释一下怎么突然出现一个尸体？”-来自观看监控的船员的问题。"
+"achievement.effacer.common3.flavor" : "“请解释一下怎么突然出现一个尸体？”—来自观看监控的船员的问题。"
 
 "achievement.effacer.common4.title" : "最佳配合"
 "achievement.effacer.common4.goal" : "让被隐身的队友击杀其他带刀职业。"
 "achievement.effacer.common4.cond" : ""
-"achievement.effacer.common4.flavor" : "“你以为你很强？”-来自尸体上的血字。"
+"achievement.effacer.common4.flavor" : "“你以为你很强？”—来自尸体上的血字。"
 
 "achievement.effacer.challenge.title" : "无人区"
 "achievement.effacer.challenge.goal" : "除自身以外的伪装者全部存活。"
 "achievement.effacer.challenge.cond" : "提示：至少所有人都被隐身过。"
-"achievement.effacer.challenge.flavor" : "“怎么只有我一个人，其他人呢？”-来自飞艇管理者的疑惑。"
+"achievement.effacer.challenge.flavor" : "“怎么只有我一个人，其他人呢？”—来自飞艇管理者的疑惑。"
 "achievement.effacer.challenge.splitted.0" : "无人"
 "achievement.effacer.challenge.splitted.2" : "区域"
 
@@ -774,7 +774,7 @@
 "achievement.evilTracker.another1.title" : "了无音信"
 "achievement.evilTracker.another1.goal" : "在存活时追踪的玩家死亡。"
 "achievement.evilTracker.another1.cond" : ""
-"achievement.evilTracker.another1.flavor" : "“对追踪系统有疑问，请联系我们的工程师！”-来自追踪终端的客服。"
+"achievement.evilTracker.another1.flavor" : "“对追踪系统有疑问，请联系我们的工程师！”—来自追踪终端的客服。"
 
 "achievement.evilTracker.challenge.title" : "跟踪狂"
 "achievement.evilTracker.challenge.goal" : "追踪剩余3个以下任务数的玩家，并在其做任务期间杀掉他。"
@@ -842,7 +842,7 @@
 "achievement.hadar.common4.title" : "惊喜！"
 "achievement.hadar.common4.goal" : "在存活玩家附近取消潜伏。"
 "achievement.hadar.common4.cond" : ""
-"achievement.hadar.common4.splitted.1" : "..."
+"achievement.hadar.common4.splitted.1" : "……"
 
 "achievement.hadar.common5.title" : "黄金在哪里？"
 "achievement.hadar.common5.goal" : "遁地期间移动30米以上。"
@@ -875,7 +875,7 @@
 "achievement.jailer.challenge.title" : "绝对隐蔽"
 "achievement.jailer.challenge.goal" : "至少有两人与尸体在一个房间内。"
 "achievement.jailer.challenge.cond" : ""
-"achievement.jailer.challenge.flavor" : "“你说你们没有看到尸体？”-来自会议记录。"
+"achievement.jailer.challenge.flavor" : "“你说你们没有看到尸体？”—来自会议记录。"
 "achievement.jailer.challenge.splitted.0" : "绝对"
 
 "achievement.marionette.common1.title" : "木偶戏"
@@ -890,7 +890,7 @@
 "achievement.marionette.common2.goal" : "10秒内交换两次位置。"
 "achievement.marionette.common2.cond" : ""
 
-"achievement.marionette.challenge.title" : "木偶术·血祭"
+"achievement.marionette.challenge.title" : "木偶术・血祭"
 "achievement.marionette.challenge.goal" : "击杀一名玩家后与木偶交换位置（木偶至少30米外）"
 "achievement.marionette.challenge.cond" : ""
 "achievement.marionette.challenge.splitted.0" : "血色的"
@@ -907,7 +907,7 @@
 "achievement.morphing.another2.title" : "是镜子吗"
 "achievement.morphing.another2.goal" : "在你取样的玩家面前化形（需要离的很近）"
 "achievement.morphing.another2.cond" : ""
-"achievement.morphing.another2.flavor" : "“什么情况？”-来着一个监控管理者的自述。"
+"achievement.morphing.another2.flavor" : "“什么情况？”—来着一个监控管理者的自述。"
 
 "achievement.morphing.challenge.title" : "冤案制造者"
 "achievement.morphing.challenge.goal" : "幻形状态下杀死一名玩家，并在会议期间驱逐被化形的玩家"
@@ -1154,7 +1154,7 @@
 "achievement.arsonist.challenge.title" : "不配接受火焰的洗礼"
 "achievement.arsonist.challenge.goal" : "在会议中将唯一一个没被涂油的玩家驱逐并胜利。"
 "achievement.arsonist.challenge.cond" : ""
-"achievement.arsonist.challenge.flavor" : "“你太干净了！”-来自纵火者的独白。"
+"achievement.arsonist.challenge.flavor" : "“你太干净了！”—来自纵火者的独白。"
 "achievement.arsonist.challenge.splitted.2" : "会议"
 
 "achievement.chainShifter.common1.title" : "倒反天罡"
@@ -1313,18 +1313,18 @@
 "achievement.paparazzo.common2.title" : "大合照"
 "achievement.paparazzo.common2.goal" : "展示一张照片出现4名以上的玩家"
 "achievement.paparazzo.common2.cond" : ""
-"achievement.paparazzo.common2.flavor" : "“这个照片充满着尔虞我诈。”-来自会议记录。"
+"achievement.paparazzo.common2.flavor" : "“这个照片充满着尔虞我诈。”—来自会议记录。"
 "achievement.paparazzo.common2.splitted.1" : "秘密的"
 
 "achievement.paparazzo.common3.title" : "狗仔队"
 "achievement.paparazzo.common3.goal" : "拍摄进出通风管道的瞬间。"
 "achievement.paparazzo.common3.cond" : ""
-"achievement.paparazzo.common3.flavor" : "“美好的事物就在身边”-来自摄影师的心得。"
+"achievement.paparazzo.common3.flavor" : "“美好的事物就在身边”—来自摄影师的心得。"
 
 "achievement.paparazzo.common4.title" : "有罪证据！"
 "achievement.paparazzo.common4.goal" : "拍摄同时包含尸体和尸体击杀者的照片。"
 "achievement.paparazzo.common4.cond" : ""
-"achievement.paparazzo.common4.flavor" : "“第一线证据！” ―来自摄影师的心得。"
+"achievement.paparazzo.common4.flavor" : "“第一线证据！” —来自摄影师的心得。"
 
 "achievement.paparazzo.another1.title" : "第一嫌疑人"
 "achievement.paparazzo.another1.goal" : "作为内鬼在被公开的照片上被展示。"
@@ -1334,7 +1334,7 @@
 "achievement.paparazzo.challenge.title" : "舆论制造者与键盘侠"
 "achievement.paparazzo.challenge.goal" : "在会议中公开一张照片，因某种原因使4名以上的玩家死亡。"
 "achievement.paparazzo.challenge.cond" : "提示：自身死亡不算。"
-"achievement.paparazzo.challenge.flavor" : "“这是一个被诅咒的照片！”-来自会议记录。"
+"achievement.paparazzo.challenge.flavor" : "“这是一个被诅咒的照片！”—来自会议记录。"
 
 "achievement.scarlet.common1.title" : "我可不渣"
 "achievement.scarlet.common1.goal" : "指定一名本命和一名以上的备胎。"
@@ -1370,7 +1370,7 @@
 "achievement.spectre.common1.goal" : "吃掉20份油豆腐"
 "achievement.spectre.common1.cond" : ""
 
-"achievement.spectre.common2.title" : "妖道·秘法术"
+"achievement.spectre.common2.title" : "妖道・秘法术"
 "achievement.spectre.common2.goal" : "使用隐身20次。"
 "achievement.spectre.common2.cond" : ""
 
@@ -1521,7 +1521,7 @@
 "achievement.damned.common3.title" : "贪婪者"
 "achievement.damned.common3.goal" : "因为诅咒导致从独立阵营变为伪装者阵营。"
 "achievement.damned.common3.cond" : ""
-"achievement.damned.common3.flavor" : "“对不起，我认为他是对的！”-来自会议记录。"
+"achievement.damned.common3.flavor" : "“对不起，我认为他是对的！”—来自会议记录。"
 
 "achievement.damned.another1.title" : "背叛者的代价"
 "achievement.damned.another1.goal" : "从伪装者阵营变成非伪装者阵营，之后被驱逐、赌杀、击杀任意一种死亡方法。"
@@ -1530,7 +1530,7 @@
 "achievement.damned.challenge.title" : "善良者"
 "achievement.damned.challenge.goal" : "因为诅咒从伪装者阵营变成船员阵营然后船员胜利。"
 "achievement.damned.challenge.cond" : ""
-"achievement.damned.challenge.flavor" : "“我想当个好人！”-来自手上沾满血液的伪装者。"
+"achievement.damned.challenge.flavor" : "“我想当个好人！”—来自手上沾满血液的伪装者。"
 "achievement.damned.challenge.splitted.2" : "诅咒"
 
 "achievement.combination.2.damned.avenger.hard.title" : "悲惨的谢幕"
@@ -1640,7 +1640,7 @@
 "achievement.obsessional.another1.title" : "执念到天涯海角"
 "achievement.obsessional.another1.goal" : "因暗恋对象的死亡而自杀。"
 "achievement.obsessional.another1.cond" : ""
-"achievement.obsessional.another1.flavor" : "“我一直都默默地爱着你……”-来自一位自杀者。"
+"achievement.obsessional.another1.flavor" : "“我一直都默默地爱着你……”—来自一位自杀者。"
 
 "achievement.obsessional.another2.title" : "不被期待的爱情"
 "achievement.obsessional.another2.goal" : "自身为伪装者，但目标不为，导致伪装者胜利而失败。"
@@ -2020,7 +2020,7 @@
 
 "achievement.aeroGuesser.allMore900.title" : "无所不知"
 "achievement.aeroGuesser.allMore900.goal" : "所有题目都获得900分以上。"
-"achievement.aeroGuesser.allMore900.cond" : "提示：仅困难难度+题目数量-10题+地图类型-至少2种。"
+"achievement.aeroGuesser.allMore900.cond" : "提示：仅困难难度+题目数量：10题+地图类型：至少2种。"
 "achievement.aeroGuesser.allMore900.splitted.0" : "无所"
 
 "achievement.innersloth.wins_skeld.title" : "漂泊飞船"

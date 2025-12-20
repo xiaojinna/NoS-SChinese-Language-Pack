@@ -189,7 +189,7 @@ $Achievement
 "tutorial.variations.ambienceOnMeeting.title" : "关闭会议环境音效"
 "tutorial.variations.ambienceOnMeeting.caption" : "若你想在会议中关闭一些环境音效，可以开启【关闭会议环境音效】功能。<br>该选项可以通过设置Nos选项卡中开启。"
 "tutorial.variations.meetingTool.line.title" : "快速创建玩家图标"
-"tutorial.variations.meetingTool.advance.caption" : "在地图中绘制一条线，<br>并在松开鼠标的一瞬间<b>右键点击</b>。"
+"tutorial.variations.meetingTool.line.caption" : "在地图中绘制一条线，<br>并在松开鼠标的一瞬间<b>右键点击</b>。"
 
 # Versions
 
@@ -266,12 +266,12 @@ $Achievement
 "options.gamemode" : "游戏模式"
 
 "options.tab.vanilla" : "原版设置"
-"options.tab.setting" : "游戏【设置】"
-"options.tab.crewmate" : "【船员】职业"
-"options.tab.impostor" : "【伪装者】职业"
-"options.tab.neutral" : "【第三方】职业"
-"options.tab.ghost" : "【鬼魂】职业"
-"options.tab.modifier" : "【附加能力】"
+"options.tab.setting" : "游戏 [设置]"
+"options.tab.crewmate" : "[船员] 职业"
+"options.tab.impostor" : "[伪装者] 职业"
+"options.tab.neutral" : "[第三方] 职业"
+"options.tab.ghost" : "[鬼魂] 职业"
+"options.tab.modifier" : "[附加能力]"
 
 "options.assignment" : "分配设置"
 "options.assignment.detail" : "关于职业分配数量相关的选项"
@@ -356,6 +356,7 @@ $Achievement
 "options.map.customization.fungle.blackOutDropship" : "配电箱（运输船）"
 "options.map.customization.fungle.blackOutJungle" : "配电箱（丛林）"
 "options.map.customization.fungle.blackOutMiningPit" : "配电箱（矿坑）"
+"options.map.customization.fungle.forClassicGame" : "专属装饰包"
 "options.map.customization.admin.editor" : "右键点击：打开房间显示设置"
 "options.map.customization.admin.viewer" : "左键点击：显示房间设置"
 "options.map.admin.skeld.0" : "管理控制台设置"
@@ -1063,7 +1064,7 @@ $Achievement
 "options.role.disturber.disturbDuration" : "干扰持续时间"
 "options.role.disturber.maxNumOfPoles" : "杆子数量"
 "options.role.disturber.maxDistanceBetweenPoles" : "杆子最大间距"
-"role.disturber.ui.removePoles" : "<b>单击左键</b>:摧毁杆子"
+"role.disturber.ui.removePoles" : "<b>左键点击</b>：摧毁杆子"
 "stats.disturber.pole" : "杆子放置次数"
 "stats.disturber.disturb" : "干扰使用次数"
 
@@ -1241,7 +1242,7 @@ $Achievement
 "options.role.rokurokubi.detail" : "辘轳首可以伸长脖子，远距离击杀其他玩家。<br>脖子可以跨越墙壁延伸。"
 "options.role.rokurokubi.craneSpeed" : "脖颈伸长速度"
 "options.role.rokurokubi.maxNeckLength" : "脖颈最大长度"
-"options.role.rokurokubi.autoKillInCraning" :  "长径状态下自动击杀"
+"options.role.rokurokubi.autoKillInCraning" : "长径状态下自动击杀"
 "ui.action.rokurokubi.pause" : "按住时暂停脖颈伸长。"
 
 "role.sculptor.name" : "机械师"
@@ -2175,7 +2176,7 @@ $Achievement
 
 # Meeting Tool
 
-"meeting.memo.page" : "页码: "
+"meeting.memo.page" : "页码："
 "meeting.memo.player.line" : "%PLAYER%的移动路线"
 "meeting.memo.player.type" : "选择图标"
 "meeting.memo.player.color" : "选择玩家"
@@ -2337,7 +2338,7 @@ $Achievement
 "metaInfo.meeting.sabotage" : "当前破坏状态"
 "metaInfo.meeting.sabotage.electrical" : "电力"
 "metaInfo.meeting.sabotage.communications" : "通讯"
-"metaInfo.meeting.task" : "平均完成任务数: "
+"metaInfo.meeting.task" : "平均完成任务数："
 
 # Inventory
 
@@ -2605,7 +2606,7 @@ $Achievement
 "achievement.ui.unset" : "（卸下）"
 "achievement.ui.craft.empty" : "（未设置）"
 "achievement.ui.cannotReflect" : "至少选择两个成就为一个组！"
-"achievement.ui.bonusParts" : "成就组合内容: "
+"achievement.ui.bonusParts" : "成就组合内容："
 "achievement.title.hidden" : "未解锁"
 "achievement.title.hiddenDetail" : "详细内容暂未解锁……"
 "achievement.title.unachieved" : "？？？？？"
@@ -3211,7 +3212,7 @@ $Achievement
 
 "role.secret.doc.main" : "你的职业隐藏，你需要通过完成<b>任务</b>或<b>击杀</b>来激活职业。"
 
-"role.tieBreaker.doc.main" : "破平者的一票相当于1.5票。<br>技能会自动触发。"
+"role.tieBreaker.doc.main" : "破平者在出现平票时，会为投票目标额外追加一票。<br>技能会自动触发。"
 
 "role.evilTrapper.ability.title" : "固有能力【陷阱】"
 "role.niceTrapper.ability.title" : "固有能力【陷阱】"
@@ -3230,7 +3231,7 @@ $Achievement
 "role.collator.ability.selective" : "如果你在任务阶段收集了两个以上的样本，<br>那么将在<var>会议</var>期间选择其中两个进行比较并在屏幕顶部显示结果。"
 "role.collator.ability.sample" : "从其他玩家中收集样品。<br>最多使用<var>#NUM</var>个试管。"
 "role.collator.ability.meeting" : "在会议期间，玩家图标上会显示一个按钮，选择其中两个玩家进行比较。"
-"role.collator.tips" : "・这个职业与<color=#ff7f00>超</color><color=#ff0000>新</color><color=#00ff00>职业</color>进行联动（原职业: 臨床検査技師）。"
+"role.collator.tips" : "・这个职业与<color=#ff7f00>超</color><color=#ff0000>新</color><color=#00ff00>职业</color>进行联动（原职业：臨床検査技師）。"
 
 "role.doppelganger.ability.title" : "固有能力【分离意识】"
 "role.doppelganger.ability.main" : "可以在地图中创建与自己外观相同的分身。"
@@ -3247,7 +3248,7 @@ $Achievement
 "role.justice.ability.main" : "在会议中选择<var>#NUM</var>名玩家#PICKME进行<b>会议审判</b>。<br>在这种特殊会议中，你只能投票给两名玩家其中之一。<br>如果两人平票，那么就全部<b>放逐</b>。"
 "role.justice.ability.pickJustice" : "<var>和自己</var>"
 "role.justice.ability.meeting" : "在会议中，玩家头像上会显示技能按钮。<br>你可以选择你想审判的玩家。"
-"role.justice.tips" : "・这个职业与<color=#ff7f00>超</color><color=#ff0000>新</color><color=#00ff00>职业</color>进行联动（原职业: 天秤）。"
+"role.justice.tips" : "・这个职业与<color=#ff7f00>超</color><color=#ff0000>新</color><color=#00ff00>职业</color>进行联动（原职业：天秤）。"
 
 "role.oracle.ability.title" : "固有能力【预知未来】"
 "role.oracle.ability.main" : "可以通过预言知晓其他玩家职业。<br>通过设置让预言获得更多职业使其很难确定。"
@@ -3278,7 +3279,7 @@ $Achievement
 "role.alien.ability.main" : "外星技术会影响些终端设备。<br>使一些终端设备停止更新信息或不显示玩家信息。"
 "role.alien.ability.emi" : "暂停管理控制台的信息更新。"
 "role.alien.ability.invalidate" : "删除管理控制台的玩家信息。"
-"role.alien.tips" : "・这个职业与<color=#ff7f00>超</color><color=#ff0000>新</color><color=#00ff00>职业</color>进行联动（原职业: コウモリ， クラッカー）。"
+"role.alien.tips" : "・这个职业与<color=#ff7f00>超</color><color=#ff0000>新</color><color=#00ff00>职业</color>进行联动（原职业：コウモリ、クラッカー）。"
 
 "role.berserker.ability.title" : "固有能力【暴怒】"
 "role.berserker.ability.main" : "变成特殊形态，进入暴怒模式。<br>在暴怒期间，击杀冷却时间缩短，移动速度提高。<br>在暴怒状态下击杀一定次数的玩家后会进入忘我状态，无法识别他人身份。"
@@ -3452,7 +3453,7 @@ $Achievement
 
 "role.gambler.winCond" : "存活期间需要进行押注获得筹码，筹码达到一定值获胜。"
 "role.gambler.ability.title" : "固有能力【命运赌者】"
-"role.gambler.ability.main" : "赌徒需要在会议中预测<b>投票结果</b>并下注<b>筹码</b>以此取代投票。<br>如果筹码归零就会破产死亡。<br>为了获得有利情报，可以对一名玩家使用<b>套话</b>。<br><br>在会议中可以进行两种下注，预测成功可以获得两倍的下注筹码。<br>・<b>无票押注</b>: 下注3名可能没有被票的玩家，若他们都没有得到票即预测成功。<br>・<b>最多票押注</b>: 选择一名玩家，若该玩家得票是全场最多即预测成功。<br>"
+"role.gambler.ability.main" : "赌徒需要在会议中预测<b>投票结果</b>并下注<b>筹码</b>以此取代投票。<br>如果筹码归零就会破产死亡。<br>为了获得有利情报，可以对一名玩家使用<b>套话</b>。<br><br>在会议中可以进行两种下注，预测成功可以获得两倍的下注筹码。<br>・<b>无票押注</b>：下注3名可能没有被票的玩家，若他们都没有得到票即预测成功。<br>・<b>最多票押注</b>：选择一名玩家，若该玩家得票是全场最多即预测成功。<br>"
 "role.gambler.ability.deceive" : "对一名玩家使用套话<br>在接下来的会议中可以知晓其投票的玩家。"
 
 "role.vanity.ability.title" : "固有能力【正义使者？】"
