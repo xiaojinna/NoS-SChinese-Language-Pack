@@ -100,7 +100,7 @@ $Achievement
 "ui.attribute.curseOfBloody" : "血语诅咒"
 "ui.attribute.curseOfBloody.detail" : "在一段时间内留下血脚印。"
 "ui.attribute.isolation" : "虚化"
-"ui.attribute.isolation.detail" : "生命检测仪和管理控制台中看不到你的状态信息。"
+"ui.attribute.isolation.detail" : "生命监测装置和管理控制台中看不到你的状态信息。"
 "ui.attribute.busker" : "假死"
 "ui.attribute.busker.detail" : "部分地图装置仍然显示你存在。"
 "ui.attribute.flip" : "翻转"
@@ -384,6 +384,7 @@ $Achievement
 "options.task.noGuide.collectSamples" : "无指引收集样本任务"
 "options.map.randomizedWiring" : "随机配线任务点位"
 "options.map.stepsOfWiringGame" : "完成任务所需配线次数"
+"options.task.fakeScan" : "伪装扫描送出结果任务"
 "options.task.group.wiring" : "配线任务设定"
 "options.task.group.noGuide" : "无指引任务设定"
 
@@ -425,7 +426,7 @@ $Achievement
 "exile.confirmEject.nonCrewmate.p" : "剩下%NUM%个非船员。"
 
 "options.consoleRestriction" : "信息终端使用限制"
-"options.consoleRestriction.detail" : "对生命检测仪、管理控制台以及安保监控进行时间使用限制"
+"options.consoleRestriction.detail" : "对生命监测装置、管理控制台以及安保监控进行时间使用限制"
 "options.consoleRestriction.unlimited" : "无限制"
 "options.consoleRestriction.adminRestriction" : "管理控制台"
 "options.consoleRestriction.vitalsRestriction" : "生命监测装置"
@@ -438,6 +439,8 @@ $Achievement
 "options.aeroGuesser.guessTime" : "猜测时间"
 "options.aeroGuesser.numOfQuiz" : "题目数量"
 "options.aeroGuesser.monochromeMode" : "黑白模式"
+"options.aeroGuesser.hurryTimer" : "缩短时间"
+"options.aeroGuesser.hurryTimerDuration" : "缩短最大时间"
 "options.aeroGuesser.skeld" : "Skeld"
 "options.aeroGuesser.mira" : "MIRA HQ"
 "options.aeroGuesser.polus" : "Polus"
@@ -445,6 +448,7 @@ $Achievement
 "options.aeroGuesser.fungle" : "Fungle"
 "options.aeroGuesser.normal" : "普通"
 "options.aeroGuesser.hard" : "困难"
+"options.aeroGuesser.group.hurryTimer" : "缩短时间设定"
 "options.aeroGuesser.group.filter.difficulty" : "题目难度倍率设定"
 "options.aeroGuesser.group.filter.map" : "地图题目倍率设定"
 
@@ -906,6 +910,7 @@ $Achievement
 "options.role.sheriff.numOfShots" : "击杀次数"
 "options.role.sheriff.canKillHidingPlayer" : "可以击杀通风口内玩家"
 "options.role.sheriff.sealAbilityUntilReportingDeadBodies" : "在没有发现尸体前不能使用技能"
+"options.role.sheriff.unsealOnReportButtonTurningOn" : "报告键亮起时解锁击杀能力"
 "stats.sheriff.shot" : "执法成功次数"
 "stats.sheriff.misshot" : "执法失败次数"
 
@@ -1214,7 +1219,7 @@ $Achievement
 "role.quack.name" : "鸭医"
 "role.quack.short" : "鸭"
 "role.quack.blurb" : "声誉叫的最响亮"
-"options.role.quack.detail" : "鸭医可以通过生命检测装置进行远程报告尸体。"
+"options.role.quack.detail" : "鸭医可以通过生命监测装置进行远程报告尸体。"
 "stats.quack.report" : "远程发起报告次数"
 
 "role.raider.name" : "强盗"
@@ -1491,6 +1496,46 @@ $Achievement
 "options.role.jester.canFixLight" : "可以修复电力破坏"
 "options.role.jester.task" : "胜利需要完成任务"
 
+"role.opportunist.name" : "投机者"
+"role.opportunist.short" : "投"
+"role.opportunist.blurb" : "苟且偷生"
+"options.role.opportunist.detail" : "投机者完成自己的特殊任务并且活到最后可以和其他玩家一同胜利。"
+"options.role.opportunist.numOfTasks" : "停留任务数量"
+"options.role.opportunist.stayingDuration" : "停留在任务点所需时间"
+"options.role.opportunist.canFixComms" : "可以修复通讯破坏"
+"options.role.opportunist.canFixLight" : "可以修复电力破坏"
+"role.opportunist.task.veiled" : "完成前面的任务后解锁"
+"role.opportunist.task" : "停留在%LOC%附近"
+"role.opportunist.task.room" : "停留在房间内"
+"role.opportunist.task.loc.skeld.cafeteria.window" : "窗户"
+"role.opportunist.task.loc.skeld.storage.trash" : "垃圾排放口"
+"role.opportunist.task.loc.skeld.electrical.electrical" : "配电箱后面"
+"role.opportunist.task.loc.skeld.lowerEngine.lowerEngine" : "加油口"
+"role.opportunist.task.loc.skeld.reactor.upper" : "上方"
+"role.opportunist.task.loc.skeld.medbay.scan" : "扫描仪"
+"role.opportunist.task.loc.mira.balcony.antenna" : "天线"
+"role.opportunist.task.loc.mira.cafeteria.vendingMachine" : "自动售货机"
+"role.opportunist.task.loc.polus.security.camera" : "监控终端"
+"role.opportunist.task.loc.polus.comms.table" : "桌子"
+"role.opportunist.task.loc.polus.lab.hole" : "坑"
+"role.opportunist.task.loc.polus.lab.toilet" : "厕所"
+"role.opportunist.task.loc.polus.admin.bookshelf" : "书架"
+"role.opportunist.task.loc.polus.lifesupport.bottle" : "装罐"
+"role.opportunist.task.loc.polus.outside.ejection" : "温度显示器"
+"role.opportunist.task.loc.polus.outside.comms" : "通讯室左侧雪人"
+"role.opportunist.task.loc.airship.meetingRoom.meetingRoom" : "会议室深处"
+"role.opportunist.task.loc.airship.mainHall.cleaning" : "清洁工具室"
+"role.opportunist.task.loc.airship.mainHall.treasureBox" : "宝箱"
+"role.opportunist.task.loc.airship.mainHall.darkRoom" : "暗室"
+"role.opportunist.task.loc.airship.lounge.toilet" : "厕所"
+"role.opportunist.task.loc.airship.cargoBay.safe" : "保险箱"
+"role.opportunist.task.loc.airship.medical.vitals" : "生命监测装置"
+"role.opportunist.task.loc.airship.security.outside" : "外部瞭望台"
+"role.opportunist.task.loc.airship.viewingDeck.outside" : "外部瞭望台"
+"role.opportunist.task.loc.fungle.highlands.bigGem" : "宝石"
+"role.opportunist.task.loc.fungle.highlands.landing" : "中间平台"
+"role.opportunist.task.loc.fungle.jungle.monitoring" : "监测点"
+
 "role.paparazzo.name" : "摄影师"
 "role.paparazzo.short" : "摄"
 "role.paparazzo.blurb" : "来！茄子！"
@@ -1684,6 +1729,7 @@ $Achievement
 "role.damned.name" : "受诅咒者"
 "role.damnedImpostor.name" : "受诅咒者"
 "role.damned.short" : "受"
+"role.damnedImpostor.short" : "受"
 "options.role.damned.detail" : "拥有受诅咒者的玩家受到的第一次伤害是无效的。<br>根据设置不同，效果也不同。"
 "role.damned.prefix" : "受诅咒者"
 "role.damned.generalBlurb" : "身负诅咒的人"
@@ -1799,6 +1845,7 @@ $Achievement
 "teams.gambler" : "赌徒"
 "teams.tyrant" : "暴君"
 "teams.vanity" : "虚荣者"
+"teams.opportunist" : "投机者"
 
 # Perks
 
@@ -2020,7 +2067,7 @@ $Achievement
 "location.fungle.dropship" : "运输船"
 "location.fungle.fishingDock" : "库房"
 "location.fungle.greenhouse" : "温室"
-"location.fungle.highlands" : "高地"
+"location.fungle.highlands" : "悬崖"
 "location.fungle.jungle" : "丛林"
 "location.fungle.kitchen" : "厨房"
 "location.fungle.laboratory" : "实验室"
@@ -2028,7 +2075,7 @@ $Achievement
 "location.fungle.meetingRoom" : "会议室"
 "location.fungle.miningPit" : "矿坑"
 "location.fungle.reactor" : "核反应堆"
-"location.fungle.recRoom" : "运输船"
+"location.fungle.recRoom" : "水花区"
 "location.fungle.splashZone" : "水花区"
 "location.fungle.storage" : "库房"
 "location.fungle.sleepingQuarters" : "食堂"
@@ -2089,7 +2136,7 @@ $Achievement
 "button.label.throw" : "投掷"
 "button.label.track" : "追踪"
 "button.label.unequip" : "隐匿"
-"button.label.vital" : "生命探测仪"
+"button.label.vital" : "生命监测装置"
 "button.label.efface" : "擦除"
 "button.label.emi" : "E.M.I."
 "button.label.invalidate" : "无效终端"
@@ -2150,6 +2197,7 @@ $Achievement
 "button.label.poison" : "投毒"
 "button.label.select" : "融合"
 "button.label.afk" : "挂机"
+"button.label.scan" : "扫描"
 
 # Game
 
@@ -2273,6 +2321,7 @@ $Achievement
 "end.extra.grudge" : "<color=#FFFFFF>+</color>怨灵"
 "end.extra.trilemma" : "<color=#FFFFFF>+</color>三角仇"
 "end.extra.vanity" : "<color=#FFFFFF>+</color>虚荣者"
+"end.extra.opportunist" : "<color=#FFFFFF>+</color>投机者"
 
 # Help
 
@@ -2930,6 +2979,9 @@ $Achievement
 "options.map.customization.fungle.growingMushroom.detail" : "开启后，发光蘑菇周围的环境会变得可见。"
 "options.map.customization.fungle.thinFog.detail" : "开启后，丛林区域的阴影会变淡。"
 "options.map.customization.fungle.simpleLaboratory.detail" : "开启后，去除实验室右下角的墙壁，使其可以直接穿过。"
+"options.map.customization.fungle.forClassicGame.detail" : "修改地图中的建筑，使其变的更适合推理。包含以下改动：<br>・将核反应堆区域附近的梯子改为单行道。<br>・封锁会议室前往下方的通道。<br>・封锁实验室与温室左下方门口之间的通道<br>・封锁高台中间宝石上方的通道。<br>・矿坑附近新增2处通风口。"
+
+"options.task.fakeScan.detail" : "让没有送出扫描结果任务的玩家也可以移动到扫描仪上伪装自己。"
 
 "options.meeting.deathPenalty.detail" : "配置后，会议时间将减少设定值乘以死亡人数秒数。"
 "options.meeting.noticeExtraVictims.detail" : "开启后，每当会议结束有额外信息时，会进行额外通知。"
@@ -2949,6 +3001,10 @@ $Achievement
 "options.task.noGuide.helpCritter.detail" : "开启后，将无法得知帮助生物任务位置。"
 "options.task.noGuide.replaceParts.detail" : "开启后，将无法得知更换零件任务位置。"
 "options.task.noGuide.collectSamples.detail" : "开启后，将无法得知收集样本任务位置。"
+
+"options.aeroGuesser.monochromeMode.detail" : "开启后，题目图片将显示为黑白色。"
+"options.aeroGuesser.hurryTimer.detail" : "开启后，每当有人提交答案就会缩短答题时间。"
+"options.aeroGuesser.hurryTimerDuration.detail" : "这是设定每次缩短的秒数。<br>当设定时间大于当前时间，将不会缩短。"
 
 "options.role.agent.numOfExemptedTasks.detail" : "指定代理人的任务总数将减少的数量。<br>总任务越少，获取额外任务的速度更快。"
 "options.role.agent.numOfExtraTasks.detail" : "设置每次完成任务后可以额外获取的任务数量。<br>死亡后你将无法<b>获取</b>新的任务。"
@@ -3058,6 +3114,8 @@ $Achievement
 
 "options.role.zeal.absorbAdditionalDuration.detail" : "吸收狂欢所需时间的计算公式：（吸收所需时间）＋（吸收冷却时间追加）×（击杀按钮数）<br>该选项数值越大，获取多个击杀按钮越难。"
 "options.role.zeal.enthusiasmCooldown.detail" : "这是从同一个玩家再次吸收狂欢所需的冷却时间。"
+
+"options.role.opportunist.numOfTasks.detail" : "投机者将会分配在<b>指定地点</b>进行<b>停留</b>一段时间的任务。"
 
 "options.role.jailer.inheritAbilityOnDying.detail" : "开启后，你死亡时可以让另一个队友继承你的能力。"
 
@@ -3459,6 +3517,19 @@ $Achievement
 "role.vanity.ability.title" : "固有能力【正义使者？】"
 "role.vanity.ability.main" : "虚荣者在开始时与警长相同，但不会因为走火而死。"
 "role.vanity.ability.kill" : "可以击杀所有人。"
+
+"role.amalgam.ability.title" : "固有能力【融合】"
+"role.amalgam.ability.main" : "可以融合多个职业能力。可融合的职业可以在设置中进行更改。"
+"role.amalgam.ability.amalgam" : "融合能力。<br>融合后将无法修改。"
+
+"role.creeping.ability.title" : "固有能力【制毒大师】"
+"role.creeping.ability.main" : "可以对其他玩家投毒。中毒的玩家若没在规定时间内解毒，将会毒发身亡。"
+"role.creeping.ability.poison" : "对目标投毒。<br>会有闪烁提示。"
+"role.creeping.tips" : "・在紧急会议中，毒素仍然会侵蚀玩家，因此会在会议中死亡。<br>・中毒的玩家可以在地图中选择急救箱进行解毒。<br>・急救箱只会在地图中出现一个，根据不同的地图，位置会在一到两个固定点位。<br>  ・Skeld：医务室<br>  ・MIRA HQ：发射台或库房<br>  ・Polus：实验室或氧气室（装填罐子任务点后面）<br>  ・Airship：大厅（最左侧上方屋子中）或配电室左下角<br>  ・Fungle：水花区（屋子内部）或实验室左下角"
+
+"role.nighty.ability.title" : "固有能力【安眠地雷】"
+"role.nighty.ability.main" : "可以在地图中放置<b>安眠地雷</b>。<br>踩到地雷的玩家视野会在一段时间内受到限制。<br>自身和其他伪装者<b>不会</b>触发。"
+"role.nighty.ability.place" : "放置安眠地雷。"
 
 "role.extraMission.winCond" : "自身胜利条件达成时，目标必须在游戏结束前死亡，否则你将无法胜利。"
 
