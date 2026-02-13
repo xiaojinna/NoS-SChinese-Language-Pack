@@ -20,7 +20,7 @@
 "role.jailerModifier.doc" : "狱卒可以远程查看管理地图。"
 "role.jailerModifier.ability.title" : "固有能力【管理地图】"
 "role.jailerModifier.ability.main" : "%DOC%"
-"role.jailer.tips" : "・无论游戏设置如何，狱卒都能记录尸体。"
+"role.jailerModifier.tips" : "・无论游戏设置如何，狱卒都能记录尸体。"
 
 # Options
 

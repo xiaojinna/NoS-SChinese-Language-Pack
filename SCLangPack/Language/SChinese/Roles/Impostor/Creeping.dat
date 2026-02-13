@@ -42,6 +42,8 @@
 
 # Stats
 
+"stats.creeping.depoison" : "使用急救箱次数"
+"stats.creeping.poison" : "使用投毒次数"
 
 # Titles
 

@@ -59,8 +59,32 @@
 
 # Stats
 
+"stats.opportunist.task" : "完成任务数量"
 
 # Titles
+
+"achievement.opportunist.common1.title" : "高风险高收入"
+"achievement.opportunist.common1.goal" : "以投机者的身份跟随其他阵营胜利。"
+
+"achievement.opportunist.another1.title" : "给你机会也不中用"
+"achievement.opportunist.another1.goal" : "存活到最后但没有胜利。"
+
+"achievement.opportunist.another2.title" : "最后一刻"
+"achievement.opportunist.another2.goal" : "死亡后立即胜利。"
+"achievement.opportunist.another2.splitted.0" : "最后"
+
+"achievement.opportunist.common3.title" : "观光客"
+"achievement.opportunist.common3.goal" : "完成10个任务。"
+"achievement.opportunist.common3.splitted.2" : "观光客"
+
+"achievement.opportunist.common2.title" : "纯路人"
+"achievement.opportunist.common2.goal" : "存活到最后并独自获胜。"
+"achievement.opportunist.common2.flavor" : "“不知道啊，我只是纯路人”"
+"achievement.opportunist.common2.splitted.0" : "路人"
+
+"achievement.opportunist.challenge.title" : "随风而去"
+"achievement.opportunist.challenge.goal" : "在至少有一名幸存者会失败的情况下跟随获胜。"
+"achievement.opportunist.challenge.cond" : "提示：不含船员获胜。"
 
 # Team
 

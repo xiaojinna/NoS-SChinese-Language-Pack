@@ -11,14 +11,15 @@
 # Options
 
 "options.role.lumine.detail" : "引路魂只能开一次灯。"
-"options.role.lumine.lightSize" : "灯光大小"
-"options.role.lumine.lightDuration" : "灯光持续时间"
+"options.role.lumine.lightSize" : "光芒范围"
+"options.role.lumine.lightDuration" : "光芒持续时间"
 
 # Game
 
 
 # UI
 
+"button.label.lumine" : "发光"
 
 # Stats
 

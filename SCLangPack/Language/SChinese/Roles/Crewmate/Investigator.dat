@@ -21,7 +21,7 @@
 "options.role.investigator.investigateEyesight" : "调查技能期间视野范围"
 "options.role.investigator.investigateEyesight.detail" : "调查过程中如果视野变小，调查足迹将会变得很难。"
 "options.role.investigator.footprintDuration" : "凶手足迹留存时间"
-"options.role.investigator.investigateFootprintDuration.detail" : "设置凶手在多久前会显示足迹。"
+"options.role.investigator.footprintDuration.detail" : "设置凶手在多久前会显示足迹。"
 
 # Game
 

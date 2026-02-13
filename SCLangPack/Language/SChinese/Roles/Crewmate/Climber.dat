@@ -20,11 +20,11 @@
 
 # Game
 
-"button.label.gust" : "钩索枪"
+"gameAction.climber.hookshot" : "发射钩索"
 
 # UI
 
-"button.label.gush" : "跳出"
+"button.label.gust" : "钩索枪"
 
 # Stats
 

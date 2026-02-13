@@ -7,7 +7,7 @@
 # Document
 
 "role.rokurokubi.doc" : "辘轳首可以伸长自己的脖子进行远程击杀。"
-"role.rokurokubi.ability.title" : "固有能力【妖怪・辘轳首】"
+"role.rokurokubi.ability.title" : "固有能力【妖怪・辘轳首】<pos=8.9em><voffset=0.94em><size=0.5em>lù  lu</size></voffset></pos>"
 "role.rokurokubi.ability.main" : "可以自由伸长脖子，同时脖子可以跨越墙壁。"
 "role.rokurokubi.ability.rokurokubi" : "<title>伸长</title>伸长脖子。按住%KEY%键可以暂停伸长。"
 "role.rokurokubi.ability.reset" : "<title>收缩</title>按下收缩按钮或完成一次击杀后，脖子恢复原状。"

@@ -24,7 +24,7 @@
 "options.role.bubblegun.bubbleSpeed" : "泡泡飞行速度"
 "options.role.bubblegun.bubbleDuration" : "泡泡持续时间"
 "options.role.bubblegun.maxBubbles" : "泡泡可发射次数"
-"options.role.bubblegun.eraseBubblesOnMeeting" : "会议时不展示泡泡中尸体"
+"options.role.bubblegun.eraseBubblesOnMeeting" : "会议后清除泡泡"
 "options.role.bubblegun.canKillImpostor" : "可以击杀队友"
 "options.role.bubblegun.bubblePopWhenHitWall" : "泡泡碰到墙壁后破裂"
 
