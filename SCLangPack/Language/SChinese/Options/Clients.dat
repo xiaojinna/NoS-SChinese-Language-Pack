@@ -8,7 +8,6 @@
 "config.client.vcRejoin.detail" : "重新加载语音。出现语音问题时可以使用这个功能进行修复。"
 "config.client.outputHash" : "输出装饰品哈希值"
 "config.client.outputHash.detail" : "该功能面向设计开发者使用。<br>开启后，在下载网络图片资源时<br>会在日志文件中输出哈希值。"
-"config.client.noiseReduction" : "降噪"
 "config.client.processorAffinity" : "CPU限制"
 "config.client.processorAffinity.dontCare" : "无限制"
 "config.client.processorAffinity.dualCoreHT" : "双核（HT）"

@@ -23,8 +23,8 @@
 "options.role.oracle.oracleAdditionalCooldown" : "占卜冷却时间追加"
 "options.role.oracle.oracleDuration" : "占卜所需时间"
 "options.role.oracle.numOfCandidates" : "占卜后得知职业数"
-"options.role.oracle.dieOnDividingOpportunist" : "占卜到投机者时自杀"
-"options.role.oracle.dieOnDividingOracle" : "占卜到占卜师时自杀"
+"options.role.oracle.dieOnDiviningOpportunist" : "占卜到投机者时自杀"
+"options.role.oracle.dieOnDiviningOracle" : "占卜到占卜师时自杀"
 
 # Game
 

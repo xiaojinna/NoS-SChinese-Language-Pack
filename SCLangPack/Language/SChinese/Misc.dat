@@ -16,6 +16,7 @@
 "ui.update.waitFinishing" : "等待更新……"
 "ui.update.finishUpdate" : "更新完成！<br>请重启游戏！"
 "ui.update.autoUpdate" : "自动更新已启用"
+"ui.version.copied" : "已复制版本信息。"
 
 # AFK
 

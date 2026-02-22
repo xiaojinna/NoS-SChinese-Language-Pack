@@ -20,6 +20,8 @@
 "options.role.amalgam.detail" : "融合体可以融合其他职业的能力。"
 "options.role.amalgam.maxRoles" : "最大职业能力融合数"
 "options.role.amalgam.randomAssignment" : "随机融合能力"
+"options.role.amalgam.numOfRandomAssignment" : "初始获得融合数"
+"options.role.amalgam.numOfRandomAssignment.all" : "全部"
 "options.role.amalgam.abilityFilter" : "职业能力过滤"
 "options.role.amalgam.canBeGuessedAsLoadedRoles" : "可以猜测融合职业进行赌杀"
 
