@@ -12,11 +12,33 @@
 "title.buttons.marketplace" : "创意工坊"
 "title.buttons.stats" : "统计"
 "title.buttons.form" : "Bug反馈"
+"title.buttons.migration" : "数据继承"
 
 "ui.update.waitFinishing" : "等待更新……"
 "ui.update.finishUpdate" : "更新完成！<br>请重启游戏！"
 "ui.update.autoUpdate" : "自动更新已启用"
 "ui.version.copied" : "已复制版本信息。"
+"ui.migration.title" : "数据继承"
+"ui.migration.buttons.upload" : "上传数据"
+"ui.migration.buttons.upload.detail" : "将当前您的游戏数据上传到我们的服务器中保存。<br>服务器会为您保留<b>2周</b>的时间，在此期间您可以在新的设备中使用恢复码下载您的游戏数据。"
+"ui.migration.buttons.restore" : "恢复数据"
+"ui.migration.buttons.restore.detail" : "恢复您在旧设备中上传的数据。<br>需要您提交在之前上传数据时获取的<b>恢复码</b>进行恢复操作。"
+"ui.migration.notLogIn" : "上传数据和恢复数据都需要您登录。"
+"ui.migration.upload.title" : "上传数据"
+"ui.migration.upload.failed" : "上传数据失败。"
+"ui.migration.upload.success" : "数据上传成功。<br>这是恢复数据所需要的恢复码，请务必保存！"
+"ui.migration.download.title" : "恢复数据"
+"ui.migration.download.content" : "请输入上传数据时获取的恢复码。"
+"ui.migration.download.password" : "恢复码"
+"ui.migration.download.proceed" : "恢复"
+"ui.migration.download.confirm.title" : "确认恢复"
+"ui.migration.download.confirm.content" : "已找到您上传的数据，确定要恢复吗？<br>恢复的数据将<b>永久</b>替换此设备的当前进度。"
+"ui.migration.download.confirm.date" : "%YEAR%年%MONTH%月%DAY%日 %HOUR%:%MINUTE%"
+"ui.migration.download.confirm.button.confirm" : "恢复"
+"ui.migration.download.confirm.button.cancel" : "取消"
+"ui.migration.download.success" : "数据已恢复。<br>游戏将关闭，请重启游戏。"
+"ui.migration.download.failed" : "无法恢复数据。"
+"ui.migration.download.notFound" : "找不到关联的数据。<br>请检查您的恢复码是否有误或者您的数据已过期。"
 
 # AFK
 
@@ -121,9 +143,17 @@
 
 # Regions
 
-"regions.Modded NA (MNA)" : "北美洲 （Mod）"
-"regions.Modded EU (MEU)" : "欧洲 （Mod）"
-"regions.Modded Asia (MAS)" : "亚洲 （Mod）"
+"regionsMenu.message" : "※所有服务器均为第三方提供，与Innersloth无关。"
+"regions.Modded NA (MNA)" : "北美洲（Mod）"
+"regions.Modded EU (MEU)" : "欧洲（Mod）"
+"regions.Modded Asia (MAS)" : "亚洲（Mod）"
+"regions.Niko233(NA)" : "北美洲（Niko）"
+"regions.Niko233(EU)" : "欧洲（Niko）" 
+"regions.Niko233(AS)" : "亚洲（Niko）"
+"regions.Modded Shanghai (MSH FK)" : "上海（方块）"
+"regions.Modded Beijing (MBJ MXYX)" : "北京（沫夏）"
+"regions.Modded HongKong (MHK HU)" : "香港（林梅）"
+
 
 # Free Play
 
