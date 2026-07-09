@@ -13,3 +13,6 @@
 "tutorial.variations.ambienceOnMeeting.caption" : "若你想在会议中关闭一些环境音效，可以开启【关闭会议环境音效】功能。<br>该选项可以通过设置Nos选项卡中开启。"
 "tutorial.variations.meetingTool.line.title" : "快速创建玩家图标"
 "tutorial.variations.meetingTool.line.caption" : "在地图中绘制一条线，<br>并在松开鼠标的一瞬间<b>右键点击</b>。"
+"tutorial.variations.paintQuiz.review.title" : "绘画问答 评分"
+"tutorial.variations.paintQuiz.review.caption" : "点击答案进行打分！<b>右键点击</b>给出之前提交的相同分数。<br>在错误的回答中或特别离谱的答案中就直接扣分吧！<br>注意：游戏仅供娱乐，玩的开心才是最重要的！"
+ 

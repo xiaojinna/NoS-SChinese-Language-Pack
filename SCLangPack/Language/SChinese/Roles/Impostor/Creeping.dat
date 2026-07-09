@@ -31,6 +31,7 @@
 # UI
 
 "button.label.poison" : "投毒"
+"ui.action.creeping.poison" : "给附近的玩家投毒。"
 
 # Game Statictics
 

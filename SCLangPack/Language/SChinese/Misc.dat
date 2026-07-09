@@ -14,7 +14,7 @@
 "title.buttons.form" : "Bug反馈"
 "title.buttons.migration" : "数据继承"
 
-"ui.update.waitFinishing" : "等待更新……"
+"ui.update.waitFinishing" : "等待更新"
 "ui.update.finishUpdate" : "更新完成！<br>请重启游戏！"
 "ui.update.autoUpdate" : "自动更新已启用"
 "ui.version.copied" : "已复制版本信息。"
@@ -84,6 +84,8 @@
 "version.fetching.applied" : "已应用"
 "version.fetching.mismatched.detail" : "由于NoS与Among Us版本不匹配，无法进行更改。<br>请使用对应的版本。"
 "version.fetching.loadMore" : "加载更多"
+"version.fetching.failed" : "获取版本信息失败"
+"version.fetching.failed.detail" : "由于短时间内已多次尝试获取，且均以获取失败。<br>请稍后在试。"
 
 # Game Mode
 
@@ -91,8 +93,8 @@
 
 "gamemode.standard" : "标准模式"
 "gamemode.freeplay" : "自由模式"
-"gamemode.aeroguesser" : "猜图模式"
-
+"gamemode.aeroguesser" : "地图猜谜"
+"gamemode.paintquiz" : "绘画问答"
 # Notification
 
 "notification.lobby.noTitleForFreeplay" : "自由游戏中无法获得成就。"
@@ -190,7 +192,8 @@
 "stats.group.game" : "对局"
 "stats.group.roles" : "职业"
 "stats.group.perks" : "特技"
-"stats.group.aeroGuesser" : "猜图"
+"stats.group.aeroGuesser" : "地图猜谜"
+"stats.group.paintQuiz" : "绘画问答"
 "stats.role.common.assigned" : "%ROLE% 获得次数"
 "stats.role.common.won" : "通过 %ROLE% 获胜次数"
 "stats.modifier.common.assigned" : "%MODIFIER% 获得次数"
@@ -208,7 +211,19 @@
 "stats.aeroGuesser.gamePlay" : "总对局数"
 "stats.aeroGuesser.totalScore" : "累计获得分数"
 "stats.aeroGuesser.perfectScore" : "获得满分次数"
-
+"stats.paintQuiz.gamePlay" : "总游戏次数"
+"stats.paintQuiz.gamePlay.host" : "总主持次数"
+"stats.paintQuiz.totalScore.double" : "累计得分数"
+"stats.paintQuiz.score.give.1" : "-1分 授予次数"
+"stats.paintQuiz.score.give.0" : "0分 授予次数"
+"stats.paintQuiz.score.give.2" : "0.5分 授予次数"
+"stats.paintQuiz.score.give.3" : "1分 授予次数"
+"stats.paintQuiz.score.give.4" : "2分 授予次数"
+"stats.paintQuiz.score.get.1" : "-1分 获得次数"
+"stats.paintQuiz.score.get.0" : "0分 获得次数"
+"stats.paintQuiz.score.get.2" : "0.5分 获得次数"
+"stats.paintQuiz.score.get.3" : "1分 获得次数"
+"stats.paintQuiz.score.get.4" : "2分 获得次数"
 # Common UI
 
 "ui.dialog.yes" : "是"
