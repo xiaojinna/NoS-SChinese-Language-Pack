@@ -1,0 +1,34 @@
+# Assignable
+ 
+"role.twin.name" : "双子"
+"role.twin.generalBlurb" : "命运双生者"
+"role.twin.blurb" : "你与%NAME%是双子"
+ 
+# Document
+ 
+"role.twin.doc" : "双子两人一组，并且只能分配给船员阵营。<br>当该组合中有一方被击杀，该击杀会被阻止，而是让另一方<b>替死</b>。<br>双方都存在时，共同只能投出<b>一票</b>。"
+ 
+# Options
+ 
+"options.role.twin.detail" : "双子两人一组。<br>一方死亡，另一方替死。"
+"options.role.twin.numOfPairs" : "双子对数"
+"options.role.twin.selfSacrificeDelay" : "替死延迟时间"
+"options.role.twin.selfSacrificeDelayDispersion" : "替死延迟时间波动范围"
+"options.role.twin.selfSacrificeDelayDispersion.detail" : "触发替死时，将根据该值为替死延迟设置随机波动。"
+ 
+# Game
+ 
+"state.selfSacrifice" : "替死"
+ 
+# UI
+ 
+ 
+# Stats
+ 
+ 
+# Titles
+ 
+ 
+# Team
+ 
+ 
