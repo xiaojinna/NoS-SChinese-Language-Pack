@@ -20,6 +20,7 @@
 "options.role.comet.blazeDuration" : "技能持续时间"
 "options.role.comet.blazeVisionRate" : "技能期间视野倍率"
 "options.role.comet.blazeScreenRate" : "技能期间屏幕缩小倍率"
+"options.role.comet.affectedByBlackout" : "停电期间视野缩小"
 
 # Game
 

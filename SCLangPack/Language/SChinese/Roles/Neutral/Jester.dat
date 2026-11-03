@@ -11,6 +11,7 @@
 "role.jester.ability.title" : "固有能力【恶作剧】"
 "role.jester.ability.main" : ""
 "role.jester.ability.drag" : "<title>拖拽/松开</title>可以拖拽尸体并携带移动，或松开尸体。"
+"role.jester.ability.perk" : "<title>玩具袋</title>使用后获得特技。"
 
 # Options
 
@@ -18,7 +19,10 @@
 "options.role.jester.canDragDeadBody" : "可以拖曳尸体"
 "options.role.jester.canFixComms" : "可以修复通讯破坏"
 "options.role.jester.canFixLight" : "可以修复电力破坏"
-"options.role.jester.task" : "胜利需要完成任务"
+"options.role.jester.task" : "胜利所需完成任务数量"
+"options.role.jester.perk" : "特技玩具袋"
+"options.role.jester.numOfPerks" : "专属特技栏位数量"
+"options.role.jester.group.perk" : "特技玩具袋设定"
 
 # Game
 
@@ -56,3 +60,10 @@
 
 "document.tip.winCond.jester.title" : "特殊胜利"
 "document.tip.winCond.jester" : "在会议中被放逐时获胜。"
+
+# Perk
+ 
+"button.label.jesterPerk" : "玩具袋"
+"perk.empty.jester.name" : "小丑专属特技栏位"
+"perk.empty.jester.detail" : "可以使用玩具袋来获得特技。"
+"role.jester.perk.guide" : "选择喜欢的特技吧！"

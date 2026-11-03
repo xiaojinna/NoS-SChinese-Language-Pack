@@ -72,6 +72,9 @@
 "perk.doubleVote.name" : "独裁"
 "perk.doubleVote.detail" : "除跳过、不投票、投0票以外。<br>投票数翻一倍。"
 
+"perk.handOfMercy.name" : "摸头杀"
+"perk.handOfMercy.detail" : "抚摸目标玩家。<br>若为船员阵营，则每抚摸3名不同的玩家，任务进度就会推进。<br>此特技有%CD%秒冷却。"
+
 "perk.monowayX.name" : "风向标-赤"
 "perk.monowayX.detail" : "激活后，在%D%秒内只能上下移动。<br>该技能有%CD%秒冷却。<br>冷却时间仅在行动阶段进行，会议期间会停止计时。"
 
@@ -96,6 +99,9 @@
 
 "perk.ketchupMessage.name" : "涂鸦"
 "perk.ketchupMessage.detail" : "在原地留下涂鸦。"
+
+"perk.eraseBody.name" : "销赃"
+"perk.eraseBody.detail" : "清理尸体。此特技只能发动一次。"
 
 # Game Statictics
 

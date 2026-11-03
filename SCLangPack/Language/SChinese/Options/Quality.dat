@@ -7,5 +7,5 @@
 
 # Options
 
-"options.quality.lowLatencyPlayerSync" : "玩家位置刷新延迟同步"
-"options.quality.lowLatencyPlayerSync.detail" : "<b>仅限自定义服务器</b><br>开启后，减少因为延迟导致的位置误差。"
+"options.quality.rpcPlayerSync" : "玩家位置同步优化"
+"options.quality.rpcPlayerSync.detail" : "<b>仅限自定义服务器</b><br>替换游戏默认玩家位置的同步方式。"

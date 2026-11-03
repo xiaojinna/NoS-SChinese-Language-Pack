@@ -26,3 +26,5 @@
 "ui.attribute.thurifer.detail" : "你受到香薰的影响。<br>吸入量越大，受到调香师的攻击后死亡延迟越久。"
 "ui.attribute.cooldown" : "时控"
 "ui.attribute.cooldown.detail" : "冷却时间流速发生了变化。"
+"ui.attribute.suppressed" : "预警"
+"ui.attribute.suppressed.detail" : "效果期间，无法发起任何形式的紧急会议。"
